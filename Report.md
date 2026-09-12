@@ -1,14 +1,16 @@
 # Carátula
 
-![Logo_UPC](http://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png)
+<p align="center">
+  <img src="http://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="100" alt="Descripción">
+</p>
 
-* **Nombre de la Universidad:** Universidad Peruana de Ciencias Aplicadas S.A.C
-* **Carrera:** Ingeniería de Software
-* **Ciclo:** 5
-* **Código del Curso:** 1ASI0730-2620
-* **Nombre del Curso:** Aplicaciones Web
-* **NRC:** 8074
-* **Nombre del Profesor:** Alex Humberto Sánchez Ponce
+<p align="center"><b>Universidad Peruana de Ciencias Aplicadas S.A.C.</b></p>
+<p align="center"><b>Ingeniería de Software</b></p>
+<p align="center"><b>5</b></p>
+<p align="center"><b>1ASI0730-2620</b></p>
+<p align="center"><b>Aplicaciones Web</b></p>
+<p align="center"><b>NRC: 8074</b></p>
+<p align="center"><b>Docente: Alex Humberto Sánchez Ponce</b></p>
 
 ---
 
