@@ -1,6 +1,7 @@
 # Carátula
 
-* **UPC-LOGO**
+![Logo_UPC](http://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png)
+
 * **Nombre de la Universidad:** Universidad Peruana de Ciencias Aplicadas S.A.C
 * **Carrera:** Ingeniería de Software
 * **Ciclo:** 5
