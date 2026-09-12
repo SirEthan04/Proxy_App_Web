@@ -59,9 +59,16 @@
 ---
 
 # Capítulo I: Introducción
-
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+
+* **Nombre del Startup:**
+* **Nombre del Producto:**
+* **Enfoque de Negocios:** Aplicación web que integra la gestión de inventario, mermas y pedidos.
+* **Propuesta de Valor:** Como solución se brinda una aplicación con doble rol de acceso, que optimiza el control  de stock en las bodegas, facilita la liquidación de productos por vencer y conecta directamente con los consumidores para agilizar la compras recurrentes.
+* **Mercado Objetivo:** Nuestra propuesta de solución se centra en el comercio de minoristas (Bodegas/MiniMarkets) y los consumidores locales de dichos comercios.
+
+
 ### 1.1.2. Perfiles de integrantes del equipo
 | **Mateo Caldas Bravo (U20241G404)** |
 | :--- |
