@@ -63,6 +63,10 @@
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
 ### 1.1.2. Perfiles de integrantes del equipo
+| **Mateo Caldas Bravo (U20241G404)** |
+| :--- |
+| Soy un estudiante de 19 años cursando el quito ciclo de la carrera de Ingeniería de Software. Considero que mi capacidad de tener un enfoque analítico y la eficiencia de desarrollar una solución eficiente. Mis habilidades blandas me permiten empatizar con los usuarios y acompañado de mi resiliencia, compromiso y productividad me permiten realizar propuestas mas estructuradas y optimas. |
+| Foto |
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
