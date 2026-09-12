@@ -16,8 +16,8 @@
 
 ### **Informe de Trabajo Final**
 
-* **Nombre del Startup:** [Nombre del Startup]
-* **Nombre del Producto:** [Nombre del Producto]
+* **Nombre del Startup:** Proxi
+* **Nombre del Producto:** BodeGo
 
 ---
 
