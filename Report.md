@@ -120,6 +120,35 @@ En el sector del comercio minorista, específicamente en las bodegas y minimarke
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
+
+**Preguntas para el Segmento 1: Comerciante Minorista**
+
+1. ¿De qué manera organiza y supervisa actualmente la mercadería que ingresa a su almacén o anaqueles?
+2. ¿Cómo identifica qué productos están próximos a vencer dentro de su local y con qué frecuencia realiza esta revisión?
+3. ¿Cuál es el procedimiento que sigue cuando descubre que un lote de productos está a pocos días de caducar?
+4. ¿Podría describir una situación reciente en la que haya tenido pérdidas de dinero debido a productos vencidos o dañados?
+5. ¿Qué métodos o estrategias aplica actualmente para intentar rematar o salir de la mercadería de baja rotación?
+6. ¿Cómo se entera un vecino de su zona sobre los productos en oferta o las promociones que tiene disponibles en su bodega?
+7. ¿De qué forma gestiona los pedidos por encargo o reservaciones que le hacen sus clientes antes de ir a su local?
+8. ¿Qué herramientas digitales o aplicaciones utiliza en su día a día para apoyar la gestión de su negocio?
+9. ¿Cuáles son las principales dificultades que encuentra al momento de intentar implementar una nueva tecnología en su local?
+10. ¿Qué características indispensables tendría que tener una herramienta para que le sea de utilidad real en su rutina diaria de trabajo?
+
+---
+
+**Preguntas para el Segmento 2: Consumidor local**
+
+1. ¿Cuál es el proceso habitual que sigue cuando necesita comprar abarrotes o productos del día a día en su bodega más cercana?
+2. ¿Cómo decide si realizar una compra en una bodega de barrio frente a una tienda de conveniencia o supermercado?
+3. ¿De qué manera se organiza para planificar sus compras diarias o semanales de productos perecibles?
+4. ¿Qué impacto tienen las promociones o los descuentos por fecha próxima de vencimiento en su decisión final de compra?
+5. ¿Cómo suele enterarse de las promociones o precios especiales disponibles en los comercios cercanos a su casa?
+6. ¿Qué factores valora más al evaluar comprar un producto alimenticio que está rebajado por estar cerca a vencer?
+7. ¿Qué inconvenientes o frustraciones ha experimentado al acudir físicamente a la bodega de su barrio?
+8. ¿Cómo maneja la situación cuando acude a comprar un producto específico y descubre que está agotado?
+9. ¿De qué manera preferiría comunicarse o hacer pedidos previos con la bodega antes de salir de su hogar?
+10. ¿Qué aplicaciones móviles o canales digitales utiliza actualmente para realizar compras o consultar información de productos locales?
+
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
 
