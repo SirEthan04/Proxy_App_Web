@@ -83,6 +83,27 @@
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
+
+### Antecedentes y Problemática
+
+En el sector del comercio minorista, específicamente en las bodegas y minimarkets, la gestión operativa se realiza de manual. Esta falta de digitalización genera una baja visibilidad sobre el estado real de los inventarios, impactando directamente en la rentabilidad del negocio y en la experiencia de compra de los vecinos de la zona.
+
+**Técnica de las 5 'W's y 2 'H's:**
+
+**Who:** Comerciantes minoristas (bodegueros) que administran negocios locales y los consumidores finales de su entorno inmediato.  
+
+**What:** Deficiente gestión del inventario perecible que ocasiona mermas por productos vencidos, sumado a la falta de un canal directo y constante de comunicación entre el bodeguero y sus clientes.  
+
+**Where:** En las bodegas y minimarkets de Lima Metropolitana.  
+
+**When:** Ocurre de forma continua durante la operación diaria, intensificándose cuando los productos almacenados al fondo de los anaqueles alcanzan su fecha de caducidad sin ser identificados a tiempo.  
+
+**Why:** Debido a la ausencia de herramientas digitales accesibles que permitan registrar las fechas de vencimiento de forma automatizada y la dependencia de canales informales que impiden notificar ofertas o productos disponibles a los consumidores de manera oportuna.  
+
+**How:** El bodeguero realiza el control de su stock mediante anotaciones en cuaderno o por memoria, lo que impide detectar con anticipación los productos próximos a vencer. A su vez, el consumidor desconoce las promociones o la disponibilidad de productos antes de acudir físicamente al local.  
+
+**How Much:** Pérdidas económicas constantes para el bodeguero por mermas no liquidadas a tiempo y una pérdida de ingresos potenciales al no aprovechar la demanda de los consumidores locales que buscan productos a precios reducidos o la comodidad de hacer pedidos previos.
+
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 #### 1.2.2.2. Lean UX Assumptions
