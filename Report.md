@@ -6,7 +6,7 @@
 
 <p align="center"><b>Universidad Peruana de Ciencias Aplicadas S.A.C.</b></p>
 <p align="center"><b>Ingeniería de Software</b></p>
-<p align="center"><b>5</b></p>
+<p align="center"><b>Ciclo: 5</b></p>
 <p align="center"><b>1ASI0730-2620</b></p>
 <p align="center"><b>Aplicaciones Web</b></p>
 <p align="center"><b>NRC: 8074</b></p>
