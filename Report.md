@@ -64,9 +64,9 @@
 
 ### 1.1.1. Descripción de la Startup
 
-**Nombre del Startup:**  
+**Nombre del Startup:**  Proxi
 
-**Nombre del Producto:**  
+**Nombre del Producto:**  BodeGo
 
 **Enfoque de Negocios:** Aplicación web que integra la gestión de inventario, mermas y pedidos.  
 
