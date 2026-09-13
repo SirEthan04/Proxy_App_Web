@@ -29,7 +29,7 @@
 | U20241G404 | Caldas Bravo, Mateo |
 | U20241G610 | Chavez Sandoval, Dany Yohel |
 | U202421082 | Saravia Hiso, Johan Álvaro |
-| [Código 3] | Rojas Huaranga, Diego Rances |
+| U20241E096 | Rojas Huaranga, Diego Rances |
 
 ---
 
