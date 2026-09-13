@@ -273,8 +273,1140 @@ En el sector del comercio minorista, específicamente en los minimarkets, la ges
 # Capítulo III: Requirements Specification
 
 ## 3.1. User Stories
+
+Épicas
+
+| Epic ID | Nombre | Descripción |
+|---|---|---|
+| **EP01** | **Acceso, Roles y Configuración del Negocio** | **Como** responsable de una bodega o minimarket, **quiero** gestionar el acceso de administradores y empleados, así como los parámetros operativos del negocio, **para** asegurar que cada usuario utilice únicamente las funciones que le corresponden y que el sistema se adapte a la operación real del establecimiento. |
+| **EP02** | **Catálogo, Inventario y Gestión de Lotes** | **Como** administrador o empleado, **quiero** registrar productos, controlar existencias y gestionar lotes con fechas de vencimiento, **para** mantener un inventario confiable, actualizado y trazable. |
+| **EP03** | **Vencimientos, Mermas y Ofertas Estratégicas** | **Como** administrador, **quiero** detectar productos próximos a vencer, registrar mermas y generar ofertas estratégicas, **para** reducir pérdidas económicas y mejorar la rotación de productos perecibles. |
+| **EP04** | **Operación Diaria y Movimientos de Stock** | **Como** empleado, **quiero** registrar de forma rápida las operaciones diarias que afectan el inventario, **para** que el stock del sistema refleje lo que realmente ocurre en el punto de venta y almacén. |
+| **EP05** | **Reportes, Analítica y Alertas Operativas** | **Como** administrador, **quiero** visualizar indicadores, reportes y alertas sobre stock, ventas, rotación, vencimientos y mermas, **para** tomar decisiones operativas basadas en información actualizada. |
+| **EP06** | **Auditoría, Seguridad y Continuidad Operativa** | **Como** administrador, **quiero** contar con trazabilidad, controles de seguridad y herramientas de soporte, **para** proteger la información del negocio y supervisar las acciones realizadas dentro de BodeGo. |
+
+---
+
+User Stories
+
+# EP01 — Acceso, Roles y Configuración del Negocio
+
+## US01 — Inicio de sesión
+
+**User Story ID:** US01  
+**Epic ID:** EP01  
+**Título:** Inicio de sesión
+
+### Descripción
+
+**Como** usuario registrado, **quiero** iniciar sesión con mis credenciales, **para** acceder de forma segura a BodeGo.
+
+### Acceptance Criteria
+
+**Scenario: Inicio de sesión exitoso**
+
+**Dado que** el usuario se encuentra registrado y su cuenta está activa,  
+**Cuando** ingresa credenciales válidas,  
+**Entonces** el sistema autentica al usuario y muestra la interfaz correspondiente a su rol.
+
+---
+
+## US02 — Acceso según rol
+
+**User Story ID:** US02  
+**Epic ID:** EP01  
+**Título:** Acceso según rol
+
+### Descripción
+
+**Como** usuario, **quiero** visualizar una interfaz adaptada a mi rol de Administrador o Empleado, **para** acceder únicamente a las funciones que me corresponden.
+
+### Acceptance Criteria
+
+**Scenario: Redirección según rol**
+
+**Dado que** el usuario inició sesión correctamente,  
+**Cuando** el sistema identifica su rol,  
+**Entonces** muestra el panel administrativo o el panel operativo de empleado según corresponda.
+
+---
+
+## US03 — Registro de empleados
+
+**User Story ID:** US03  
+**Epic ID:** EP01  
+**Título:** Registro de empleados
+
+### Descripción
+
+**Como** administrador, **quiero** crear cuentas para los empleados del negocio, **para** permitirles operar en el sistema con credenciales individuales.
+
+### Acceptance Criteria
+
+**Scenario: Crear cuenta de empleado**
+
+**Dado que** el administrador se encuentra en la gestión de usuarios,  
+**Cuando** registra los datos obligatorios de un nuevo empleado,  
+**Entonces** el sistema crea la cuenta con rol Empleado y deja registro de la creación.
+
+---
+
+## US04 — Activación y desactivación de usuarios
+
+**User Story ID:** US04  
+**Epic ID:** EP01  
+**Título:** Activación y desactivación de usuarios
+
+### Descripción
+
+**Como** administrador, **quiero** activar o desactivar cuentas de empleados, **para** controlar quién puede acceder a la información del negocio.
+
+### Acceptance Criteria
+
+**Scenario: Desactivar empleado**
+
+**Dado que** existe una cuenta de empleado activa,  
+**Cuando** el administrador selecciona la opción de desactivar,  
+**Entonces** el sistema bloquea nuevos accesos de esa cuenta sin eliminar su historial.
+
+---
+
+## US05 — Edición de perfil
+
+**User Story ID:** US05  
+**Epic ID:** EP01  
+**Título:** Edición de perfil
+
+### Descripción
+
+**Como** usuario, **quiero** actualizar mis datos personales y de contacto, **para** mantener correcta la información asociada a mi cuenta.
+
+### Acceptance Criteria
+
+**Scenario: Actualizar perfil**
+
+**Dado que** el usuario se encuentra autenticado,  
+**Cuando** modifica datos válidos y guarda los cambios,  
+**Entonces** el sistema actualiza la información y confirma la operación.
+
+---
+
+## US06 — Configuración de datos del negocio
+
+**User Story ID:** US06  
+**Epic ID:** EP01  
+**Título:** Configuración de datos del negocio
+
+### Descripción
+
+**Como** administrador, **quiero** configurar nombre comercial, dirección, contacto y horarios, **para** mantener centralizada la información operativa del establecimiento.
+
+### Acceptance Criteria
+
+**Scenario: Actualizar datos del negocio**
+
+**Dado que** el administrador accede a la configuración general,  
+**Cuando** modifica los datos y confirma los cambios,  
+**Entonces** el sistema guarda la nueva configuración y la utiliza en los módulos correspondientes.
+
+---
+
+## US07 — Configuración de umbrales de stock
+
+**User Story ID:** US07  
+**Epic ID:** EP01  
+**Título:** Configuración de umbrales de stock
+
+### Descripción
+
+**Como** administrador, **quiero** definir niveles de stock bajo y crítico, **para** recibir alertas de reposición adaptadas a mi operación.
+
+### Acceptance Criteria
+
+**Scenario: Definir umbral de stock**
+
+**Dado que** existe un producto registrado,  
+**Cuando** el administrador asigna valores de stock bajo y crítico válidos,  
+**Entonces** el sistema guarda los umbrales y los utiliza para clasificar el inventario.
+
+---
+
+## US08 — Configuración de días de alerta de vencimiento
+
+**User Story ID:** US08  
+**Epic ID:** EP01  
+**Título:** Configuración de días de alerta de vencimiento
+
+### Descripción
+
+**Como** administrador, **quiero** definir cuántos días antes del vencimiento debe alertarme el sistema, **para** adaptar el control de perecibles a las políticas del negocio.
+
+### Acceptance Criteria
+
+**Scenario: Definir ventana de vencimiento**
+
+**Dado que** el administrador se encuentra en parámetros operativos,  
+**Cuando** registra una cantidad válida de días de anticipación,  
+**Entonces** el sistema guarda el parámetro y lo aplica a los lotes con fecha de vencimiento.
+
+---
+
+# EP02 — Catálogo, Inventario y Gestión de Lotes
+
+## US09 — Registro de productos
+
+**User Story ID:** US09  
+**Epic ID:** EP02  
+**Título:** Registro de productos
+
+### Descripción
+
+**Como** administrador, **quiero** crear productos con su información comercial y operativa, **para** incorporarlos al catálogo interno y controlar sus existencias.
+
+### Acceptance Criteria
+
+**Scenario: Crear producto**
+
+**Dado que** el administrador accede al módulo de productos,  
+**Cuando** completa los campos obligatorios y confirma el registro,  
+**Entonces** el sistema crea el producto y lo deja disponible para movimientos de inventario.
+
+---
+
+## US10 — Edición de productos
+
+**User Story ID:** US10  
+**Epic ID:** EP02  
+**Título:** Edición de productos
+
+### Descripción
+
+**Como** administrador, **quiero** modificar nombre, categoría, unidad, costo o precio de un producto, **para** mantener actualizada la información utilizada en la operación.
+
+### Acceptance Criteria
+
+**Scenario: Editar producto**
+
+**Dado que** existe un producto registrado,  
+**Cuando** el administrador modifica información válida,  
+**Entonces** el sistema guarda los cambios sin alterar el historial de movimientos previos.
+
+---
+
+## US11 — Desactivación de productos
+
+**User Story ID:** US11  
+**Epic ID:** EP02  
+**Título:** Desactivación de productos
+
+### Descripción
+
+**Como** administrador, **quiero** desactivar productos que ya no comercializo, **para** evitar nuevos movimientos sin perder su historial.
+
+### Acceptance Criteria
+
+**Scenario: Desactivar producto**
+
+**Dado que** existe un producto activo,  
+**Cuando** el administrador confirma su desactivación,  
+**Entonces** el sistema impide nuevos registros operativos para el producto y conserva su historial.
+
+---
+
+## US12 — Organización por categorías
+
+**User Story ID:** US12  
+**Epic ID:** EP02  
+**Título:** Organización por categorías
+
+### Descripción
+
+**Como** administrador, **quiero** clasificar los productos por categorías, **para** facilitar su búsqueda y análisis dentro del inventario.
+
+### Acceptance Criteria
+
+**Scenario: Asignar categoría**
+
+**Dado que** existen categorías disponibles,  
+**Cuando** el administrador selecciona una categoría para un producto,  
+**Entonces** el sistema guarda la clasificación y permite filtrar el producto por ella.
+
+---
+
+## US13 — Búsqueda y filtros de inventario
+
+**User Story ID:** US13  
+**Epic ID:** EP02  
+**Título:** Búsqueda y filtros de inventario
+
+### Descripción
+
+**Como** administrador o empleado, **quiero** buscar productos por nombre, código, categoría o estado de stock, **para** encontrar rápidamente el artículo que necesito gestionar.
+
+### Acceptance Criteria
+
+**Scenario: Buscar producto**
+
+**Dado que** existen productos registrados,  
+**Cuando** el usuario ingresa un criterio de búsqueda o aplica un filtro,  
+**Entonces** el sistema muestra únicamente los productos que cumplen el criterio.
+
+---
+
+## US14 — Ingreso de stock por lote
+
+**User Story ID:** US14  
+**Epic ID:** EP02  
+**Título:** Ingreso de stock por lote
+
+### Descripción
+
+**Como** empleado, **quiero** registrar el ingreso de mercadería indicando cantidad y lote, **para** actualizar el inventario cuando se recibe nueva mercadería.
+
+### Acceptance Criteria
+
+**Scenario: Registrar ingreso**
+
+**Dado que** existe un producto activo,  
+**Cuando** el empleado registra cantidad, lote y datos requeridos del ingreso,  
+**Entonces** el sistema incrementa el stock y registra el movimiento con fecha y usuario.
+
+---
+
+## US15 — Registro de fecha de vencimiento por lote
+
+**User Story ID:** US15  
+**Epic ID:** EP02  
+**Título:** Registro de fecha de vencimiento por lote
+
+### Descripción
+
+**Como** empleado, **quiero** asociar una fecha de vencimiento a cada lote perecible, **para** permitir el control preventivo de productos próximos a caducar.
+
+### Acceptance Criteria
+
+**Scenario: Registrar vencimiento**
+
+**Dado que** el empleado está registrando un lote de un producto perecible,  
+**Cuando** ingresa una fecha de vencimiento válida,  
+**Entonces** el sistema asocia la fecha al lote y la considera en las alertas de caducidad.
+
+---
+
+## US16 — Consulta de stock por lote
+
+**User Story ID:** US16  
+**Epic ID:** EP02  
+**Título:** Consulta de stock por lote
+
+### Descripción
+
+**Como** administrador o empleado, **quiero** visualizar las existencias separadas por lote, **para** conocer qué unidades deben utilizarse primero y mantener trazabilidad.
+
+### Acceptance Criteria
+
+**Scenario: Consultar lotes**
+
+**Dado que** un producto posee más de un lote con stock,  
+**Cuando** el usuario abre el detalle de inventario,  
+**Entonces** el sistema muestra cantidad disponible, fecha de ingreso y vencimiento de cada lote.
+
+---
+
+## US17 — Ajuste manual de inventario
+
+**User Story ID:** US17  
+**Epic ID:** EP02  
+**Título:** Ajuste manual de inventario
+
+### Descripción
+
+**Como** administrador, **quiero** corregir diferencias de stock indicando cantidad y motivo, **para** alinear el inventario digital con el conteo físico cuando exista una discrepancia.
+
+### Acceptance Criteria
+
+**Scenario: Ajustar stock**
+
+**Dado que** existe una diferencia identificada en un producto,  
+**Cuando** el administrador registra el ajuste y un motivo obligatorio,  
+**Entonces** el sistema actualiza la existencia y guarda el ajuste en el historial de auditoría.
+
+---
+
+## US18 — Conteo físico de inventario
+
+**User Story ID:** US18  
+**Epic ID:** EP02  
+**Título:** Conteo físico de inventario
+
+### Descripción
+
+**Como** administrador o empleado, **quiero** registrar un conteo físico de productos, **para** comparar las existencias reales con las registradas en BodeGo.
+
+### Acceptance Criteria
+
+**Scenario: Registrar conteo**
+
+**Dado que** el usuario inicia una revisión física,  
+**Cuando** ingresa las cantidades contadas para los productos seleccionados,  
+**Entonces** el sistema calcula diferencias y permite que un administrador revise los ajustes necesarios.
+
+---
+
+# EP03 — Vencimientos, Mermas y Ofertas Estratégicas
+
+## US19 — Detección de productos próximos a vencer
+
+**User Story ID:** US19  
+**Epic ID:** EP03  
+**Título:** Detección de productos próximos a vencer
+
+### Descripción
+
+**Como** administrador, **quiero** visualizar automáticamente los lotes que se aproximan a su vencimiento, **para** actuar antes de que se conviertan en merma.
+
+### Acceptance Criteria
+
+**Scenario: Detectar lote próximo a vencer**
+
+**Dado que** existen lotes con fecha de vencimiento y una ventana de alerta configurada,  
+**Cuando** un lote ingresa dentro del período de alerta,  
+**Entonces** el sistema lo clasifica como próximo a vencer y lo muestra en el panel correspondiente.
+
+---
+
+## US20 — Priorización por fecha de vencimiento
+
+**User Story ID:** US20  
+**Epic ID:** EP03  
+**Título:** Priorización por fecha de vencimiento
+
+### Descripción
+
+**Como** administrador o empleado, **quiero** ordenar los lotes perecibles por fecha de vencimiento, **para** dar salida primero a los productos con menor vida útil.
+
+### Acceptance Criteria
+
+**Scenario: Ordenar por vencimiento**
+
+**Dado que** existen varios lotes perecibles,  
+**Cuando** el usuario selecciona ordenar por vencimiento,  
+**Entonces** el sistema muestra primero los lotes con fecha más próxima.
+
+---
+
+## US21 — Registro de merma
+
+**User Story ID:** US21  
+**Epic ID:** EP03  
+**Título:** Registro de merma
+
+### Descripción
+
+**Como** empleado, **quiero** registrar unidades perdidas, dañadas o vencidas indicando su motivo, **para** mantener el stock real y documentar las pérdidas operativas.
+
+### Acceptance Criteria
+
+**Scenario: Registrar merma**
+
+**Dado que** existe stock disponible del producto o lote,  
+**Cuando** el empleado indica cantidad y motivo de merma,  
+**Entonces** el sistema descuenta las unidades y registra la operación con fecha, usuario y causa.
+
+---
+
+## US22 — Clasificación de motivos de merma
+
+**User Story ID:** US22  
+**Epic ID:** EP03  
+**Título:** Clasificación de motivos de merma
+
+### Descripción
+
+**Como** administrador, **quiero** definir y consultar categorías de merma, **para** identificar las principales causas de pérdida del negocio.
+
+### Acceptance Criteria
+
+**Scenario: Clasificar merma**
+
+**Dado que** existen movimientos de merma,  
+**Cuando** el administrador consulta el reporte por motivo,  
+**Entonces** el sistema agrupa las pérdidas por categorías como vencimiento, daño, rotura u otras configuradas.
+
+---
+
+## US23 — Sugerencia automática de oferta
+
+**User Story ID:** US23  
+**Epic ID:** EP03  
+**Título:** Sugerencia automática de oferta
+
+### Descripción
+
+**Como** administrador, **quiero** recibir propuestas de oferta para lotes próximos a vencer, **para** reducir mermas mediante acciones comerciales oportunas.
+
+### Acceptance Criteria
+
+**Scenario: Generar sugerencia**
+
+**Dado que** un lote cumple las reglas configuradas de proximidad al vencimiento y tiene stock disponible,  
+**Cuando** el sistema evalúa el lote,  
+**Entonces** genera una sugerencia de oferta con producto, lote, cantidad y descuento propuesto.
+
+---
+
+## US24 — Creación manual de oferta
+
+**User Story ID:** US24  
+**Epic ID:** EP03  
+**Título:** Creación manual de oferta
+
+### Descripción
+
+**Como** administrador, **quiero** crear una oferta para un producto o lote específico, **para** impulsar su rotación cuando lo considere necesario.
+
+### Acceptance Criteria
+
+**Scenario: Crear oferta**
+
+**Dado que** existe stock disponible para el producto o lote,  
+**Cuando** el administrador define precio o descuento y vigencia,  
+**Entonces** el sistema registra la oferta y la deja activa durante el período definido.
+
+---
+
+## US25 — Aprobación de oferta sugerida
+
+**User Story ID:** US25  
+**Epic ID:** EP03  
+**Título:** Aprobación de oferta sugerida
+
+### Descripción
+
+**Como** administrador, **quiero** aprobar o editar una oferta sugerida por BodeGo, **para** mantener control sobre las promociones antes de aplicarlas.
+
+### Acceptance Criteria
+
+**Scenario: Aprobar sugerencia**
+
+**Dado que** existe una sugerencia automática pendiente,  
+**Cuando** el administrador revisa sus condiciones y selecciona aprobar,  
+**Entonces** el sistema activa la oferta con los valores confirmados.
+
+---
+
+## US26 — Finalización automática de oferta
+
+**User Story ID:** US26  
+**Epic ID:** EP03  
+**Título:** Finalización automática de oferta
+
+### Descripción
+
+**Como** administrador, **quiero** hacer que las ofertas terminen cuando vence su vigencia o se agota el stock asociado, **para** evitar promociones inválidas en la operación diaria.
+
+### Acceptance Criteria
+
+**Scenario: Finalizar oferta**
+
+**Dado que** existe una oferta activa,  
+**Cuando** se alcanza su fecha de fin o el stock asignado llega a cero,  
+**Entonces** el sistema cambia la oferta a finalizada y evita nuevas aplicaciones.
+
+---
+
+# EP04 — Operación Diaria y Movimientos de Stock
+
+## US27 — Registro rápido de venta
+
+**User Story ID:** US27  
+**Epic ID:** EP04  
+**Título:** Registro rápido de venta
+
+### Descripción
+
+**Como** empleado, **quiero** registrar los productos vendidos durante la atención, **para** descontar automáticamente las unidades del inventario.
+
+### Acceptance Criteria
+
+**Scenario: Registrar venta**
+
+**Dado que** los productos seleccionados tienen stock disponible,  
+**Cuando** el empleado registra cantidades y confirma la operación,  
+**Entonces** el sistema descuenta el stock y genera un movimiento de salida.
+
+---
+
+## US28 — Aplicación de oferta en venta
+
+**User Story ID:** US28  
+**Epic ID:** EP04  
+**Título:** Aplicación de oferta en venta
+
+### Descripción
+
+**Como** empleado, **quiero** visualizar y aplicar ofertas vigentes al registrar una venta, **para** utilizar correctamente las promociones definidas por el administrador.
+
+### Acceptance Criteria
+
+**Scenario: Aplicar oferta vigente**
+
+**Dado que** un producto tiene una oferta activa y válida,  
+**Cuando** el empleado lo agrega a una operación de venta,  
+**Entonces** el sistema aplica las condiciones vigentes y muestra el precio resultante.
+
+---
+
+## US29 — Validación de stock antes de venta
+
+**User Story ID:** US29  
+**Epic ID:** EP04  
+**Título:** Validación de stock antes de venta
+
+### Descripción
+
+**Como** empleado, **quiero** recibir una validación de disponibilidad antes de confirmar una salida, **para** evitar que el inventario quede con cantidades negativas.
+
+### Acceptance Criteria
+
+**Scenario: Evitar venta sin stock**
+
+**Dado que** la cantidad solicitada supera la existencia disponible,  
+**Cuando** el empleado intenta confirmar la operación,  
+**Entonces** el sistema bloquea la confirmación e informa el stock disponible.
+
+---
+
+## US30 — Salida FEFO sugerida
+
+**User Story ID:** US30  
+**Epic ID:** EP04  
+**Título:** Salida FEFO sugerida
+
+### Descripción
+
+**Como** empleado, **quiero** recibir una sugerencia del lote que debe salir primero, **para** priorizar la venta de unidades con vencimiento más cercano.
+
+### Acceptance Criteria
+
+**Scenario: Sugerir lote de salida**
+
+**Dado que** un producto posee varios lotes disponibles con distintas fechas de vencimiento,  
+**Cuando** el empleado registra una salida,  
+**Entonces** el sistema propone primero el lote con vencimiento más próximo.
+
+---
+
+## US31 — Registro de devolución de cliente
+
+**User Story ID:** US31  
+**Epic ID:** EP04  
+**Título:** Registro de devolución de cliente
+
+### Descripción
+
+**Como** empleado, **quiero** registrar una devolución e indicar si el producto retorna al stock, **para** mantener correctamente las existencias y el historial de operaciones.
+
+### Acceptance Criteria
+
+**Scenario: Registrar devolución**
+
+**Dado que** existe una venta previamente registrada,  
+**Cuando** el empleado selecciona el producto devuelto y su condición,  
+**Entonces** el sistema registra la devolución y repone stock únicamente cuando el producto es apto.
+
+---
+
+## US32 — Registro de devolución a proveedor
+
+**User Story ID:** US32  
+**Epic ID:** EP04  
+**Título:** Registro de devolución a proveedor
+
+### Descripción
+
+**Como** administrador o empleado autorizado, **quiero** registrar unidades que salen del inventario para ser devueltas al proveedor, **para** controlar las salidas no asociadas a ventas.
+
+### Acceptance Criteria
+
+**Scenario: Registrar devolución a proveedor**
+
+**Dado que** existe stock del lote seleccionado,  
+**Cuando** el usuario autorizado registra cantidad y motivo,  
+**Entonces** el sistema descuenta las unidades y guarda el movimiento como devolución a proveedor.
+
+---
+
+## US33 — Registro de recepción de mercadería
+
+**User Story ID:** US33  
+**Epic ID:** EP04  
+**Título:** Registro de recepción de mercadería
+
+### Descripción
+
+**Como** empleado, **quiero** registrar una recepción de productos de forma ágil, **para** actualizar existencias durante el abastecimiento diario.
+
+### Acceptance Criteria
+
+**Scenario: Recibir mercadería**
+
+**Dado que** el empleado tiene acceso al módulo de recepción,  
+**Cuando** registra productos, cantidades y lotes recibidos,  
+**Entonces** el sistema incrementa el stock y genera los movimientos de entrada correspondientes.
+
+---
+
+## US34 — Historial diario de operaciones
+
+**User Story ID:** US34  
+**Epic ID:** EP04  
+**Título:** Historial diario de operaciones
+
+### Descripción
+
+**Como** empleado, **quiero** consultar las operaciones que registré durante mi turno, **para** verificar ventas, ingresos, devoluciones y mermas realizadas.
+
+### Acceptance Criteria
+
+**Scenario: Consultar operaciones del turno**
+
+**Dado que** el empleado ha registrado movimientos durante el día,  
+**Cuando** accede a su historial operativo,  
+**Entonces** el sistema muestra sus operaciones ordenadas por fecha y hora.
+
+---
+
+## US35 — Corrección de operación reciente
+
+**User Story ID:** US35  
+**Epic ID:** EP04  
+**Título:** Corrección de operación reciente
+
+### Descripción
+
+**Como** empleado, **quiero** solicitar la corrección de una operación registrada por error, **para** evitar alterar el inventario sin trazabilidad.
+
+### Acceptance Criteria
+
+**Scenario: Solicitar corrección**
+
+**Dado que** existe una operación reciente registrada por el empleado,  
+**Cuando** selecciona corregir e indica el motivo,  
+**Entonces** el sistema registra la solicitud y exige autorización administrativa cuando la corrección afecta stock consolidado.
+
+---
+
+## US36 — Cierre operativo del turno
+
+**User Story ID:** US36  
+**Epic ID:** EP04  
+**Título:** Cierre operativo del turno
+
+### Descripción
+
+**Como** empleado, **quiero** visualizar un resumen de los movimientos realizados antes de terminar mi turno, **para** comprobar que las operaciones del día quedaron registradas.
+
+### Acceptance Criteria
+
+**Scenario: Cerrar turno**
+
+**Dado que** el empleado tiene operaciones registradas en la jornada,  
+**Cuando** selecciona la opción de cierre,  
+**Entonces** el sistema muestra un resumen de ventas, entradas, devoluciones, ajustes autorizados y mermas del turno.
+
+---
+
+# EP05 — Reportes, Analítica y Alertas Operativas
+
+## US37 — Dashboard administrativo
+
+**User Story ID:** US37  
+**Epic ID:** EP05  
+**Título:** Dashboard administrativo
+
+### Descripción
+
+**Como** administrador, **quiero** visualizar los principales indicadores del negocio en un solo panel, **para** conocer rápidamente el estado del inventario y la operación.
+
+### Acceptance Criteria
+
+**Scenario: Consultar dashboard**
+
+**Dado que** existen datos operativos registrados,  
+**Cuando** el administrador ingresa al panel principal,  
+**Entonces** el sistema muestra indicadores actualizados de stock, ventas, mermas, vencimientos y productos críticos.
+
+---
+
+## US38 — Reporte de stock bajo y crítico
+
+**User Story ID:** US38  
+**Epic ID:** EP05  
+**Título:** Reporte de stock bajo y crítico
+
+### Descripción
+
+**Como** administrador, **quiero** consultar los productos que requieren reposición, **para** priorizar las compras y evitar quiebres de stock.
+
+### Acceptance Criteria
+
+**Scenario: Consultar stock crítico**
+
+**Dado que** existen productos por debajo de sus umbrales,  
+**Cuando** el administrador abre el reporte de reposición,  
+**Entonces** el sistema clasifica los productos por nivel bajo o crítico.
+
+---
+
+## US39 — Reporte de productos próximos a vencer
+
+**User Story ID:** US39  
+**Epic ID:** EP05  
+**Título:** Reporte de productos próximos a vencer
+
+### Descripción
+
+**Como** administrador, **quiero** consultar los lotes en riesgo de vencimiento, **para** planificar ofertas, rotación o retiro oportuno.
+
+### Acceptance Criteria
+
+**Scenario: Consultar vencimientos**
+
+**Dado que** existen lotes dentro de la ventana de alerta,  
+**Cuando** el administrador abre el reporte de vencimientos,  
+**Entonces** el sistema muestra producto, lote, cantidad y días restantes ordenados por urgencia.
+
+---
+
+## US40 — Reporte de mermas
+
+**User Story ID:** US40  
+**Epic ID:** EP05  
+**Título:** Reporte de mermas
+
+### Descripción
+
+**Como** administrador, **quiero** analizar las pérdidas por producto, motivo y período, **para** identificar patrones y reducir costos operativos.
+
+### Acceptance Criteria
+
+**Scenario: Analizar mermas**
+
+**Dado que** existen mermas registradas,  
+**Cuando** el administrador selecciona un período,  
+**Entonces** el sistema muestra cantidades y valor estimado de pérdida agrupados por producto y motivo.
+
+---
+
+## US41 — Reporte de productos de alta rotación
+
+**User Story ID:** US41  
+**Epic ID:** EP05  
+**Título:** Reporte de productos de alta rotación
+
+### Descripción
+
+**Como** administrador, **quiero** identificar los productos con mayor frecuencia de salida, **para** priorizar reposición y ubicación física en el negocio.
+
+### Acceptance Criteria
+
+**Scenario: Consultar alta rotación**
+
+**Dado que** existen suficientes movimientos de salida,  
+**Cuando** el administrador consulta el análisis de rotación,  
+**Entonces** el sistema ordena los productos según su frecuencia o volumen de salida.
+
+---
+
+## US42 — Clasificación Pareto 80/20
+
+**User Story ID:** US42  
+**Epic ID:** EP05  
+**Título:** Clasificación Pareto 80/20
+
+### Descripción
+
+**Como** administrador, **quiero** identificar los productos que concentran la mayor parte de las salidas o ventas, **para** enfocar la gestión en los artículos más relevantes.
+
+### Acceptance Criteria
+
+**Scenario: Calcular Pareto**
+
+**Dado que** existe historial suficiente de operaciones,  
+**Cuando** el administrador solicita el análisis Pareto,  
+**Entonces** el sistema clasifica los productos según su contribución acumulada y destaca el grupo de mayor impacto.
+
+---
+
+## US43 — Alertas operativas
+
+**User Story ID:** US43  
+**Epic ID:** EP05  
+**Título:** Alertas operativas
+
+### Descripción
+
+**Como** administrador, **quiero** recibir alertas sobre stock crítico, vencimientos y eventos relevantes, **para** reaccionar oportunamente ante riesgos operativos.
+
+### Acceptance Criteria
+
+**Scenario: Generar alerta**
+
+**Dado que** se cumple una regla configurada de stock o vencimiento,  
+**Cuando** el sistema detecta la condición,  
+**Entonces** genera una alerta visible para el administrador con acceso al elemento afectado.
+
+---
+
+## US44 — Filtrado de reportes por período
+
+**User Story ID:** US44  
+**Epic ID:** EP05  
+**Título:** Filtrado de reportes por período
+
+### Descripción
+
+**Como** administrador, **quiero** filtrar los reportes por fechas y categorías, **para** analizar la evolución del negocio en intervalos específicos.
+
+### Acceptance Criteria
+
+**Scenario: Filtrar reporte**
+
+**Dado que** el administrador se encuentra en un reporte,  
+**Cuando** selecciona un rango de fechas y filtros válidos,  
+**Entonces** el sistema recalcula y muestra únicamente la información del período seleccionado.
+
+---
+
+# EP06 — Auditoría, Seguridad y Continuidad Operativa
+
+## US45 — Historial de movimientos de inventario
+
+**User Story ID:** US45  
+**Epic ID:** EP06  
+**Título:** Historial de movimientos de inventario
+
+### Descripción
+
+**Como** administrador, **quiero** consultar todas las entradas y salidas que afectaron un producto, **para** auditar cómo se originó su stock actual.
+
+### Acceptance Criteria
+
+**Scenario: Consultar movimientos**
+
+**Dado que** un producto posee movimientos registrados,  
+**Cuando** el administrador abre su historial,  
+**Entonces** el sistema muestra fecha, tipo, cantidad, lote y usuario responsable de cada movimiento.
+
+---
+
+## US46 — Bitácora de acciones de usuarios
+
+**User Story ID:** US46  
+**Epic ID:** EP06  
+**Título:** Bitácora de acciones de usuarios
+
+### Descripción
+
+**Como** administrador, **quiero** consultar acciones relevantes realizadas por los usuarios, **para** supervisar cambios sensibles dentro del sistema.
+
+### Acceptance Criteria
+
+**Scenario: Consultar bitácora**
+
+**Dado que** existen acciones auditables registradas,  
+**Cuando** el administrador accede a la bitácora,  
+**Entonces** el sistema muestra usuario, acción, fecha, hora y entidad afectada.
+
+---
+
+## US47 — Cambio seguro de contraseña
+
+**User Story ID:** US47  
+**Epic ID:** EP06  
+**Título:** Cambio seguro de contraseña
+
+### Descripción
+
+**Como** usuario, **quiero** cambiar mi contraseña desde la configuración de seguridad, **para** proteger mi cuenta frente a accesos no autorizados.
+
+### Acceptance Criteria
+
+**Scenario: Cambiar contraseña**
+
+**Dado que** el usuario se encuentra autenticado,  
+**Cuando** ingresa su contraseña actual y una nueva que cumple las reglas definidas,  
+**Entonces** el sistema actualiza la credencial y confirma el cambio.
+
+---
+
+## US48 — Recuperación de acceso
+
+**User Story ID:** US48  
+**Epic ID:** EP06  
+**Título:** Recuperación de acceso
+
+### Descripción
+
+**Como** usuario, **quiero** recuperar el acceso cuando olvido mi contraseña, **para** volver a utilizar mi cuenta sin intervención manual innecesaria.
+
+### Acceptance Criteria
+
+**Scenario: Solicitar recuperación**
+
+**Dado que** existe una cuenta asociada al identificador ingresado,  
+**Cuando** el usuario inicia el proceso de recuperación,  
+**Entonces** el sistema habilita un mecanismo seguro para restablecer la contraseña.
+
+---
+
+## US49 — Cierre de sesión
+
+**User Story ID:** US49  
+**Epic ID:** EP06  
+**Título:** Cierre de sesión
+
+### Descripción
+
+**Como** usuario, **quiero** cerrar mi sesión cuando termino de utilizar BodeGo, **para** evitar que terceros accedan a mi cuenta desde el mismo dispositivo.
+
+### Acceptance Criteria
+
+**Scenario: Cerrar sesión**
+
+**Dado que** el usuario se encuentra autenticado,  
+**Cuando** selecciona cerrar sesión,  
+**Entonces** el sistema invalida la sesión actual y retorna a la pantalla de acceso.
+
+---
+
+## US50 — Centro de ayuda operativo
+
+**User Story ID:** US50  
+**Epic ID:** EP06  
+**Título:** Centro de ayuda operativo
+
+### Descripción
+
+**Como** administrador o empleado, **quiero** consultar ayuda sobre las funciones principales del sistema, **para** resolver dudas frecuentes durante la operación diaria.
+
+### Acceptance Criteria
+
+**Scenario: Consultar ayuda**
+
+**Dado que** el usuario se encuentra autenticado,  
+**Cuando** accede al centro de ayuda y selecciona un tema,  
+**Entonces** el sistema muestra instrucciones relacionadas con la funcionalidad seleccionada.
+
 ## 3.2. Impact Mapping
+
+Impact Mapping
+
+| **Business Goals** | **Actors** | **Impact** | **Deliverables** | **User Stories** |
+|---|---|---|---|---|
+| **Goal N°1:**<br>**Mantener un inventario preciso, actualizado y trazable para reducir diferencias entre el stock físico y el registrado en el sistema.** | Administrador | Mantener un catálogo de productos correctamente estructurado. | Gestión de productos y categorías. | **US09: Registro de productos.** Como administrador, quiero crear productos con su información comercial y operativa, para incorporarlos al catálogo interno y controlar sus existencias.<br><br>**US10: Edición de productos.** Como administrador, quiero modificar nombre, categoría, unidad, costo o precio de un producto, para mantener actualizada la información utilizada en la operación.<br><br>**US11: Desactivación de productos.** Como administrador, quiero desactivar productos que ya no comercializo, para evitar nuevos movimientos sin perder su historial.<br><br>**US12: Organización por categorías.** Como administrador, quiero clasificar los productos por categorías, para facilitar su búsqueda y análisis dentro del inventario. |
+|  | Administrador / Empleado | Localizar rápidamente productos y conocer su situación actual. | Buscador y filtros de inventario. | **US13: Búsqueda y filtros de inventario.** Como administrador o empleado, quiero buscar productos por nombre, código, categoría o estado de stock, para encontrar rápidamente el artículo que necesito gestionar. |
+|  | Empleado | Registrar correctamente la mercadería que ingresa al establecimiento. | Gestión de ingresos y lotes. | **US14: Ingreso de stock por lote.** Como empleado, quiero registrar el ingreso de mercadería indicando cantidad y lote, para actualizar el inventario cuando se recibe nueva mercadería.<br><br>**US15: Registro de fecha de vencimiento por lote.** Como empleado, quiero asociar una fecha de vencimiento a cada lote perecible, para permitir el control preventivo de productos próximos a caducar. |
+|  | Administrador / Empleado | Conocer la composición real del stock de cada producto. | Consulta de inventario por lotes. | **US16: Consulta de stock por lote.** Como administrador o empleado, quiero visualizar las existencias separadas por lote, para conocer qué unidades deben utilizarse primero y mantener trazabilidad. |
+|  | Administrador | Corregir diferencias detectadas entre el inventario físico y el digital. | Ajustes manuales de inventario. | **US17: Ajuste manual de inventario.** Como administrador, quiero corregir diferencias de stock indicando cantidad y motivo, para alinear el inventario digital con el conteo físico cuando exista una discrepancia. |
+|  | Administrador / Empleado | Detectar diferencias mediante verificaciones físicas periódicas. | Conteo físico de inventario. | **US18: Conteo físico de inventario.** Como administrador o empleado, quiero registrar un conteo físico de productos, para comparar las existencias reales con las registradas en BodeGo. |
+| **Goal N°2:**<br>**Reducir las pérdidas económicas producidas por productos vencidos, dañados o deteriorados.** | Administrador | Detectar productos que se encuentran en riesgo de vencimiento antes de convertirse en merma. | Sistema automático de control de vencimientos. | **US19: Detección de productos próximos a vencer.** Como administrador, quiero visualizar automáticamente los lotes que se aproximan a su vencimiento, para actuar antes de que se conviertan en merma. |
+|  | Administrador / Empleado | Priorizar la salida de los productos con menor vida útil. | Priorización de lotes por vencimiento. | **US20: Priorización por fecha de vencimiento.** Como administrador o empleado, quiero ordenar los lotes perecibles por fecha de vencimiento, para dar salida primero a los productos con menor vida útil. |
+|  | Empleado | Registrar inmediatamente las pérdidas detectadas durante la operación. | Módulo de registro de mermas. | **US21: Registro de merma.** Como empleado, quiero registrar unidades perdidas, dañadas o vencidas indicando su motivo, para mantener el stock real y documentar las pérdidas operativas. |
+|  | Administrador | Identificar por qué se producen las pérdidas de inventario. | Clasificación de causas de merma. | **US22: Clasificación de motivos de merma.** Como administrador, quiero definir y consultar categorías de merma, para identificar las principales causas de pérdida del negocio. |
+|  | Administrador | Convertir productos próximos a vencer en oportunidades de venta antes de perderlos. | Motor de sugerencias de ofertas. | **US23: Sugerencia automática de oferta.** Como administrador, quiero recibir propuestas de oferta para lotes próximos a vencer, para reducir mermas mediante acciones comerciales oportunas. |
+|  | Administrador | Poder decidir manualmente qué productos requieren una promoción. | Gestión manual de ofertas. | **US24: Creación manual de oferta.** Como administrador, quiero crear una oferta para un producto o lote específico, para impulsar su rotación cuando lo considere necesario. |
+|  | Administrador | Mantener control sobre las promociones sugeridas automáticamente. | Flujo de aprobación de ofertas. | **US25: Aprobación de oferta sugerida.** Como administrador, quiero aprobar o editar una oferta sugerida por BodeGo, para mantener control sobre las promociones antes de aplicarlas. |
+|  | Administrador | Evitar que se utilicen ofertas vencidas o asociadas a productos agotados. | Control automático de vigencia. | **US26: Finalización automática de oferta.** Como administrador, quiero hacer que las ofertas terminen cuando vence su vigencia o se agota el stock asociado, para evitar promociones inválidas en la operación diaria. |
+|  | Administrador | Identificar con anticipación los lotes con mayor riesgo de convertirse en pérdida. | Reporte de vencimientos. | **US39: Reporte de productos próximos a vencer.** Como administrador, quiero consultar los lotes en riesgo de vencimiento, para planificar ofertas, rotación o retiro oportuno. |
+|  | Administrador | Medir económicamente las pérdidas del establecimiento. | Reporte analítico de mermas. | **US40: Reporte de mermas.** Como administrador, quiero analizar las pérdidas por producto, motivo y período, para identificar patrones y reducir costos operativos. |
+| **Goal N°3:**<br>**Agilizar el registro de las operaciones diarias realizadas por los empleados y mantener el stock actualizado en tiempo real.** | Empleado | Registrar rápidamente los productos vendidos. | Registro operativo de ventas. | **US27: Registro rápido de venta.** Como empleado, quiero registrar los productos vendidos durante la atención, para descontar automáticamente las unidades del inventario. |
+|  | Empleado | Aplicar correctamente las promociones configuradas por el administrador. | Aplicación automática de ofertas. | **US28: Aplicación de oferta en venta.** Como empleado, quiero visualizar y aplicar ofertas vigentes al registrar una venta, para utilizar correctamente las promociones definidas por el administrador. |
+|  | Empleado | Evitar vender cantidades superiores al inventario real. | Validación de disponibilidad. | **US29: Validación de stock antes de venta.** Como empleado, quiero recibir una validación de disponibilidad antes de confirmar una salida, para evitar que el inventario quede con cantidades negativas. |
+|  | Empleado | Dar salida primero a los lotes con vencimiento más cercano. | Gestión FEFO de lotes. | **US30: Salida FEFO sugerida.** Como empleado, quiero recibir una sugerencia del lote que debe salir primero, para priorizar la venta de unidades con vencimiento más cercano. |
+|  | Empleado | Registrar correctamente productos devueltos por los clientes. | Gestión de devoluciones de clientes. | **US31: Registro de devolución de cliente.** Como empleado, quiero registrar una devolución e indicar si el producto retorna al stock, para mantener correctamente las existencias y el historial de operaciones. |
+|  | Administrador / Empleado autorizado | Controlar mercadería retirada para ser devuelta al proveedor. | Gestión de devoluciones a proveedores. | **US32: Registro de devolución a proveedor.** Como administrador o empleado autorizado, quiero registrar unidades que salen del inventario para ser devueltas al proveedor, para controlar las salidas no asociadas a ventas. |
+|  | Empleado | Registrar rápidamente la mercadería recibida durante el abastecimiento. | Módulo de recepción de mercadería. | **US33: Registro de recepción de mercadería.** Como empleado, quiero registrar una recepción de productos de forma ágil, para actualizar existencias durante el abastecimiento diario. |
+|  | Empleado | Revisar las operaciones realizadas durante su jornada. | Historial operativo personal. | **US34: Historial diario de operaciones.** Como empleado, quiero consultar las operaciones que registré durante mi turno, para verificar ventas, ingresos, devoluciones y mermas realizadas. |
+|  | Empleado / Administrador | Corregir errores operativos sin perder trazabilidad. | Flujo controlado de correcciones. | **US35: Corrección de operación reciente.** Como empleado, quiero solicitar la corrección de una operación registrada por error, para evitar alterar el inventario sin trazabilidad. |
+|  | Empleado | Verificar las operaciones realizadas antes de finalizar su jornada. | Cierre operativo de turno. | **US36: Cierre operativo del turno.** Como empleado, quiero visualizar un resumen de los movimientos realizados antes de terminar mi turno, para comprobar que las operaciones del día quedaron registradas. |
+| **Goal N°4:**<br>**Facilitar al administrador la toma de decisiones mediante información operativa clara, centralizada y actualizada.** | Administrador | Conocer rápidamente la situación general de la bodega o minimarket. | Dashboard administrativo. | **US37: Dashboard administrativo.** Como administrador, quiero visualizar los principales indicadores del negocio en un solo panel, para conocer rápidamente el estado del inventario y la operación. |
+|  | Administrador | Detectar productos que necesitan reposición antes de quedarse sin stock. | Reporte de stock bajo y crítico. | **US38: Reporte de stock bajo y crítico.** Como administrador, quiero consultar los productos que requieren reposición, para priorizar las compras y evitar quiebres de stock. |
+|  | Administrador | Identificar los productos con mayor movimiento. | Reporte de rotación de productos. | **US41: Reporte de productos de alta rotación.** Como administrador, quiero identificar los productos con mayor frecuencia de salida, para priorizar reposición y ubicación física en el negocio. |
+|  | Administrador | Identificar los productos que generan la mayor parte de la operación del negocio. | Analítica Pareto 80/20. | **US42: Clasificación Pareto 80/20.** Como administrador, quiero identificar los productos que concentran la mayor parte de las salidas o ventas, para enfocar la gestión en los artículos más relevantes. |
+|  | Administrador | Reaccionar rápidamente ante riesgos de stock o vencimiento. | Centro de alertas operativas. | **US43: Alertas operativas.** Como administrador, quiero recibir alertas sobre stock crítico, vencimientos y eventos relevantes, para reaccionar oportunamente ante riesgos operativos. |
+|  | Administrador | Analizar la información histórica bajo diferentes períodos y criterios. | Filtros analíticos. | **US44: Filtrado de reportes por período.** Como administrador, quiero filtrar los reportes por fechas y categorías, para analizar la evolución del negocio en intervalos específicos. |
+| **Goal N°5:**<br>**Garantizar que cada usuario acceda únicamente a las funciones correspondientes a su responsabilidad dentro del negocio.** | Administrador / Empleado | Acceder de forma segura a BodeGo. | Sistema de autenticación. | **US01: Inicio de sesión.** Como usuario registrado, quiero iniciar sesión con mis credenciales, para acceder de forma segura a BodeGo. |
+|  | Administrador / Empleado | Visualizar únicamente las funciones correspondientes a su rol. | Control de acceso basado en roles. | **US02: Acceso según rol.** Como usuario, quiero visualizar una interfaz adaptada a mi rol de Administrador o Empleado, para acceder únicamente a las funciones que me corresponden. |
+|  | Administrador | Otorgar accesos individuales al personal. | Gestión de usuarios. | **US03: Registro de empleados.** Como administrador, quiero crear cuentas para los empleados del negocio, para permitirles operar en el sistema con credenciales individuales. |
+|  | Administrador | Retirar permisos a personal que ya no debe acceder al sistema. | Activación y desactivación de cuentas. | **US04: Activación y desactivación de usuarios.** Como administrador, quiero activar o desactivar cuentas de empleados, para controlar quién puede acceder a la información del negocio. |
+|  | Administrador / Empleado | Mantener actualizados sus datos personales. | Gestión de perfil. | **US05: Edición de perfil.** Como usuario, quiero actualizar mis datos personales y de contacto, para mantener correcta la información asociada a mi cuenta. |
+|  | Administrador | Adaptar BodeGo a las características del establecimiento. | Configuración general del negocio. | **US06: Configuración de datos del negocio.** Como administrador, quiero configurar nombre comercial, dirección, contacto y horarios, para mantener centralizada la información operativa del establecimiento. |
+|  | Administrador | Definir cuándo un producto debe considerarse bajo o crítico. | Configuración de umbrales. | **US07: Configuración de umbrales de stock.** Como administrador, quiero definir niveles de stock bajo y crítico, para recibir alertas de reposición adaptadas a mi operación. |
+|  | Administrador | Adaptar el sistema de vencimientos a la política del establecimiento. | Parámetros de vencimiento. | **US08: Configuración de días de alerta de vencimiento.** Como administrador, quiero definir cuántos días antes del vencimiento debe alertarme el sistema, para adaptar el control de perecibles a las políticas del negocio. |
+|  | Administrador / Empleado | Mantener protegidas sus credenciales. | Gestión de contraseña. | **US47: Cambio seguro de contraseña.** Como usuario, quiero cambiar mi contraseña desde la configuración de seguridad, para proteger mi cuenta frente a accesos no autorizados. |
+|  | Administrador / Empleado | Recuperar el acceso cuando se olvidan las credenciales. | Recuperación de acceso. | **US48: Recuperación de acceso.** Como usuario, quiero recuperar el acceso cuando olvido mi contraseña, para volver a utilizar mi cuenta sin intervención manual innecesaria. |
+|  | Administrador / Empleado | Finalizar de manera segura el uso de la plataforma. | Cierre de sesión. | **US49: Cierre de sesión.** Como usuario, quiero cerrar mi sesión cuando termino de utilizar BodeGo, para evitar que terceros accedan a mi cuenta desde el mismo dispositivo. |
+| **Goal N°6:**<br>**Aumentar el control y la trazabilidad de las operaciones realizadas dentro de BodeGo.** | Administrador | Identificar el origen de cualquier variación de inventario. | Historial detallado de movimientos. | **US45: Historial de movimientos de inventario.** Como administrador, quiero consultar todas las entradas y salidas que afectaron un producto, para auditar cómo se originó su stock actual. |
+|  | Administrador | Conocer quién realizó cambios relevantes dentro de la plataforma. | Bitácora de auditoría. | **US46: Bitácora de acciones de usuarios.** Como administrador, quiero consultar acciones relevantes realizadas por los usuarios, para supervisar cambios sensibles dentro del sistema. |
+|  | Administrador / Empleado | Resolver dudas relacionadas con las funciones del sistema sin interrumpir la operación. | Centro de ayuda operativo. | **US50: Centro de ayuda operativo.** Como administrador o empleado, quiero consultar ayuda sobre las funciones principales del sistema, para resolver dudas frecuentes durante la operación diaria. |
 ## 3.3. Product Backlog
+
+# Product Backlog — BodeGo
+
+| **# Orden** | **User Story ID** | **Descripción** | **Story Point**<br>**(0 - 8)** |
+|---:|:---:|---|---:|
+| **1** | **US01** | Como usuario registrado, quiero iniciar sesión con mis credenciales, para acceder de forma segura a BodeGo. | **2** |
+| **2** | **US02** | Como usuario, quiero visualizar una interfaz adaptada a mi rol de Administrador o Empleado, para acceder únicamente a las funciones que me corresponden. | **3** |
+| **3** | **US03** | Como administrador, quiero crear cuentas para los empleados del negocio, para permitirles operar en el sistema con credenciales individuales. | **3** |
+| **4** | **US06** | Como administrador, quiero configurar nombre comercial, dirección, contacto y horarios, para mantener centralizada la información operativa del establecimiento. | **2** |
+| **5** | **US09** | Como administrador, quiero crear productos con su información comercial y operativa, para incorporarlos al catálogo interno y controlar sus existencias. | **3** |
+| **6** | **US12** | Como administrador, quiero clasificar los productos por categorías, para facilitar su búsqueda y análisis dentro del inventario. | **2** |
+| **7** | **US14** | Como empleado, quiero registrar el ingreso de mercadería indicando cantidad y lote, para actualizar el inventario cuando se recibe nueva mercadería. | **5** |
+| **8** | **US15** | Como empleado, quiero asociar una fecha de vencimiento a cada lote perecible, para permitir el control preventivo de productos próximos a caducar. | **3** |
+| **9** | **US16** | Como administrador o empleado, quiero visualizar las existencias separadas por lote, para conocer qué unidades deben utilizarse primero y mantener trazabilidad. | **3** |
+| **10** | **US13** | Como administrador o empleado, quiero buscar productos por nombre, código, categoría o estado de stock, para encontrar rápidamente el artículo que necesito gestionar. | **3** |
+| **11** | **US27** | Como empleado, quiero registrar los productos vendidos durante la atención, para descontar automáticamente las unidades del inventario. | **5** |
+| **12** | **US29** | Como empleado, quiero recibir una validación de disponibilidad antes de confirmar una salida, para evitar que el inventario quede con cantidades negativas. | **3** |
+| **13** | **US21** | Como empleado, quiero registrar unidades perdidas, dañadas o vencidas indicando su motivo, para mantener el stock real y documentar las pérdidas operativas. | **3** |
+| **14** | **US19** | Como administrador, quiero visualizar automáticamente los lotes que se aproximan a su vencimiento, para actuar antes de que se conviertan en merma. | **5** |
+| **15** | **US20** | Como administrador o empleado, quiero ordenar los lotes perecibles por fecha de vencimiento, para dar salida primero a los productos con menor vida útil. | **3** |
+| **16** | **US30** | Como empleado, quiero recibir una sugerencia del lote que debe salir primero, para priorizar la venta de unidades con vencimiento más cercano. | **5** |
+| **17** | **US07** | Como administrador, quiero definir niveles de stock bajo y crítico, para recibir alertas de reposición adaptadas a mi operación. | **2** |
+| **18** | **US08** | Como administrador, quiero definir cuántos días antes del vencimiento debe alertarme el sistema, para adaptar el control de perecibles a las políticas del negocio. | **2** |
+| **19** | **US43** | Como administrador, quiero recibir alertas sobre stock crítico, vencimientos y eventos relevantes, para reaccionar oportunamente ante riesgos operativos. | **5** |
+| **20** | **US17** | Como administrador, quiero corregir diferencias de stock indicando cantidad y motivo, para alinear el inventario digital con el conteo físico cuando exista una discrepancia. | **3** |
+| **21** | **US18** | Como administrador o empleado, quiero registrar un conteo físico de productos, para comparar las existencias reales con las registradas en BodeGo. | **5** |
+| **22** | **US33** | Como empleado, quiero registrar una recepción de productos de forma ágil, para actualizar existencias durante el abastecimiento diario. | **3** |
+| **23** | **US34** | Como empleado, quiero consultar las operaciones que registré durante mi turno, para verificar ventas, ingresos, devoluciones y mermas realizadas. | **3** |
+| **24** | **US36** | Como empleado, quiero visualizar un resumen de los movimientos realizados antes de terminar mi turno, para comprobar que las operaciones del día quedaron registradas. | **5** |
+| **25** | **US22** | Como administrador, quiero definir y consultar categorías de merma, para identificar las principales causas de pérdida del negocio. | **3** |
+| **26** | **US37** | Como administrador, quiero visualizar los principales indicadores del negocio en un solo panel, para conocer rápidamente el estado del inventario y la operación. | **5** |
+| **27** | **US38** | Como administrador, quiero consultar los productos que requieren reposición, para priorizar las compras y evitar quiebres de stock. | **3** |
+| **28** | **US39** | Como administrador, quiero consultar los lotes en riesgo de vencimiento, para planificar ofertas, rotación o retiro oportuno. | **3** |
+| **29** | **US40** | Como administrador, quiero analizar las pérdidas por producto, motivo y período, para identificar patrones y reducir costos operativos. | **5** |
+| **30** | **US41** | Como administrador, quiero identificar los productos con mayor frecuencia de salida, para priorizar reposición y ubicación física en el negocio. | **5** |
+| **31** | **US42** | Como administrador, quiero identificar los productos que concentran la mayor parte de las salidas o ventas, para enfocar la gestión en los artículos más relevantes. | **5** |
+| **32** | **US23** | Como administrador, quiero recibir propuestas de oferta para lotes próximos a vencer, para reducir mermas mediante acciones comerciales oportunas. | **8** |
+| **33** | **US24** | Como administrador, quiero crear una oferta para un producto o lote específico, para impulsar su rotación cuando lo considere necesario. | **3** |
+| **34** | **US25** | Como administrador, quiero aprobar o editar una oferta sugerida por BodeGo, para mantener control sobre las promociones antes de aplicarlas. | **3** |
+| **35** | **US28** | Como empleado, quiero visualizar y aplicar ofertas vigentes al registrar una venta, para utilizar correctamente las promociones definidas por el administrador. | **3** |
+| **36** | **US26** | Como administrador, quiero hacer que las ofertas terminen cuando vence su vigencia o se agota el stock asociado, para evitar promociones inválidas en la operación diaria. | **3** |
+| **37** | **US31** | Como empleado, quiero registrar una devolución e indicar si el producto retorna al stock, para mantener correctamente las existencias y el historial de operaciones. | **3** |
+| **38** | **US32** | Como administrador o empleado autorizado, quiero registrar unidades que salen del inventario para ser devueltas al proveedor, para controlar las salidas no asociadas a ventas. | **3** |
+| **39** | **US35** | Como empleado, quiero solicitar la corrección de una operación registrada por error, para evitar alterar el inventario sin trazabilidad. | **5** |
+| **40** | **US45** | Como administrador, quiero consultar todas las entradas y salidas que afectaron un producto, para auditar cómo se originó su stock actual. | **3** |
+| **41** | **US46** | Como administrador, quiero consultar acciones relevantes realizadas por los usuarios, para supervisar cambios sensibles dentro del sistema. | **5** |
+| **42** | **US44** | Como administrador, quiero filtrar los reportes por fechas y categorías, para analizar la evolución del negocio en intervalos específicos. | **2** |
+| **43** | **US10** | Como administrador, quiero modificar nombre, categoría, unidad, costo o precio de un producto, para mantener actualizada la información utilizada en la operación. | **2** |
+| **44** | **US11** | Como administrador, quiero desactivar productos que ya no comercializo, para evitar nuevos movimientos sin perder su historial. | **2** |
+| **45** | **US04** | Como administrador, quiero activar o desactivar cuentas de empleados, para controlar quién puede acceder a la información del negocio. | **2** |
+| **46** | **US05** | Como usuario, quiero actualizar mis datos personales y de contacto, para mantener correcta la información asociada a mi cuenta. | **1** |
+| **47** | **US47** | Como usuario, quiero cambiar mi contraseña desde la configuración de seguridad, para proteger mi cuenta frente a accesos no autorizados. | **2** |
+| **48** | **US48** | Como usuario, quiero recuperar el acceso cuando olvido mi contraseña, para volver a utilizar mi cuenta sin intervención manual innecesaria. | **3** |
+| **49** | **US49** | Como usuario, quiero cerrar mi sesión cuando termino de utilizar BodeGo, para evitar que terceros accedan a mi cuenta desde el mismo dispositivo. | **1** |
+| **50** | **US50** | Como administrador o empleado, quiero consultar ayuda sobre las funciones principales del sistema, para resolver dudas frecuentes durante la operación diaria. | **1** |
 
 ---
 
