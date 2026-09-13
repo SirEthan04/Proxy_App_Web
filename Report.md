@@ -278,7 +278,7 @@ En el sector del comercio minorista, específicamente en los minimarkets, la ges
 
 | Epic ID | Nombre | Descripción |
 |---|---|---|
-| **EP01** | **Acceso, Roles y Configuración del Negocio** | **Como** responsable de una bodega o minimarket, **quiero** gestionar el acceso de administradores y empleados, así como los parámetros operativos del negocio, **para** asegurar que cada usuario utilice únicamente las funciones que le corresponden y que el sistema se adapte a la operación real del establecimiento. |
+| **EP01** | **Acceso, Roles y Configuración del Negocio** | **Como** responsable de una minimarket, **quiero** gestionar el acceso de administradores y empleados, así como los parámetros operativos del negocio, **para** asegurar que cada usuario utilice únicamente las funciones que le corresponden y que el sistema se adapte a la operación real del establecimiento. |
 | **EP02** | **Catálogo, Inventario y Gestión de Lotes** | **Como** administrador o empleado, **quiero** registrar productos, controlar existencias y gestionar lotes con fechas de vencimiento, **para** mantener un inventario confiable, actualizado y trazable. |
 | **EP03** | **Vencimientos, Mermas y Ofertas Estratégicas** | **Como** administrador, **quiero** detectar productos próximos a vencer, registrar mermas y generar ofertas estratégicas, **para** reducir pérdidas económicas y mejorar la rotación de productos perecibles. |
 | **EP04** | **Operación Diaria y Movimientos de Stock** | **Como** empleado, **quiero** registrar de forma rápida las operaciones diarias que afectan el inventario, **para** que el stock del sistema refleje lo que realmente ocurre en el punto de venta y almacén. |
