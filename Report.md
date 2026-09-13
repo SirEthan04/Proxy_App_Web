@@ -16,7 +16,7 @@
 
 ### **Informe de Trabajo Final**
 
-* **Nombre del Startup:** Proxi
+* **Nombre del Startup:** Proxy
 * **Nombre del Producto:** BodeGo
 
 ---
@@ -63,7 +63,7 @@
 
 ### 1.1.1. Descripción de la Startup
 
-**Nombre del Startup:** Proxi  
+**Nombre del Startup:** Proxy  
 
 **Nombre del Producto:** BodeGo  
 
