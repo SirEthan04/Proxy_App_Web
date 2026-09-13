@@ -216,9 +216,189 @@ En el sector del comercio minorista, específicamente en los minimarkets, la ges
 
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
+Actualmente, los minimarkets presentan dificultades para mantener un control adecuado de su inventario debido al uso de registros manuales o herramientas poco especializadas. Esto ocasiona diferencias en el stock, poca visibilidad sobre los productos disponibles y dificultades para identificar productos próximos a vencer.
+
+Los Administradores necesitan contar con información centralizada que les permita supervisar el inventario, consultar reportes y tomar decisiones frente a posibles mermas. Por otro lado, los Empleados necesitan una forma rápida y sencilla de actualizar el stock y registrar las operaciones realizadas durante la jornada.
+
+BodeGo busca solucionar esta problemática mediante una plataforma web que centralice la gestión del inventario, permita controlar productos perecibles y diferencie las funcionalidades disponibles para Administradores y Empleados.
+
 #### 1.2.2.2. Lean UX Assumptions
+
+##### Business Assumptions
+
+1. Existe una necesidad de mejorar la gestión de inventario en minimarkets que actualmente utilizan procesos manuales.
+2. La reducción de mermas por productos vencidos puede generar un beneficio económico para el negocio.
+3. Una plataforma web puede facilitar la gestión interna sin requerir herramientas especializadas.
+4. La separación de funcionalidades entre Administradores y Empleados puede mejorar el control operativo.
+
+##### User Assumptions
+
+1. Los Administradores necesitan conocer rápidamente el estado general del inventario.
+2. Los Administradores necesitan identificar productos próximos a vencer para tomar decisiones oportunas.
+3. Los Empleados necesitan actualizar el stock de manera rápida y sencilla.
+4. Los Empleados prefieren una interfaz simple para realizar sus tareas operativas.
+5. Ambos usuarios necesitan acceder únicamente a las funcionalidades relacionadas con su rol.
+
+##### Business Outcome Assumptions
+
+1. Reducción de productos que vencen sin ser detectados previamente.
+2. Mayor frecuencia de actualización del stock.
+3. Disminución del uso de registros manuales para controlar el inventario.
+4. Mayor visibilidad del estado del inventario para los Administradores.
+
+##### User Outcome and Benefit Assumptions
+
+1. Los Administradores podrán tener mayor control sobre el inventario y las mermas.
+2. Los Administradores podrán tomar decisiones utilizando información organizada y actualizada.
+3. Los Empleados podrán registrar cambios en el inventario con mayor facilidad.
+4. Los Empleados podrán identificar rápidamente productos que requieren atención.
+5. Ambos usuarios reducirán su dependencia de registros manuales.
+
+##### Feature Assumptions
+
+1. Un sistema de gestión de inventario permitirá mantener actualizado el stock de productos.
+2. Las alertas de vencimiento permitirán identificar productos perecibles antes de que se conviertan en mermas.
+3. Un dashboard con reportes permitirá al Administrador conocer rápidamente el estado del inventario.
+4. La gestión de ofertas permitirá al Administrador impulsar la salida de productos próximos a vencer.
+5. Un sistema de roles permitirá diferenciar las acciones disponibles para Administradores y Empleados.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+##### Hypothesis Statement 1
+
+Creemos que si implementamos un sistema de gestión de inventario, entonces los Administradores y Empleados podrán mantener el stock actualizado con mayor facilidad, reduciendo las diferencias entre el inventario registrado y el inventario disponible.
+
+##### Hypothesis Statement 2
+
+Creemos que si implementamos alertas para productos próximos a vencer, entonces los Administradores y Empleados podrán identificarlos con anticipación y reducir la cantidad de productos que se convierten en mermas.
+
+##### Hypothesis Statement 3
+
+Creemos que si proporcionamos un dashboard con reportes del inventario, entonces los Administradores podrán conocer rápidamente el estado del negocio y tomar decisiones utilizando información organizada.
+
+##### Hypothesis Statement 4
+
+Creemos que si implementamos una funcionalidad para crear ofertas sobre productos próximos a vencer, entonces los Administradores podrán promover su salida antes de que estos productos se conviertan en pérdidas.
+
+##### Hypothesis Statement 5
+
+Creemos que si implementamos un sistema de roles para Administradores y Empleados, entonces cada usuario podrá acceder únicamente a las funcionalidades correspondientes a sus responsabilidades, mejorando el control de las operaciones.
+
 #### 1.2.2.4. Lean UX Canvas
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### Business Problem
+
+Actualmente, los minimarkets presentan dificultades para mantener un control adecuado de su inventario debido al uso de registros manuales o herramientas poco especializadas.
+
+Esto genera diferencias entre el stock registrado y el stock real, poca visibilidad sobre los productos disponibles y dificultades para identificar productos próximos a vencer.
+
+Como consecuencia, los Administradores tienen dificultades para supervisar el negocio y tomar decisiones oportunas, mientras que los Empleados presentan complicaciones para mantener actualizado el inventario durante las operaciones diarias.
+
+---
+
+### Users
+
+- **Administradores:** dueños o gestores del minimarket encargados de supervisar el inventario, revisar reportes, configurar el sistema y tomar decisiones sobre productos y ofertas.
+
+- **Empleados:** personal de atención y almacén encargado de actualizar el stock, registrar operaciones y controlar los productos durante la jornada.
+
+</td>
+
+<td width="34%" valign="top">
+
+### Solutions
+
+- **Gestión centralizada de inventario**, permitiendo registrar, consultar y actualizar la información de los productos.
+
+- **Control de productos perecibles**, facilitando la identificación de productos próximos a vencer.
+
+- **Alertas de vencimiento** que permitan actuar antes de que los productos se conviertan en mermas.
+
+- **Dashboard y reportes** para que el Administrador pueda visualizar información relevante sobre el inventario.
+
+- **Gestión de ofertas** para productos próximos a vencer o con poca rotación.
+
+- **Sistema de roles y permisos**, diferenciando las funcionalidades disponibles para Administradores y Empleados.
+
+</td>
+
+<td width="33%" valign="top">
+
+### Business Outcomes
+
+- Reducir la cantidad de productos que vencen sin ser identificados previamente.
+
+- Incrementar la frecuencia de actualización del inventario.
+
+- Disminuir la dependencia de registros manuales.
+
+- Mejorar la visibilidad del estado del inventario.
+
+- Facilitar la toma de decisiones relacionadas con stock, mermas y productos próximos a vencer.
+
+---
+
+### User Outcomes & Benefits
+
+- **Administradores:** mayor control y visibilidad del inventario, acceso a información organizada y mejor capacidad para tomar decisiones.
+
+- **Empleados:** mayor facilidad para actualizar el stock, identificar productos que requieren atención y registrar operaciones.
+
+- Reducción del esfuerzo requerido para realizar tareas relacionadas con el control del inventario.
+
+- Mayor claridad sobre las funciones correspondientes a cada usuario.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td width="34%" valign="top">
+
+### Hypothesis
+
+Creemos que si BodeGo proporciona una plataforma web que centralice el control del inventario, permita identificar productos próximos a vencer y diferencie las funciones de Administradores y Empleados, entonces será posible mejorar la gestión operativa del minimarket y reducir las pérdidas relacionadas con productos perecibles.
+
+Consideraremos que esta propuesta genera resultados positivos cuando los usuarios logren mantener el stock actualizado con mayor frecuencia, identificar productos próximos a vencer antes de que se conviertan en mermas y reducir su dependencia de registros manuales.
+
+</td>
+
+<td width="33%" valign="top">
+
+### What's the most important thing we need to learn first?
+
+- ¿Los problemas relacionados con el control del stock ocurren con suficiente frecuencia en los minimarkets?
+
+- ¿La pérdida de productos por vencimiento representa una preocupación importante para los Administradores?
+
+- ¿Los Empleados estarían dispuestos a utilizar una plataforma web para registrar y actualizar el inventario?
+
+- ¿Las alertas de vencimiento aportarían valor durante las operaciones diarias del minimarket?
+
+</td>
+
+<td width="33%" valign="top">
+
+### What's the least amount of work we need to do to learn the next most important thing?
+
+- Realizar entrevistas a Administradores y Empleados de minimarkets para conocer sus procesos actuales.
+
+- Desarrollar un prototipo de baja fidelidad con las principales funciones de BodeGo.
+
+- Realizar pruebas de usuario enfocadas en tareas como actualizar stock, buscar productos e identificar productos próximos a vencer.
+
+- Recopilar comentarios de los usuarios para validar o modificar los supuestos planteados.
+
+</td>
+</tr>
+</table>
 
 ## 1.3. Segmentos objetivo
 
