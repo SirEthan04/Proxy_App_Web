@@ -83,25 +83,23 @@
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
 
-### Antecedentes y Problemática
-
-En el sector del comercio minorista, específicamente en las bodegas y minimarkets, la gestión operativa se realiza de manual. Esta falta de digitalización genera una baja visibilidad sobre el estado real de los inventarios, impactando directamente en la rentabilidad del negocio y en la experiencia de compra de los vecinos de la zona.
+En el sector del comercio minorista, específicamente en los minimarkets, la gestión operativa se realiza de manera empírica y manual. Esta falta de digitalización genera una baja visibilidad sobre el estado real de los inventarios, impactando directamente en la rentabilidad del negocio debido a la acumulación de mermas y a una deficiente comunicación interna entre el personal.
 
 **Técnica de las 5 'W's y 2 'H's:**
 
-**Who:** Comerciantes minoristas (bodegueros) que administran negocios locales y los consumidores finales de su entorno inmediato.  
+**Who (¿Quién?):** Personal operativo y directivo de los minimarkets, dividido en dos roles clave: Administradores (dueños o gestores) y Empleados (personal de atención y almacén).  
 
-**What:** Deficiente gestión del inventario perecible que ocasiona mermas por productos vencidos, sumado a la falta de un canal directo y constante de comunicación entre el bodeguero y sus clientes.  
+**What (¿Qué?):** Deficiente gestión del inventario perecible que ocasiona mermas por productos vencidos, sumado a la falta de un sistema centralizado de control operativo y actualización de stock en tiempo real.  
 
-**Where:** En las bodegas y minimarkets de Lima Metropolitana.  
+**Where (¿Dónde?):** En las instalaciones, almacenes y puntos de venta de los minimarkets de Lima Metropolitana.  
 
-**When:** Ocurre de forma continua durante la operación diaria, intensificándose cuando los productos almacenados al fondo de los anaqueles alcanzan su fecha de caducidad sin ser identificados a tiempo.  
+**When (¿Cuándo?):** Ocurre de forma continua durante la operación diaria, intensificándose al momento de la recepción de mercadería, el despacho en caja y la rotación de productos en anaqueles.  
 
-**Why:** Debido a la ausencia de herramientas digitales accesibles que permitan registrar las fechas de vencimiento de forma automatizada y la dependencia de canales informales que impiden notificar ofertas o productos disponibles a los consumidores de manera oportuna.  
+**Why (¿Por qué?):** Debido a la ausencia de herramientas digitales accesibles para el control de stock, la falta de asignación de permisos según el rol operativo y la dependencia de métodos manuales para identificar fechas de vencimiento y registrar operaciones.  
 
-**How:** El bodeguero realiza el control de su stock mediante anotaciones en cuaderno o por memoria, lo que impide detectar con anticipación los productos próximos a vencer. A su vez, el consumidor desconoce las promociones o la disponibilidad de productos antes de acudir físicamente al local.  
+**How (¿Cómo?):** El Administrador gestiona el negocio sin visibilidad centralizada de reportes ni capacidad para lanzar ofertas estratégicas de liquidación. A su vez, el Empleado realiza el control de inventario mediante anotaciones físicas o de memoria, lo que dificulta detectar a tiempo los productos próximos a caducar e impide mantener el stock actualizado durante la jornada.  
 
-**How Much:** Pérdidas económicas constantes para el bodeguero por mermas no liquidadas a tiempo y una pérdida de ingresos potenciales al no aprovechar la demanda de los consumidores locales que buscan productos a precios reducidos o la comodidad de hacer pedidos previos.
+**How Much (¿Cuánto?):** Pérdidas económicas constantes para el minimarket por mermas no detectadas a tiempo, descuadres de stock en el punto de venta y una reducción en el margen de ganancia al no poder liquidar estratégicamente la mercadería de baja rotación.
 
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
@@ -120,33 +118,31 @@ En el sector del comercio minorista, específicamente en las bodegas y minimarke
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 
-**Preguntas para el Segmento 1: Comerciante Minorista**
+### Preguntas para el Segmento 1: Administrador (Dueño / Gestor del Minimarket)
 
-1. ¿De qué manera organiza y supervisa actualmente la mercadería que ingresa a su almacén o anaqueles?
-2. ¿Cómo identifica qué productos están próximos a vencer dentro de su local y con qué frecuencia realiza esta revisión?
-3. ¿Cuál es el procedimiento que sigue cuando descubre que un lote de productos está a pocos días de caducar?
-4. ¿Podría describir una situación reciente en la que haya tenido pérdidas de dinero debido a productos vencidos o dañados?
-5. ¿Qué métodos o estrategias aplica actualmente para intentar rematar o salir de la mercadería de baja rotación?
-6. ¿Cómo se entera un vecino de su zona sobre los productos en oferta o las promociones que tiene disponibles en su bodega?
-7. ¿De qué forma gestiona los pedidos por encargo o reservaciones que le hacen sus clientes antes de ir a su local?
-8. ¿Qué herramientas digitales o aplicaciones utiliza en su día a día para apoyar la gestión de su negocio?
-9. ¿Cuáles son las principales dificultades que encuentra al momento de intentar implementar una nueva tecnología en su local?
-10. ¿Qué características indispensables tendría que tener una herramienta para que le sea de utilidad real en su rutina diaria de trabajo?
+1. ¿Cómo controla actualmente lo que entra, sale y se vende en su minimarket?
+2. ¿De qué manera le da permisos o tareas a sus empleados para que registren los productos?
+3. ¿Cada cuánto revisa qué productos están por vencer y cómo se da cuenta de ello?
+4. ¿Le ha pasado recientemente que perdió dinero por productos que se vencieron o se malograron? ¿Cómo fue?
+5. ¿Qué hace actualmente con la mercadería que no se vende rápido para no perder esa inversión?
+6. ¿Cómo sabe si el negocio está teniendo buenas ganancias o si una oferta funcionó?
+7. ¿Cómo decide los precios de los productos y los cambios en su local?
+8. ¿Usa algún programa, cuaderno o aplicación para llevar la cuenta de su negocio?
+9. ¿Qué es lo más difícil al momento de confiarle el registro de las ventas o del stock a sus empleados?
+10. ¿Qué tendría que tener un sistema web para que a usted le sirva de verdad y le evite pérdidas?
 
----
+### Preguntas para el Segmento 2: Empleado (Personal Operativo / Atención y Almacén)
 
-**Preguntas para el Segmento 2: Consumidor local**
-
-1. ¿Cuál es el proceso habitual que sigue cuando necesita comprar abarrotes o productos del día a día en su bodega más cercana?
-2. ¿Cómo decide si realizar una compra en una bodega de barrio frente a una tienda de conveniencia o supermercado?
-3. ¿De qué manera se organiza para planificar sus compras diarias o semanales de productos perecibles?
-4. ¿Qué impacto tienen las promociones o los descuentos por fecha próxima de vencimiento en su decisión final de compra?
-5. ¿Cómo suele enterarse de las promociones o precios especiales disponibles en los comercios cercanos a su casa?
-6. ¿Qué factores valora más al evaluar comprar un producto alimenticio que está rebajado por estar cerca a vencer?
-7. ¿Qué inconvenientes o frustraciones ha experimentado al acudir físicamente a la bodega de su barrio?
-8. ¿Cómo maneja la situación cuando acude a comprar un producto específico y descubre que está agotado?
-9. ¿De qué manera preferiría comunicarse o hacer pedidos previos con la bodega antes de salir de su hogar?
-10. ¿Qué aplicaciones móviles o canales digitales utiliza actualmente para realizar compras o consultar información de productos locales?
+1. ¿Cuál es la rutina diaria que sigue para registrar la entrada de nueva mercadería y actualizar el stock disponible en anaqueles?
+2. ¿De qué manera verifica en el día a día las fechas de caducidad de los productos mientras atiende o reacciona en el almacén?
+3. ¿Cómo procede cuando detecta en el mostrador un producto que está vencido, dañado o con bajo stock?
+4. ¿Qué dificultades experimenta al momento de registrar las ventas o transacciones diarias durante las horas de mayor afluencia de clientes?
+5. ¿Cómo se comunica internamente con el administrador o dueño cuando identifica inconsistencias entre el stock físico y el registro?
+6. ¿Qué herramientas o métodos manuales (cuadernos, hojas de cálculo, notas) utiliza actualmente para realizar el conteo de inventario?
+7. ¿De qué forma aplica o registra las ofertas y descuentos especiales decididos por la administración al momento de cobrar en caja?
+8. ¿Qué problemas o frustraciones suele tener con los sistemas actuales al momento de buscar la disponibilidad o precio de un producto?
+9. ¿Cuánto tiempo le toma capacitarse o adaptarse cuando se introduce un cambio en la forma de registrar las operaciones diarias?
+10. ¿Qué características debería tener una plataforma web para que su trabajo de registro y actualización de stock sea más rápido y sencillo?
 
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
