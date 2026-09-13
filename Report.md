@@ -233,29 +233,29 @@ En el sector del comercio minorista, específicamente en los minimarkets, la ges
 
 ### Preguntas para el Segmento 1: Administrador (Dueño / Gestor del Minimarket)
 
-1. ¿Cómo controla actualmente lo que entra, sale y se vende en su minimarket?
-2. ¿De qué manera le da permisos o tareas a sus empleados para que registren los productos?
-3. ¿Cada cuánto revisa qué productos están por vencer y cómo se da cuenta de ello?
-4. ¿Le ha pasado recientemente que perdió dinero por productos que se vencieron o se malograron? ¿Cómo fue?
-5. ¿Qué hace actualmente con la mercadería que no se vende rápido para no perder esa inversión?
-6. ¿Cómo sabe si el negocio está teniendo buenas ganancias o si una oferta funcionó?
-7. ¿Cómo decide los precios de los productos y los cambios en su local?
-8. ¿Usa algún programa, cuaderno o aplicación para llevar la cuenta de su negocio?
-9. ¿Qué es lo más difícil al momento de confiarle el registro de las ventas o del stock a sus empleados?
-10. ¿Qué tendría que tener un sistema web para que a usted le sirva de verdad y le evite pérdidas?
+1. ¿Cómo realiza actualmente el control del stock de productos en su minimarket?
+2. ¿Qué dificultades tiene para conocer la cantidad real de productos disponibles?
+3. ¿Cómo identifica actualmente los productos que están próximos a vencer?
+4. ¿Con qué frecuencia tiene pérdidas por productos vencidos o que no se venden a tiempo?
+5. ¿Cómo se informa sobre los cambios de stock realizados por sus empleados?
+6. ¿Qué información considera importante para controlar mejor el inventario de su negocio?
+7. ¿Qué acciones realiza cuando detecta productos próximos a vencer o con poca rotación?
+8. ¿Cómo decide cuándo aplicar descuentos o promociones a determinados productos?
+9. ¿Con qué frecuencia encuentra diferencias entre el stock registrado y el stock real?
+10. ¿Qué funciones le gustaría encontrar en un sistema digital para gestionar su inventario?
 
 ### Preguntas para el Segmento 2: Empleado (Personal Operativo / Atención y Almacén)
 
-1. ¿Cuál es la rutina diaria que sigue para registrar la entrada de nueva mercadería y actualizar el stock disponible en anaqueles?
-2. ¿De qué manera verifica en el día a día las fechas de caducidad de los productos mientras atiende o reacciona en el almacén?
-3. ¿Cómo procede cuando detecta en el mostrador un producto que está vencido, dañado o con bajo stock?
-4. ¿Qué dificultades experimenta al momento de registrar las ventas o transacciones diarias durante las horas de mayor afluencia de clientes?
-5. ¿Cómo se comunica internamente con el administrador o dueño cuando identifica inconsistencias entre el stock físico y el registro?
-6. ¿Qué herramientas o métodos manuales (cuadernos, hojas de cálculo, notas) utiliza actualmente para realizar el conteo de inventario?
-7. ¿De qué forma aplica o registra las ofertas y descuentos especiales decididos por la administración al momento de cobrar en caja?
-8. ¿Qué problemas o frustraciones suele tener con los sistemas actuales al momento de buscar la disponibilidad o precio de un producto?
-9. ¿Cuánto tiempo le toma capacitarse o adaptarse cuando se introduce un cambio en la forma de registrar las operaciones diarias?
-10. ¿Qué características debería tener una plataforma web para que su trabajo de registro y actualización de stock sea más rápido y sencillo?
+1. ¿Cómo registra actualmente las entradas y salidas de productos durante su jornada?
+2. ¿Qué tan fácil le resulta conocer la cantidad disponible de un producto? 
+3. ¿Cómo revisa o identifica los productos que están próximos a vencer?
+4. ¿Qué hace cuando encuentra un producto vencido o cercano a su fecha de vencimiento? 
+5. ¿En qué momentos del día suelen presentarse más errores en el control del inventario?
+6. ¿Cómo comunica al administrador los cambios de stock o problemas con los productos?
+7. ¿Qué dificultades tiene al momento de registrar la llegada de nueva mercadería?
+8. ¿Con qué frecuencia encuentra diferencias entre el stock registrado y el stock disponible?
+9. ¿Qué herramienta o función facilitaría el registro de productos durante su trabajo?
+10. ¿Qué actividad relacionada con el inventario le parece más lenta o complicada de realizar?
 
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
