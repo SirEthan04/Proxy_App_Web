@@ -60,19 +60,18 @@
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
-### 1.1.1. Descripción de la Startup
 
 ### 1.1.1. Descripción de la Startup
 
-**Nombre del Startup:**  Proxi
+**Nombre del Startup:** Proxi  
 
-**Nombre del Producto:**  BodeGo
+**Nombre del Producto:** BodeGo  
 
-**Enfoque de Negocios:** Aplicación web que integra la gestión de inventario, mermas y pedidos.  
+**Enfoque de Negocios:** Aplicación web para la gestión integral de inventario, mermas y control operativo interno en minimarkets.  
 
-**Propuesta de Valor:** Como solución se brinda una aplicación con doble rol de acceso, que optimiza el control de stock en las bodegas, facilita la liquidación de productos por vencer y conecta directamente con los consumidores para agilizar la compras recurrentes.  
+**Propuesta de Valor:** BodeGo es una solución web de gestión interna que optimiza el control de stock y reduce las mermas por productos perecibles mediante un sistema de doble rol operativo. La plataforma permite al Administrador visualizar reportes, configurar el sistema y lanzar ofertas estratégicas, mientras que facilita al Empleado la actualización rápida de stock y el registro de las operaciones diarias en el punto de venta.  
 
-**Mercado Objetivo:** Nuestra propuesta de solución se centra en el comercio de minoristas (Bodegas/MiniMarkets) y los consumidores locales de dichos comercios.
+**Mercado Objetivo:** El producto está dirigido al personal operativo y directivo de minimarkets, dividiendo a sus usuarios en dos segmentos clave: Administradores (dueños o gestores del negocio) y Empleados (personal de atención y almacén).
 
 
 ### 1.1.2. Perfiles de integrantes del equipo
