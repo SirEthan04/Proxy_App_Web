@@ -27,7 +27,7 @@
 | :--- | :--- |
 | U20241F385 | Blanco Medina, Jhorch Jhoseff |
 | U20241G404 | Caldas Bravo, Mateo |
-| U20241G610 | Chavez Sandoval, Dany Yohel |
+| U20241F610 | Chavez Sandoval, Dany Yohel |
 | U202421082 | Saravia Hiso, Johan Álvaro |
 | U20241E096 | Rojas Huaranga, Diego Rances |
 
