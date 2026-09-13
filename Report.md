@@ -402,6 +402,54 @@ Consideraremos que esta propuesta genera resultados positivos cuando los usuario
 
 ## 1.3. Segmentos objetivo
 
+## 1.3. Segmentos objetivo
+
+BodeGo está dirigido al personal involucrado en la gestión y operación de minimarkets de Lima Metropolitana. Para el desarrollo de la solución se consideran dos segmentos principales: los **Administradores**, responsables de supervisar y gestionar el negocio, y los **Empleados**, encargados de las actividades operativas relacionadas con el inventario, almacén y atención.
+
+### Segmento: Administradores de minimarkets
+
+Este segmento está conformado por dueños, administradores o encargados de minimarkets que necesitan mantener control sobre el inventario, las mermas y las operaciones realizadas dentro del establecimiento.
+
+- **Aspectos Demográficos:**
+  - Edad: 31 a 60 años.
+  - Nivel educativo: Secundaria completa, formación técnica o universitaria.
+  - Ocupación: Dueños, administradores o gestores de minimarkets.
+  - Nivel tecnológico: Medio, con uso frecuente de smartphones, computadoras y aplicaciones de gestión o comunicación.
+
+- **Aspectos Geográficos:**
+  - Ubicación: Lima Metropolitana.
+  - Zona geográfica: Distritos urbanos con presencia de minimarkets y comercios minoristas.
+  - Acceso: Usuarios con conexión a internet y acceso a dispositivos móviles o computadoras.
+
+- **Aspectos Psicográficos:**
+  - Interés por mejorar la organización y rentabilidad de su negocio.
+  - Buscan reducir pérdidas ocasionadas por productos vencidos o de baja rotación.
+  - Valoran tener mayor control sobre el inventario y las actividades de sus empleados.
+  - Interés en herramientas que faciliten la toma de decisiones.
+  - Preferencia por soluciones sencillas que no compliquen las operaciones del negocio.
+
+### Segmento: Empleados de minimarkets
+
+Este segmento está compuesto por trabajadores encargados de realizar actividades operativas dentro del minimarket, como la recepción de mercadería, reposición de productos, atención al cliente y actualización del inventario.
+
+- **Aspectos Demográficos:**
+  - Edad: 18 a 45 años.
+  - Nivel educativo: Secundaria completa, formación técnica o universitaria.
+  - Ocupación: Personal de atención, caja, almacén o reposición.
+  - Nivel tecnológico: Medio, familiarizados principalmente con smartphones y aplicaciones de uso cotidiano.
+
+- **Aspectos Geográficos:**
+  - Ubicación: Lima Metropolitana.
+  - Zona geográfica: Minimarkets ubicados principalmente en zonas urbanas y comerciales.
+  - Acceso: Personal con acceso a internet y dispositivos disponibles dentro del establecimiento.
+
+- **Aspectos Psicográficos:**
+  - Buscan realizar sus actividades de manera rápida y sencilla.
+  - Valoran herramientas que reduzcan el trabajo manual y repetitivo.
+  - Prefieren interfaces intuitivas y fáciles de aprender.
+  - Necesitan acceder rápidamente a información sobre stock y productos.
+  - Valoran tener claridad sobre las tareas y responsabilidades asignadas.
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
