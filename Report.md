@@ -2110,6 +2110,19 @@ Desde el Dashboard también dispone de accesos rápidos para:
 
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
+Para el landing Page se realizo wireframes de cada una de las pantallas del sitio.
+
+Pantalla 1:
+
+Pantalla 2:
+
+Pantalla 3:
+
+Pantalla 4:
+
+Pantalla 5:
+
+
 ### 4.3.2. Landing Page Mock-up
 
 ## 4.4. Web Applications UX/UI Design
