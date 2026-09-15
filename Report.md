@@ -2113,15 +2113,19 @@ Desde el Dashboard también dispone de accesos rápidos para:
 Para el landing Page se realizo wireframes de cada una de las pantallas del sitio.
 
 Pantalla 1:
+<img src="./recursos/Pantalla-1.png" alt="Pantalla 1">
 
 Pantalla 2:
+<img src="./recursos/Pantalla-2.png" alt="Pantalla 2">
 
 Pantalla 3:
+<img src="./recursos/Pantalla-3.png" alt="Pantalla 3">
 
 Pantalla 4:
+<img src="./recursos/Pantalla-4.png" alt="Pantalla 4">
 
 Pantalla 5:
-
+<img src="./recursos/Pantalla-5.png" alt="Pantalla 5">
 
 ### 4.3.2. Landing Page Mock-up
 
