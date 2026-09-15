@@ -458,8 +458,6 @@ Este segmento está compuesto por trabajadores encargados de realizar actividade
 | **Adiasoft** | Es un sistema ERP que cuenta con una solución específica para minimarkets, bodegas y retail. Ofrece punto de venta, inventario en tiempo real, códigos de barras, promociones, facturación electrónica, reportes y gestión de múltiples áreas del negocio. |
 ### 2.1.1. Análisis competitivo
 
-### 2.1.1. Análisis competitivo
-
 | Categoría | Aspecto | **BodeGo** | **Bsale** | **FácilVenta** | **Adiasoft** |
 |---|---|---|---|---|---|
 | **Perfil** | **Overview** | BodeGo es una aplicación web pensada para ayudar a minimarkets a llevar un mejor control de su inventario. Busca facilitar tareas como registrar productos, controlar lotes, revisar vencimientos, registrar mermas y consultar alertas. Además, diferencia las funciones que puede realizar un Administrador y un Empleado. | Bsale es una plataforma que reúne diferentes herramientas para manejar un negocio, como ventas, inventario, facturación electrónica y reportes. Permite que los movimientos realizados en el sistema actualicen el stock del negocio. | FácilVenta es un sistema peruano orientado a pequeños negocios como bodegas y minimarkets. Permite manejar ventas, inventario, facturación electrónica y productos próximos a vencer. | Adiasoft es un sistema de gestión empresarial que cuenta con soluciones para minimarkets y comercios. Permite manejar ventas, inventario, facturación, promociones y otras áreas del negocio. |
