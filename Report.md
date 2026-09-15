@@ -541,8 +541,6 @@ Respecto a una posible solución, el **66,7 % mencionó directamente que sería 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 
-# User Persona
-
 ## Administrador
 
 ![User Persona Administrador](https://github.com/SirEthan04/Repositorio_Aplicaciones_Web/blob/main/recursos/UserPersona-Administrador.jpg)
