@@ -1817,6 +1817,41 @@ Los mockups muestran una clara separación entre el Dashboard del Administrador 
 ---
 
 ### 4.2.2. Labeling Systems
+
+El sistema de etiquetado de BodeGo utiliza palabras breves y relacionadas directamente con las actividades realizadas en un minimarket. El objetivo es que Administradores y Empleados puedan reconocer cada función sin conocimientos técnicos.
+
+## Etiquetas Principales de Navegación
+
+- **Dashboard:** Resumen del estado actual del minimarket.
+- **Inventario:** Gestión y consulta de productos y stock.
+- **Vencimientos:** Control de productos y lotes próximos a caducar.
+- **Alertas:** Notificaciones sobre situaciones que requieren atención.
+- **Reportes:** Visualización de métricas e indicadores del negocio.
+- **Empleados:** Gestión del personal y permisos.
+- **Configuración:** Ajustes generales del sistema.
+
+## Etiquetas de Acciones
+
+- **“Nuevo producto”**: Registra un producto en el inventario.
+- **“Registrar ingreso”**: Añade unidades al stock.
+- **“Registrar salida”**: Registra productos que salen del inventario.
+- **“Registrar merma”**: Registra productos perdidos, dañados o vencidos.
+- **“Consultar inventario”**: Permite revisar productos disponibles.
+- **“Lanzar oferta”**: Permite aplicar una estrategia de liquidación.
+- **“Ver producto”**: Abre información detallada del producto.
+- **“Editar”**: Permite modificar información registrada.
+
+## Etiquetas Contextuales
+
+- **Éxito:** “Operación registrada correctamente”.
+- **Stock bajo:** “Quedan pocas unidades disponibles”.
+- **Stock crítico:** “Producto con stock crítico”.
+- **Próximo a vencer:** “Producto próximo a vencer”.
+- **Vencido:** “Producto vencido”.
+- **Error:** “No se pudo completar la operación. Inténtalo nuevamente”.
+
+---
+
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems
 ### 4.2.5. Navigation Systems
