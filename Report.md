@@ -2184,7 +2184,20 @@ Se plasma la identidad visual de la startup **Proxy** a través de su paleta cro
 <img src="./recursos/Landing-5.png" alt="Pantalla 5">
 
 ## 4.4. Web Applications UX/UI Design
+
+En este apartado se detalla el diseño visual y la experiencia interactiva que da vida a la plataforma web de **BodeGo**, un sistema concebido para optimizar la administración de almacenes, el seguimiento por lotes y la disminución de dificultades en minimarkets. Para lograrlo, la propuesta adopta metodologías de diseño centrado en el usuario, criterios de accesibilidad e inclusión, y los lineamientos de arquitectura de la información formulados en etapas previas, asegurando una conexión armónica con el Design System de la startup.
+
+Para su correcta comprensión, el contenido se despliega a través de cuatro ejes temáticos principales: en primer lugar, los **Wireframes**, los cuales establecen los cimientos estructurales y la jerarquía de los elementos en cada interfaz; en segundo lugar, los **Wireflow Diagrams**, que plasman de qué manera se conecta una pantalla con otra en función de los propósitos operativos de cada perfil; en tercer lugar, los **Mock-ups**, encargados de llevar la interfaz a una etapa de alta fidelidad visual aplicando la identidad corporativa y la guía de estilos; y finalmente, los **User Flow Diagrams**, que conectan estas maquetas con los recorridos ideales y las rutas de contingencia o error, que se pueden presentar durante la navegación.
+
+El desarrollo de la interfaz contempla las necesidades de dos perfiles clave: **El dueño y/o administrador del minimarket**, busca supervisar la rentabilidad y prevenir pérdidas por artículos caducados; y **Empleado o asistente**, colaborador de mostrador y cajero encargado de ejecutar los registros cotidianos de entradas, salidas y escaneo de stock. De este modo, cada funcionalidad e interacción descrita en el sistema atiende directamente a las expectativas, retos y dolores detectados en sus respectivas fichas de caracterización.
+
 ### 4.4.1. Web Applications Wireframes
+
+Los wireframes desarrollados para BodeGo representan la arquitectura estructural de baja a media fidelidad de la plataforma web, orientada a la gestión eficiente de inventarios y control preventivo de mermas. Cada pantalla fue concebida aplicando rigurosamente principios de jerarquía visual, consistencia de componentes y proximidad funcional, integrando criterios de diseño inclusivo e interfaz responsiva como áreas de interacción legibles, contraste optimizado para entornos operativos en punto de venta y etiquetado claro en cada acción ejecutable. Esta propuesta traduce directamente la arquitectura de información y el flujo de navegación validados en la especificación del sistema. Para su elaboración se empleó la herramienta Figma.
+
+En esta etapa se presentan las pantallas principales que articulan los módulos clave de la plataforma, estructuradas de acuerdo con los roles operativos del sistema
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.3. Web Applications Mock-ups
 ### 4.4.4. Web Applications User Flow Diagrams
