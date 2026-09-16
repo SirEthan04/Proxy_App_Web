@@ -2173,6 +2173,16 @@ Se plasma la identidad visual de la startup **Proxy** a través de su paleta cro
 
 - **Arquitectura de la Información:** El flujo de navegación guía lógicamente al usuario desde la introducción del problema de inventario hasta las soluciones tecnológicas y los canales concretos de conversión y contacto.
 
+<img src="./recursos/Landimg-1.png" alt="Landing 1">
+
+<img src="./recursos/Landing-2.png" alt="Pantalla 2">
+
+<img src="./recursos/Landing-3.png" alt="Pantalla 3">
+
+<img src="./recursos/Landing-4.png" alt="Pantalla 4">
+
+<img src="./recursos/Landing-5.png" alt="Pantalla 5">
+
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 ### 4.4.2. Web Applications Wireflow Diagrams
