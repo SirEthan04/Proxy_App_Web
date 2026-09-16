@@ -2146,33 +2146,32 @@ Se plasma la identidad visual de la startup **Proxy** a través de su paleta cro
 
 **Estructura visual:**
 
-# **Cabecera:** Diseñada en una franja horizontal superior de tono gris acero con alineación flexible. Contiene el logotipo corporativo a la izquierda, los enlaces de redireccionamiento interno (*Solución*, *Tecnología*, *Cómo Funciona*, *Nosotros*) centrados, y un botón de llamada a la acción principal (*Regístrate*) con tipografía en negrita y diseño interactivo.
+- **Cabecera (Navbar):** Diseñada en una franja horizontal superior de tono gris acero con alineación flexible. Contiene el logotipo corporativo a la izquierda, los enlaces de redireccionamiento interno (*Solución*, *Tecnología*, *Cómo Funciona*, *Nosotros*) centrados, y un botón de llamada a la acción principal (*Regístrate*) con tipografía en negrita y diseño interactivo.
 
-# **Sección Principal:** Se compone de un diseño a doble columna con amplio espaciado en blanco. Del lado izquierdo presenta el título principal de impacto (*"Controla tu inventario sin complicaciones"*), seguido del subtítulo con acento azul (*"Optimiza tu minimarket y reduce dificultades"*), el párrafo descriptivo sobre la centralización de stock y control de lotes, y el botón de llamada a la acción secundario (*"Solicitar Consulta"*). Del lado derecho, se ubica una imagen de alta calidad con bordes redondeados y sombra elegante que retrata a un operador gestionando el almacén con una tablet y un portapapeles.
+- **Sección Principal (Hero):** Se compone de un diseño a doble columna con amplio espaciado en blanco. Del lado izquierdo presenta el título principal de impacto (*"Controla tu inventario sin complicaciones"*), seguido del subtítulo con acento azul (*"Optimiza tu minimarket y reduce dificultades"*), el párrafo descriptivo sobre la centralización de stock y control de lotes, y el botón de llamada a la acción secundario (*"Solicitar Consulta"*). Del lado derecho, se ubica una imagen de alta calidad con bordes redondeados y sombra elegante que retrata a un operador gestionando el almacén con una tablet y un portapapeles.
 
-# **Sección Propuesta de Valor / Características:** Estructurada sobre un fondo de color sólido azul grisáceo que genera contraste visual. Muestra un título principal (*"Nuestra Propuesta"*) y un subtítulo descriptivo sobre las necesidades reales del sector, organizando debajo tres tarjetas blancas en grilla que detallan los pilares del sistema: **Control de lotes** (con gráficos alusivos al monitoreo de entradas, salidas y fechas de caducidad), **Alertas** (enfocada en priorizar productos próximos a vencer para evitar pérdidas) y **Doble Rol** (destacando las interfaces segmentadas y seguras para administradores y empleados).
+- **Sección Propuesta de Valor / Características:** Estructurada sobre un fondo de color sólido azul grisáceo que genera contraste visual. Muestra un título principal (*"Nuestra Propuesta"*) y un subtítulo descriptivo sobre las necesidades reales del sector, organizando debajo tres tarjetas blancas en grilla que detallan los pilares del sistema: **Control de lotes** (con gráficos alusivos al monitoreo de entradas, salidas y fechas de caducidad), **Alertas** (enfocada en priorizar productos próximos a vencer para evitar pérdidas) y **Doble Rol** (destacando las interfaces segmentadas y seguras para administradores y empleados).
 
-# **Sección Nuestras Soluciones:** Presenta las herramientas tecnológicas mediante una cuadrícula de cuatro bloques modulares de tono gris oscuro con textos en blanco. Detalla las capacidades operativas del sistema bajo el lema *"Tecnología ágil para tu día a día"*:
+- **Sección Nuestras Soluciones:** Presenta las herramientas tecnológicas mediante una cuadrícula de cuatro bloques modulares de tono gris oscuro con textos en blanco. Detalla las capacidades operativas del sistema bajo el lema *"Tecnología ágil para tu día a día"*:
 
-  # *Gestión Centralizada:* Acceso en tiempo real al inventario desde cualquier dispositivo web.
-  # *Reportes Analíticos:* Visualización de indicadores de rotación, stock crítico y pérdidas.
-  # *Ofertas Estratégicas:* Creación de promociones automáticas para dar salida rápida a baja rotación.
-  # *Auditoría y Seguridad:* Registro detallado de cada operación realizada por el personal.
+  - *Gestión Centralizada:* Acceso en tiempo real al inventario desde cualquier dispositivo web.
+  - *Reportes Analíticos:* Visualización de indicadores de rotación, stock crítico y pérdidas.
+  - *Ofertas Estratégicas:* Creación de promociones automáticas para dar salida rápida a baja rotación.
+  - *Auditoría y Seguridad:* Registro detallado de cada operación realizada por el personal.
   
-# **Sección de Impacto:** Ubicada sobre un fondo oscuro, expone los beneficios directos cuantificables para el negocio mediante dos tarjetas modulares informativas: la *Reducción de dificultades* (disminución de pérdidas por productos perecibles vencidos) y el *Ahorro de tiempo* (eliminación de cuadernos físicos y agilización del registro diario).
+- **Sección de Impacto:** Ubicada sobre un fondo oscuro, expone los beneficios directos cuantificables para el negocio mediante dos tarjetas modulares informativas: la *Reducción de dificultades* (disminución de pérdidas por productos perecibles vencidos) y el *Ahorro de tiempo* (eliminación de cuadernos físicos y agilización del registro diario).
 
-# **Sección de Contacto:** Diseñada con un contenedor central de fondo claro y bordes sutiles que alberga un formulario interactivo estructurado con campos específicos para nombre completo, correo electrónico, teléfono de contacto y un área de texto para los detalles o requerimientos del negocio, coronado por un botón principal de envío (*"Enviar Consulta"*).
+- **Sección de Contacto:** Diseñada con un contenedor central de fondo claro y bordes sutiles que alberga un formulario interactivo estructurado con campos específicos para nombre completo, correo electrónico, teléfono de contacto y un área de texto para los detalles o requerimientos del negocio, coronado por un botón principal de envío (*"Enviar Consulta"*).
 
-# **Zona Inferior (Pie de página / Footer):** Extensión de cierre con fondo gris institucional que distribuye la información corporativa en columnas ordenadas: el logotipo de BodeGo, secciones de navegación rápida, enlaces legales e institucionales de la startup Proxy, y datos directos de contacto (teléfono, correo corporativo y ubicación en Lima, Perú), finalizando con la barra de derechos reservados.
+- **Zona Inferior (Pie de página / Footer):** Extensión de cierre con fondo gris institucional que distribuye la información corporativa en columnas ordenadas: el logotipo de BodeGo, secciones de navegación rápida, enlaces legales e institucionales de la startup Proxy, y datos directos de contacto (teléfono, correo corporativo y ubicación en Lima, Perú), finalizando con la barra de derechos reservados.
 
 **Aplicación de guía de estilos y principios de diseño:**
 
-# **Jerarquía tipográfica:** Se implementaron tamaños claros y contrastados, utilizando títulos principales destacados de gran tamaño, subtítulos de apoyo y textos base legibles que facilitan un recorrido visual rápido y escaneable.
+- **Jerarquía tipográfica:** Se implementaron tamaños claros y contrastados, utilizando títulos principales destacados de gran tamaño, subtítulos de apoyo y textos base legibles que facilitan un recorrido visual rápido y escaneable.
 
-# **Diseño Responsivo:** La estructura se adapta de manera fluida mediante contenedores basados en grillas flexibles, garantizando una correcta visualización tanto en equipos de escritorio como en pantallas de dispositivos móviles.
+- **Diseño Responsivo:** La estructura se adapta de manera fluida mediante contenedores basados en grillas flexibles, garantizando una correcta visualización tanto en equipos de escritorio como en pantallas de dispositivos móviles.
 
-# **Arquitectura de la Información:** El flujo de navegación guía lógicamente al usuario desde la introducción del problema de inventario hasta las soluciones tecnológicas y los canales concretos de conversión y contacto.
-
+- **Arquitectura de la Información:** El flujo de navegación guía lógicamente al usuario desde la introducción del problema de inventario hasta las soluciones tecnológicas y los canales concretos de conversión y contacto.
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
