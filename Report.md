@@ -2255,6 +2255,33 @@ Para el desarrollo de BodeGo se establecerán un conjunto de herramientas que pe
 
 - **Structurizr:** Se utilizará para modelar y documentar la arquitectura de software de BodeGo mediante diagramas basados en el modelo C4. Permitirá representar la estructura general del sistema, sus principales contenedores, componentes y relaciones.
 
+## . Product UX/UI Design
+
+- **Figma:** Una herramienta de colaboración que facilita el desarrollo conjunto de wireframes y mockups.
+
+- **LucidChart:** Una herramienta colaborativa que posibilita la creación conjunta de wireframes flow y mockups flow.
+
+## . Software Development
+
+- **HTML5:** Es un lenguaje de etiquetado utilizado para crear la estructura de una página web. Se empleará para incluir componentes como texto, imágenes, enlaces, botones y videos.
+
+- **CSS:** Es un lenguaje de diseño gráfico utilizado para dar formato y estilo a la presentación de los documentos HTML.
+
+- **JavaScript:** Es un lenguaje de programación dinámico orientado a objetos que se utilizará para implementar funcionalidades e interactividad en la aplicación web.
+
+- **WebStorm:** Es un entorno de desarrollo integrado (IDE) que se empleará para trabajar con JavaScript y desarrollar la aplicación.
+
+## . Software Testing
+
+- **Lenguaje Gherkin:** Es un Lenguaje Específico de Dominio (DSL) diseñado para describir el comportamiento esperado del sistema mediante escenarios comprensibles tanto para desarrolladores como para otros integrantes del equipo.
+
+## . Software Documentation
+
+- **GitHub:** Es una plataforma utilizada para el alojamiento y control de versiones del código fuente de un proyecto. Facilita el trabajo colaborativo entre los integrantes del equipo y permite mantener un historial de los cambios realizados.
+
+## . Software Deployment
+
+- **GitHub Pages:** Es una plataforma que permite realizar despliegues de aplicaciones web directamente desde un repositorio de GitHub.
 
 ### 5.1.2. Source Code Management
 
