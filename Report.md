@@ -1,17 +1,20 @@
 # Carátula
 
-<p align="center">
-  <img src="http://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="100" alt="Descripción">
-</p>
+![UPC](Recursos/images/upc.png)
 
-<p align="center"><b>Universidad Peruana de Ciencias Aplicadas S.A.C.</b></p>
-<p align="center"><b>Ingeniería de Software</b></p>
-<p align="center"><b>Ciclo: 5</b></p>
-<p align="center"><b>1ASI0730-2620</b></p>
-<p align="center"><b>Aplicaciones Web</b></p>
-<p align="center"><b>NRC: 8074</b></p>
-<p align="center"><b>Docente: Alex Humberto Sánchez Ponce</b></p>
+**Universidad Peruana de Ciencias Aplicadas S.A.C.**
 
+**Ingeniería de Software**
+
+**Ciclo: 5**
+
+**1ASI0730-2620**
+
+**Aplicaciones Web**
+
+**NRC: 8074**
+
+**Docente: Alex Humberto Sánchez Ponce**
 ---
 
 ### **Informe de Trabajo Final**
@@ -169,6 +172,11 @@
 
 # Student Outcome
 
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+| --- | --- | --- |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Mateo Caldas Bravo** <br><br> AV1: Lideré la organización inicial del equipo mediante la coordinación de reuniones y distribución de actividades. Realicé aportes en la definición de la propuesta de valor de BodeGo, identificación del problema y revisión de los avances realizados durante esta primera etapa. <br><br> **Johan Alvaro Saravia Hiso** <br><br> AV1: Realicé el análisis inicial del usuario objetivo y colaboré en la recopilación de información sobre las necesidades de los minimarkets. Aporté ideas que permitieron orientar la solución hacia una problemática real identificada. <br><br> **Dany Yohel Chavez Sandoval** <br><br> AV1: Aporté conocimientos relacionados con la propuesta tecnológica del proyecto, analizando la estructura inicial de la plataforma y brindando ideas sobre los componentes necesarios para el desarrollo futuro de BodeGo. <br><br> **Jhorch Jhoseff Blanco Medina** <br><br> AV1: Colaboré en la revisión de la propuesta inicial del proyecto, brindando observaciones y sugerencias para mejorar la definición de funcionalidades y características principales de la solución. <br><br> **Giordano Sebastian del Ángel Trejo Espejo** <br><br> AV1: Realicé la organización y revisión de la documentación inicial del proyecto, ayudando a mantener la información ordenada y alineada con los objetivos definidos por el equipo. | Durante la entrega AV1, logramos trabajar como un equipo organizado donde cada integrante asumió responsabilidades según sus habilidades. El liderazgo fue compartido mediante la comunicación constante, apoyo entre compañeros y participación conjunta en la toma de decisiones. <br><br> La colaboración permitió establecer una propuesta inicial sólida y definir las bases necesarias para continuar con el desarrollo del proyecto BodeGo. |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Mateo Caldas Bravo** <br><br> AV1: Organicé reuniones de coordinación y participé en la planificación de actividades necesarias para cumplir con los objetivos de la primera entrega. Ayudé a establecer prioridades relacionadas con la definición del problema, propuesta de valor y estructura inicial del proyecto. <br><br> **Johan Alvaro Saravia Hiso** <br><br> AV1: Colaboré durante las reuniones del equipo aportando ideas obtenidas del análisis del usuario objetivo. Ayudé a organizar la información recopilada y definir los aspectos importantes que debían considerarse en la solución. <br><br> **Dany Yohel Chavez Sandoval** <br><br> AV1: Participé en la planificación de las actividades relacionadas con la propuesta tecnológica, aportando ideas sobre la estructura de la plataforma y los elementos necesarios para el desarrollo posterior del producto. <br><br> **Jhorch Jhoseff Blanco Medina** <br><br> AV1: Apoyé en la coordinación del trabajo grupal mediante la revisión de avances y planteamiento de mejoras. Colaboré con mis compañeros para mantener una organización adecuada de las tareas asignadas. <br><br> **Giordano Sebastian del Ángel Trejo Espejo** <br><br> AV1: Realicé seguimiento de los avances del equipo y colaboré en la revisión de documentos para asegurar que los entregables mantuvieran coherencia con los objetivos establecidos para esta etapa. | Durante la entrega AV1, establecimos un ambiente colaborativo donde cada integrante pudo expresar sus ideas y participar en la toma de decisiones. La planificación de actividades y comunicación constante permitió cumplir con los objetivos planteados para esta primera etapa del proyecto. <br><br> Como equipo logramos organizar nuestras responsabilidades y combinar nuestros conocimientos para desarrollar una propuesta alineada con las necesidades identificadas en BodeGo. |
+
 ---
 
 # Capítulo I: Introducción
@@ -190,8 +198,28 @@
 ### 1.1.2. Perfiles de integrantes del equipo
 | **Mateo Caldas Bravo (U20241G404)** |
 | :--- |
-| Soy un estudiante de 19 años cursando el quito ciclo de la carrera de Ingeniería de Software. Considero que mi capacidad de tener un enfoque analítico y la eficiencia de desarrollar una solución eficiente. Mis habilidades blandas me permiten empatizar con los usuarios y acompañado de mi resiliencia, compromiso y productividad me permiten realizar propuestas mas estructuradas y optimas. |
-| Foto |
+| Soy un estudiante de 19 años cursando el quinto ciclo de la carrera de Ingeniería de Software. Considero que mi capacidad de tener un enfoque analítico y la eficiencia de desarrollar una solución eficiente. Mis habilidades blandas me permiten empatizar con los usuarios y acompañado de mi resiliencia, compromiso y productividad me permiten realizar propuestas mas estructuradas y optimas. |
+| ![Foto Mateo](https://github.com/SirEthan04/Proxy_Open_Source/blob/main/Recursos/images/mateofoto.jpg) |
+
+| **Johan Alvaro Saravia Hiso (U202421082)** |
+| :--- |
+| Soy un estudiante de 20 años actualmente en el quinto ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable y comprometida con los demás, especialmente al trabajar en equipo. Tengo facilidad para analizar problemas y buscar soluciones prácticas. Además, procuro escuchar y comprender las ideas de mis compañeros para lograr un buen trabajo en conjunto. |
+| ![Foto Johan](https://github.com/SirEthan04/Proxy_Open_Source/blob/main/Recursos/images/johanfoto.jpg) |
+
+| **Chavez Sandoval, Dany Yohel (U20241G610)** |
+| :--- |
+| Soy un estudiante de 20 años actualmente en el quinto ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable y comprometida con los demás, especialmente al trabajar en equipo. Tengo facilidad para analizar problemas y buscar soluciones prácticas. Además, procuro escuchar y comprender las ideas de mis compañeros para lograr un buen trabajo en conjunto. |
+| ![Flujo Dany](https://github.com/SirEthan04/Proxy_Open_Source/blob/main/Recursos/images/danyfoto.jpg) |
+
+| **Blanco Medina, Jhorch Jhoseff (U20241F385)** |
+| :--- |
+| Soy un estudiante de 20 años actualmente en el quinto ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable y comprometida con los demás, especialmente al trabajar en equipo. Tengo facilidad para analizar problemas y buscar soluciones prácticas. Además, procuro escuchar y comprender las ideas de mis compañeros para lograr un buen trabajo en conjunto. |
+| ![Foto Jhorch](https://github.com/SirEthan04/Proxy_Open_Source/blob/main/Recursos/images/jhorch%20foto.jpg) |
+
+| **Trejo Espejo, Giordano Sebastian del Ángel (U202316162)** |
+| :--- |
+| Soy un estudiante de 20 años actualmente en el quinto ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable y comprometida con los demás, especialmente al trabajar en equipo. Tengo facilidad para analizar problemas y buscar soluciones prácticas. Además, procuro escuchar y comprender las ideas de mis compañeros para lograr un buen trabajo en conjunto. |
+| ![Foto Gio](https://github.com/SirEthan04/Proxy_Open_Source/blob/main/Recursos/images/giofoto.jpg) |
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
@@ -451,6 +479,13 @@ Este segmento está compuesto por trabajadores encargados de realizar actividade
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
+
+| Competidor | Descripción |
+|---|---|
+| **Bsale** | Es una plataforma de gestión comercial orientada a pequeñas y medianas empresas. Integra punto de venta, facturación electrónica, control de inventario en tiempo real y reportes. Cada venta o ingreso de mercadería puede actualizar automáticamente el stock, por lo que compite con BodeGo en el control y seguimiento del inventario. |
+| **FácilVenta** | Es un software peruano dirigido a negocios como bodegas, minimarkets y tiendas. Integra punto de venta, facturación electrónica SUNAT y gestión de inventario. Para minimarkets incluye funciones como lector de códigos de barras, control de stock mínimo y alertas de productos próximos a vencer, por lo que es uno de los competidores más cercanos a la propuesta de BodeGo. |
+| **Adiasoft** | Es un sistema ERP que cuenta con una solución específica para minimarkets, bodegas y retail. Ofrece punto de venta, inventario en tiempo real, códigos de barras, promociones, facturación electrónica, reportes y gestión de múltiples áreas del negocio. Se diferencia por tener un enfoque más amplio y empresarial que BodeGo. |
+### 2.1.1. Análisis competitivo
 | Competidor | Descripción |
 |---|---|
 | **Bsale** | Es una plataforma de gestión comercial orientada a pequeñas y medianas empresas. Integra punto de venta, facturación electrónica, control de inventario en tiempo real y reportes. Cada venta o ingreso puede actualizar automáticamente el stock. |
@@ -511,35 +546,35 @@ Como parte de la estrategia, se realizarían pruebas con minimarkets para mostra
 
 | |
 |---|
-| ![Imagen de la entrevista](recursos/imagenes/Admin3-Entrevista.png) |
-| **Nombres y apellidos:**  <br>**Edad:** 28  <br>**Distrito:** San Martin de Porrez  <br>**Resumen de la entrevista:** Lucía, de 28 años, trabaja como administradora de un minimarket en San Martín de Porres. Ella comenta que el control del inventario se realiza mediante un sistema POS, reportes en Excel y conteos físicos en las góndolas y el almacén. Sin embargo, existen diferencias frecuentes entre el stock registrado en el sistema y la cantidad real de productos, principalmente porque algunos productos dañados o retirados no siempre son registrados correctamente. <br><br>El control de los productos próximos a vencer se realiza de forma manual, revisando las fechas y aplicando el método FEFO, que consiste en colocar adelante los productos que vencen primero. A pesar de esto, suelen tener pequeñas pérdidas semanales por productos vencidos, especialmente yogures, embutidos y pan de molde. Para reducir estas pérdidas, Lucía coloca los productos próximos a vencer en zonas más visibles y aplica descuentos cuando faltan pocos días para su vencimiento. <br><br>Además, la comunicación sobre incidencias del inventario se realiza mediante el sistema, guías de remisión y un grupo de WhatsApp. Lucía considera que sería muy útil contar con una aplicación móvil que permita escanear códigos de barras, revisar el stock, las fechas de vencimiento y los pedidos en camino, además de recibir alertas cuando un producto esté por agotarse o próximo a vencer. <br><br>**URL:** |
+| ![Imagen de la entrevista](Recursos/images/Admin3-Entrevista.png) |
+| **Nombres y apellidos:** Lucia <br>**Edad:** 28  <br>**Distrito:** San Martin de Porrez  <br>**Resumen de la entrevista:** Lucía, de 28 años, trabaja como administradora de un minimarket en San Martín de Porres. Ella comenta que el control del inventario se realiza mediante un sistema POS, reportes en Excel y conteos físicos en las góndolas y el almacén. Sin embargo, existen diferencias frecuentes entre el stock registrado en el sistema y la cantidad real de productos, principalmente porque algunos productos dañados o retirados no siempre son registrados correctamente. <br><br>El control de los productos próximos a vencer se realiza de forma manual, revisando las fechas y aplicando el método FEFO, que consiste en colocar adelante los productos que vencen primero. A pesar de esto, suelen tener pequeñas pérdidas semanales por productos vencidos, especialmente yogures, embutidos y pan de molde. Para reducir estas pérdidas, Lucía coloca los productos próximos a vencer en zonas más visibles y aplica descuentos cuando faltan pocos días para su vencimiento. <br><br>Además, la comunicación sobre incidencias del inventario se realiza mediante el sistema, guías de remisión y un grupo de WhatsApp. Lucía considera que sería muy útil contar con una aplicación móvil que permita escanear códigos de barras, revisar el stock, las fechas de vencimiento y los pedidos en camino, además de recibir alertas cuando un producto esté por agotarse o próximo a vencer. <br><br>**URL:** https://drive.google.com/file/d/1-8vfUZq2TVlsaK8B5TCyhvH-dXwfndUl/view?usp=drive_link |
 
 | |
 |---|
-| ![Imagen de la entrevista](recursos/imagenes/Admin1-Entrevista.png) |
-| **Nombres y apellidos:** Jimmy Ruiz <br>**Edad:** 31 <br>**Distrito:** San Juan de Lurigancho <br><br>**Resumen de la entrevista:**  <br>Jimmy, administrador de un pequeño minimarket, comenta que actualmente controla el inventario de forma mixta: registra diariamente los movimientos en un cuaderno y, al finalizar la semana, pasa la información a una plantilla de Excel. Sin embargo, uno de los principales problemas es que durante las horas de mayor venta no siempre se registran correctamente todos los productos, lo que genera diferencias entre el stock registrado y el stock real. <br><br>El control de los productos próximos a vencer se realiza de manera manual. Los trabajadores revisan los estantes y el almacén mientras reponen o limpian los productos. A pesar de estas revisiones, se presentan pérdidas una o dos veces al mes, principalmente en productos como lácteos y panes que pueden quedar poco visibles al fondo de los estantes. <br><br>Cuando un producto está próximo a vencer o tiene poca rotación, lo colocan cerca de la caja o en zonas más visibles para facilitar su venta. También aplican descuentos o promociones para intentar recuperar la inversión antes de que el producto venza. <br><br>Jimmy menciona que las diferencias de stock ocurren casi todas las semanas, especialmente en golosinas, galletas, cereales y gaseosas, debido a errores de registro o consumo del personal. <br><br>Finalmente, considera importante contar con un sistema digital, principalmente desde el celular, que permita recibir alertas automáticas de bajo stock y vencimientos, generar reportes de los productos más vendidos y conectarse con un lector de códigos de barras para registrar fácilmente productos, pérdidas o roturas. <br><br>**URL:** |
+| ![Imagen de la entrevista](Recursos/images/Admin1-Entrevista.png) |
+| **Nombres y apellidos:** Jimmy Ruiz <br>**Edad:** 31 <br>**Distrito:** San Juan de Lurigancho <br><br>**Resumen de la entrevista:**  <br>Jimmy, administrador de un pequeño minimarket, comenta que actualmente controla el inventario de forma mixta: registra diariamente los movimientos en un cuaderno y, al finalizar la semana, pasa la información a una plantilla de Excel. Sin embargo, uno de los principales problemas es que durante las horas de mayor venta no siempre se registran correctamente todos los productos, lo que genera diferencias entre el stock registrado y el stock real. <br><br>El control de los productos próximos a vencer se realiza de manera manual. Los trabajadores revisan los estantes y el almacén mientras reponen o limpian los productos. A pesar de estas revisiones, se presentan pérdidas una o dos veces al mes, principalmente en productos como lácteos y panes que pueden quedar poco visibles al fondo de los estantes. <br><br>Cuando un producto está próximo a vencer o tiene poca rotación, lo colocan cerca de la caja o en zonas más visibles para facilitar su venta. También aplican descuentos o promociones para intentar recuperar la inversión antes de que el producto venza. <br><br>Jimmy menciona que las diferencias de stock ocurren casi todas las semanas, especialmente en golosinas, galletas, cereales y gaseosas, debido a errores de registro o consumo del personal. <br><br>Finalmente, considera importante contar con un sistema digital, principalmente desde el celular, que permita recibir alertas automáticas de bajo stock y vencimientos, generar reportes de los productos más vendidos y conectarse con un lector de códigos de barras para registrar fácilmente productos, pérdidas o roturas. <br><br>**URL:** https://drive.google.com/file/d/1eAsgHwrdiH4P3uMjAwPBXgNagRQ5b_eY/view?usp=drive_link |
 
 | |
 |---|
-| ![Imagen de la entrevista](recursos/imagenes/Admin2-Entrevista.png) |
-| **Nombres y apellidos:** Silvia Bravo <br>**Edad:** 49  <br>**Distrito:** Independencia <br><br>**Resumen de la entrevista:**  <br>Silvia Bravo, de 49 años, participa en la administración de un minimarket y explica que el control del stock se realiza revisando y contando los productos disponibles. Una de las principales dificultades es que, en ocasiones, la cantidad real no coincide con la cantidad que deberían tener registrada, por lo que deben estar pendientes constantemente del inventario. <br><br>La identificación de productos próximos a vencer se realiza revisando manualmente las fechas de vencimiento. Las pérdidas por vencimiento ocurren con frecuencia, especialmente en productos como yogur, leche y panes, ya que tienen una duración más corta. Para mantenerse comunicados sobre los cambios en el inventario, utilizan principalmente WhatsApp y un registro donde anotan información importante, como las fechas de vencimiento y los productos que ingresan. <br><br>Cuando un producto está próximo a vencer o tiene poca rotación, realizan ofertas, por ejemplo, combinándolo con otro producto que sí tiene mayor salida y reduciendo el precio para facilitar su venta. Los descuentos se aplican principalmente cuando los productos están cerca de vencer. Finalmente, Silvia considera que sería útil contar con un sistema digital que envíe alertas sobre los productos próximos a vencer y que también brinde orientación sobre qué acciones tomar para evitar pérdidas. <br><br>**URL:** |
+| ![Imagen de la entrevista](Recursos/images/Admin2-Entrevista.png) |
+| **Nombres y apellidos:** Silvia Bravo <br>**Edad:** 49  <br>**Distrito:** Independencia <br><br>**Resumen de la entrevista:**  <br>Silvia Bravo, de 49 años, participa en la administración de un minimarket y explica que el control del stock se realiza revisando y contando los productos disponibles. Una de las principales dificultades es que, en ocasiones, la cantidad real no coincide con la cantidad que deberían tener registrada, por lo que deben estar pendientes constantemente del inventario. <br><br>La identificación de productos próximos a vencer se realiza revisando manualmente las fechas de vencimiento. Las pérdidas por vencimiento ocurren con frecuencia, especialmente en productos como yogur, leche y panes, ya que tienen una duración más corta. Para mantenerse comunicados sobre los cambios en el inventario, utilizan principalmente WhatsApp y un registro donde anotan información importante, como las fechas de vencimiento y los productos que ingresan. <br><br>Cuando un producto está próximo a vencer o tiene poca rotación, realizan ofertas, por ejemplo, combinándolo con otro producto que sí tiene mayor salida y reduciendo el precio para facilitar su venta. Los descuentos se aplican principalmente cuando los productos están cerca de vencer. Finalmente, Silvia considera que sería útil contar con un sistema digital que envíe alertas sobre los productos próximos a vencer y que también brinde orientación sobre qué acciones tomar para evitar pérdidas. <br><br>**URL:** https://drive.google.com/file/d/1pg_DvKHgaqZ3YP34jLtGyl6jV7oni1yI/view?usp=drive_link |
 
 ### Segmento Empleados
 
 | |
 |---|
-| ![Imagen de la entrevista](recursos/imagenes/Empleado3-Entrevista.png) |
-| **Nombres y apellidos:** Joseph <br>**Edad:** 23 <br>**Distrito:** Puente Piedra <br><br>**Resumen:**  <br>Joseph trabaja en un minimarket realizando tareas de atención al cliente, registro de ventas, reposición de productos y control de almacén. Actualmente, las entradas y salidas de productos se registran manualmente en un cuaderno, lo que puede generar errores o confusiones, especialmente en las horas de mayor movimiento o cuando llega mercadería mientras se atiende a los clientes. <br><br>Para conocer el stock disponible, deben revisar y contar físicamente los productos en los estantes, lo cual puede resultar lento y complicado. La revisión de fechas de vencimiento también se realiza manualmente, generalmente cuando llega nueva mercadería. Si encuentran un producto vencido, lo retiran del estante y se lo comunican al administrador para evitar que llegue al cliente. <br><br>Joseph menciona que los errores en el inventario suelen ocurrir principalmente durante las horas de mayor venta, cuando hay más presión de trabajo. Los cambios de stock o problemas con los productos se comunican de forma verbal y mediante el cuaderno de registro. Además, considera que las tareas más tediosas son contar los productos y revisar uno por uno las fechas de vencimiento. <br><br>Finalmente, señala que sería útil contar con una herramienta digital sencilla que permita registrar entradas y salidas, consultar el stock disponible y facilitar el control del inventario, reduciendo así el tiempo y los errores del proceso manual. <br><br>**URL:** |
+| ![Imagen de la entrevista](Recursos/images/Empleado3-Entrevista.png) |
+| **Nombres y apellidos:** Joseph <br>**Edad:** 23 <br>**Distrito:** Puente Piedra <br><br>**Resumen:**  <br>Joseph trabaja en un minimarket realizando tareas de atención al cliente, registro de ventas, reposición de productos y control de almacén. Actualmente, las entradas y salidas de productos se registran manualmente en un cuaderno, lo que puede generar errores o confusiones, especialmente en las horas de mayor movimiento o cuando llega mercadería mientras se atiende a los clientes. <br><br>Para conocer el stock disponible, deben revisar y contar físicamente los productos en los estantes, lo cual puede resultar lento y complicado. La revisión de fechas de vencimiento también se realiza manualmente, generalmente cuando llega nueva mercadería. Si encuentran un producto vencido, lo retiran del estante y se lo comunican al administrador para evitar que llegue al cliente. <br><br>Joseph menciona que los errores en el inventario suelen ocurrir principalmente durante las horas de mayor venta, cuando hay más presión de trabajo. Los cambios de stock o problemas con los productos se comunican de forma verbal y mediante el cuaderno de registro. Además, considera que las tareas más tediosas son contar los productos y revisar uno por uno las fechas de vencimiento. <br><br>Finalmente, señala que sería útil contar con una herramienta digital sencilla que permita registrar entradas y salidas, consultar el stock disponible y facilitar el control del inventario, reduciendo así el tiempo y los errores del proceso manual. <br><br>**URL:** https://drive.google.com/file/d/1TD5vcQrjeOiQnoPlT7bziEpWkTBYGCBs/view?usp=drive_link |
 
 | |
 |---|
-| ![Imagen de la entrevista](recursos/imagenes/Empelado2-Entrevista.png) |
-| **Nombres y apellidos:*Andres Marzano*  <br>**Edad:** 20  <br>**Distrito:** San Juan de Lurigancho <br><br>**Resumen:**  <br>Andrés Marzano, de 20 años, tiene experiencia trabajando en atención al cliente y almacén. Explica que las entradas de productos se registraban después de verificar que la mercadería recibida coincidiera con la información del documento de entrega, para luego ingresarla en el sistema. Las salidas, por su parte, se registraban mediante boletas electrónicas. <br><br>Uno de los principales problemas era conocer con precisión la cantidad disponible de productos, especialmente cuando se trataba de artículos pequeños, ya que podían cometerse errores al contarlos. Esta tarea se volvía más complicada cuando, al mismo tiempo, tenían que atender a los clientes. <br><br>Para controlar los productos próximos a vencer, colocaban adelante los que tenían menor tiempo de vida útil y dejaban al fondo los productos recién llegados. Además, revisaban las fechas de vencimiento en los turnos de día y noche. Cuando un producto estaba cerca de vencer, trataban de darle prioridad a su venta; si ya quedaban pocos días y no se lograba vender, se registraba como merma para calcular las pérdidas. <br><br>Finalmente, Andrés señala que los mayores errores en el control del inventario se presentaban principalmente durante las mañanas, cuando había mayor cantidad de clientes y debían dividir su atención entre las ventas y las tareas de inventario. <br><br>**URL:** |
+| ![Imagen de la entrevista](Recursos/images/Empleado2-Entrevista.png) |
+| **Nombres y apellidos:** Andres Marzano <br>**Edad:** 20  <br>**Distrito:** San Juan de Lurigancho <br><br>**Resumen:**  <br>Andrés Marzano, de 20 años, tiene experiencia trabajando en atención al cliente y almacén. Explica que las entradas de productos se registraban después de verificar que la mercadería recibida coincidiera con la información del documento de entrega, para luego ingresarla en el sistema. Las salidas, por su parte, se registraban mediante boletas electrónicas. <br><br>Uno de los principales problemas era conocer con precisión la cantidad disponible de productos, especialmente cuando se trataba de artículos pequeños, ya que podían cometerse errores al contarlos. Esta tarea se volvía más complicada cuando, al mismo tiempo, tenían que atender a los clientes. <br><br>Para controlar los productos próximos a vencer, colocaban adelante los que tenían menor tiempo de vida útil y dejaban al fondo los productos recién llegados. Además, revisaban las fechas de vencimiento en los turnos de día y noche. Cuando un producto estaba cerca de vencer, trataban de darle prioridad a su venta; si ya quedaban pocos días y no se lograba vender, se registraba como merma para calcular las pérdidas. <br><br>Finalmente, Andrés señala que los mayores errores en el control del inventario se presentaban principalmente durante las mañanas, cuando había mayor cantidad de clientes y debían dividir su atención entre las ventas y las tareas de inventario. <br><br>**URL:** https://drive.google.com/file/d/1BCO2lHzXeeZyN7DED3hQVZv_ULh0Zdx2/view?usp=drive_link |
 
 | |
 |---|
-| ![Imagen de la entrevista](recursos/imagenes/Empleado1-Entrevista.png) |
-| **Nombres y apellidos:** Pablo Moreno <br>**Edad:** 20  <br>**Distrito:** Callao <br><br>**Resumen:**  <br>Pablo Moreno, empleado de un minimarket, explica que las entradas y salidas de productos se registran principalmente de forma manual y, en algunos casos, mediante Excel. Este proceso no siempre se actualiza de inmediato, por lo que a veces existen diferencias entre el stock registrado y la cantidad real disponible, especialmente en productos de alta rotación o durante las horas de mayor atención. La revisión de productos próximos a vencer también se realiza manualmente, verificando las fechas directamente en los productos. Cuando un producto está vencido se retira de la venta, mientras que los productos próximos a vencer pueden colocarse en zonas más visibles o venderse con descuento. Pablo también menciona que los errores suelen ocurrir cuando hay muchos clientes o cuando llega bastante mercadería al mismo tiempo. Los problemas de stock se comunican personalmente o por WhatsApp, aunque la información puede perderse entre tantos mensajes. Finalmente, considera que sería útil contar con un sistema digital accesible desde el celular o computadora que permita registrar entradas y salidas, actualizar el stock rápidamente y recibir alertas sobre productos próximos a vencer. <br><br>**URL:** |
+| ![Imagen de la entrevista](Recursos/images/Empleado1-Entrevista.png) |
+| **Nombres y apellidos:** Pablo Moreno <br>**Edad:** 20  <br>**Distrito:** Callao <br><br>**Resumen:**  <br>Pablo Moreno, empleado de un minimarket, explica que las entradas y salidas de productos se registran principalmente de forma manual y, en algunos casos, mediante Excel. Este proceso no siempre se actualiza de inmediato, por lo que a veces existen diferencias entre el stock registrado y la cantidad real disponible, especialmente en productos de alta rotación o durante las horas de mayor atención. La revisión de productos próximos a vencer también se realiza manualmente, verificando las fechas directamente en los productos. Cuando un producto está vencido se retira de la venta, mientras que los productos próximos a vencer pueden colocarse en zonas más visibles o venderse con descuento. Pablo también menciona que los errores suelen ocurrir cuando hay muchos clientes o cuando llega bastante mercadería al mismo tiempo. Los problemas de stock se comunican personalmente o por WhatsApp, aunque la información puede perderse entre tantos mensajes. Finalmente, considera que sería útil contar con un sistema digital accesible desde el celular o computadora que permita registrar entradas y salidas, actualizar el stock rápidamente y recibir alertas sobre productos próximos a vencer. <br><br>**URL:** https://drive.google.com/file/d/1_V2W7VMWYRneIBc2ZAb0kEKlw-TLDnwO/view?usp=drive_link |
 
 
 
@@ -564,17 +599,19 @@ Respecto a una posible solución, el **66,7 % mencionó directamente que sería 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 
-## Administrador
+---
+Administrador
 
-![User Persona Administrador](recursos/imagenes/UserPersona-Administrador.jpg)
+![User Persona Administrador](Recursos/images/UserPersona-Administrador.jpg)
 
-## Empleado
+---
+Empleado
 
-![User Persona Empleado](recursos/imagenes/UserPersona-Empleado.jpg)
+![User Persona Empleado](Recursos/images/UserPersona-Empleado.jpg)
 
 ### 2.3.2. User Task Matrix
-
-## Administradores
+---
+ Administradores
 
 | Tareas identificadas | Frecuencia | Importancia | Evidencia / Justificación |
 |---|---|---|---|
@@ -588,8 +625,8 @@ Respecto a una posible solución, el **66,7 % mencionó directamente que sería 
 | Gestionar empleados y permisos | Baja | Media | El administrador debe controlar qué empleados tienen acceso al sistema y las acciones que pueden realizar según su rol. |
 | Configurar parámetros de stock y vencimiento | Baja | Media | Permite adaptar las alertas y reglas de inventario a las necesidades particulares del minimarket. |
 | Identificar productos con mayor cantidad de mermas | Media | Alta | Conocer qué productos generan más pérdidas facilita tomar decisiones sobre compras, rotación y promociones. |
-
-## Empleados
+---
+ Empleados
 
 | Tareas identificadas | Frecuencia | Importancia | Evidencia / Justificación |
 |---|---|---|---|
@@ -636,15 +673,32 @@ Respecto a una posible solución, el **66,7 % mencionó directamente que sería 
 
 ## Administrador
 
-![Empathy Map Administrador](recursos/imagenes/EmphathyMapping-Administrador.jpg)
+![Empathy Map Administrador](Recursos/images/EmphathyMapping-Administrador.jpg)
 
 ## Empleado
 
-![Empathy Map Empleado](recursos/imagenes/EmphathyMapping-Empleado.jpg)
+![Empathy Map Empleado](Recursos/images/EmphathyMapping-Empleado.jpg)
 
 ## 2.4. Big Picture EventStorming
 
+Nuestro equipo se enfocó en el dominio del negocio de los minimarkets, identificando los Domain Events más significativos a lo largo de la línea de tiempo operativo, desde que la mercadería ingresa al local hasta que es vendida o registrada como merma.
+A continuación se identificaron los siguientes flujos principales a través de Domain Events.
+
+![Big Picture EventStorming](Recursos/images/Bigpicture-eventstorming.png)
+
 ## 2.5. Ubiquitous Language
+
+Para asegurar que entre los miembros del equipo y los stakeholders se comuniquen sin ambigüedades, se definieron los términos específicos correspondientes al Business Domain de BodeGo. Todos los términos tienen su nomenclatura en inglés.
+
+- **Product:** Artículo físico que se comercializa en el minimarket. Contiene información general como nombre, código de barras y categoría.
+- **Batch:** Conjunto de unidades de un mismo producto que ingresan al inventario en la misma fecha, también comparten la misma fecha de vencimiento.
+- **Stock / Inventory:** Cantidad física actual disponible de un producto o lote específico dentro del minimarket.
+- **Wastage:** Unidades de un producto que son retiradas del inventario, pudiendo ser por daño físico, vencimiento o robo.
+- **Expiration Date:** Día límite establecido por el fabricante para el consumo seguro de un lote.
+- **Threshold:** Límite preestablecido por el administrador que al ser sobrepasado, activa una alerta, como por ejemplo Stock mínimo o Días previos al vencimiento.
+- **Inventory Movement:** Registro de auditoría que registra cualquier actualización en el Stock (Entrada, Salida, Ajuste o Merma).
+- **Offer:** Descuento de precio aplicado a un lote específico que se encuentre próximo a su fecha de vencimiento para acelerar su rotación.
+- **Role:** Conjunto de permisos asignados a un usuario, que puede ser Admin o Employee, que define a qué módulos y acciones tiene acceso dentro de BodeGo.
 
 # Capítulo III: Requirements Specification
 
@@ -652,1137 +706,168 @@ Respecto a una posible solución, el **66,7 % mencionó directamente que sería 
 
 Épicas
 
-| Epic ID | Nombre | Descripción |
-|---|---|---|
-| **EP01** | **Acceso, Roles y Configuración del Negocio** | **Como** responsable de una minimarket, **quiero** gestionar el acceso de administradores y empleados, así como los parámetros operativos del negocio, **para** asegurar que cada usuario utilice únicamente las funciones que le corresponden y que el sistema se adapte a la operación real del establecimiento. |
-| **EP02** | **Catálogo, Inventario y Gestión de Lotes** | **Como** administrador o empleado, **quiero** registrar productos, controlar existencias y gestionar lotes con fechas de vencimiento, **para** mantener un inventario confiable, actualizado y trazable. |
-| **EP03** | **Vencimientos, Mermas y Ofertas Estratégicas** | **Como** administrador, **quiero** detectar productos próximos a vencer, registrar mermas y generar ofertas estratégicas, **para** reducir pérdidas económicas y mejorar la rotación de productos perecibles. |
-| **EP04** | **Operación Diaria y Movimientos de Stock** | **Como** empleado, **quiero** registrar de forma rápida las operaciones diarias que afectan el inventario, **para** que el stock del sistema refleje lo que realmente ocurre en el punto de venta y almacén. |
-| **EP05** | **Reportes, Analítica y Alertas Operativas** | **Como** administrador, **quiero** visualizar indicadores, reportes y alertas sobre stock, ventas, rotación, vencimientos y mermas, **para** tomar decisiones operativas basadas en información actualizada. |
-| **EP06** | **Auditoría, Seguridad y Continuidad Operativa** | **Como** administrador, **quiero** contar con trazabilidad, controles de seguridad y herramientas de soporte, **para** proteger la información del negocio y supervisar las acciones realizadas dentro de BodeGo. |
+| **EPIC-01** | **Gestión de Presencia Digital y Landing Page** |
+|-------------|--------------------------------------------------|
+| **Descripción:** | **Como** negocio interesado en optimizar su operación, **quiero** conocer la propuesta de valor, funcionalidades y beneficios de BodeGo mediante una landing page clara y profesional **para** comprender cómo la plataforma ayuda a gestionar inventarios, reducir mermas y mejorar los procesos internos del minimarket. |
+
+<br>
+
+| **EPIC-02** | **Aplicación Web y Gestión Operativa** |
+|-------------|-----------------------------------------|
+| **Descripción:** | **Como** administrador o empleado, **quiero** contar con una aplicación web intuitiva con módulos organizados según mis necesidades operativas **para** gestionar inventario, productos y actividades diarias de manera rápida, sencilla y eficiente. |
+
+<br>
+
+| **EPIC-03** | **Control de Inventario y Productos** |
+|-------------|----------------------------------------|
+| **Descripción:** | **Como** administrador o empleado, **quiero** registrar, consultar y actualizar productos, cantidades, lotes y movimientos de inventario **para** mantener un control preciso del stock disponible y reducir diferencias entre el inventario físico y digital. |
+
+<br>
+
+| **EPIC-04** | **Gestión de Mermas, Alertas y Reportes Inteligentes** |
+|-------------|---------------------------------------------------------|
+| **Descripción:** | **Como** administrador, **quiero** visualizar alertas, indicadores y reportes sobre productos próximos a vencer, mermas y rotación de inventario **para** tomar decisiones oportunas que permitan reducir pérdidas y mejorar la rentabilidad del negocio. |
+
+<br>
+
+| **EPIC-05** | **Automatización de Procesos Operativos** |
+|-------------|--------------------------------------------|
+| **Descripción:** | **Como** administrador o empleado, **quiero** disponer de funcionalidades automatizadas para registrar operaciones, controlar vencimientos y gestionar acciones sobre productos críticos **para** agilizar las tareas diarias y mejorar la eficiencia del establecimiento. |
+
+<br>
+
+| **EPIC-06** | **Gestión de Usuarios y Seguridad del Sistema** |
+|-------------|-------------------------------------------------|
+| **Descripción:** | **Como** administrador o empleado, **quiero** contar con un sistema seguro de acceso, roles y permisos **para** proteger la información del negocio y garantizar que cada usuario pueda utilizar únicamente las funcionalidades correspondientes a su responsabilidad. |
 
 ---
 
 User Stories
 
-# EP01 — Acceso, Roles y Configuración del Negocio
-
-## US01 — Inicio de sesión
-
-**User Story ID:** US01  
-**Epic ID:** EP01  
-**Título:** Inicio de sesión
-
-### Descripción
-
-**Como** usuario registrado, **quiero** iniciar sesión con mis credenciales, **para** acceder de forma segura a BodeGo.
-
-### Acceptance Criteria
-
-**Scenario: Inicio de sesión exitoso**
-
-**Dado que** el usuario se encuentra registrado y su cuenta está activa,  
-**Cuando** ingresa credenciales válidas,  
-**Entonces** el sistema autentica al usuario y muestra la interfaz correspondiente a su rol.
-
----
-
-## US02 — Acceso según rol
-
-**User Story ID:** US02  
-**Epic ID:** EP01  
-**Título:** Acceso según rol
-
-### Descripción
-
-**Como** usuario, **quiero** visualizar una interfaz adaptada a mi rol de Administrador o Empleado, **para** acceder únicamente a las funciones que me corresponden.
-
-### Acceptance Criteria
-
-**Scenario: Redirección según rol**
-
-**Dado que** el usuario inició sesión correctamente,  
-**Cuando** el sistema identifica su rol,  
-**Entonces** muestra el panel administrativo o el panel operativo de empleado según corresponda.
-
----
-
-## US03 — Registro de empleados
-
-**User Story ID:** US03  
-**Epic ID:** EP01  
-**Título:** Registro de empleados
-
-### Descripción
-
-**Como** administrador, **quiero** crear cuentas para los empleados del negocio, **para** permitirles operar en el sistema con credenciales individuales.
-
-### Acceptance Criteria
-
-**Scenario: Crear cuenta de empleado**
-
-**Dado que** el administrador se encuentra en la gestión de usuarios,  
-**Cuando** registra los datos obligatorios de un nuevo empleado,  
-**Entonces** el sistema crea la cuenta con rol Empleado y deja registro de la creación.
-
----
-
-## US04 — Activación y desactivación de usuarios
-
-**User Story ID:** US04  
-**Epic ID:** EP01  
-**Título:** Activación y desactivación de usuarios
-
-### Descripción
-
-**Como** administrador, **quiero** activar o desactivar cuentas de empleados, **para** controlar quién puede acceder a la información del negocio.
-
-### Acceptance Criteria
-
-**Scenario: Desactivar empleado**
-
-**Dado que** existe una cuenta de empleado activa,  
-**Cuando** el administrador selecciona la opción de desactivar,  
-**Entonces** el sistema bloquea nuevos accesos de esa cuenta sin eliminar su historial.
-
----
-
-## US05 — Edición de perfil
-
-**User Story ID:** US05  
-**Epic ID:** EP01  
-**Título:** Edición de perfil
-
-### Descripción
-
-**Como** usuario, **quiero** actualizar mis datos personales y de contacto, **para** mantener correcta la información asociada a mi cuenta.
-
-### Acceptance Criteria
-
-**Scenario: Actualizar perfil**
-
-**Dado que** el usuario se encuentra autenticado,  
-**Cuando** modifica datos válidos y guarda los cambios,  
-**Entonces** el sistema actualiza la información y confirma la operación.
-
----
-
-## US06 — Configuración de datos del negocio
-
-**User Story ID:** US06  
-**Epic ID:** EP01  
-**Título:** Configuración de datos del negocio
-
-### Descripción
-
-**Como** administrador, **quiero** configurar nombre comercial, dirección, contacto y horarios, **para** mantener centralizada la información operativa del establecimiento.
-
-### Acceptance Criteria
-
-**Scenario: Actualizar datos del negocio**
-
-**Dado que** el administrador accede a la configuración general,  
-**Cuando** modifica los datos y confirma los cambios,  
-**Entonces** el sistema guarda la nueva configuración y la utiliza en los módulos correspondientes.
-
----
-
-## US07 — Configuración de umbrales de stock
-
-**User Story ID:** US07  
-**Epic ID:** EP01  
-**Título:** Configuración de umbrales de stock
-
-### Descripción
-
-**Como** administrador, **quiero** definir niveles de stock bajo y crítico, **para** recibir alertas de reposición adaptadas a mi operación.
-
-### Acceptance Criteria
-
-**Scenario: Definir umbral de stock**
-
-**Dado que** existe un producto registrado,  
-**Cuando** el administrador asigna valores de stock bajo y crítico válidos,  
-**Entonces** el sistema guarda los umbrales y los utiliza para clasificar el inventario.
-
----
-
-## US08 — Configuración de días de alerta de vencimiento
-
-**User Story ID:** US08  
-**Epic ID:** EP01  
-**Título:** Configuración de días de alerta de vencimiento
-
-### Descripción
-
-**Como** administrador, **quiero** definir cuántos días antes del vencimiento debe alertarme el sistema, **para** adaptar el control de perecibles a las políticas del negocio.
-
-### Acceptance Criteria
-
-**Scenario: Definir ventana de vencimiento**
-
-**Dado que** el administrador se encuentra en parámetros operativos,  
-**Cuando** registra una cantidad válida de días de anticipación,  
-**Entonces** el sistema guarda el parámetro y lo aplica a los lotes con fecha de vencimiento.
-
----
-
-# EP02 — Catálogo, Inventario y Gestión de Lotes
-
-## US09 — Registro de productos
-
-**User Story ID:** US09  
-**Epic ID:** EP02  
-**Título:** Registro de productos
-
-### Descripción
-
-**Como** administrador, **quiero** crear productos con su información comercial y operativa, **para** incorporarlos al catálogo interno y controlar sus existencias.
-
-### Acceptance Criteria
-
-**Scenario: Crear producto**
-
-**Dado que** el administrador accede al módulo de productos,  
-**Cuando** completa los campos obligatorios y confirma el registro,  
-**Entonces** el sistema crea el producto y lo deja disponible para movimientos de inventario.
-
----
-
-## US10 — Edición de productos
-
-**User Story ID:** US10  
-**Epic ID:** EP02  
-**Título:** Edición de productos
-
-### Descripción
-
-**Como** administrador, **quiero** modificar nombre, categoría, unidad, costo o precio de un producto, **para** mantener actualizada la información utilizada en la operación.
-
-### Acceptance Criteria
-
-**Scenario: Editar producto**
-
-**Dado que** existe un producto registrado,  
-**Cuando** el administrador modifica información válida,  
-**Entonces** el sistema guarda los cambios sin alterar el historial de movimientos previos.
-
----
-
-## US11 — Desactivación de productos
-
-**User Story ID:** US11  
-**Epic ID:** EP02  
-**Título:** Desactivación de productos
-
-### Descripción
-
-**Como** administrador, **quiero** desactivar productos que ya no comercializo, **para** evitar nuevos movimientos sin perder su historial.
-
-### Acceptance Criteria
-
-**Scenario: Desactivar producto**
-
-**Dado que** existe un producto activo,  
-**Cuando** el administrador confirma su desactivación,  
-**Entonces** el sistema impide nuevos registros operativos para el producto y conserva su historial.
-
----
-
-## US12 — Organización por categorías
-
-**User Story ID:** US12  
-**Epic ID:** EP02  
-**Título:** Organización por categorías
-
-### Descripción
-
-**Como** administrador, **quiero** clasificar los productos por categorías, **para** facilitar su búsqueda y análisis dentro del inventario.
-
-### Acceptance Criteria
-
-**Scenario: Asignar categoría**
-
-**Dado que** existen categorías disponibles,  
-**Cuando** el administrador selecciona una categoría para un producto,  
-**Entonces** el sistema guarda la clasificación y permite filtrar el producto por ella.
-
----
-
-## US13 — Búsqueda y filtros de inventario
-
-**User Story ID:** US13  
-**Epic ID:** EP02  
-**Título:** Búsqueda y filtros de inventario
-
-### Descripción
-
-**Como** administrador o empleado, **quiero** buscar productos por nombre, código, categoría o estado de stock, **para** encontrar rápidamente el artículo que necesito gestionar.
-
-### Acceptance Criteria
-
-**Scenario: Buscar producto**
-
-**Dado que** existen productos registrados,  
-**Cuando** el usuario ingresa un criterio de búsqueda o aplica un filtro,  
-**Entonces** el sistema muestra únicamente los productos que cumplen el criterio.
-
----
-
-## US14 — Ingreso de stock por lote
-
-**User Story ID:** US14  
-**Epic ID:** EP02  
-**Título:** Ingreso de stock por lote
-
-### Descripción
-
-**Como** empleado, **quiero** registrar el ingreso de mercadería indicando cantidad y lote, **para** actualizar el inventario cuando se recibe nueva mercadería.
-
-### Acceptance Criteria
-
-**Scenario: Registrar ingreso**
-
-**Dado que** existe un producto activo,  
-**Cuando** el empleado registra cantidad, lote y datos requeridos del ingreso,  
-**Entonces** el sistema incrementa el stock y registra el movimiento con fecha y usuario.
-
----
-
-## US15 — Registro de fecha de vencimiento por lote
-
-**User Story ID:** US15  
-**Epic ID:** EP02  
-**Título:** Registro de fecha de vencimiento por lote
-
-### Descripción
-
-**Como** empleado, **quiero** asociar una fecha de vencimiento a cada lote perecible, **para** permitir el control preventivo de productos próximos a caducar.
-
-### Acceptance Criteria
-
-**Scenario: Registrar vencimiento**
-
-**Dado que** el empleado está registrando un lote de un producto perecible,  
-**Cuando** ingresa una fecha de vencimiento válida,  
-**Entonces** el sistema asocia la fecha al lote y la considera en las alertas de caducidad.
-
----
-
-## US16 — Consulta de stock por lote
-
-**User Story ID:** US16  
-**Epic ID:** EP02  
-**Título:** Consulta de stock por lote
-
-### Descripción
-
-**Como** administrador o empleado, **quiero** visualizar las existencias separadas por lote, **para** conocer qué unidades deben utilizarse primero y mantener trazabilidad.
-
-### Acceptance Criteria
-
-**Scenario: Consultar lotes**
-
-**Dado que** un producto posee más de un lote con stock,  
-**Cuando** el usuario abre el detalle de inventario,  
-**Entonces** el sistema muestra cantidad disponible, fecha de ingreso y vencimiento de cada lote.
-
----
-
-## US17 — Ajuste manual de inventario
-
-**User Story ID:** US17  
-**Epic ID:** EP02  
-**Título:** Ajuste manual de inventario
-
-### Descripción
-
-**Como** administrador, **quiero** corregir diferencias de stock indicando cantidad y motivo, **para** alinear el inventario digital con el conteo físico cuando exista una discrepancia.
-
-### Acceptance Criteria
-
-**Scenario: Ajustar stock**
-
-**Dado que** existe una diferencia identificada en un producto,  
-**Cuando** el administrador registra el ajuste y un motivo obligatorio,  
-**Entonces** el sistema actualiza la existencia y guarda el ajuste en el historial de auditoría.
-
----
-
-## US18 — Conteo físico de inventario
-
-**User Story ID:** US18  
-**Epic ID:** EP02  
-**Título:** Conteo físico de inventario
-
-### Descripción
-
-**Como** administrador o empleado, **quiero** registrar un conteo físico de productos, **para** comparar las existencias reales con las registradas en BodeGo.
-
-### Acceptance Criteria
-
-**Scenario: Registrar conteo**
-
-**Dado que** el usuario inicia una revisión física,  
-**Cuando** ingresa las cantidades contadas para los productos seleccionados,  
-**Entonces** el sistema calcula diferencias y permite que un administrador revise los ajustes necesarios.
-
----
-
-# EP03 — Vencimientos, Mermas y Ofertas Estratégicas
-
-## US19 — Detección de productos próximos a vencer
-
-**User Story ID:** US19  
-**Epic ID:** EP03  
-**Título:** Detección de productos próximos a vencer
-
-### Descripción
-
-**Como** administrador, **quiero** visualizar automáticamente los lotes que se aproximan a su vencimiento, **para** actuar antes de que se conviertan en merma.
-
-### Acceptance Criteria
-
-**Scenario: Detectar lote próximo a vencer**
-
-**Dado que** existen lotes con fecha de vencimiento y una ventana de alerta configurada,  
-**Cuando** un lote ingresa dentro del período de alerta,  
-**Entonces** el sistema lo clasifica como próximo a vencer y lo muestra en el panel correspondiente.
-
----
-
-## US20 — Priorización por fecha de vencimiento
-
-**User Story ID:** US20  
-**Epic ID:** EP03  
-**Título:** Priorización por fecha de vencimiento
-
-### Descripción
-
-**Como** administrador o empleado, **quiero** ordenar los lotes perecibles por fecha de vencimiento, **para** dar salida primero a los productos con menor vida útil.
-
-### Acceptance Criteria
-
-**Scenario: Ordenar por vencimiento**
-
-**Dado que** existen varios lotes perecibles,  
-**Cuando** el usuario selecciona ordenar por vencimiento,  
-**Entonces** el sistema muestra primero los lotes con fecha más próxima.
-
----
-
-## US21 — Registro de merma
-
-**User Story ID:** US21  
-**Epic ID:** EP03  
-**Título:** Registro de merma
-
-### Descripción
-
-**Como** empleado, **quiero** registrar unidades perdidas, dañadas o vencidas indicando su motivo, **para** mantener el stock real y documentar las pérdidas operativas.
-
-### Acceptance Criteria
-
-**Scenario: Registrar merma**
-
-**Dado que** existe stock disponible del producto o lote,  
-**Cuando** el empleado indica cantidad y motivo de merma,  
-**Entonces** el sistema descuenta las unidades y registra la operación con fecha, usuario y causa.
-
----
-
-## US22 — Clasificación de motivos de merma
-
-**User Story ID:** US22  
-**Epic ID:** EP03  
-**Título:** Clasificación de motivos de merma
-
-### Descripción
-
-**Como** administrador, **quiero** definir y consultar categorías de merma, **para** identificar las principales causas de pérdida del negocio.
-
-### Acceptance Criteria
-
-**Scenario: Clasificar merma**
-
-**Dado que** existen movimientos de merma,  
-**Cuando** el administrador consulta el reporte por motivo,  
-**Entonces** el sistema agrupa las pérdidas por categorías como vencimiento, daño, rotura u otras configuradas.
-
----
-
-## US23 — Sugerencia automática de oferta
-
-**User Story ID:** US23  
-**Epic ID:** EP03  
-**Título:** Sugerencia automática de oferta
-
-### Descripción
-
-**Como** administrador, **quiero** recibir propuestas de oferta para lotes próximos a vencer, **para** reducir mermas mediante acciones comerciales oportunas.
-
-### Acceptance Criteria
-
-**Scenario: Generar sugerencia**
-
-**Dado que** un lote cumple las reglas configuradas de proximidad al vencimiento y tiene stock disponible,  
-**Cuando** el sistema evalúa el lote,  
-**Entonces** genera una sugerencia de oferta con producto, lote, cantidad y descuento propuesto.
-
----
-
-## US24 — Creación manual de oferta
-
-**User Story ID:** US24  
-**Epic ID:** EP03  
-**Título:** Creación manual de oferta
-
-### Descripción
-
-**Como** administrador, **quiero** crear una oferta para un producto o lote específico, **para** impulsar su rotación cuando lo considere necesario.
-
-### Acceptance Criteria
-
-**Scenario: Crear oferta**
-
-**Dado que** existe stock disponible para el producto o lote,  
-**Cuando** el administrador define precio o descuento y vigencia,  
-**Entonces** el sistema registra la oferta y la deja activa durante el período definido.
-
----
-
-## US25 — Aprobación de oferta sugerida
-
-**User Story ID:** US25  
-**Epic ID:** EP03  
-**Título:** Aprobación de oferta sugerida
-
-### Descripción
-
-**Como** administrador, **quiero** aprobar o editar una oferta sugerida por BodeGo, **para** mantener control sobre las promociones antes de aplicarlas.
-
-### Acceptance Criteria
-
-**Scenario: Aprobar sugerencia**
-
-**Dado que** existe una sugerencia automática pendiente,  
-**Cuando** el administrador revisa sus condiciones y selecciona aprobar,  
-**Entonces** el sistema activa la oferta con los valores confirmados.
-
----
-
-## US26 — Finalización automática de oferta
-
-**User Story ID:** US26  
-**Epic ID:** EP03  
-**Título:** Finalización automática de oferta
-
-### Descripción
-
-**Como** administrador, **quiero** hacer que las ofertas terminen cuando vence su vigencia o se agota el stock asociado, **para** evitar promociones inválidas en la operación diaria.
-
-### Acceptance Criteria
-
-**Scenario: Finalizar oferta**
-
-**Dado que** existe una oferta activa,  
-**Cuando** se alcanza su fecha de fin o el stock asignado llega a cero,  
-**Entonces** el sistema cambia la oferta a finalizada y evita nuevas aplicaciones.
-
----
-
-# EP04 — Operación Diaria y Movimientos de Stock
-
-## US27 — Registro rápido de venta
-
-**User Story ID:** US27  
-**Epic ID:** EP04  
-**Título:** Registro rápido de venta
-
-### Descripción
-
-**Como** empleado, **quiero** registrar los productos vendidos durante la atención, **para** descontar automáticamente las unidades del inventario.
-
-### Acceptance Criteria
-
-**Scenario: Registrar venta**
-
-**Dado que** los productos seleccionados tienen stock disponible,  
-**Cuando** el empleado registra cantidades y confirma la operación,  
-**Entonces** el sistema descuenta el stock y genera un movimiento de salida.
-
----
-
-## US28 — Aplicación de oferta en venta
-
-**User Story ID:** US28  
-**Epic ID:** EP04  
-**Título:** Aplicación de oferta en venta
-
-### Descripción
-
-**Como** empleado, **quiero** visualizar y aplicar ofertas vigentes al registrar una venta, **para** utilizar correctamente las promociones definidas por el administrador.
-
-### Acceptance Criteria
-
-**Scenario: Aplicar oferta vigente**
-
-**Dado que** un producto tiene una oferta activa y válida,  
-**Cuando** el empleado lo agrega a una operación de venta,  
-**Entonces** el sistema aplica las condiciones vigentes y muestra el precio resultante.
-
----
-
-## US29 — Validación de stock antes de venta
-
-**User Story ID:** US29  
-**Epic ID:** EP04  
-**Título:** Validación de stock antes de venta
-
-### Descripción
-
-**Como** empleado, **quiero** recibir una validación de disponibilidad antes de confirmar una salida, **para** evitar que el inventario quede con cantidades negativas.
-
-### Acceptance Criteria
-
-**Scenario: Evitar venta sin stock**
-
-**Dado que** la cantidad solicitada supera la existencia disponible,  
-**Cuando** el empleado intenta confirmar la operación,  
-**Entonces** el sistema bloquea la confirmación e informa el stock disponible.
-
----
-
-## US30 — Salida FEFO sugerida
-
-**User Story ID:** US30  
-**Epic ID:** EP04  
-**Título:** Salida FEFO sugerida
-
-### Descripción
-
-**Como** empleado, **quiero** recibir una sugerencia del lote que debe salir primero, **para** priorizar la venta de unidades con vencimiento más cercano.
-
-### Acceptance Criteria
-
-**Scenario: Sugerir lote de salida**
-
-**Dado que** un producto posee varios lotes disponibles con distintas fechas de vencimiento,  
-**Cuando** el empleado registra una salida,  
-**Entonces** el sistema propone primero el lote con vencimiento más próximo.
-
----
-
-## US31 — Registro de devolución de cliente
-
-**User Story ID:** US31  
-**Epic ID:** EP04  
-**Título:** Registro de devolución de cliente
-
-### Descripción
-
-**Como** empleado, **quiero** registrar una devolución e indicar si el producto retorna al stock, **para** mantener correctamente las existencias y el historial de operaciones.
-
-### Acceptance Criteria
-
-**Scenario: Registrar devolución**
-
-**Dado que** existe una venta previamente registrada,  
-**Cuando** el empleado selecciona el producto devuelto y su condición,  
-**Entonces** el sistema registra la devolución y repone stock únicamente cuando el producto es apto.
-
----
-
-## US32 — Registro de devolución a proveedor
-
-**User Story ID:** US32  
-**Epic ID:** EP04  
-**Título:** Registro de devolución a proveedor
-
-### Descripción
-
-**Como** administrador o empleado autorizado, **quiero** registrar unidades que salen del inventario para ser devueltas al proveedor, **para** controlar las salidas no asociadas a ventas.
-
-### Acceptance Criteria
-
-**Scenario: Registrar devolución a proveedor**
-
-**Dado que** existe stock del lote seleccionado,  
-**Cuando** el usuario autorizado registra cantidad y motivo,  
-**Entonces** el sistema descuenta las unidades y guarda el movimiento como devolución a proveedor.
-
----
-
-## US33 — Registro de recepción de mercadería
-
-**User Story ID:** US33  
-**Epic ID:** EP04  
-**Título:** Registro de recepción de mercadería
-
-### Descripción
-
-**Como** empleado, **quiero** registrar una recepción de productos de forma ágil, **para** actualizar existencias durante el abastecimiento diario.
-
-### Acceptance Criteria
-
-**Scenario: Recibir mercadería**
-
-**Dado que** el empleado tiene acceso al módulo de recepción,  
-**Cuando** registra productos, cantidades y lotes recibidos,  
-**Entonces** el sistema incrementa el stock y genera los movimientos de entrada correspondientes.
-
----
-
-## US34 — Historial diario de operaciones
-
-**User Story ID:** US34  
-**Epic ID:** EP04  
-**Título:** Historial diario de operaciones
-
-### Descripción
-
-**Como** empleado, **quiero** consultar las operaciones que registré durante mi turno, **para** verificar ventas, ingresos, devoluciones y mermas realizadas.
-
-### Acceptance Criteria
-
-**Scenario: Consultar operaciones del turno**
-
-**Dado que** el empleado ha registrado movimientos durante el día,  
-**Cuando** accede a su historial operativo,  
-**Entonces** el sistema muestra sus operaciones ordenadas por fecha y hora.
-
----
-
-## US35 — Corrección de operación reciente
-
-**User Story ID:** US35  
-**Epic ID:** EP04  
-**Título:** Corrección de operación reciente
-
-### Descripción
-
-**Como** empleado, **quiero** solicitar la corrección de una operación registrada por error, **para** evitar alterar el inventario sin trazabilidad.
-
-### Acceptance Criteria
-
-**Scenario: Solicitar corrección**
-
-**Dado que** existe una operación reciente registrada por el empleado,  
-**Cuando** selecciona corregir e indica el motivo,  
-**Entonces** el sistema registra la solicitud y exige autorización administrativa cuando la corrección afecta stock consolidado.
-
----
-
-## US36 — Cierre operativo del turno
-
-**User Story ID:** US36  
-**Epic ID:** EP04  
-**Título:** Cierre operativo del turno
-
-### Descripción
-
-**Como** empleado, **quiero** visualizar un resumen de los movimientos realizados antes de terminar mi turno, **para** comprobar que las operaciones del día quedaron registradas.
-
-### Acceptance Criteria
-
-**Scenario: Cerrar turno**
-
-**Dado que** el empleado tiene operaciones registradas en la jornada,  
-**Cuando** selecciona la opción de cierre,  
-**Entonces** el sistema muestra un resumen de ventas, entradas, devoluciones, ajustes autorizados y mermas del turno.
-
----
-
-# EP05 — Reportes, Analítica y Alertas Operativas
-
-## US37 — Dashboard administrativo
-
-**User Story ID:** US37  
-**Epic ID:** EP05  
-**Título:** Dashboard administrativo
-
-### Descripción
-
-**Como** administrador, **quiero** visualizar los principales indicadores del negocio en un solo panel, **para** conocer rápidamente el estado del inventario y la operación.
-
-### Acceptance Criteria
-
-**Scenario: Consultar dashboard**
-
-**Dado que** existen datos operativos registrados,  
-**Cuando** el administrador ingresa al panel principal,  
-**Entonces** el sistema muestra indicadores actualizados de stock, ventas, mermas, vencimientos y productos críticos.
-
----
-
-## US38 — Reporte de stock bajo y crítico
-
-**User Story ID:** US38  
-**Epic ID:** EP05  
-**Título:** Reporte de stock bajo y crítico
-
-### Descripción
-
-**Como** administrador, **quiero** consultar los productos que requieren reposición, **para** priorizar las compras y evitar quiebres de stock.
-
-### Acceptance Criteria
-
-**Scenario: Consultar stock crítico**
-
-**Dado que** existen productos por debajo de sus umbrales,  
-**Cuando** el administrador abre el reporte de reposición,  
-**Entonces** el sistema clasifica los productos por nivel bajo o crítico.
-
----
-
-## US39 — Reporte de productos próximos a vencer
-
-**User Story ID:** US39  
-**Epic ID:** EP05  
-**Título:** Reporte de productos próximos a vencer
-
-### Descripción
-
-**Como** administrador, **quiero** consultar los lotes en riesgo de vencimiento, **para** planificar ofertas, rotación o retiro oportuno.
-
-### Acceptance Criteria
-
-**Scenario: Consultar vencimientos**
-
-**Dado que** existen lotes dentro de la ventana de alerta,  
-**Cuando** el administrador abre el reporte de vencimientos,  
-**Entonces** el sistema muestra producto, lote, cantidad y días restantes ordenados por urgencia.
-
----
-
-## US40 — Reporte de mermas
-
-**User Story ID:** US40  
-**Epic ID:** EP05  
-**Título:** Reporte de mermas
-
-### Descripción
-
-**Como** administrador, **quiero** analizar las pérdidas por producto, motivo y período, **para** identificar patrones y reducir costos operativos.
-
-### Acceptance Criteria
-
-**Scenario: Analizar mermas**
-
-**Dado que** existen mermas registradas,  
-**Cuando** el administrador selecciona un período,  
-**Entonces** el sistema muestra cantidades y valor estimado de pérdida agrupados por producto y motivo.
-
----
-
-## US41 — Reporte de productos de alta rotación
-
-**User Story ID:** US41  
-**Epic ID:** EP05  
-**Título:** Reporte de productos de alta rotación
-
-### Descripción
-
-**Como** administrador, **quiero** identificar los productos con mayor frecuencia de salida, **para** priorizar reposición y ubicación física en el negocio.
-
-### Acceptance Criteria
-
-**Scenario: Consultar alta rotación**
-
-**Dado que** existen suficientes movimientos de salida,  
-**Cuando** el administrador consulta el análisis de rotación,  
-**Entonces** el sistema ordena los productos según su frecuencia o volumen de salida.
-
----
-
-## US42 — Clasificación Pareto 80/20
-
-**User Story ID:** US42  
-**Epic ID:** EP05  
-**Título:** Clasificación Pareto 80/20
-
-### Descripción
-
-**Como** administrador, **quiero** identificar los productos que concentran la mayor parte de las salidas o ventas, **para** enfocar la gestión en los artículos más relevantes.
-
-### Acceptance Criteria
-
-**Scenario: Calcular Pareto**
-
-**Dado que** existe historial suficiente de operaciones,  
-**Cuando** el administrador solicita el análisis Pareto,  
-**Entonces** el sistema clasifica los productos según su contribución acumulada y destaca el grupo de mayor impacto.
-
----
-
-## US43 — Alertas operativas
-
-**User Story ID:** US43  
-**Epic ID:** EP05  
-**Título:** Alertas operativas
-
-### Descripción
-
-**Como** administrador, **quiero** recibir alertas sobre stock crítico, vencimientos y eventos relevantes, **para** reaccionar oportunamente ante riesgos operativos.
-
-### Acceptance Criteria
-
-**Scenario: Generar alerta**
-
-**Dado que** se cumple una regla configurada de stock o vencimiento,  
-**Cuando** el sistema detecta la condición,  
-**Entonces** genera una alerta visible para el administrador con acceso al elemento afectado.
-
----
-
-## US44 — Filtrado de reportes por período
-
-**User Story ID:** US44  
-**Epic ID:** EP05  
-**Título:** Filtrado de reportes por período
-
-### Descripción
-
-**Como** administrador, **quiero** filtrar los reportes por fechas y categorías, **para** analizar la evolución del negocio en intervalos específicos.
-
-### Acceptance Criteria
-
-**Scenario: Filtrar reporte**
-
-**Dado que** el administrador se encuentra en un reporte,  
-**Cuando** selecciona un rango de fechas y filtros válidos,  
-**Entonces** el sistema recalcula y muestra únicamente la información del período seleccionado.
-
----
-
-# EP06 — Auditoría, Seguridad y Continuidad Operativa
-
-## US45 — Historial de movimientos de inventario
-
-**User Story ID:** US45  
-**Epic ID:** EP06  
-**Título:** Historial de movimientos de inventario
-
-### Descripción
-
-**Como** administrador, **quiero** consultar todas las entradas y salidas que afectaron un producto, **para** auditar cómo se originó su stock actual.
-
-### Acceptance Criteria
-
-**Scenario: Consultar movimientos**
-
-**Dado que** un producto posee movimientos registrados,  
-**Cuando** el administrador abre su historial,  
-**Entonces** el sistema muestra fecha, tipo, cantidad, lote y usuario responsable de cada movimiento.
-
----
-
-## US46 — Bitácora de acciones de usuarios
-
-**User Story ID:** US46  
-**Epic ID:** EP06  
-**Título:** Bitácora de acciones de usuarios
-
-### Descripción
-
-**Como** administrador, **quiero** consultar acciones relevantes realizadas por los usuarios, **para** supervisar cambios sensibles dentro del sistema.
-
-### Acceptance Criteria
-
-**Scenario: Consultar bitácora**
-
-**Dado que** existen acciones auditables registradas,  
-**Cuando** el administrador accede a la bitácora,  
-**Entonces** el sistema muestra usuario, acción, fecha, hora y entidad afectada.
-
----
-
-## US47 — Cambio seguro de contraseña
-
-**User Story ID:** US47  
-**Epic ID:** EP06  
-**Título:** Cambio seguro de contraseña
-
-### Descripción
-
-**Como** usuario, **quiero** cambiar mi contraseña desde la configuración de seguridad, **para** proteger mi cuenta frente a accesos no autorizados.
-
-### Acceptance Criteria
-
-**Scenario: Cambiar contraseña**
-
-**Dado que** el usuario se encuentra autenticado,  
-**Cuando** ingresa su contraseña actual y una nueva que cumple las reglas definidas,  
-**Entonces** el sistema actualiza la credencial y confirma el cambio.
-
----
-
-## US48 — Recuperación de acceso
-
-**User Story ID:** US48  
-**Epic ID:** EP06  
-**Título:** Recuperación de acceso
-
-### Descripción
-
-**Como** usuario, **quiero** recuperar el acceso cuando olvido mi contraseña, **para** volver a utilizar mi cuenta sin intervención manual innecesaria.
-
-### Acceptance Criteria
-
-**Scenario: Solicitar recuperación**
-
-**Dado que** existe una cuenta asociada al identificador ingresado,  
-**Cuando** el usuario inicia el proceso de recuperación,  
-**Entonces** el sistema habilita un mecanismo seguro para restablecer la contraseña.
-
----
-
-## US49 — Cierre de sesión
-
-**User Story ID:** US49  
-**Epic ID:** EP06  
-**Título:** Cierre de sesión
-
-### Descripción
-
-**Como** usuario, **quiero** cerrar mi sesión cuando termino de utilizar BodeGo, **para** evitar que terceros accedan a mi cuenta desde el mismo dispositivo.
-
-### Acceptance Criteria
-
-**Scenario: Cerrar sesión**
-
-**Dado que** el usuario se encuentra autenticado,  
-**Cuando** selecciona cerrar sesión,  
-**Entonces** el sistema invalida la sesión actual y retorna a la pantalla de acceso.
-
----
-
-## US50 — Centro de ayuda operativo
-
-**User Story ID:** US50  
-**Epic ID:** EP06  
-**Título:** Centro de ayuda operativo
-
-### Descripción
-
-**Como** administrador o empleado, **quiero** consultar ayuda sobre las funciones principales del sistema, **para** resolver dudas frecuentes durante la operación diaria.
-
-### Acceptance Criteria
-
-**Scenario: Consultar ayuda**
-
-**Dado que** el usuario se encuentra autenticado,  
-**Cuando** accede al centro de ayuda y selecciona un tema,  
-**Entonces** el sistema muestra instrucciones relacionadas con la funcionalidad seleccionada.
+| **Epic / Story ID** | **Título** | **Descripción** | **Criterios de Aceptación** | **Relacionado con (Epic ID)** |
+|---|---|---|---|---|
+| US01 | Visualización del Hero Principal | **Como** visitante, **quiero** visualizar una sección principal con la propuesta de valor de BodeGo, **para** comprender rápidamente cómo la plataforma ayuda a gestionar inventarios y reducir mermas en un minimarket. | **Scenario:** Visualizar información principal de BodeGo<br><br>**Given** el visitante ingresa a la landing page.<br>**When** la página termina de cargar.<br>**Then** el sistema muestra el nombre del producto, mensaje principal, descripción de valor y botón de acción.<br>**And** permite continuar navegando por las secciones informativas. | EPIC-01 |
+| US02 | Visualización de Beneficios del Producto | **Como** visitante, **quiero** conocer los beneficios principales de BodeGo, **para** identificar las ventajas de utilizar una plataforma de gestión operativa para mi negocio. | **Scenario:** Consultar beneficios de la solución<br><br>**Given** el visitante se encuentra en la landing page.<br>**When** accede a la sección de beneficios.<br>**Then** el sistema muestra información sobre control de inventario, reducción de mermas y mejora operativa.<br>**And** presenta los beneficios de manera clara y organizada. | EPIC-01 |
+| US03 | Presentación de Funcionalidades Principales | **Como** visitante, **quiero** visualizar las funcionalidades principales de BodeGo, **para** conocer las herramientas disponibles antes de utilizar la aplicación web. | **Scenario:** Revisar funcionalidades del sistema<br><br>**Given** el visitante accede a la sección de funcionalidades.<br>**When** revisa los módulos disponibles.<br>**Then** el sistema muestra funcionalidades relacionadas con inventario, alertas, reportes y control operativo.<br>**And** permite comprender el alcance general de la plataforma. | EPIC-01 |
+| US04 | Visualización del Funcionamiento de BodeGo | **Como** visitante, **quiero** conocer cómo funciona BodeGo, **para** entender el flujo general de uso dentro de una bodega o minimarket. | **Scenario:** Consultar flujo de funcionamiento<br><br>**Given** el visitante desea conocer el proceso de uso del sistema.<br>**When** ingresa a la sección "Cómo funciona".<br>**Then** el sistema muestra los pasos principales de operación.<br>**And** explica la interacción entre Administrador y Empleado. | EPIC-01 |
+| US05 | Formulario de Contacto Comercial | **Como** visitante, **quiero** enviar una solicitud de contacto, **para** recibir información adicional sobre BodeGo y sus funcionalidades. | **Scenario:** Registrar solicitud de contacto<br><br>**Given** el visitante está interesado en conocer más sobre BodeGo.<br>**When** completa el formulario con sus datos personales y de contacto.<br>**Then** el sistema valida la información ingresada.<br>**And** registra correctamente la solicitud enviada. | EPIC-01 |
+| US06 | Visualización del Dashboard Administrativo | **Como** Administrador, **quiero** visualizar un dashboard con indicadores principales, **para** conocer rápidamente el estado operativo del negocio. | **Scenario:** Cargar panel principal<br><br>**Given** el Administrador accede correctamente a la aplicación web.<br>**When** ingresa al dashboard inicial.<br>**Then** el sistema muestra indicadores de inventario, productos críticos, vencimientos y movimientos recientes.<br>**And** presenta la información organizada visualmente. | EPIC-02 |
+| US07 | Navegación entre Módulos del Sistema | **Como** usuario de BodeGo, **quiero** navegar entre los diferentes módulos disponibles, **para** acceder rápidamente a las funcionalidades necesarias para mi trabajo. | **Scenario:** Acceder a módulos principales<br><br>**Given** el usuario se encuentra dentro de la aplicación web.<br>**When** selecciona una opción del menú lateral.<br>**Then** el sistema carga el módulo correspondiente.<br>**And** muestra únicamente las opciones disponibles según su rol. | EPIC-02 |
+| US08 | Visualización del Módulo de Inventario | **Como** Administrador o Empleado, **quiero** visualizar el inventario registrado, **para** conocer la disponibilidad actual de productos dentro del negocio. | **Scenario:** Consultar inventario general<br><br>**Given** el usuario ingresa al módulo de inventario.<br>**When** la vista termina de cargar.<br>**Then** el sistema muestra listado de productos, categorías, cantidades disponibles y estado del stock.<br>**And** permite consultar información actualizada. | EPIC-02 |
+| US09 | Consulta del Detalle de Producto | **Como** Administrador o Empleado, **quiero** visualizar el detalle de un producto, **para** revisar información específica como stock, categoría y estado. | **Scenario:** Abrir detalle de producto<br><br>**Given** existe un producto registrado en el sistema.<br>**When** el usuario selecciona un producto del inventario.<br>**Then** el sistema muestra información detallada del producto.<br>**And** permite consultar datos asociados al inventario. | EPIC-02 |
+| US10 | Visualización de Operaciones del Empleado | **Como** Empleado, **quiero** consultar mis operaciones realizadas, **para** verificar los movimientos registrados durante mi jornada laboral. | **Scenario:** Consultar historial operativo<br><br>**Given** el empleado tiene operaciones registradas.<br>**When** ingresa al módulo de operaciones.<br>**Then** el sistema muestra sus movimientos realizados.<br>**And** permite revisar información como fecha, tipo de operación y producto asociado. | EPIC-02 |
+| US11 | Filtrado y Búsqueda de Productos | **Como** Administrador o Empleado, **quiero** buscar productos mediante filtros, **para** encontrar rápidamente los artículos que necesito gestionar dentro del inventario. | **Scenario:** Buscar productos en inventario<br><br>**Given** el usuario se encuentra dentro del módulo de inventario.<br>**When** ingresa un nombre, categoría o código de producto en el buscador.<br>**Then** el sistema muestra únicamente los productos que coinciden con los criterios ingresados.<br>**And** permite acceder al detalle del producto seleccionado. | EPIC-02 |
+| US12 | Visualización de Alertas Operativas | **Como** Administrador, **quiero** visualizar alertas importantes dentro del dashboard, **para** identificar situaciones que requieren atención inmediata. | **Scenario:** Consultar alertas del negocio<br><br>**Given** existen productos con stock bajo o próximos a vencer.<br>**When** el Administrador ingresa al panel principal.<br>**Then** el sistema muestra las alertas generadas.<br>**And** permite acceder al detalle de cada situación detectada. | EPIC-02 |
+| US13 | Visualización de Reportes en la Aplicación | **Como** Administrador, **quiero** acceder a reportes visuales, **para** analizar el comportamiento del inventario y las operaciones del negocio. | **Scenario:** Consultar reportes disponibles<br><br>**Given** existen registros operativos dentro del sistema.<br>**When** el Administrador ingresa al módulo de reportes.<br>**Then** el sistema muestra gráficos e indicadores relacionados al negocio.<br>**And** organiza la información para facilitar su interpretación. | EPIC-02 |
+| US14 | Gestión Visual de Productos | **Como** Administrador, **quiero** visualizar opciones para gestionar productos, **para** administrar correctamente la información del catálogo interno. | **Scenario:** Acceder a acciones de producto<br><br>**Given** el Administrador visualiza el listado de productos.<br>**When** selecciona un producto registrado.<br>**Then** el sistema muestra opciones disponibles de gestión.<br>**And** permite ejecutar acciones autorizadas sobre el producto. | EPIC-02 |
+| US15 | Visualización del Perfil del Negocio | **Como** Administrador, **quiero** consultar la información general del negocio, **para** verificar que los datos operativos estén correctamente configurados. | **Scenario:** Consultar información del negocio<br><br>**Given** el Administrador accede a la sección de configuración.<br>**When** visualiza los datos generales.<br>**Then** el sistema muestra nombre, información comercial y parámetros principales del establecimiento.<br>**And** permite identificar la configuración actual. | EPIC-02 |
+| US16 | Registro de Productos | **Como** Administrador, **quiero** registrar nuevos productos en el sistema, **para** mantener actualizado el catálogo de inventario del negocio. | **Scenario:** Crear nuevo producto<br><br>**Given** el Administrador se encuentra en el módulo de productos.<br>**When** completa los datos obligatorios del producto y confirma el registro.<br>**Then** el sistema almacena la información del producto.<br>**And** el nuevo elemento aparece disponible en el inventario. | EPIC-03 |
+| US17 | Edición de Información del Producto | **Como** Administrador, **quiero** modificar la información de un producto registrado, **para** mantener datos actualizados dentro del sistema. | **Scenario:** Actualizar producto existente<br><br>**Given** existe un producto registrado en BodeGo.<br>**When** el Administrador modifica sus datos y guarda los cambios.<br>**Then** el sistema actualiza la información del producto.<br>**And** conserva el historial de modificaciones realizadas. | EPIC-03 |
+| US18 | Clasificación de Productos por Categoría | **Como** Administrador, **quiero** asignar categorías a los productos, **para** organizar el inventario y facilitar su búsqueda. | **Scenario:** Clasificar producto<br><br>**Given** existe un producto registrado sin categoría asignada.<br>**When** el Administrador selecciona una categoría disponible.<br>**Then** el sistema relaciona el producto con dicha categoría.<br>**And** permite filtrarlo mediante esa clasificación. | EPIC-03 |
+| US19 | Registro de Ingreso de Inventario | **Como** Empleado, **quiero** registrar ingresos de productos al inventario, **para** mantener actualizado el stock disponible del negocio. | **Scenario:** Registrar entrada de mercadería<br><br>**Given** el Empleado recibe nuevos productos.<br>**When** registra cantidades, producto y datos del ingreso.<br>**Then** el sistema incrementa el stock correspondiente.<br>**And** genera un movimiento de entrada asociado al usuario responsable. | EPIC-03 |
+| US20 | Gestión de Lotes y Fechas de Vencimiento | **Como** Empleado, **quiero** registrar lotes con fechas de vencimiento, **para** controlar productos perecibles y prevenir pérdidas por caducidad. | **Scenario:** Registrar lote de producto<br><br>**Given** existe un producto perecible registrado.<br>**When** el Empleado ingresa información del lote y fecha de vencimiento.<br>**Then** el sistema almacena la información asociada al producto.<br>**And** utiliza estos datos para futuros controles y alertas. | EPIC-03 |
+| US21 | Consulta de Stock Actual | **Como** Administrador o Empleado, **quiero** consultar la cantidad disponible de cada producto, **para** conocer el estado actual del inventario antes de realizar operaciones. | **Scenario:** Consultar disponibilidad de producto<br><br>**Given** existen productos registrados en el sistema.<br>**When** el usuario consulta el inventario.<br>**Then** el sistema muestra la cantidad disponible de cada producto.<br>**And** indica el estado del stock según los parámetros configurados. | EPIC-03 |
+| US22 | Actualización Automática de Stock | **Como** sistema, **quiero** actualizar automáticamente las cantidades disponibles después de cada movimiento, **para** mantener información precisa del inventario. | **Scenario:** Actualizar stock después de operación<br><br>**Given** existe una operación que modifica el inventario.<br>**When** la operación es confirmada.<br>**Then** el sistema recalcula la cantidad disponible del producto.<br>**And** registra el movimiento asociado. | EPIC-03 |
+| US23 | Registro de Salida de Productos | **Como** Empleado, **quiero** registrar salidas de productos del inventario, **para** mantener actualizado el stock después de una venta u operación interna. | **Scenario:** Registrar salida de producto<br><br>**Given** existe stock disponible del producto seleccionado.<br>**When** el Empleado registra una salida indicando cantidad y motivo.<br>**Then** el sistema descuenta las unidades correspondientes.<br>**And** almacena el movimiento realizado. | EPIC-03 |
+| US24 | Validación de Stock Disponible | **Como** sistema, **quiero** validar la disponibilidad de productos antes de una salida, **para** evitar cantidades negativas o inconsistencias en el inventario. | **Scenario:** Validar existencia antes de salida<br><br>**Given** el usuario intenta registrar una salida de producto.<br>**When** la cantidad solicitada supera el stock disponible.<br>**Then** el sistema rechaza la operación.<br>**And** muestra un mensaje indicando la cantidad disponible actual. | EPIC-03 |
+| US25 | Ajuste Manual de Inventario | **Como** Administrador, **quiero** realizar ajustes manuales de inventario, **para** corregir diferencias entre el stock físico y el registrado en el sistema. | **Scenario:** Corregir diferencia de inventario<br><br>**Given** existe una diferencia detectada durante una revisión física.<br>**When** el Administrador registra un ajuste indicando cantidad y motivo.<br>**Then** el sistema actualiza el stock del producto.<br>**And** guarda el registro del ajuste realizado. | EPIC-03 |
+| US26 | Historial de Movimientos de Inventario | **Como** Administrador, **quiero** consultar el historial de movimientos de productos, **para** conocer la trazabilidad de entradas y salidas realizadas. | **Scenario:** Consultar movimientos registrados<br><br>**Given** existen movimientos asociados a productos.<br>**When** el Administrador consulta el historial.<br>**Then** el sistema muestra fecha, tipo de movimiento, cantidad y usuario responsable.<br>**And** permite revisar el origen de los cambios realizados. | EPIC-03 |
+| US27 | Control de Productos Próximos a Vencer | **Como** Administrador, **quiero** identificar productos próximos a vencer, **para** tomar acciones preventivas antes de generar pérdidas. | **Scenario:** Detectar productos próximos a vencer<br><br>**Given** existen productos con fecha de vencimiento registrada.<br>**When** el sistema evalúa las fechas configuradas.<br>**Then** identifica los productos dentro del rango de alerta.<br>**And** los muestra como productos próximos a vencer. | EPIC-03 |
+| US28 | Priorización de Lotes por Vencimiento | **Como** Empleado, **quiero** conocer qué lote debe salir primero, **para** aplicar una rotación adecuada de productos perecibles. | **Scenario:** Priorizar lote de salida<br><br>**Given** un producto posee múltiples lotes registrados.<br>**When** el Empleado consulta la disponibilidad del producto.<br>**Then** el sistema recomienda utilizar el lote con vencimiento más cercano.<br>**And** facilita la rotación correcta del inventario. | EPIC-03 |
+| US29 | Registro de Conteo Físico de Inventario | **Como** Administrador o Empleado autorizado, **quiero** registrar conteos físicos del inventario, **para** comparar las existencias reales contra las registradas en BodeGo. | **Scenario:** Realizar conteo físico<br><br>**Given** el usuario inicia una revisión de inventario.<br>**When** registra las cantidades encontradas físicamente.<br>**Then** el sistema compara los valores registrados con el stock actual.<br>**And** muestra diferencias encontradas. | EPIC-03 |
+| US30 | Trazabilidad por Producto y Lote | **Como** Administrador, **quiero** consultar la trazabilidad completa de un producto y sus lotes, **para** conocer su historial dentro del negocio. | **Scenario:** Consultar trazabilidad del producto<br><br>**Given** existe un producto con movimientos registrados.<br>**When** el Administrador accede al historial detallado.<br>**Then** el sistema muestra ingresos, salidas, ajustes y lotes asociados.<br>**And** permite identificar cada cambio realizado sobre el producto. | EPIC-03 |
+| US31 | Registro de Productos Dañados o Vencidos | **Como** Empleado, **quiero** registrar productos dañados o vencidos, **para** mantener actualizado el inventario y documentar las pérdidas generadas. | **Scenario:** Registrar producto como merma<br><br>**Given** existe un producto registrado dentro del inventario.<br>**When** el Empleado registra una pérdida indicando cantidad y motivo.<br>**Then** el sistema descuenta las unidades afectadas del stock disponible.<br>**And** genera un registro de merma asociado al producto. | EPIC-04 |
+| US32 | Clasificación de Motivos de Merma | **Como** Administrador, **quiero** clasificar las causas de las mermas registradas, **para** identificar los principales motivos de pérdida dentro del negocio. | **Scenario:** Clasificar una merma registrada<br><br>**Given** existe un registro de merma generado.<br>**When** el Administrador revisa la información de pérdida.<br>**Then** el sistema permite asociar categorías como vencimiento, daño o deterioro.<br>**And** almacena la clasificación para futuros reportes. | EPIC-04 |
+| US33 | Visualización de Productos con Riesgo de Merma | **Como** Administrador, **quiero** visualizar productos con riesgo de pérdida, **para** tomar acciones preventivas antes de generar desperdicios. | **Scenario:** Consultar productos en riesgo<br><br>**Given** existen productos próximos a vencer o con baja rotación.<br>**When** el Administrador ingresa al módulo de alertas.<br>**Then** el sistema muestra los productos identificados como riesgo.<br>**And** permite revisar información del producto afectado. | EPIC-04 |
+| US34 | Generación de Alertas de Stock Bajo | **Como** Administrador, **quiero** recibir alertas cuando un producto tenga stock bajo, **para** anticipar necesidades de reposición. | **Scenario:** Detectar stock bajo<br><br>**Given** un producto alcanza el límite mínimo configurado.<br>**When** el sistema actualiza la información del inventario.<br>**Then** genera una alerta automática de stock bajo.<br>**And** muestra el producto que requiere atención. | EPIC-04 |
+| US35 | Configuración de Parámetros de Alertas | **Como** Administrador, **quiero** configurar los valores mínimos de stock y días de vencimiento, **para** adaptar las alertas según las necesidades del negocio. | **Scenario:** Configurar parámetros operativos<br><br>**Given** el Administrador accede a la configuración del sistema.<br>**When** modifica los valores de alerta permitidos.<br>**Then** el sistema guarda los nuevos parámetros.<br>**And** los utiliza para generar futuras notificaciones. | EPIC-04 |
+| US36 | Reporte de Productos Próximos a Vencer | **Como** Administrador, **quiero** consultar un reporte de productos próximos a vencer, **para** planificar acciones que reduzcan pérdidas. | **Scenario:** Generar reporte de vencimientos<br><br>**Given** existen productos con fechas de vencimiento registradas.<br>**When** el Administrador solicita el reporte.<br>**Then** el sistema muestra productos, cantidades y fechas próximas de vencimiento.<br>**And** permite identificar productos prioritarios. | EPIC-04 |
+| US37 | Reporte de Mermas del Negocio | **Como** Administrador, **quiero** visualizar reportes de mermas, **para** analizar las pérdidas generadas en el establecimiento. | **Scenario:** Consultar reporte de mermas<br><br>**Given** existen registros de productos desperdiciados.<br>**When** el Administrador accede al módulo de reportes.<br>**Then** el sistema muestra cantidades, motivos y productos afectados.<br>**And** permite analizar tendencias de pérdida. | EPIC-04 |
+| US38 | Reporte de Rotación de Productos | **Como** Administrador, **quiero** conocer la rotación de productos, **para** identificar cuáles tienen mayor o menor movimiento dentro del inventario. | **Scenario:** Analizar rotación de inventario<br><br>**Given** existen movimientos registrados de productos.<br>**When** el Administrador consulta el reporte de rotación.<br>**Then** el sistema calcula la frecuencia de salida de cada producto.<br>**And** muestra información ordenada según comportamiento de movimiento. | EPIC-04 |
+| US39 | Dashboard de Indicadores del Negocio | **Como** Administrador, **quiero** visualizar indicadores generales del negocio, **para** tomar decisiones basadas en información actualizada. | **Scenario:** Consultar indicadores principales<br><br>**Given** existen datos registrados dentro de BodeGo.<br>**When** el Administrador ingresa al dashboard.<br>**Then** el sistema muestra indicadores de inventario, mermas, alertas y operaciones.<br>**And** presenta información resumida del estado actual del negocio. | EPIC-04 |
+| US40 | Análisis de Productos de Alta Rotación | **Como** Administrador, **quiero** identificar productos con alta rotación, **para** mejorar la planificación de compras y organización del inventario. | **Scenario:** Consultar productos de alta rotación<br><br>**Given** existen movimientos históricos de inventario.<br>**When** el Administrador consulta el análisis de rotación.<br>**Then** el sistema identifica los productos con mayor frecuencia de salida.<br>**And** muestra información útil para la toma de decisiones. | EPIC-04 |
+| US41 | Sugerencia Automática de Ofertas por Vencimiento | **Como** Administrador, **quiero** recibir sugerencias automáticas de ofertas para productos próximos a vencer, **para** reducir pérdidas y mejorar la rotación del inventario. | **Scenario:** Generar sugerencia automática de oferta<br><br>**Given** existen productos próximos a vencer con stock disponible.<br>**When** el sistema ejecuta la validación de productos críticos.<br>**Then** genera una sugerencia de oferta indicando producto, cantidad y fecha de vencimiento.<br>**And** permite al Administrador revisar la propuesta antes de activarla. | EPIC-05 |
+| US42 | Creación de Ofertas Estratégicas | **Como** Administrador, **quiero** crear ofertas sobre productos seleccionados, **para** acelerar la salida de productos con baja rotación o próximos a vencer. | **Scenario:** Crear nueva oferta comercial<br><br>**Given** existe un producto disponible en inventario.<br>**When** el Administrador define descuento, vigencia y producto asociado.<br>**Then** el sistema registra la oferta correctamente.<br>**And** la deja disponible para su aplicación durante el período configurado. | EPIC-05 |
+| US43 | Aplicación Automática de Reglas de Negocio | **Como** sistema, **quiero** ejecutar reglas automáticas sobre inventario y productos críticos, **para** mantener procesos operativos eficientes sin intervención constante del usuario. | **Scenario:** Ejecutar reglas automáticas<br><br>**Given** existen condiciones configuradas dentro del sistema.<br>**When** se cumple una regla de negocio establecida.<br>**Then** el sistema ejecuta la acción correspondiente.<br>**And** registra el resultado generado por la automatización. | EPIC-05 |
+| US44 | Actualización Automática de Estados Operativos | **Como** Administrador, **quiero** que el sistema actualice estados de productos y alertas automáticamente, **para** mantener información operativa actualizada. | **Scenario:** Actualizar estados automáticamente<br><br>**Given** existen productos con cambios en su condición operativa.<br>**When** el sistema procesa la información registrada.<br>**Then** actualiza el estado correspondiente del producto.<br>**And** refleja los cambios en los módulos relacionados. | EPIC-05 |
+| US45 | Generación Automática de Resúmenes Operativos | **Como** Administrador, **quiero** recibir resúmenes automáticos del estado del negocio, **para** revisar rápidamente la situación operativa del minimarket. | **Scenario:** Generar resumen operativo<br><br>**Given** existen movimientos registrados durante un período determinado.<br>**When** el sistema genera el resumen correspondiente.<br>**Then** muestra información relevante de inventario, mermas y operaciones.<br>**And** permite consultar los principales indicadores del negocio. | EPIC-05 |
+| US46 | Registro de Usuarios del Sistema | **Como** Administrador, **quiero** registrar usuarios dentro de BodeGo, **para** permitir que empleados autorizados puedan utilizar la plataforma. | **Scenario:** Crear usuario nuevo<br><br>**Given** el Administrador tiene permisos de gestión de usuarios.<br>**When** registra los datos requeridos de un nuevo usuario.<br>**Then** el sistema valida la información ingresada.<br>**And** crea la cuenta asociada al rol correspondiente. | EPIC-06 |
+| US47 | Gestión de Roles y Permisos | **Como** Administrador, **quiero** asignar roles y permisos a los usuarios, **para** controlar el acceso a las funcionalidades del sistema. | **Scenario:** Asignar permisos de usuario<br><br>**Given** existe un usuario registrado en la plataforma.<br>**When** el Administrador selecciona un rol disponible.<br>**Then** el sistema asigna los permisos correspondientes.<br>**And** limita el acceso según las responsabilidades definidas. | EPIC-06 |
+| US48 | Inicio de Sesión Seguro | **Como** usuario registrado, **quiero** iniciar sesión mediante mis credenciales, **para** acceder de manera segura a las funcionalidades asignadas. | **Scenario:** Autenticar usuario<br><br>**Given** el usuario posee una cuenta activa en BodeGo.<br>**When** ingresa sus credenciales correctamente.<br>**Then** el sistema valida la información proporcionada.<br>**And** permite el acceso según el rol asignado. | EPIC-06 |
+| US49 | Recuperación y Cambio de Contraseña | **Como** usuario, **quiero** recuperar o cambiar mi contraseña, **para** mantener protegido mi acceso a la plataforma. | **Scenario:** Actualizar contraseña de usuario<br><br>**Given** el usuario solicita modificar su contraseña.<br>**When** completa el proceso de recuperación o cambio establecido.<br>**Then** el sistema valida la solicitud.<br>**And** actualiza la contraseña de forma segura. | EPIC-06 |
+| US50 | Cierre de Sesión y Protección de Cuenta | **Como** usuario, **quiero** cerrar mi sesión correctamente, **para** evitar accesos no autorizados a mi cuenta desde el dispositivo utilizado. | **Scenario:** Cerrar sesión del sistema<br><br>**Given** el usuario tiene una sesión activa en BodeGo.<br>**When** selecciona la opción de cerrar sesión.<br>**Then** el sistema invalida la sesión actual.<br>**And** redirige al usuario hacia la pantalla de acceso. | EPIC-06 |
 
 ## 3.2. Impact Mapping
 
-Impact Mapping
+---
 
 | **Business Goals** | **Actors** | **Impact** | **Deliverables** | **User Stories** |
 |---|---|---|---|---|
-| **Goal N°1:**<br>**Mantener un inventario preciso, actualizado y trazable para reducir diferencias entre el stock físico y el registrado en el sistema.** | Administrador | Mantener un catálogo de productos correctamente estructurado. | Gestión de productos y categorías. | **US09: Registro de productos.** Como administrador, quiero crear productos con su información comercial y operativa, para incorporarlos al catálogo interno y controlar sus existencias.<br><br>**US10: Edición de productos.** Como administrador, quiero modificar nombre, categoría, unidad, costo o precio de un producto, para mantener actualizada la información utilizada en la operación.<br><br>**US11: Desactivación de productos.** Como administrador, quiero desactivar productos que ya no comercializo, para evitar nuevos movimientos sin perder su historial.<br><br>**US12: Organización por categorías.** Como administrador, quiero clasificar los productos por categorías, para facilitar su búsqueda y análisis dentro del inventario. |
-|  | Administrador / Empleado | Localizar rápidamente productos y conocer su situación actual. | Buscador y filtros de inventario. | **US13: Búsqueda y filtros de inventario.** Como administrador o empleado, quiero buscar productos por nombre, código, categoría o estado de stock, para encontrar rápidamente el artículo que necesito gestionar. |
-|  | Empleado | Registrar correctamente la mercadería que ingresa al establecimiento. | Gestión de ingresos y lotes. | **US14: Ingreso de stock por lote.** Como empleado, quiero registrar el ingreso de mercadería indicando cantidad y lote, para actualizar el inventario cuando se recibe nueva mercadería.<br><br>**US15: Registro de fecha de vencimiento por lote.** Como empleado, quiero asociar una fecha de vencimiento a cada lote perecible, para permitir el control preventivo de productos próximos a caducar. |
-|  | Administrador / Empleado | Conocer la composición real del stock de cada producto. | Consulta de inventario por lotes. | **US16: Consulta de stock por lote.** Como administrador o empleado, quiero visualizar las existencias separadas por lote, para conocer qué unidades deben utilizarse primero y mantener trazabilidad. |
-|  | Administrador | Corregir diferencias detectadas entre el inventario físico y el digital. | Ajustes manuales de inventario. | **US17: Ajuste manual de inventario.** Como administrador, quiero corregir diferencias de stock indicando cantidad y motivo, para alinear el inventario digital con el conteo físico cuando exista una discrepancia. |
-|  | Administrador / Empleado | Detectar diferencias mediante verificaciones físicas periódicas. | Conteo físico de inventario. | **US18: Conteo físico de inventario.** Como administrador o empleado, quiero registrar un conteo físico de productos, para comparar las existencias reales con las registradas en BodeGo. |
-| **Goal N°2:**<br>**Reducir las pérdidas económicas producidas por productos vencidos, dañados o deteriorados.** | Administrador | Detectar productos que se encuentran en riesgo de vencimiento antes de convertirse en merma. | Sistema automático de control de vencimientos. | **US19: Detección de productos próximos a vencer.** Como administrador, quiero visualizar automáticamente los lotes que se aproximan a su vencimiento, para actuar antes de que se conviertan en merma. |
-|  | Administrador / Empleado | Priorizar la salida de los productos con menor vida útil. | Priorización de lotes por vencimiento. | **US20: Priorización por fecha de vencimiento.** Como administrador o empleado, quiero ordenar los lotes perecibles por fecha de vencimiento, para dar salida primero a los productos con menor vida útil. |
-|  | Empleado | Registrar inmediatamente las pérdidas detectadas durante la operación. | Módulo de registro de mermas. | **US21: Registro de merma.** Como empleado, quiero registrar unidades perdidas, dañadas o vencidas indicando su motivo, para mantener el stock real y documentar las pérdidas operativas. |
-|  | Administrador | Identificar por qué se producen las pérdidas de inventario. | Clasificación de causas de merma. | **US22: Clasificación de motivos de merma.** Como administrador, quiero definir y consultar categorías de merma, para identificar las principales causas de pérdida del negocio. |
-|  | Administrador | Convertir productos próximos a vencer en oportunidades de venta antes de perderlos. | Motor de sugerencias de ofertas. | **US23: Sugerencia automática de oferta.** Como administrador, quiero recibir propuestas de oferta para lotes próximos a vencer, para reducir mermas mediante acciones comerciales oportunas. |
-|  | Administrador | Poder decidir manualmente qué productos requieren una promoción. | Gestión manual de ofertas. | **US24: Creación manual de oferta.** Como administrador, quiero crear una oferta para un producto o lote específico, para impulsar su rotación cuando lo considere necesario. |
-|  | Administrador | Mantener control sobre las promociones sugeridas automáticamente. | Flujo de aprobación de ofertas. | **US25: Aprobación de oferta sugerida.** Como administrador, quiero aprobar o editar una oferta sugerida por BodeGo, para mantener control sobre las promociones antes de aplicarlas. |
-|  | Administrador | Evitar que se utilicen ofertas vencidas o asociadas a productos agotados. | Control automático de vigencia. | **US26: Finalización automática de oferta.** Como administrador, quiero hacer que las ofertas terminen cuando vence su vigencia o se agota el stock asociado, para evitar promociones inválidas en la operación diaria. |
-|  | Administrador | Identificar con anticipación los lotes con mayor riesgo de convertirse en pérdida. | Reporte de vencimientos. | **US39: Reporte de productos próximos a vencer.** Como administrador, quiero consultar los lotes en riesgo de vencimiento, para planificar ofertas, rotación o retiro oportuno. |
-|  | Administrador | Medir económicamente las pérdidas del establecimiento. | Reporte analítico de mermas. | **US40: Reporte de mermas.** Como administrador, quiero analizar las pérdidas por producto, motivo y período, para identificar patrones y reducir costos operativos. |
-| **Goal N°3:**<br>**Agilizar el registro de las operaciones diarias realizadas por los empleados y mantener el stock actualizado en tiempo real.** | Empleado | Registrar rápidamente los productos vendidos. | Registro operativo de ventas. | **US27: Registro rápido de venta.** Como empleado, quiero registrar los productos vendidos durante la atención, para descontar automáticamente las unidades del inventario. |
-|  | Empleado | Aplicar correctamente las promociones configuradas por el administrador. | Aplicación automática de ofertas. | **US28: Aplicación de oferta en venta.** Como empleado, quiero visualizar y aplicar ofertas vigentes al registrar una venta, para utilizar correctamente las promociones definidas por el administrador. |
-|  | Empleado | Evitar vender cantidades superiores al inventario real. | Validación de disponibilidad. | **US29: Validación de stock antes de venta.** Como empleado, quiero recibir una validación de disponibilidad antes de confirmar una salida, para evitar que el inventario quede con cantidades negativas. |
-|  | Empleado | Dar salida primero a los lotes con vencimiento más cercano. | Gestión FEFO de lotes. | **US30: Salida FEFO sugerida.** Como empleado, quiero recibir una sugerencia del lote que debe salir primero, para priorizar la venta de unidades con vencimiento más cercano. |
-|  | Empleado | Registrar correctamente productos devueltos por los clientes. | Gestión de devoluciones de clientes. | **US31: Registro de devolución de cliente.** Como empleado, quiero registrar una devolución e indicar si el producto retorna al stock, para mantener correctamente las existencias y el historial de operaciones. |
-|  | Administrador / Empleado autorizado | Controlar mercadería retirada para ser devuelta al proveedor. | Gestión de devoluciones a proveedores. | **US32: Registro de devolución a proveedor.** Como administrador o empleado autorizado, quiero registrar unidades que salen del inventario para ser devueltas al proveedor, para controlar las salidas no asociadas a ventas. |
-|  | Empleado | Registrar rápidamente la mercadería recibida durante el abastecimiento. | Módulo de recepción de mercadería. | **US33: Registro de recepción de mercadería.** Como empleado, quiero registrar una recepción de productos de forma ágil, para actualizar existencias durante el abastecimiento diario. |
-|  | Empleado | Revisar las operaciones realizadas durante su jornada. | Historial operativo personal. | **US34: Historial diario de operaciones.** Como empleado, quiero consultar las operaciones que registré durante mi turno, para verificar ventas, ingresos, devoluciones y mermas realizadas. |
-|  | Empleado / Administrador | Corregir errores operativos sin perder trazabilidad. | Flujo controlado de correcciones. | **US35: Corrección de operación reciente.** Como empleado, quiero solicitar la corrección de una operación registrada por error, para evitar alterar el inventario sin trazabilidad. |
-|  | Empleado | Verificar las operaciones realizadas antes de finalizar su jornada. | Cierre operativo de turno. | **US36: Cierre operativo del turno.** Como empleado, quiero visualizar un resumen de los movimientos realizados antes de terminar mi turno, para comprobar que las operaciones del día quedaron registradas. |
-| **Goal N°4:**<br>**Facilitar al administrador la toma de decisiones mediante información operativa clara, centralizada y actualizada.** | Administrador | Conocer rápidamente la situación general de la bodega o minimarket. | Dashboard administrativo. | **US37: Dashboard administrativo.** Como administrador, quiero visualizar los principales indicadores del negocio en un solo panel, para conocer rápidamente el estado del inventario y la operación. |
-|  | Administrador | Detectar productos que necesitan reposición antes de quedarse sin stock. | Reporte de stock bajo y crítico. | **US38: Reporte de stock bajo y crítico.** Como administrador, quiero consultar los productos que requieren reposición, para priorizar las compras y evitar quiebres de stock. |
-|  | Administrador | Identificar los productos con mayor movimiento. | Reporte de rotación de productos. | **US41: Reporte de productos de alta rotación.** Como administrador, quiero identificar los productos con mayor frecuencia de salida, para priorizar reposición y ubicación física en el negocio. |
-|  | Administrador | Identificar los productos que generan la mayor parte de la operación del negocio. | Analítica Pareto 80/20. | **US42: Clasificación Pareto 80/20.** Como administrador, quiero identificar los productos que concentran la mayor parte de las salidas o ventas, para enfocar la gestión en los artículos más relevantes. |
-|  | Administrador | Reaccionar rápidamente ante riesgos de stock o vencimiento. | Centro de alertas operativas. | **US43: Alertas operativas.** Como administrador, quiero recibir alertas sobre stock crítico, vencimientos y eventos relevantes, para reaccionar oportunamente ante riesgos operativos. |
-|  | Administrador | Analizar la información histórica bajo diferentes períodos y criterios. | Filtros analíticos. | **US44: Filtrado de reportes por período.** Como administrador, quiero filtrar los reportes por fechas y categorías, para analizar la evolución del negocio en intervalos específicos. |
-| **Goal N°5:**<br>**Garantizar que cada usuario acceda únicamente a las funciones correspondientes a su responsabilidad dentro del negocio.** | Administrador / Empleado | Acceder de forma segura a BodeGo. | Sistema de autenticación. | **US01: Inicio de sesión.** Como usuario registrado, quiero iniciar sesión con mis credenciales, para acceder de forma segura a BodeGo. |
-|  | Administrador / Empleado | Visualizar únicamente las funciones correspondientes a su rol. | Control de acceso basado en roles. | **US02: Acceso según rol.** Como usuario, quiero visualizar una interfaz adaptada a mi rol de Administrador o Empleado, para acceder únicamente a las funciones que me corresponden. |
-|  | Administrador | Otorgar accesos individuales al personal. | Gestión de usuarios. | **US03: Registro de empleados.** Como administrador, quiero crear cuentas para los empleados del negocio, para permitirles operar en el sistema con credenciales individuales. |
-|  | Administrador | Retirar permisos a personal que ya no debe acceder al sistema. | Activación y desactivación de cuentas. | **US04: Activación y desactivación de usuarios.** Como administrador, quiero activar o desactivar cuentas de empleados, para controlar quién puede acceder a la información del negocio. |
-|  | Administrador / Empleado | Mantener actualizados sus datos personales. | Gestión de perfil. | **US05: Edición de perfil.** Como usuario, quiero actualizar mis datos personales y de contacto, para mantener correcta la información asociada a mi cuenta. |
-|  | Administrador | Adaptar BodeGo a las características del establecimiento. | Configuración general del negocio. | **US06: Configuración de datos del negocio.** Como administrador, quiero configurar nombre comercial, dirección, contacto y horarios, para mantener centralizada la información operativa del establecimiento. |
-|  | Administrador | Definir cuándo un producto debe considerarse bajo o crítico. | Configuración de umbrales. | **US07: Configuración de umbrales de stock.** Como administrador, quiero definir niveles de stock bajo y crítico, para recibir alertas de reposición adaptadas a mi operación. |
-|  | Administrador | Adaptar el sistema de vencimientos a la política del establecimiento. | Parámetros de vencimiento. | **US08: Configuración de días de alerta de vencimiento.** Como administrador, quiero definir cuántos días antes del vencimiento debe alertarme el sistema, para adaptar el control de perecibles a las políticas del negocio. |
-|  | Administrador / Empleado | Mantener protegidas sus credenciales. | Gestión de contraseña. | **US47: Cambio seguro de contraseña.** Como usuario, quiero cambiar mi contraseña desde la configuración de seguridad, para proteger mi cuenta frente a accesos no autorizados. |
-|  | Administrador / Empleado | Recuperar el acceso cuando se olvidan las credenciales. | Recuperación de acceso. | **US48: Recuperación de acceso.** Como usuario, quiero recuperar el acceso cuando olvido mi contraseña, para volver a utilizar mi cuenta sin intervención manual innecesaria. |
-|  | Administrador / Empleado | Finalizar de manera segura el uso de la plataforma. | Cierre de sesión. | **US49: Cierre de sesión.** Como usuario, quiero cerrar mi sesión cuando termino de utilizar BodeGo, para evitar que terceros accedan a mi cuenta desde el mismo dispositivo. |
-| **Goal N°6:**<br>**Aumentar el control y la trazabilidad de las operaciones realizadas dentro de BodeGo.** | Administrador | Identificar el origen de cualquier variación de inventario. | Historial detallado de movimientos. | **US45: Historial de movimientos de inventario.** Como administrador, quiero consultar todas las entradas y salidas que afectaron un producto, para auditar cómo se originó su stock actual. |
-|  | Administrador | Conocer quién realizó cambios relevantes dentro de la plataforma. | Bitácora de auditoría. | **US46: Bitácora de acciones de usuarios.** Como administrador, quiero consultar acciones relevantes realizadas por los usuarios, para supervisar cambios sensibles dentro del sistema. |
-|  | Administrador / Empleado | Resolver dudas relacionadas con las funciones del sistema sin interrumpir la operación. | Centro de ayuda operativo. | **US50: Centro de ayuda operativo.** Como administrador o empleado, quiero consultar ayuda sobre las funciones principales del sistema, para resolver dudas frecuentes durante la operación diaria. |
+| **Goal N°1:**<br>**Captar el interés de negocios minoristas mediante una presencia digital clara que comunique la propuesta de valor de BodeGo durante los primeros 12 meses.** | Visitante / Cliente potencial | Conocer la solución BodeGo, comprender sus beneficios y solicitar información sobre la plataforma. | Landing Page comercial.<br><br>Secciones informativas del producto.<br><br>Formulario de contacto. | **US01: Visualización del Hero Principal.** Como visitante, quiero visualizar una sección principal con la propuesta de valor de BodeGo, para comprender cómo la plataforma ayuda a gestionar inventarios y reducir mermas.<br><br>**US02: Visualización de Beneficios del Producto.** Como visitante, quiero conocer los beneficios principales de BodeGo, para identificar las ventajas de utilizar una plataforma de gestión operativa.<br><br>**US03: Presentación de Funcionalidades Principales.** Como visitante, quiero visualizar las funcionalidades principales de BodeGo, para conocer las herramientas disponibles antes de utilizar la aplicación.<br><br>**US05: Formulario de Contacto Comercial.** Como visitante, quiero enviar una solicitud de contacto, para recibir información adicional sobre BodeGo. |
+| | Visitante / Cliente potencial | Entender el funcionamiento general del producto antes de incorporarlo al negocio. | Sección explicativa del funcionamiento de la plataforma. | **US04: Visualización del Funcionamiento de BodeGo.** Como visitante, quiero conocer cómo funciona BodeGo, para entender el flujo general de uso dentro de una bodega o minimarket. |
+| **Goal N°2:**<br>**Mejorar el control operativo del inventario reduciendo errores de registro manual en un 40% durante los primeros 12 meses.** | Administrador | Mantener productos correctamente registrados y organizados dentro del sistema. | Gestión de productos.<br><br>Categorías.<br><br>Detalle de productos. | **US16: Registro de Productos.** Como Administrador, quiero registrar nuevos productos, para mantener actualizado el catálogo de inventario.<br><br>**US17: Edición de Información del Producto.** Como Administrador, quiero modificar la información de un producto registrado, para mantener datos actualizados.<br><br>**US18: Clasificación de Productos por Categoría.** Como Administrador, quiero asignar categorías a los productos, para organizar el inventario y facilitar su búsqueda.<br><br>**US09: Consulta del Detalle de Producto.** Como Administrador o Empleado, quiero visualizar el detalle de un producto, para revisar información específica del artículo. |
+| | Administrador / Empleado | Encontrar rápidamente productos y conocer su disponibilidad actual. | Buscador y filtros de inventario.<br><br>Visualización de inventario. | **US08: Visualización del Módulo de Inventario.** Como Administrador o Empleado, quiero visualizar el inventario registrado, para conocer la disponibilidad actual de productos.<br><br>**US11: Filtrado y Búsqueda de Productos.** Como Administrador o Empleado, quiero buscar productos mediante filtros, para encontrar rápidamente los artículos que necesito gestionar.<br><br>**US21: Consulta de Stock Actual.** Como Administrador o Empleado, quiero consultar la cantidad disponible de cada producto, para conocer el estado actual del inventario. |
+| **Goal N°3:**<br>**Reducir en un 30% las pérdidas generadas por productos vencidos, dañados o deteriorados durante los primeros 10 meses.** | Administrador / Empleado | Controlar productos perecibles y actuar antes de generar pérdidas económicas. | Gestión de lotes.<br><br>Control de vencimientos.<br><br>Registro de mermas.<br><br>Alertas preventivas. | **US20: Gestión de Lotes y Fechas de Vencimiento.** Como Empleado, quiero registrar lotes con fechas de vencimiento, para controlar productos perecibles.<br><br>**US27: Control de Productos Próximos a Vencer.** Como Administrador, quiero identificar productos próximos a vencer, para tomar acciones preventivas.<br><br>**US31: Registro de Productos Dañados o Vencidos.** Como Empleado, quiero registrar productos dañados o vencidos, para mantener actualizado el inventario.<br><br>**US34: Generación de Alertas de Stock Bajo.** Como Administrador, quiero recibir alertas cuando un producto tenga stock bajo, para anticipar necesidades de reposición. |
+| **Goal N°4:**<br>**Digitalizar el 80% de las operaciones diarias realizadas por empleados durante los primeros 6 meses de implementación.** | Empleado Operativo | Registrar correctamente ingresos, salidas y movimientos del inventario. | Registro de operaciones.<br><br>Actualización automática de stock.<br><br>Historial operativo. | **US19: Registro de Ingreso de Inventario.** Como Empleado, quiero registrar ingresos de productos al inventario, para mantener actualizado el stock disponible.<br><br>**US23: Registro de Salida de Productos.** Como Empleado, quiero registrar salidas de productos, para mantener actualizado el inventario.<br><br>**US26: Historial de Movimientos de Inventario.** Como Administrador, quiero consultar el historial de movimientos, para conocer la trazabilidad.<br><br>**US34: Visualización de Operaciones del Empleado.** Como Empleado, quiero consultar mis operaciones realizadas, para verificar movimientos registrados durante mi jornada. |
+| **Goal N°5:**<br>**Mejorar la toma de decisiones del administrador mediante indicadores y reportes operativos durante los primeros 12 meses.** | Administrador | Analizar información del negocio para tomar decisiones estratégicas. | Dashboard administrativo.<br><br>Reportes analíticos.<br><br>Indicadores operativos. | **US37: Dashboard de Indicadores del Negocio.** Como Administrador, quiero visualizar indicadores generales del negocio, para conocer rápidamente el estado operativo.<br><br>**US38: Reporte de Rotación de Productos.** Como Administrador, quiero conocer la rotación de productos, para identificar comportamiento del inventario.<br><br>**US39: Reporte de Productos Próximos a Vencer.** Como Administrador, quiero consultar productos próximos a vencer, para planificar acciones preventivas.<br><br>**US40: Reporte de Mermas del Negocio.** Como Administrador, quiero visualizar reportes de mermas, para analizar pérdidas generadas. |
+| **Goal N°6:**<br>**Garantizar que todos los accesos al sistema sean seguros mediante autenticación y permisos definidos durante la primera versión productiva.** | Administrador / Empleado | Acceder únicamente a las funcionalidades correspondientes según su responsabilidad. | Gestión de usuarios.<br><br>Roles y permisos.<br><br>Autenticación.<br><br>Gestión de contraseña. | **US46: Registro de Usuarios del Sistema.** Como Administrador, quiero registrar usuarios dentro de BodeGo, para permitir accesos autorizados.<br><br>**US47: Gestión de Roles y Permisos.** Como Administrador, quiero asignar roles y permisos, para controlar el acceso a funcionalidades.<br><br>**US48: Inicio de Sesión Seguro.** Como usuario registrado, quiero iniciar sesión mediante mis credenciales, para acceder de manera segura.<br><br>**US49: Recuperación y Cambio de Contraseña.** Como usuario, quiero recuperar o cambiar mi contraseña, para mantener protegido mi acceso.<br><br>**US50: Cierre de Sesión y Protección de Cuenta.** Como usuario, quiero cerrar mi sesión correctamente, para evitar accesos no autorizados. |
+
 ## 3.3. Product Backlog
 
 # Product Backlog — BodeGo
 
-| **# Orden** | **User Story ID** | **Descripción** | **Story Point**<br>**(0 - 8)** |
-|---:|:---:|---|---:|
-| **1** | **US01** | Como usuario registrado, quiero iniciar sesión con mis credenciales, para acceder de forma segura a BodeGo. | **2** |
-| **2** | **US02** | Como usuario, quiero visualizar una interfaz adaptada a mi rol de Administrador o Empleado, para acceder únicamente a las funciones que me corresponden. | **3** |
-| **3** | **US03** | Como administrador, quiero crear cuentas para los empleados del negocio, para permitirles operar en el sistema con credenciales individuales. | **3** |
-| **4** | **US06** | Como administrador, quiero configurar nombre comercial, dirección, contacto y horarios, para mantener centralizada la información operativa del establecimiento. | **2** |
-| **5** | **US09** | Como administrador, quiero crear productos con su información comercial y operativa, para incorporarlos al catálogo interno y controlar sus existencias. | **3** |
-| **6** | **US12** | Como administrador, quiero clasificar los productos por categorías, para facilitar su búsqueda y análisis dentro del inventario. | **2** |
-| **7** | **US14** | Como empleado, quiero registrar el ingreso de mercadería indicando cantidad y lote, para actualizar el inventario cuando se recibe nueva mercadería. | **5** |
-| **8** | **US15** | Como empleado, quiero asociar una fecha de vencimiento a cada lote perecible, para permitir el control preventivo de productos próximos a caducar. | **3** |
-| **9** | **US16** | Como administrador o empleado, quiero visualizar las existencias separadas por lote, para conocer qué unidades deben utilizarse primero y mantener trazabilidad. | **3** |
-| **10** | **US13** | Como administrador o empleado, quiero buscar productos por nombre, código, categoría o estado de stock, para encontrar rápidamente el artículo que necesito gestionar. | **3** |
-| **11** | **US27** | Como empleado, quiero registrar los productos vendidos durante la atención, para descontar automáticamente las unidades del inventario. | **5** |
-| **12** | **US29** | Como empleado, quiero recibir una validación de disponibilidad antes de confirmar una salida, para evitar que el inventario quede con cantidades negativas. | **3** |
-| **13** | **US21** | Como empleado, quiero registrar unidades perdidas, dañadas o vencidas indicando su motivo, para mantener el stock real y documentar las pérdidas operativas. | **3** |
-| **14** | **US19** | Como administrador, quiero visualizar automáticamente los lotes que se aproximan a su vencimiento, para actuar antes de que se conviertan en merma. | **5** |
-| **15** | **US20** | Como administrador o empleado, quiero ordenar los lotes perecibles por fecha de vencimiento, para dar salida primero a los productos con menor vida útil. | **3** |
-| **16** | **US30** | Como empleado, quiero recibir una sugerencia del lote que debe salir primero, para priorizar la venta de unidades con vencimiento más cercano. | **5** |
-| **17** | **US07** | Como administrador, quiero definir niveles de stock bajo y crítico, para recibir alertas de reposición adaptadas a mi operación. | **2** |
-| **18** | **US08** | Como administrador, quiero definir cuántos días antes del vencimiento debe alertarme el sistema, para adaptar el control de perecibles a las políticas del negocio. | **2** |
-| **19** | **US43** | Como administrador, quiero recibir alertas sobre stock crítico, vencimientos y eventos relevantes, para reaccionar oportunamente ante riesgos operativos. | **5** |
-| **20** | **US17** | Como administrador, quiero corregir diferencias de stock indicando cantidad y motivo, para alinear el inventario digital con el conteo físico cuando exista una discrepancia. | **3** |
-| **21** | **US18** | Como administrador o empleado, quiero registrar un conteo físico de productos, para comparar las existencias reales con las registradas en BodeGo. | **5** |
-| **22** | **US33** | Como empleado, quiero registrar una recepción de productos de forma ágil, para actualizar existencias durante el abastecimiento diario. | **3** |
-| **23** | **US34** | Como empleado, quiero consultar las operaciones que registré durante mi turno, para verificar ventas, ingresos, devoluciones y mermas realizadas. | **3** |
-| **24** | **US36** | Como empleado, quiero visualizar un resumen de los movimientos realizados antes de terminar mi turno, para comprobar que las operaciones del día quedaron registradas. | **5** |
-| **25** | **US22** | Como administrador, quiero definir y consultar categorías de merma, para identificar las principales causas de pérdida del negocio. | **3** |
-| **26** | **US37** | Como administrador, quiero visualizar los principales indicadores del negocio en un solo panel, para conocer rápidamente el estado del inventario y la operación. | **5** |
-| **27** | **US38** | Como administrador, quiero consultar los productos que requieren reposición, para priorizar las compras y evitar quiebres de stock. | **3** |
-| **28** | **US39** | Como administrador, quiero consultar los lotes en riesgo de vencimiento, para planificar ofertas, rotación o retiro oportuno. | **3** |
-| **29** | **US40** | Como administrador, quiero analizar las pérdidas por producto, motivo y período, para identificar patrones y reducir costos operativos. | **5** |
-| **30** | **US41** | Como administrador, quiero identificar los productos con mayor frecuencia de salida, para priorizar reposición y ubicación física en el negocio. | **5** |
-| **31** | **US42** | Como administrador, quiero identificar los productos que concentran la mayor parte de las salidas o ventas, para enfocar la gestión en los artículos más relevantes. | **5** |
-| **32** | **US23** | Como administrador, quiero recibir propuestas de oferta para lotes próximos a vencer, para reducir mermas mediante acciones comerciales oportunas. | **8** |
-| **33** | **US24** | Como administrador, quiero crear una oferta para un producto o lote específico, para impulsar su rotación cuando lo considere necesario. | **3** |
-| **34** | **US25** | Como administrador, quiero aprobar o editar una oferta sugerida por BodeGo, para mantener control sobre las promociones antes de aplicarlas. | **3** |
-| **35** | **US28** | Como empleado, quiero visualizar y aplicar ofertas vigentes al registrar una venta, para utilizar correctamente las promociones definidas por el administrador. | **3** |
-| **36** | **US26** | Como administrador, quiero hacer que las ofertas terminen cuando vence su vigencia o se agota el stock asociado, para evitar promociones inválidas en la operación diaria. | **3** |
-| **37** | **US31** | Como empleado, quiero registrar una devolución e indicar si el producto retorna al stock, para mantener correctamente las existencias y el historial de operaciones. | **3** |
-| **38** | **US32** | Como administrador o empleado autorizado, quiero registrar unidades que salen del inventario para ser devueltas al proveedor, para controlar las salidas no asociadas a ventas. | **3** |
-| **39** | **US35** | Como empleado, quiero solicitar la corrección de una operación registrada por error, para evitar alterar el inventario sin trazabilidad. | **5** |
-| **40** | **US45** | Como administrador, quiero consultar todas las entradas y salidas que afectaron un producto, para auditar cómo se originó su stock actual. | **3** |
-| **41** | **US46** | Como administrador, quiero consultar acciones relevantes realizadas por los usuarios, para supervisar cambios sensibles dentro del sistema. | **5** |
-| **42** | **US44** | Como administrador, quiero filtrar los reportes por fechas y categorías, para analizar la evolución del negocio en intervalos específicos. | **2** |
-| **43** | **US10** | Como administrador, quiero modificar nombre, categoría, unidad, costo o precio de un producto, para mantener actualizada la información utilizada en la operación. | **2** |
-| **44** | **US11** | Como administrador, quiero desactivar productos que ya no comercializo, para evitar nuevos movimientos sin perder su historial. | **2** |
-| **45** | **US04** | Como administrador, quiero activar o desactivar cuentas de empleados, para controlar quién puede acceder a la información del negocio. | **2** |
-| **46** | **US05** | Como usuario, quiero actualizar mis datos personales y de contacto, para mantener correcta la información asociada a mi cuenta. | **1** |
-| **47** | **US47** | Como usuario, quiero cambiar mi contraseña desde la configuración de seguridad, para proteger mi cuenta frente a accesos no autorizados. | **2** |
-| **48** | **US48** | Como usuario, quiero recuperar el acceso cuando olvido mi contraseña, para volver a utilizar mi cuenta sin intervención manual innecesaria. | **3** |
-| **49** | **US49** | Como usuario, quiero cerrar mi sesión cuando termino de utilizar BodeGo, para evitar que terceros accedan a mi cuenta desde el mismo dispositivo. | **1** |
-| **50** | **US50** | Como administrador o empleado, quiero consultar ayuda sobre las funciones principales del sistema, para resolver dudas frecuentes durante la operación diaria. | **1** |
+| **# Orden** | **User Story ID** | **Título** | **Descripción** | **Story Points**<br>**(1 / 2 / 3 / 5 / 8)** |
+|---:|:---:|---|---|---:|
+| **1** | **US01** | Visualización del Hero Principal | **Como** visitante, **deseo** visualizar la propuesta de valor principal de BodeGo, **para** comprender cómo la plataforma ayuda a gestionar inventarios y reducir mermas en negocios minoristas. | **2** |
+| **2** | **US02** | Visualización de Beneficios del Producto | **Como** visitante, **deseo** conocer los beneficios principales de BodeGo, **para** identificar el valor que aporta la solución a la gestión del negocio. | **2** |
+| **3** | **US03** | Presentación de Funcionalidades Principales | **Como** visitante, **deseo** conocer las funcionalidades principales de BodeGo, **para** comprender las capacidades disponibles antes de utilizar la plataforma. | **3** |
+| **4** | **US04** | Explicación del Funcionamiento de BodeGo | **Como** visitante, **deseo** conocer cómo funciona BodeGo, **para** entender el flujo general de uso dentro de una bodega o minimarket. | **2** |
+| **5** | **US05** | Formulario de Contacto Comercial | **Como** visitante, **deseo** enviar una solicitud de contacto, **para** recibir información adicional sobre la solución BodeGo. | **3** |
+| **6** | **US06** | Dashboard Administrativo | **Como** Administrador, **deseo** visualizar indicadores principales del negocio, **para** conocer rápidamente el estado operativo del establecimiento. | **5** |
+| **7** | **US08** | Visualización del Inventario | **Como** Administrador o Empleado, **deseo** visualizar los productos registrados, **para** conocer la disponibilidad actual del inventario. | **3** |
+| **8** | **US11** | Búsqueda y Filtrado de Productos | **Como** Administrador o Empleado, **deseo** buscar productos mediante filtros, **para** encontrar rápidamente los artículos que necesito gestionar. | **3** |
+| **9** | **US09** | Consulta del Detalle del Producto | **Como** Administrador o Empleado, **deseo** visualizar la información detallada de un producto, **para** revisar sus características y estado actual. | **2** |
+| **10** | **US07** | Navegación entre Módulos | **Como** usuario de BodeGo, **deseo** navegar entre módulos disponibles, **para** acceder rápidamente a las funcionalidades necesarias. | **3** |
+| **11** | **US10** | Visualización de Operaciones del Empleado | **Como** Empleado, **deseo** consultar las operaciones que he realizado, **para** verificar los movimientos registrados durante mi jornada laboral. | **3** |
+| **12** | **US12** | Visualización de Alertas Operativas | **Como** Administrador, **deseo** visualizar alertas importantes del negocio, **para** identificar situaciones que requieren atención inmediata dentro del inventario. | **5** |
+| **13** | **US13** | Visualización de Reportes del Negocio | **Como** Administrador, **deseo** acceder a reportes visuales, **para** analizar el comportamiento del inventario y las operaciones realizadas. | **5** |
+| **14** | **US14** | Gestión Visual de Productos | **Como** Administrador, **deseo** acceder a opciones de gestión de productos, **para** administrar correctamente la información del catálogo interno. | **3** |
+| **15** | **US15** | Visualización de Información del Negocio | **Como** Administrador, **deseo** consultar la información general del establecimiento, **para** verificar que los datos operativos estén correctamente configurados. | **2** |
+| **16** | **US16** | Registro de Productos | **Como** Administrador, **deseo** registrar nuevos productos dentro del sistema, **para** mantener actualizado el catálogo de inventario del negocio. | **3** |
+| **17** | **US18** | Clasificación de Productos por Categoría | **Como** Administrador, **deseo** asignar categorías a los productos, **para** organizar el inventario y facilitar su búsqueda y análisis. | **2** |
+| **18** | **US17** | Edición de Información del Producto | **Como** Administrador, **deseo** modificar la información de productos registrados, **para** mantener actualizados los datos utilizados por la operación. | **2** |
+| **19** | **US19** | Registro de Ingreso de Inventario | **Como** Empleado, **deseo** registrar ingresos de productos al inventario, **para** mantener actualizado el stock disponible del negocio. | **5** |
+| **20** | **US20** | Gestión de Lotes y Fechas de Vencimiento | **Como** Empleado, **deseo** registrar lotes con fechas de vencimiento, **para** controlar productos perecibles y prevenir pérdidas por caducidad. | **3** |
+| **21** | **US21** | Consulta de Stock Actual | **Como** Administrador o Empleado, **deseo** consultar la cantidad disponible de cada producto, **para** conocer el estado actual del inventario antes de realizar operaciones. | **3** |
+| **22** | **US23** | Registro de Salida de Productos | **Como** Empleado, **deseo** registrar salidas de productos del inventario, **para** mantener actualizado el stock después de una venta u operación interna. | **5** |
+| **23** | **US22** | Actualización Automática de Stock | **Como** sistema, **deseo** actualizar automáticamente las cantidades disponibles después de cada movimiento, **para** mantener información precisa del inventario. | **5** |
+| **24** | **US24** | Validación de Stock Disponible | **Como** sistema, **deseo** validar la disponibilidad de productos antes de una salida, **para** evitar cantidades negativas o inconsistencias en el inventario. | **3** |
+| **25** | **US25** | Ajuste Manual de Inventario | **Como** Administrador, **deseo** realizar ajustes manuales de inventario, **para** corregir diferencias entre el stock físico y el registrado en el sistema. | **3** |
+| **26** | **US26** | Historial de Movimientos de Inventario | **Como** Administrador, **deseo** consultar el historial de movimientos de productos, **para** conocer la trazabilidad de entradas y salidas realizadas. | **3** |
+| **27** | **US29** | Registro de Conteo Físico de Inventario | **Como** Administrador o Empleado autorizado, **deseo** registrar conteos físicos del inventario, **para** comparar las existencias reales contra las registradas en BodeGo. | **5** |
+| **28** | **US30** | Trazabilidad de Producto y Lotes | **Como** Administrador, **deseo** consultar la trazabilidad completa de un producto y sus lotes, **para** conocer su historial dentro del negocio. | **5** |
+| **29** | **US27** | Control de Productos Próximos a Vencer | **Como** Administrador, **deseo** identificar productos próximos a vencer, **para** tomar acciones preventivas antes de generar pérdidas. | **5** |
+| **30** | **US28** | Priorización de Lotes por Vencimiento | **Como** Empleado, **deseo** conocer qué lote debe salir primero, **para** aplicar una rotación adecuada de productos perecibles. | **5** |
+| **31** | **US31** | Registro de Productos Dañados o Vencidos | **Como** Empleado, **deseo** registrar productos dañados o vencidos indicando la causa, **para** mantener actualizado el inventario y documentar las pérdidas generadas. | **3** |
+| **32** | **US32** | Clasificación de Motivos de Merma | **Como** Administrador, **deseo** clasificar las causas de las mermas registradas, **para** identificar los principales motivos de pérdida dentro del negocio. | **3** |
+| **33** | **US33** | Visualización de Productos con Riesgo de Merma | **Como** Administrador, **deseo** visualizar productos con riesgo de pérdida, **para** tomar acciones preventivas antes de generar desperdicios. | **5** |
+| **34** | **US34** | Alertas de Stock Bajo | **Como** Administrador, **deseo** recibir alertas cuando un producto alcance un nivel crítico de stock, **para** anticipar necesidades de reposición. | **3** |
+| **35** | **US35** | Configuración de Parámetros de Alertas | **Como** Administrador, **deseo** configurar los valores mínimos de stock y días de vencimiento, **para** adaptar las alertas según las necesidades del negocio. | **3** |
+| **36** | **US36** | Reporte de Productos Próximos a Vencer | **Como** Administrador, **deseo** consultar reportes de productos próximos a vencer, **para** planificar acciones que reduzcan pérdidas por caducidad. | **5** |
+| **37** | **US37** | Reporte de Mermas del Negocio | **Como** Administrador, **deseo** visualizar reportes de mermas, **para** analizar las pérdidas generadas dentro del establecimiento. | **5** |
+| **38** | **US38** | Reporte de Rotación de Productos | **Como** Administrador, **deseo** conocer la rotación de productos, **para** identificar cuáles tienen mayor o menor movimiento dentro del inventario. | **5** |
+| **39** | **US39** | Dashboard de Indicadores del Negocio | **Como** Administrador, **deseo** visualizar indicadores generales del negocio, **para** conocer rápidamente el estado del inventario y la operación. | **5** |
+| **40** | **US40** | Análisis de Productos de Alta Rotación | **Como** Administrador, **deseo** identificar productos con mayor frecuencia de salida, **para** mejorar la planificación de compras y organización del inventario. | **5** |
+| **41** | **US41** | Sugerencia Automática de Ofertas por Vencimiento | **Como** Administrador, **deseo** recibir sugerencias automáticas de ofertas para productos próximos a vencer, **para** reducir pérdidas y mejorar la rotación del inventario. | **8** |
+| **42** | **US42** | Creación de Ofertas Estratégicas | **Como** Administrador, **deseo** crear ofertas sobre productos seleccionados, **para** acelerar la salida de productos con baja rotación o próximos a vencer. | **3** |
+| **43** | **US43** | Ejecución Automática de Reglas de Negocio | **Como** sistema, **deseo** ejecutar reglas automáticas sobre inventario y productos críticos, **para** mantener procesos operativos eficientes sin intervención constante del usuario. | **8** |
+| **44** | **US44** | Actualización Automática de Estados Operativos | **Como** Administrador, **deseo** que el sistema actualice automáticamente estados de productos y alertas, **para** mantener información operativa actualizada. | **5** |
+| **45** | **US45** | Generación de Resúmenes Operativos | **Como** Administrador, **deseo** recibir resúmenes automáticos del estado del negocio, **para** revisar rápidamente la situación operativa del minimarket. | **5** |
+| **46** | **US46** | Registro de Usuarios del Sistema | **Como** Administrador, **deseo** registrar usuarios dentro de BodeGo, **para** permitir accesos autorizados al sistema según las necesidades del negocio. | **3** |
+| **47** | **US47** | Gestión de Roles y Permisos | **Como** Administrador, **deseo** asignar roles y permisos a los usuarios, **para** controlar el acceso a las funcionalidades según sus responsabilidades. | **5** |
+| **48** | **US48** | Inicio de Sesión Seguro | **Como** usuario registrado, **deseo** iniciar sesión mediante mis credenciales, **para** acceder de manera segura a las funcionalidades asignadas dentro de BodeGo. | **3** |
+| **49** | **US49** | Recuperación y Cambio de Contraseña | **Como** usuario, **deseo** recuperar o cambiar mi contraseña, **para** mantener protegido mi acceso a la plataforma. | **3** |
+| **50** | **US50** | Cierre de Sesión y Protección de Cuenta | **Como** usuario, **deseo** cerrar mi sesión correctamente, **para** evitar accesos no autorizados desde el dispositivo utilizado. | **1** |
 
 ---
 
@@ -2110,192 +1195,171 @@ Desde el Dashboard también dispone de accesos rápidos para:
 
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
-Para el landing Page se realizo wireframes de cada una de las pantallas del sitio.
 
-Pantalla 1:
+![WireframeL1](Recursos/images/Landing1.png)
+---
+![WireframeL2](Recursos/images/Landing2.png)
+---
+![WireframeL3](Recursos/images/Landing3.png)
+---
+![WireframeL4](Recursos/images/Landing4.png)
+---
+![WireframeL5](Recursos/images/Landing5.png)
+---
 
-<img src="./recursos/imagenes/Pantalla-1.png" alt="Pantalla 1">
+### 4.3.2. Landing Page Mock-ups
 
-Pantalla 2:
+![LPMock-Up1](Recursos/images/LandingPage-mockup1.jpg)
+---
 
-<img src="./recursos/Pantalla-2.png" alt="Pantalla 2">
-
-Pantalla 3:
-
-<img src="./recursos/Pantalla-3.png" alt="Pantalla 3">
-
-Pantalla 4:
-
-<img src="./recursos/Pantalla-4.png" alt="Pantalla 4">
-
-Pantalla 5:
-
-<img src="./recursos/Pantalla-5.png" alt="Pantalla 5">
-
-### 4.3.2. Landing Page Mock-up
-
-**Estructura general y lineamientos visuales.**
-
-La interfaz visual de la página de inicio de **BodeGo** se ha desarrollado con un estándar de alta fidelidad, integrando de forma exacta los contenidos textuales, recursos gráficos y componentes interactivos definidos para la plataforma. El diseño refleja una estética moderna, limpia y profesional, orientada específicamente a optimizar la gestión de inventarios y resolver las necesidades operativas de los minimarkets.
-
-**Aplicación del Branding**
-
-Se plasma la identidad visual de la startup **Proxy** a través de su paleta cromática corporativa —predominando tonos de azul grisáceo institucional y acentos oscuros de alto contraste, y la tipografía moderna *Hanken Grotesk*. En la esquina superior izquierda de la barra de navegación se integra el logotipo oficial de BodeGo (acompañado del nombre de la marca), garantizando un reconocimiento inmediato por parte del usuario.
-
-**Estructura visual:**
-
-- **Cabecera:** Diseñada en una franja horizontal superior de tono gris acero con alineación flexible. Contiene el logotipo corporativo a la izquierda, los enlaces de redireccionamiento interno (*Solución*, *Tecnología*, *Cómo Funciona*, *Nosotros*) centrados, y un botón de llamada a la acción principal (*Regístrate*) con tipografía en negrita y diseño interactivo.
-
-- **Sección Principal:** Se compone de un diseño a doble columna con amplio espaciado en blanco. Del lado izquierdo presenta el título principal de impacto (*"Controla tu inventario sin complicaciones"*), seguido del subtítulo con acento azul (*"Optimiza tu minimarket y reduce dificultades"*), el párrafo descriptivo sobre la centralización de stock y control de lotes, y el botón de llamada a la acción secundario (*"Solicitar Consulta"*). Del lado derecho, se ubica una imagen de alta calidad con bordes redondeados y sombra elegante que retrata a un operador gestionando el almacén con una tablet y un portapapeles.
-
-- **Sección Propuesta de Valor / Características:** Estructurada sobre un fondo de color sólido azul grisáceo que genera contraste visual. Muestra un título principal (*"Nuestra Propuesta"*) y un subtítulo descriptivo sobre las necesidades reales del sector, organizando debajo tres tarjetas blancas en grilla que detallan los pilares del sistema: **Control de lotes** (con gráficos alusivos al monitoreo de entradas, salidas y fechas de caducidad), **Alertas** (enfocada en priorizar productos próximos a vencer para evitar pérdidas) y **Doble Rol** (destacando las interfaces segmentadas y seguras para administradores y empleados).
-
-- **Sección Nuestras Soluciones:** Presenta las herramientas tecnológicas mediante una cuadrícula de cuatro bloques modulares de tono gris oscuro con textos en blanco. Detalla las capacidades operativas del sistema bajo el lema *"Tecnología ágil para tu día a día"*:
-
-  - *Gestión Centralizada:* Acceso en tiempo real al inventario desde cualquier dispositivo web.
-  - *Reportes Analíticos:* Visualización de indicadores de rotación, stock crítico y pérdidas.
-  - *Ofertas Estratégicas:* Creación de promociones automáticas para dar salida rápida a baja rotación.
-  - *Auditoría y Seguridad:* Registro detallado de cada operación realizada por el personal.
-  
-- **Sección de Impacto:** Ubicada sobre un fondo oscuro, expone los beneficios directos cuantificables para el negocio mediante dos tarjetas modulares informativas: la *Reducción de dificultades* (disminución de pérdidas por productos perecibles vencidos) y el *Ahorro de tiempo* (eliminación de cuadernos físicos y agilización del registro diario).
-
-- **Sección de Contacto:** Diseñada con un contenedor central de fondo claro y bordes sutiles que alberga un formulario interactivo estructurado con campos específicos para nombre completo, correo electrónico, teléfono de contacto y un área de texto para los detalles o requerimientos del negocio, coronado por un botón principal de envío (*"Enviar Consulta"*).
-
-- **Zona Inferior (Pie de página / Footer):** Extensión de cierre con fondo gris institucional que distribuye la información corporativa en columnas ordenadas: el logotipo de BodeGo, secciones de navegación rápida, enlaces legales e institucionales de la startup Proxy, y datos directos de contacto (teléfono, correo corporativo y ubicación en Lima, Perú), finalizando con la barra de derechos reservados.
-
-**Aplicación de guía de estilos y principios de diseño:**
-
-- **Jerarquía tipográfica:** Se implementaron tamaños claros y contrastados, utilizando títulos principales destacados de gran tamaño, subtítulos de apoyo y textos base legibles que facilitan un recorrido visual rápido y escaneable.
-
-- **Diseño Responsivo:** La estructura se adapta de manera fluida mediante contenedores basados en grillas flexibles, garantizando una correcta visualización tanto en equipos de escritorio como en pantallas de dispositivos móviles.
-
-- **Arquitectura de la Información:** El flujo de navegación guía lógicamente al usuario desde la introducción del problema de inventario hasta las soluciones tecnológicas y los canales concretos de conversión y contacto.
-
-| ![Pantalla 1](recursos/imagenes/Landing-1.png) |
-
-| ![Pantalla 2](recursos/imagenes/Landing-2.png) |
-
-| ![Pantalla 3](recursos/imagenes/Landing-3.png) |
-
-| ![Pantalla 4](recursos/imagenes/Landing-4.png) |
-
-| ![Pantalla 5](recursos/imagenes/Landing-5.png) |
+![LPMock-Up2](Recursos/images/LandingPage-mockup2.jpg)
+---
 
 ## 4.4. Web Applications UX/UI Design
-
-En este apartado se detalla el diseño visual y la experiencia interactiva que da vida a la plataforma web de **BodeGo**, un sistema concebido para optimizar la administración de almacenes, el seguimiento por lotes y la disminución de dificultades en minimarkets. Para lograrlo, la propuesta adopta metodologías de diseño centrado en el usuario, criterios de accesibilidad e inclusión, y los lineamientos de arquitectura de la información formulados en etapas previas, asegurando una conexión armónica con el Design System de la startup.
-
-Para su correcta comprensión, el contenido se despliega a través de cuatro ejes temáticos principales: en primer lugar, los **Wireframes**, los cuales establecen los cimientos estructurales y la jerarquía de los elementos en cada interfaz; en segundo lugar, los **Wireflow Diagrams**, que plasman de qué manera se conecta una pantalla con otra en función de los propósitos operativos de cada perfil; en tercer lugar, los **Mock-ups**, encargados de llevar la interfaz a una etapa de alta fidelidad visual aplicando la identidad corporativa y la guía de estilos; y finalmente, los **User Flow Diagrams**, que conectan estas maquetas con los recorridos ideales y las rutas de contingencia o error, que se pueden presentar durante la navegación.
-
-El desarrollo de la interfaz contempla las necesidades de dos perfiles clave: **El dueño y/o administrador del minimarket**, busca supervisar la rentabilidad y prevenir pérdidas por artículos caducados; y **Empleado o asistente**, colaborador de mostrador y cajero encargado de ejecutar los registros cotidianos de entradas, salidas y escaneo de stock. De este modo, cada funcionalidad e interacción descrita en el sistema atiende directamente a las expectativas, retos y dolores detectados en sus respectivas fichas de caracterización.
-
 ### 4.4.1. Web Applications Wireframes
 
-Los wireframes desarrollados para BodeGo representan la arquitectura estructural de baja a media fidelidad de la plataforma web, orientada a la gestión eficiente de inventarios y control preventivo de mermas. Cada pantalla fue concebida aplicando rigurosamente principios de jerarquía visual, consistencia de componentes y proximidad funcional, integrando criterios de diseño inclusivo e interfaz responsiva como áreas de interacción legibles, contraste optimizado para entornos operativos en punto de venta y etiquetado claro en cada acción ejecutable. Esta propuesta traduce directamente la arquitectura de información y el flujo de navegación validados en la especificación del sistema. Para su elaboración se empleó la herramienta Figma.
+![Wireframe 1](Recursos/images/WF1.png)
 
-En esta etapa se presentan las pantallas principales que articulan los módulos clave de la plataforma, estructuradas de acuerdo con los roles operativos del sistema.
+---
 
-| ![wireframe-pantalla 1](recursos/imagenes/Wireframes.png) |
+![Wireframe 2](Recursos/images/WF2.png)
 
-| ![wireframe-pantalla 2](recursos/imagenes/wireframes-1.png) |
+---
 
-| ![wireframe-pantalla 3](recursos/imagenes/Wireframes-2.png) |
+![Wireframe 3](Recursos/images/WF3.png)
 
-Explicación de la propuesta:Los wireframes de BodeGo fueron diseñados bajo un enfoque modular y altamente consistente, manteniendo en todas las pantallas una estructura clara dividida en zonas funcionales principales: un menú de navegación lateral izquierdo persistente, que actúa como eje de la arquitectura de información, una barra superior de contexto con controles de perfil y sincronización, y un área principal de trabajo (Main Workspace) que adapta sus componentes según el módulo seleccionado. Esta consistencia estructural minimiza la carga cognitiva de los usuarios al alternar entre tareas operativas cotidianas y actividades de supervisión estratégicas.
+---
 
-La jerarquía visual se consolida mediante el uso de tipografía escalonada (encabezados de sección, etiquetas de datos en negrita, subtítulos de tabla y texto informativo descriptivo), un espaciado equilibrado y una delimitación precisa por bloques funcionales. En las pantallas orientadas a las funciones de auditoría y gestión estratégica del Administrador (Dashboard Administrador, Reportes, Empleados), se implementa un patrón basado en tarjetas resumen de métricas clave, seguido de barras de filtros superiores y tablas detalladas, para soportar la revisión ágil de altos volúmenes de datos operativos, balance de mermas y rendimiento por turno. Por su parte, en las pantallas orientadas al rol operativo del Empleado (Registrar ingreso/salida de mercadería, Registrar dificultad, Detalle de Producto), la interfaz prioriza formularios limpios, selectores claros y campos estructurados con validaciones preventivas (como el cálculo predictivo de caducidad en lotes y la asignación manual de cantidades) para acelerar la atención en el punto de venta.
+![Wireframe 4](Recursos/images/WF4.png)
 
-En términos de diseño inclusivo y adaptabilidad operativa, los wireframes integran áreas de toque y clic bien dimensionadas en botones principales, controles incrementales y acciones de tabla , considerando que el personal en tienda opera el sistema en entornos dinámicos de alta rotación de clientes o durante la recepción acelerada de proveedores en almacén. Asimismo, se incorporan etiquetas textuales explícitas junto a la iconografía, estados de contraste optimizados en elementos interactivos y una disposición de elementos que respeta el flujo de lectura natural en patrón F, asegurando que tanto el Administrador como los Operarios identifiquen de inmediato las alertas críticas de caducidad y tomen acciones correctivas sin margen de error.
+---
+
+![Wireframe 5](Recursos/images/WF5.png)
+
+---
+
+![Wireframe 6](Recursos/images/WF6.png)
+
+---
+
+![Wireframe 7](Recursos/images/WF7.png)
+
+---
+
+![Wireframe 8](Recursos/images/WF8.png)
+
+---
+
+![Wireframe 9](Recursos/images/WF9.png)
+
+---
+
+![Wireframe 10](Recursos/images/WF10.png)
+
+---
+
+![Wireframe 11](Recursos/images/WF11.png)
+
+---
+
+![Wireframe 12](Recursos/images/WF12.png)
+
+---
+
+![Wireframe 13](Recursos/images/WF13.png)
+
+---
+
+![Wireframe 14](Recursos/images/WF14.png)
+
+---
+enlace: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+![Wireflow 0](Recursos/images/Wireflow_App.png)
 
-Para la plataforma **BodeGo**, se ha diseñado una serie de *Wireflows* que van más allá de simples cajas y flechas. Estos diagramas integran la estructura visual de cada pantalla (los wireframes) con la secuencia de pasos que los usuarios deben seguir para cumplir sus tareas. A diferencia de un diagrama de flujo de tareas tradicional, el *Wireflow* me permite visualizar en paralelo cómo está compuesta la interfaz y cuál es el camino exacto de la interacción, mostrando claramente los cambios de estado en la pantalla por cada acción relevante.
+---
 
-Antes de armar estos esquemas de navegación, se ha definido los flujos de tareas principales del sistema, asegurándome de establecer las rutas más eficientes y rápidas para la operatividad diaria de un minimarket. Los *Wireflows* se han articulado pensando específicamente en los dos perfiles de usuario que identifiqué: el **Administrador General** (quien necesita supervisar el negocio, controlar las mermas y auditar al personal) y el **Empleado Operativo** (enfocado en el registro ágil, el ingreso de lotes y el descarte de productos). Cada objetivo de uso que he documentado responde directamente a las necesidades y retos reales que enfrenta cada rol en el punto de venta.
+enlace: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=9-8766&t=ZKhGhyVBP4tT2C8g-1
 
-A continuación se detalla la estructura, propósito funcional y los flujos de interacción de las pantallas principales que integran la plataforma BodeGo. El diseño prioriza la separación clara de responsabilidades entre el rol de administración y el de operación en tienda, garantizando que cada interfaz responda directamente a las historias de usuario definidas en la arquitectura del sistema.
-
-### 4.4.2.1. Wireflow 01 — Acceso, Autenticación y Control de Personal
-
-**Objetivo del Usuario:** Autenticarse de forma segura en la plataforma para ingresar al entorno de trabajo correspondiente a sus responsabilidades y permisos asignados.
-
-iamgen
-
-Explicación del flujo:
-Iniciamos el flujo en la pantalla de inicio de sesión (Inicia Sesión), donde el usuario visualiza el formulario centralizado en su estado inicial con los campos de credenciales vacíos. El usuario ingresa su correo electrónico, contraseña y selecciona el terminal de trabajo activo, generando un nuevo estado del wireframe con los datos cumplimentados. Al presionar el botón de **inciar sesion**, el sistema valida la autenticación en la base de datos y evalúa el rol asignado: si el perfil corresponde al Administrador, la interfaz transiciona directamente hacia el Dashboard Administrador; si corresponde al Empleado Operativo, el sistema redirige hacia el entorno de atención y registro diario (Registrar salida de mercadería). Diseñamos este flujo para resguardar la seguridad del inventario y resolver la problemática de la gerencia sobre la falta de un control de acceso centralizado y diferenciado por jerarquías.
-
-### 4.4.2.2. Wireflow 02 — Registro e ingreso de lote de mercadería
-
-**Objetivo del Usuario:** Registrar la entrada de nuevos productos enviados por proveedores, asegurando la captura precisa del lote y fecha de vencimiento.
-
-iamgen
-
-Explicación del flujo:
-El flujo arranca en el Dashboard o en el menú lateral, donde el Empleado Operativo selecciona la opción "Registrar ingreso de mercadería", disparando una transición hacia el wireframe del formulario de recepción en su estado inicial (campos vacíos). El operario utiliza el lector de código de barras para escanear el producto, lo que genera un nuevo estado del wireframe con los datos base autocompletados (nombre, categoría y marca). A continuación, el usuario ingresa la cantidad recibida, el costo unitario y asigna obligatoriamente el número de lote y la fecha de vencimiento, visualizando en pantalla la vista previa de la entrada. Al presionar el botón (Registrar Ingreso), el sistema procesa la transacción, valida los datos e inserta el nuevo lote en la cola de rotación FEFO, desplazando al usuario a una pantalla de confirmación modal con el stock actualizado. Estructuramos este flujo para agilizar la recepción en almacén y reducir los errores manuales en el control de caducidades.
-
-### 4.4.2.3. Wireflow 03 — Detección preventiva de caducidad y aplicación de oferta
-
-**Objetivo del Usuario:** Identificar productos en riesgo de vencimiento cercano y activar un descuento preventivo para minimizar la pérdida de capital.
-
-imagen
-
-Explicación del flujo:
-Planteamos este flujo iniciando en el Dashboard Administrador, donde el Administrador visualiza una notificación de alerta crítica de vencimiento, lo que dispara una transición hacia el wireframe del módulo de Alertas (BodeGo) en su estado filtrado por máxima urgencia. El usuario examina el listado de productos en riesgo de mermar y selecciona un lote específico con pocos días de vida útil, generando un nuevo estado del wireframe que despliega el panel de opciones preventivas. El Administrador activa la opción (Lanzar Oferta), desplegando una ventana interactiva con el porcentaje de descuento recomendado por el sistema. Al presionar (Confirmar Promoción), el sistema actualiza el precio en el punto de venta y conduce al Administrador de vuelta al panel de alertas con el estado del producto actualizado a "En Oferta". Este flujo atiende directamente la necesidad de minimizar las pérdidas de capital por productos vencidos y brinda visibilidad sobre el ciclo de vida del inventario.
-
-### 4.4.2.4. Wireflow 04 — Descarte por deterioro o daño de producto
-
-**Objetivo del Usuario:** Formalizar el retiro de productos no aptos para la venta, documentando la causa exacta para mantener la transparencia en el balance de inventarios.
-
-imagen
-
-Explicación del flujo:
-El flujo inicia en el menú lateral de navegación, donde se dirije a la opcion vencimientos, donde el Empleado Operativo presiona la opción "Registrar merma de mercadería", lo que activa una transición hacia el wireframe del formulario de descarte en su estado inicial. El operario utiliza el buscador rápido o escanea el código de barras para localizar el producto afectado, actualizando el wireframe a un estado donde se muestran los datos del ítem junto con sus lotes activos. A continuación, el usuario selecciona el lote específico del cual retirará unidades, ingresa la cantidad descartada y despliega el selector de motivos para definir la causa (como "rotura de envase", "deterioro" o "vencimiento"). Tras añadir observaciones adicionales sobre el incidente, presiona el botón (Registrar Merma). El sistema procesa la solicitud, descuenta las unidades del inventario activo y redirige al operario a una pantalla con un aviso de confirmación y el balance de stock actualizado. Pensamos este flujo para garantizar la precisión entre el inventario físico y el sistema, facilitando la justificación de pérdidas sin complicaciones operativas.
-
-### 4.4.2.5. Wireflow 05 — Registro y salida rápida de productos en caja
-
-**Objetivo del Usuario:** Procesar la venta o despacho de productos en el punto de venta de forma ágil, aplicando la reducción automática de stock sobre los lotes más próximos a vencer.
-
-imagen
-
-Explicación del flujo:
-Ubicamos el origen de este flujo en el módulo de atención y caja (Registrar salida de mercadería), presentando el wireframe de venta rápida con la lista de productos vacía. El cajero o empleado escanea consecutivamente los códigos de barras de la mercadería adquirida por el cliente, lo que genera transiciones dinámicas en el wireframe agregando cada ítem a la lista con su precio, cantidad y subtotal. Por detrás, el algoritmo FEFO vincula automáticamente cada unidad vendida al lote con la fecha de caducidad más cercana. El usuario revisa el resumen total de la transacción y hace clic en (Confirmar Salida/Venta). El sistema ejecuta la reducción automática del stock en base de datos, limpia el contenedor para la siguiente transacción y despliega un resumen modal del movimiento. Este flujo lo orientamos a acelerar la atención a los clientes en horas pico y eliminar la búsqueda manual de productos o lotes en caja.
-
-### 4.4.2.6. Wireflow 06 — Administración de personal y asignación de turnos
-
-**Objetivo del Usuario:** Registrar nuevos colaboradores, configurar sus funciones en el minimarket y auditar su actividad en el sistema.
-
-imagen
-
-Explicación del flujo:
-El flujo da comienzo en el panel lateral, cuando el Administrador selecciona la pestaña Empleados (BodeGo), desencadenando una transición hacia el wireframe de gestión de personal en su estado general. La pantalla despliega tarjetas métricas (Total Registrados, En Turno Activo, Operaciones Hoy) y una tabla estructurada con el listado de usuarios. Para incorporar un nuevo colaborador, el Administrador presiona el botón (+) Nuevo Empleado, abriendo una ventana modal con el formulario de registro. El usuario completa los datos personales, selecciona la función operativa (por ejemplo, "Cajero & Atención" o "Reposición") y asigna el turno de trabajo correspondiente. Al presionar (Guardar Empleado), el sistema valida la información, actualiza el directorio en tiempo real y conduce al Administrador de vuelta a la tabla principal con el nuevo usuario incorporado y sus credenciales activas. Diseñamos este flujo para mantener un control estricto sobre la seguridad del sistema y garantizar la trazabilidad de las operaciones realizadas por turno.
-
-### 4.4.2.7. Wireflow 07 — Generación y exportación de reportes ejecutivos
-
-**Objetivo del Usuario:** Obtener reportes consolidados del rendimiento del negocio y balance de mermas para auditorías y toma de decisiones.
-
-imagen
-
-Explicación del flujo:
-Iniciamos este flujo en la sección de analítica (Reportes), donde el Administrador accede a la pantalla de métricas financieras e inventario en su estado predeterminado. El usuario interactúa con la barra de controles e impositores de filtro para delimitar un rango de fechas específico, la categoría de productos y el tipo de movimiento (ingresos, ventas o mermas). Al presionar (descargar Reporte/ PDF), el sistema genera la documentación contable y muestra un aviso de descarga exitosa. Este flujo lo definimos para respaldar la revisión de la rentabilidad del negocio y facilitar las entregas de información contable.
+---
 
 ### 4.4.3. Web Applications Mock-ups
+![Mockup App 1](Recursos/images/Mockup-App1.png)
+
+---
+
+![Mockup App 2](Recursos/images/Mockup-App2.png)
+
+---
+
+![Mockup App 3](Recursos/images/Mockup-App3.png)
+
+---
+
+![Mockup App 4](Recursos/images/Mockup-App4.png)
+
+---
+
+![Mockup App 5](Recursos/images/Mockup-App5.png)
+
+---
+
+![Mockup App 6](Recursos/images/Mockup-App6.png)
+
+---
+
+![Mockup App 7](Recursos/images/Mockup-App7.png)
+
+---
+
+![Mockup App 8](Recursos/images/Mockup-App8.png)
+
+---
+
+![Mockup App 9](Recursos/images/Mockup-App9.png)
+
+---
+
+![Mockup App 10](Recursos/images/Mockup-App10.png)
+
+---
+
+![Mockup App 11](Recursos/images/Mockup-App11.png)
+
+---
+
+![Mockup App 12](Recursos/images/Mockup-App12.png)
+
+---
+
+![Mockup App 13](Recursos/images/Mockup-App13.png)
+
+---
+
+![Mockup App 14](Recursos/images/Mockup-App14.png)
+
+---
+[Enlace de Figma](https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1)
+---
+
 ### 4.4.4. Web Applications User Flow Diagrams
 
 ## LEYENDA
 
-![Leyenda Flow Diagram](recursos/imagenes/EmphathyMapping-Administrador.jpg)
+![Leyenda Flow Diagram](Recursos/images/LEYENDA.jpg)
 
 ## FLUJO DE USUARIO
 
-![Flujo de Usuario Flow Diagram](recursos/imagenes/FLUJO_DE_USUARIO.jpg)
+![Flujo de Usuario Flow Diagram](Recursos/images/FLUJO%20DE%20USUARIO.jpg)
 
 ## FLUJO DE ADMINISTRADOR
 
-![Flujo de Administrador Flow Diagram](recursos/imagenes/FLUJO_DE_ADMINISTRADOR.jpg)
+![Flujo de Administrador Flow Diagram](Recursos/images/FLUJO%20DE%20ADMINISTRADOR.jpg)
 
 ## FLUJO DE EMPLEADO
 
-![Flujo de Empleado Flow Diagram](recursos/imagenes/FLUJO_DE_EMPLEADO.jpg)
+![Flujo de Empleado Flow Diagram](Recursos/images/FLUJO%20DE%20EMPLEADO.jpg)
 
 ---
 
@@ -2303,52 +1367,174 @@ Iniciamos este flujo en la sección de analítica (Reportes), donde el Administr
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level EventStorming
-### 4.6.2. Software Architecture Context Diagram
-### 4.6.3. Software Architecture Container Diagrams
-### 4.6.4. Software Architecture Components Diagrams
-
-## 4.7. Software Object-Oriented Design
-### 4.7.1. Class Diagrams
-
-## 4.8. Database Design
-### 4.8.1. Database Diagrams
+![Estructura / Captura 1](Recursos/images/es1.png)
 
 ---
+
+![Estructura / Captura 2](Recursos/images/es2.png)
+
+---
+
+![Estructura / Captura 3](Recursos/images/es3.png)
+
+---
+
+![Estructura / Captura 4](Recursos/images/es4.png)
+
+---
+
+![Estructura / Captura 5](Recursos/images/es5.png)
+
+---
+
+![Estructura / Captura 6](Recursos/images/es6.png)
+
+---
+
+![Estructura / Captura 7](Recursos/images/es7.png)
+
+---
+
+![Estructura / Captura 8](Recursos/images/es8.png)
+
+---
+
+![Estructura / Captura 9](Recursos/images/es9.png)
+
+---
+
+![Estructura / Captura 9](Recursos/images/es91.png)
+
+---
+
+![Estructura / Captura 9](Recursos/images/es92.png)
+
+---
+
+![Estructura / Captura 9](Recursos/images/es93.png)
+
+---
+[Nuestro link del miro](https://miro.com/app/board/uXjVHm55KfI=/)
+---
+
+### 4.6.2. Software Architecture Context Diagram
+![Context](Recursos/images/SystemContext.png)
+### 4.6.3. Software Architecture Container Diagrams
+![Container](Recursos/images/Containers.png)
+
+### 4.6.4. Software Architecture Components Diagrams
+![Components-Worker](Recursos/images/Components-Worker.png)
+
+---
+
+![Components-API](Recursos/images/Components-API.png)
+## 4.7. Software Object-Oriented Design
+### 4.7.1. Class Diagrams
+![Class-Diagram](Recursos/images/DiagramaClases.jpg)
+## 4.8. Database Design
+Se presenta el diseño de la base de datos relacional que permitirá graficar la información para los objetos de cada Bounded Context identificados en la aplicación BodeGo.
+
+### 4.8.1. Database Diagrams
+El siguiente diagrama de base de datos Entity-Relationship contiene las tablas, columnas y tipos de datos que establecen las relaciones entre las entidades del sistema.
+![Diagrama / Diseño 1](Recursos/images/d1.png)
+
+---
+
+![Diagrama / Diseño 2](Recursos/images/d2.png)
+
+---
+
+![Diagrama / Diseño 3](Recursos/images/d3.png)
+
+---
+
+![Diagrama / Diseño 4](Recursos/images/d4.png)
+
+---
+
+![Diagrama / Diseño 5](Recursos/images/d5.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
-
 Para el desarrollo de BodeGo se establecerán un conjunto de herramientas que permitan mantener la consistencia del proyecto durante su ciclo de vida. Estas configuraciones permitirán que los integrantes del equipo trabajen bajo una misma estructura para el control de versiones, configuración del entorno de desarrollo y posterior despliegue de la aplicación.
 
 ### 5.1.1. Software Development Environment Configuration
-
 ## . Project Management
+
 - **Discord:** Una herramienta de comunicación y coordinación del equipo. Permite organizar conversaciones por canales, realizar reuniones de voz, compartir avances, resolver dudas y coordinar las actividades relacionadas con el desarrollo de BodeGo.
-  
+---
+![Imagen de la entrevista](Recursos/images/dc1.jpg)
+---
+[link de inicio sesion](https://discord.com/)
+
+---
+
+imagen para mostrar evidencia de uso: 
+
+![imagen](Recursos/images/dc2.jpg)
+
 ## . Requirement Management
 
 - **Miro:** Se utilizará como herramienta colaborativa para la gestión y análisis de requisitos de BodeGo. Permitirá organizar visualmente información obtenida durante la investigación, como User Personas, Empathy Maps, User Journey Maps e Impact Mapping.
+---
+![Imagen de la entrevista](Recursos/images/miro.png)
+
+---
+
+[link de inicio de sesion](https://miro.com/es/)
 
 - **UXPressia:** Se utilizará para elaborar y documentar artefactos relacionados con la experiencia de usuario, como User Personas y User Journey Maps, permitiendo representar las características, necesidades, objetivos y experiencias de los segmentos de usuarios de BodeGo.
+---
+![Imagen de la entrevista](Recursos/images/ux.png)
+---
+
+[link de inicio de sesion](https://uxpressia.com/)
 
 - **Structurizr:** Se utilizará para modelar y documentar la arquitectura de software de BodeGo mediante diagramas basados en el modelo C4. Permitirá representar la estructura general del sistema, sus principales contenedores, componentes y relaciones.
+---
+![Imagen de la entrevista](Recursos/images/struc.png)
+---
 
 ## . Product UX/UI Design
 
 - **Figma:** Una herramienta de colaboración que facilita el desarrollo conjunto de wireframes y mockups.
+---
+![Imagen de la entrevista](Recursos/images/figma.png)
+---
+[link de inicio de sesion](https://www.figma.com/es-la/)
 
 - **LucidChart:** Una herramienta colaborativa que posibilita la creación conjunta de wireframes flow y mockups flow.
+---
+![Imagen de la entrevista](Recursos/images/lucid.png)
+---
+[link de inicio de sesion](https://lucid.co/es/lucidchart)
 
 ## . Software Development
 
 - **HTML5:** Es un lenguaje de etiquetado utilizado para crear la estructura de una página web. Se empleará para incluir componentes como texto, imágenes, enlaces, botones y videos.
+---
+![Imagen de la entrevista](Recursos/images/html.png)
+---
+[informacion relacionada](https://www.esic.edu/rethink/tecnologia/html5-que-es-caracteristicas-y-como-funciona-c#:~:text=El%20HTML5%20es%20un%20est%C3%A1ndar,%2C%20estilo%20de%20letra%2C%20etc.)
 
 - **CSS:** Es un lenguaje de diseño gráfico utilizado para dar formato y estilo a la presentación de los documentos HTML.
+---
+![Imagen de la entrevista](Recursos/images/css.png)
+---
+[informacion relacionada](https://developer.mozilla.org/es/docs/Web/CSS)
 
 - **JavaScript:** Es un lenguaje de programación dinámico orientado a objetos que se utilizará para implementar funcionalidades e interactividad en la aplicación web.
+---
+![Imagen de la entrevista](Recursos/images/js.png)
+---
+[informacion relacionada](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
-- **WebStorm:** Es un entorno de desarrollo integrado (IDE) que se empleará para trabajar con JavaScript y desarrollar la aplicación.
+- **intellJ IDEA** Es un entorno de desarrollo integrado (IDE) diseñado para programar en Java.
+---
+![Imagen de la entrevista](Recursos/images/intell.jpg)
+---
+[link de descarga](https://www.jetbrains.com/es-es/idea/download/?section=windows)
 
 ## . Software Testing
 
@@ -2357,27 +1543,553 @@ Para el desarrollo de BodeGo se establecerán un conjunto de herramientas que pe
 ## . Software Documentation
 
 - **GitHub:** Es una plataforma utilizada para el alojamiento y control de versiones del código fuente de un proyecto. Facilita el trabajo colaborativo entre los integrantes del equipo y permite mantener un historial de los cambios realizados.
+---
+![Imagen de la entrevista](Recursos/images/gh6.jpgg)
+---
+
 
 ## . Software Deployment
 
 - **GitHub Pages:** Es una plataforma que permite realizar despliegues de aplicaciones web directamente desde un repositorio de GitHub.
-
+---
+![Imagen de la entrevista](Recursos/images/gh7.png)
+---
+[link de inicio](https://github.com/?locale=es-419)
+---
+[link de descarga](https://github.com/apps/desktop?locale=es-419)
+---
+[Nuestro repositorio de documentación](https://github.com/SirEthan04/Proxy_Open_Source)
+---
+[Nuestro repositorio de landingpage](https://github.com/SirEthan04/Proxy_Open_Source_LandingPage)
+---
+[Nuestro repositorio de frontend](https://github.com/SirEthan04/Proxy_Open_Source_Front-end)
+---
+[Nuestro repositorio de web aplication](https://github.com/SirEthan04/Proxy_Open_Source_Web-Application)
+---
 ### 5.1.2. Source Code Management
+---
+
+![Estructura / Captura 9](Recursos/images/gh9.jpg)
+
+---
+## GitFlow Implementation
+Para organizar el trabajo colaborativo del equipo se utilizará **GitFlow** como modelo de ramificación, empleando Git para el control de versiones.
+Este modelo permitirá separar el código estable de BodeGo de las funcionalidades que se encuentren en desarrollo, facilitando que diferentes integrantes del equipo puedan trabajar simultáneamente en módulos como inventario, productos, lotes, mermas, ofertas, usuarios y reportes.
+
+### Main Branch
+
+La rama main será la rama principal y contendrá las versiones estables de BodeGo que se encuentren preparadas para producción.
+No se desarrollarán funcionalidades directamente sobre esta rama. Los cambios llegarán a main mediante la integración de ramas release y hotfix.
+
+## Develop Branch
+
+La rama develop contendrá los cambios más recientes del proyecto que serán incluidos en próximas versiones de BodeGo.
+Funcionará como punto de integración de las diferentes funcionalidades desarrolladas por el equipo. Antes de que una versión sea incorporada a main, las nuevas características serán integradas y verificadas previamente en develop.
+
+## Feature Branch
+
+Las ramas feature serán utilizadas para desarrollar nuevas funcionalidades de **BodeGo** de forma independiente.
+Cada característica deberá contar con su propia rama, permitiendo que los integrantes del equipo trabajen en diferentes módulos sin modificar directamente la rama develop.
+
+## Release Branch
+
+Las ramas release serán utilizadas cuando las funcionalidades previstas para una nueva versión de BodeGo ya hayan sido integradas en develop.
+Su objetivo será preparar una versión antes de pasarla a producción. Durante esta etapa podrán realizarse pruebas, ajustes menores y correcciones de errores sin impedir que el equipo continúe desarrollando nuevas características en develop.
+
+## Hotfix Branch
+
+Las ramas hotfix serán utilizadas para corregir errores importantes encontrados en una versión de BodeGo que ya se encuentre en producción.
+Estas ramas permitirán solucionar rápidamente un problema sin interrumpir el desarrollo de nuevas funcionalidades que continúe realizándose en develop.
+
+## Support Branch
+
+Para la primera etapa del desarrollo de BodeGo no se utilizarán ramas supoort, debido a que el proyecto no contempla inicialmente el mantenimiento simultáneo de múltiples versiones antiguas del producto.
+En caso de que en el futuro BodeGo deba mantener diferentes versiones en producción, podrán incorporarse ramas de soporte específicas.
+
+## Conventional Commits
+
+Para mantener un historial de cambios claro y comprensible, los mensajes de los commits del proyecto BodeGo seguirán la especificación Conventional Commits.
+
+Esta convención permitirá identificar rápidamente el propósito de cada modificación realizada por los integrantes del equipo.¿
+
+La estructura general será: git commit -m <type>[optional scope]: <title>“ -m “<description” 
+
+### Tipos de Conventional Commits
+- feat: Incorporación de una nueva funcionalidad.
+- fix: Corrección de un error. 
+- docs: Cambios en documentación. 
+- style: Cambios de formato que no modifican el funcionamiento. 
+- refactor: Reestructuración del código sin agregar funcionalidades ni corregir errores. 
+- test: Adición o modificación de pruebas. 
+- chore: Tareas de mantenimiento o configuración. 
+- perf: Mejoras relacionadas con el rendimiento. 
 
 ### 5.1.3. Source Code Style Guide & Conventions
+Como norma general, todo el código desarrollado para BodeGo deberá utilizar nombres en inglés. Esto incluye variables, funciones, métodos, clases, archivos, atributos y demás elementos utilizados durante el desarrollo.
+
+La finalidad de estas reglas es mantener un código ordenado y fácil de entender para todos los integrantes del equipo.
+
+---
+
+HTML
+
+Use Lowercase Element Names
+
+Los elementos HTML se escribirán en minúsculas.
+
+```html
+<section>
+    <h2>Inventory</h2>
+    <p>Available products</p>
+</section>
+```
+
+Close All HTML Elements
+
+Todos los elementos HTML que necesiten una etiqueta de cierre deberán cerrarse correctamente.
+
+```html
+<section>
+    <h2>Inventory</h2>
+    <p>Available products</p>
+</section>
+```
+
+Use Lowercase Attribute Names
+
+Los atributos HTML también se escribirán en minúsculas.
+
+```html
+<a href="/inventory">View inventory</a>
+```
+
+Use Alternative Text for Images
+
+Las imágenes utilizadas en BodeGo deberán incluir el atributo alt para indicar brevemente su contenido.
+
+```html
+<img
+    src="assets/bodego-logo.png"
+    alt="BodeGo logo">
+```
+
+Use Semantic HTML Elements
+
+Cuando sea posible, se utilizarán etiquetas semánticas para organizar mejor las páginas.
+Algunas de las etiquetas que se utilizarán son:
+
+```text
+header
+nav
+main
+section
+article
+footer
+```
+
+Spaces and Equal Signs
+
+No se utilizarán espacios innecesarios alrededor del signo igual en los atributos.
+
+Correcto:
+
+```html
+<link rel="stylesheet" href="styles.css">
+```
+
+Incorrecto:
+
+```html
+<link rel = "stylesheet" href = "styles.css">
+```
+
+
+CSS
+
+ID and Class Naming
+
+Las clases e identificadores CSS deberán utilizar nombres claros y relacionados con el elemento que representan.
+
+```css
+#inventory {
+}
+
+#dashboard {
+}
+
+.product-card {
+}
+
+.stock-alert {
+}
+```
+Se evitarán nombres poco descriptivos como:
+
+```css
+.box1 {
+}
+
+.element2 {
+}
+```
+
+ID and Class Name Style
+
+Para los nombres de clases e identificadores CSS se utilizará kebab-case.
+
+```css
+.product-card {
+}
+
+.inventory-table {
+}
+
+.stock-alert {
+}
+```
+
+Shorthand Properties
+
+Cuando sea posible, se utilizarán propiedades abreviadas para evitar código innecesario.
+
+En lugar de:
+
+```css
+.product-card {
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+```
+
+Se utilizará:
+
+```css
+.product-card {
+    margin: 16px;
+}
+```
+
+Declaration Order
+
+Las propiedades CSS deberán mantenerse ordenadas para facilitar la lectura del código.
+
+```css
+.product-card {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    display: flex;
+    margin: 16px;
+    padding: 16px;
+    text-align: left;
+}
+```
+
+JavaScript
+
+Use Expanded Syntax
+
+El código JavaScript deberá escribirse de manera clara y ordenada, colocando cada instrucción en una línea diferente cuando sea necesario.
+
+```javascript
+function calculateAvailableStock() {
+    console.log("Calculating available stock");
+}
+```
+Variable Naming
+
+Las variables utilizarán camelCase y deberán tener nombres descriptivos en inglés.
+
+```javascript
+let availableStock = 20;
+let productName = "Milk";
+let expirationDate = "2026-10-20";
+let criticalStockThreshold = 5;
+```
+
+Se evitarán nombres poco claros como:
+
+```javascript
+let x;
+let data1;
+let thing;
+```
+
+Declaring Variables
+
+Se utilizará const cuando el valor no necesite cambiar.
+
+```javascript
+const productId = 10;
+const productName = "Milk";
+```
+
+Se utilizará let cuando el valor pueda modificarse.
+
+```javascript
+let availableStock = 20;
+
+availableStock = availableStock - 1;
+```
+
+Function Naming
+
+Las funciones utilizarán camelCase y sus nombres deberán indicar claramente la acción que realizan.
+
+Ejemplos:
+
+```javascript
+function registerProduct() {
+}
+```
+
+```javascript
+function calculateStock() {
+}
+```
+
+```javascript
+function showExpirationAlert() {
+}
+```
+
+Constants
+
+Las constantes globales podrán utilizar UPPER_SNAKE_CASE.
+
+Ejemplos:
+
+```javascript
+const MAX_LOGIN_ATTEMPTS = 5;
+const DEFAULT_STOCK_THRESHOLD = 10;
+```
+Java
+
+PascalCase
+
+Las clases utilizarán PascalCase.
+
+```java
+public class ProductService {
+}
+```
+
+```java
+public class InventoryService {
+}
+```
+
+```java
+public class BatchService {
+}
+```
+
+---
+
+camelCase
+
+Los métodos, variables locales, parámetros y atributos utilizarán camelCase.
+
+```java
+private int productId;
+private String productName;
+```
+---
+Clear Comments
+
+Los comentarios se utilizarán cuando ayuden a entender partes del código que los demas integrantes del grupo no comprendan.
+
+```java
+// Checks whether the batch is close to its expiration date.
+public boolean isNearExpiration(LocalDate expirationDate) {
+    return expirationDate.isBefore(LocalDate.now().plusDays(7));
+}
+```
+
+---
+
+Single Responsibility
+
+Cada clase deberá encargarse principalmente de una responsabilidad.
+
+- ProductService se encargará de las operaciones relacionadas con productos.
+- InventoryService se encargará de las operaciones relacionadas con inventario.
+- BatchService se encargará de la gestión de lotes.
+- WastageService se encargará del registro y gestión de mermas.
+
+Gherkin
+
+Los escenarios y criterios de aceptación de BodeGo deberán seguir una estructura uniforme y utilizar nombres en inglés.
+
+escriptive and Concise Titles for Scenarios
+
+Los escenarios deberán tener títulos claros que permitan entender rápidamente qué comportamiento se está evaluando.
+
+```gherkin
+Feature: User authentication
+
+Scenario: Successful login
+    Given the user has an active account
+    When the user enters valid credentials
+    Then the system should grant access according to the user role
+```
+
+Follow the Given-When-Then Structure Consistently
+
+Los escenarios deberán utilizar la estructura Given, When y Then.
+
+- Given: representa la condición inicial.
+- When: representa la acción realizada.
+- Then: representa el resultado esperado.
+
+
+Focus on Business-Readable Language
+
+Los escenarios deberán utilizar un lenguaje relacionado con las actividades del minimarket y evitar detalles técnicos de programación.
+
+```gherkin
+Scenario: Register damaged product as wastage
+
+    Given the employee finds a damaged product
+    When the employee registers the product as wastage
+    Then the stock should be updated
+    And the wastage should be recorded
+```
+Add Comments When Necessary
+
+Se podrán agregar comentarios cuando sea necesario explicar el propósito de un escenario.
+
+```gherkin
+# This scenario checks the registration of expired products as wastage.
+
+Scenario: Register expired product as wastage
+
+    Given a product batch has expired
+    When the employee registers the expired units
+    Then the units should be recorded as wastage
+    And the stock should be updated
+```
+
 ### 5.1.4. Software Deployment Configuration
 
 ## 5.2. Landing Page, Services & Applications Implementation
-### 5.2.1. Sprint n
-#### 5.2.1.1. Sprint Planning n
-#### 5.2.1.2. Aspect Leaders and Collaborators
-#### 5.2.1.3. Sprint Backlog n
-#### 5.2.1.4. Development Evidence for Sprint Review
-#### 5.2.1.5. Execution Evidence for Sprint Review
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+### 5.2.1. Sprint 1
+## Sprint 1 - Desarrollo de la Landing Page de BodeGo
+Durante el Sprint 1, el equipo se enfocó en desarrollar la primera versión funcional de la Landing Page de BodeGo.
+El objetivo fue transformar los wireframes y diseños realizados previamente en una página web funcional que permitiera presentar de manera clara la solución propuesta para los minimarkets.
 
+#### 5.2.1.1. Sprint Planning 1
+
+El print Planning permitió organizar las actividades que serían desarrolladas durante el Sprint 1.
+En esta reunión se definió como objetivo principal implementar la Landing Page de BodeGo.
+| Sprint # | Sprint 1 |
+|---|---|
+| **Sprint Planning Background** | El Sprint tiene como objetivo desarrollar la primera versión funcional de la Landing Page de BodeGo. |
+| **Date** | 2026-09-17 |
+| **Time** | 5:00 pm |
+| **Location** | Discord |
+| **Prepared By** | Equipo de desarrollo BodeGo |
+| **Attendees (to planning meeting)** | Day / Mateo / Yorch / Johan / Guior |
+| **Sprint 0 Review Summary** | No existe sprint previo |
+| **Sprint 0 Retrospective Summary** | No existe sprint previo |
+| **Sprint Goal & User Stories** | |
+| **Sprint 1 Goal** | Crear una Landing Page funcional para BodeGo que permita mostrar la información principal del producto, sus beneficios, funcionalidades y facilitar el contacto con potenciales usuarios mediante una interfaz clara y responsive. |
+| **Sprint 1 Velocity** | 29 Story Points |
+| **Sum of Story Points** | 29 Story Points |
+
+#### 5.2.1.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 1 se identificaron los principales aspectos de trabajo necesarios para implementar la Landing Page de BodeGo.
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page Structure & Navigation | Product Benefits & Impact | Product Features & Explanation | Contact & Footer Section | Responsive Design |
+|---|---|---|---|---|---|---|
+| Dany Chavez | Danysss-cmd | L | C | C | - | C |
+| Mateo Caldas | Ethan.Matt | C | L | C | - | C |
+| Yorch Blanco | Bleim-154 | C | C | L | - | C |
+| Johan Saravia | yowuan | - | C | C | L | C |
+| Giordano Trejo | igogriogriorgiori | C | C | C | C | L |
+
+#### 5.2.1.3. Sprint Backlog 1
+
+Durante el Sprint 1, las actividades estuvieron orientadas al desarrollo de la primera versión funcional de la Landing Page de BodeGo.
+
+El objetivo principal fue transformar los wireframes y mockups previamente diseñados en una interfaz web funcional que permita comunicar la propuesta de valor del producto, presentar sus principales funcionalidades y captar potenciales usuarios interesados en la solución.
+
+![Evidencia Sprint Backlog n1](https://github.com/SirEthan04/Proxy_Open_Source/blob/main/Recursos/images/EvidenciaSprintBacklog%20N1.jpg)
+Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego
+
+---
+
+| **User Story ID** | **Story Title** | **Task ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| --- | --- | --- | --- | --- | ---: | --- | --- |
+| US01 | Visualización del Hero Principal | TSK001 | Create Landing Page structure | Crear la estructura inicial de la Landing Page basada en los wireframes definidos, configurando componentes, archivos y estilos generales. | 2 | Dany | Hecho |
+| US01 | Visualización del Hero Principal | TSK002 | Implement navigation bar | Implementar la barra de navegación superior incluyendo logo de BodeGo, enlaces principales y botón de acción. | 2 | Dany | Hecho |
+| US01 | Visualización del Hero Principal | TSK003 | Implement hero section | Desarrollar la sección principal con título, descripción de valor, imagen representativa y CTA orientado a captar usuarios interesados. | 3 | Dany | Hecho |
+| US02 | Visualización de Beneficios del Producto | TSK004 | Implement benefits section | Implementar la sección de beneficios destacando el control de inventario, reducción de mermas y mejora de procesos operativos. | 4 | Mateo | Hecho |
+| US03 | Presentación de Funcionalidades Principales | TSK005 | Implement solutions section | Implementar la sección de soluciones mostrando las principales capacidades de BodeGo como inventario, alertas, reportes y control operativo. | 3 | Yorch | Hecho |
+| US04 | Explicación del Funcionamiento de BodeGo | TSK006 | Implement how it works section | Desarrollar la sección donde se explica el flujo general de funcionamiento de BodeGo y la interacción entre Administrador y Empleado. | 3 | Yorch | Hecho |
+| US02 | Visualización de Beneficios del Producto | TSK007 | Implement impact section | Implementar la sección de impacto mostrando los beneficios esperados de utilizar BodeGo dentro del negocio. | 2 | Mateo | Hecho |
+| US05 | Formulario de Contacto Comercial | TSK008 | Implement contact section | Implementar el formulario de contacto para que potenciales clientes puedan solicitar información sobre BodeGo. | 3 | Johan | Hecho |
+| US03 | Presentación de Funcionalidades Principales | TSK009 | Implement footer section | Implementar el footer con información general del producto, enlaces y datos de contacto. | 2 | Guiordano | Hecho |
+| US01 - US05 | Landing Page | TSK010 | Implement responsive design | Adaptar la Landing Page para dispositivos móviles, tablets y escritorio manteniendo la correcta visualización del diseño. | 5 | Giordano | Hecho |
+
+#### 5.2.1.4. Development Evidence for Sprint Review
+---
+
+| Repository              | Branch                    | Commit ID | Commit Message                          | Commit Message Body                                                            | Committed on |
+| ----------------------- | ------------------------- | --------- | --------------------------------------- | ------------------------------------------------------------------------------ | ------------ |
+| Danysss-cmd/Landing Page Repository | feature/hero-section      | 371ee21   | feat: improve hero section design       | Implementación y mejora del diseño de la sección principal de la Landing Page. | 17/09/2026   |
+| SirEthan04/Landing Page Repository | feature/value-proposition | fa49632   | feat: improve value proposition section | Desarrollo de la sección de beneficios y propuesta de valor del producto.      | 17/09/2026   |
+| Bleim-154/Landing Page Repository | feature/solutions-section | 003f372   | feat: improve solutions section         | Implementación de la sección de soluciones y funcionalidades principales.      | 17/09/2026   |
+| SirEthan04//Landing Page Repository | feature/impact-section    | 7182b63   | feat: improve impact section            | Desarrollo de la sección de impacto mostrando beneficios del producto.         | 17/09/2026   |
+| yowuan/Landing Page Repository | feature/contact-form      | e281064   | feat: improve contact form              | Implementación del formulario de contacto comercial.                           | 17/09/2026   |
+| giorgiorgiorgior/Landing Page Repository | feature/footer            | dfb92c0   | feat: improve footer section            | Implementación del footer con información general y enlaces.                   | 17/09/2026   |
+
+
+---
+#### 5.2.1.5. Execution Evidence for Sprint Review
+---
+
+![Estructura / Captura 9](Recursos/images/lpd1.jpg)
+
+---
+---
+
+![Estructura / Captura 9](Recursos/images/lpd2.jpg)
+
+---
+---
+
+![Estructura / Captura 9](Recursos/images/lpd3.jpg)
+
+---
+---
+
+![Estructura / Captura 9](Recursos/images/lpd4.jpg)
+
+---
+---
+
+[Landing Page Desplegada](https://sirethan04.github.io/Proxy_Open_Source_LandingPage/)
+
+---
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+Se ha omitido la sección de la aplicación web debido a que solo se ha desarrollado la Landing Page. Se ofrecerá más información sobre la aplicación en
+una etapa posterior del desarrollo.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+Se ha omitido la sección de la aplicación web debido a que solo se ha desarrollado la Landing Page. Se ofrecerá más información sobre la aplicación en
+una etapa posterior del desarrollo.
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+---
+
+![Estructura / Captura 9](Recursos/images/gh8.png)
+
+---
 ## 5.3. Validation Interviews
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
@@ -2390,6 +2102,18 @@ Para el desarrollo de BodeGo se establecerán un conjunto de herramientas que pe
 # Conclusiones
 
 ## Conclusiones y recomendaciones
+El proyecto BodeGo busca solucionar el problema de la falta de control y organización del inventario en los minimarkets, especialmente en la gestión de productos perecibles, diferencias de stock y pérdidas ocasionadas por vencimientos. A través de una plataforma web de gestión, se permite que los Administradores y Empleados puedan realizar sus actividades de manera más ordenada, rápida y eficiente.
+
+Las validaciones realizadas permitieron confirmar que los usuarios presentan dificultades al utilizar métodos manuales como cuadernos, archivos de Excel o revisiones físicas constantes. Por ello, funcionalidades como el control de inventario, alertas de vencimiento, reportes y gestión de roles representan una solución alineada con las necesidades identificadas durante el proceso de investigación.
+
+La aplicación busca ofrecer una experiencia sencilla e intuitiva, enfocándose en reducir el tiempo empleado en tareas operativas y mejorar la toma de decisiones dentro del minimarket. Entre sus principales características destacan:
+
+- Control actualizado del inventario.
+- Alertas sobre productos próximos a vencer.
+- Reportes para conocer el estado del negocio.
+- Gestión de usuarios según sus responsabilidades.
+
+Estas funcionalidades están diseñadas para disminuir los errores en el registro de productos, evitar pérdidas innecesarias y brindar mayor visibilidad sobre el estado real del inventario. De esta manera, BodeGo permite que los Administradores puedan tomar decisiones más oportunas y que los Empleados puedan realizar sus tareas de forma rápida y organizada.
 
 ---
 
@@ -2402,3 +2126,17 @@ Para el desarrollo de BodeGo se establecerán un conjunto de herramientas que pe
 ---
 
 # Anexos
+---
+[Enlace de Figma](https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1)
+---
+[Nuestro link del miro](https://miro.com/app/board/uXjVHm55KfI=/)
+---
+[Nuestro repositorio de documentación](https://github.com/SirEthan04/Proxy_Open_Source)
+---
+[Nuestro repositorio de landingpage](https://github.com/SirEthan04/Proxy_Open_Source_LandingPage)
+---
+[Nuestro repositorio de frontend](https://github.com/SirEthan04/Proxy_Open_Source_Front-end)
+---
+[Nuestro repositorio de web aplication](https://github.com/SirEthan04/Proxy_Open_Source_Web-Application)
+---
+
