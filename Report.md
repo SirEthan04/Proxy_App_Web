@@ -2127,7 +2127,196 @@ Estas funcionalidades están diseñadas para disminuir los errores en el registr
 
 # Anexos
 ---
-[Enlace de Figma](https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1)
+
+## 4.3. Landing Page UI Design
+### 4.3.1. Landing Page Wireframe
+Para el landing Page se realizo wireframes de cada una de las pantallas del sitio.
+
+Pantalla 1:
+
+| ![Pantalla 1](recursos/imagenes/Pantalla-1.png) |
+
+Pantalla 2:
+
+| ![Pantalla 2](recursos/imagenes/Pantalla-2.png) |
+
+Pantalla 3:
+
+| ![Pantalla 3](recursos/imagenes/Pantalla-3.png) |
+
+Pantalla 4:
+
+| ![Pantalla 4](recursos/imagenes/Pantalla-4.png) |
+
+Pantalla 5:
+
+| ![Pantalla 5](recursos/imagenes/Pantalla-5.png) |
+
+### 4.3.2. Landing Page Mock-up
+
+**Estructura general y lineamientos visuales.**
+
+La interfaz visual de la página de inicio de **BodeGo** se ha desarrollado con un estándar de alta fidelidad, integrando de forma exacta los contenidos textuales, recursos gráficos y componentes interactivos definidos para la plataforma. El diseño refleja una estética moderna, limpia y profesional, orientada específicamente a optimizar la gestión de inventarios y resolver las necesidades operativas de los minimarkets.
+
+**Aplicación del Branding**
+
+Se plasma la identidad visual de la startup **Proxy** a través de su paleta cromática corporativa —predominando tonos de azul grisáceo institucional y acentos oscuros de alto contraste, y la tipografía moderna *Hanken Grotesk*. En la esquina superior izquierda de la barra de navegación se integra el logotipo oficial de BodeGo (acompañado del nombre de la marca), garantizando un reconocimiento inmediato por parte del usuario.
+
+**Estructura visual:**
+
+- **Cabecera:** Diseñada en una franja horizontal superior de tono gris acero con alineación flexible. Contiene el logotipo corporativo a la izquierda, los enlaces de redireccionamiento interno (*Solución*, *Tecnología*, *Cómo Funciona*, *Nosotros*) centrados, y un botón de llamada a la acción principal (*Regístrate*) con tipografía en negrita y diseño interactivo.
+
+- **Sección Principal:** Se compone de un diseño a doble columna con amplio espaciado en blanco. Del lado izquierdo presenta el título principal de impacto (*"Controla tu inventario sin complicaciones"*), seguido del subtítulo con acento azul (*"Optimiza tu minimarket y reduce dificultades"*), el párrafo descriptivo sobre la centralización de stock y control de lotes, y el botón de llamada a la acción secundario (*"Solicitar Consulta"*). Del lado derecho, se ubica una imagen de alta calidad con bordes redondeados y sombra elegante que retrata a un operador gestionando el almacén con una tablet y un portapapeles.
+
+- **Sección Propuesta de Valor / Características:** Estructurada sobre un fondo de color sólido azul grisáceo que genera contraste visual. Muestra un título principal (*"Nuestra Propuesta"*) y un subtítulo descriptivo sobre las necesidades reales del sector, organizando debajo tres tarjetas blancas en grilla que detallan los pilares del sistema: **Control de lotes** (con gráficos alusivos al monitoreo de entradas, salidas y fechas de caducidad), **Alertas** (enfocada en priorizar productos próximos a vencer para evitar pérdidas) y **Doble Rol** (destacando las interfaces segmentadas y seguras para administradores y empleados).
+
+- **Sección Nuestras Soluciones:** Presenta las herramientas tecnológicas mediante una cuadrícula de cuatro bloques modulares de tono gris oscuro con textos en blanco. Detalla las capacidades operativas del sistema bajo el lema *"Tecnología ágil para tu día a día"*:
+
+  - *Gestión Centralizada:* Acceso en tiempo real al inventario desde cualquier dispositivo web.
+  - *Reportes Analíticos:* Visualización de indicadores de rotación, stock crítico y pérdidas.
+  - *Ofertas Estratégicas:* Creación de promociones automáticas para dar salida rápida a baja rotación.
+  - *Auditoría y Seguridad:* Registro detallado de cada operación realizada por el personal.
+  
+- **Sección de Impacto:** Ubicada sobre un fondo oscuro, expone los beneficios directos cuantificables para el negocio mediante dos tarjetas modulares informativas: la *Reducción de dificultades* (disminución de pérdidas por productos perecibles vencidos) y el *Ahorro de tiempo* (eliminación de cuadernos físicos y agilización del registro diario).
+
+- **Sección de Contacto:** Diseñada con un contenedor central de fondo claro y bordes sutiles que alberga un formulario interactivo estructurado con campos específicos para nombre completo, correo electrónico, teléfono de contacto y un área de texto para los detalles o requerimientos del negocio, coronado por un botón principal de envío (*"Enviar Consulta"*).
+
+- **Zona Inferior (Pie de página / Footer):** Extensión de cierre con fondo gris institucional que distribuye la información corporativa en columnas ordenadas: el logotipo de BodeGo, secciones de navegación rápida, enlaces legales e institucionales de la startup Proxy, y datos directos de contacto (teléfono, correo corporativo y ubicación en Lima, Perú), finalizando con la barra de derechos reservados.
+
+**Aplicación de guía de estilos y principios de diseño:**
+
+- **Jerarquía tipográfica:** Se implementaron tamaños claros y contrastados, utilizando títulos principales destacados de gran tamaño, subtítulos de apoyo y textos base legibles que facilitan un recorrido visual rápido y escaneable.
+
+- **Diseño Responsivo:** La estructura se adapta de manera fluida mediante contenedores basados en grillas flexibles, garantizando una correcta visualización tanto en equipos de escritorio como en pantallas de dispositivos móviles.
+
+- **Arquitectura de la Información:** El flujo de navegación guía lógicamente al usuario desde la introducción del problema de inventario hasta las soluciones tecnológicas y los canales concretos de conversión y contacto.
+
+| ![Pantalla 1](recursos/imagenes/Landimg-1.png) |
+
+| ![Pantalla 2](recursos/imagenes/Landing-2.png) |
+
+| ![Pantalla 3](recursos/imagenes/Landing-3.png) |
+
+| ![Pantalla 4](recursos/imagenes/Landing-4.png) |
+
+| ![Pantalla 5](recursos/imagenes/Landing-5.png) |
+
+## 4.4. Web Applications UX/UI Design
+
+En este apartado se detalla el diseño visual y la experiencia interactiva que da vida a la plataforma web de **BodeGo**, un sistema concebido para optimizar la administración de almacenes, el seguimiento por lotes y la disminución de dificultades en minimarkets. Para lograrlo, la propuesta adopta metodologías de diseño centrado en el usuario, criterios de accesibilidad e inclusión, y los lineamientos de arquitectura de la información formulados en etapas previas, asegurando una conexión armónica con el Design System de la startup.
+
+Para su correcta comprensión, el contenido se despliega a través de cuatro ejes temáticos principales: en primer lugar, los **Wireframes**, los cuales establecen los cimientos estructurales y la jerarquía de los elementos en cada interfaz; en segundo lugar, los **Wireflow Diagrams**, que plasman de qué manera se conecta una pantalla con otra en función de los propósitos operativos de cada perfil; en tercer lugar, los **Mock-ups**, encargados de llevar la interfaz a una etapa de alta fidelidad visual aplicando la identidad corporativa y la guía de estilos; y finalmente, los **User Flow Diagrams**, que conectan estas maquetas con los recorridos ideales y las rutas de contingencia o error, que se pueden presentar durante la navegación.
+
+El desarrollo de la interfaz contempla las necesidades de dos perfiles clave: **El dueño y/o administrador del minimarket**, busca supervisar la rentabilidad y prevenir pérdidas por artículos caducados; y **Empleado o asistente**, colaborador de mostrador y cajero encargado de ejecutar los registros cotidianos de entradas, salidas y escaneo de stock. De este modo, cada funcionalidad e interacción descrita en el sistema atiende directamente a las expectativas, retos y dolores detectados en sus respectivas fichas de caracterización.
+
+### 4.4.1. Web Applications Wireframes
+
+Los wireframes desarrollados para BodeGo representan la arquitectura estructural de baja a media fidelidad de la plataforma web, orientada a la gestión eficiente de inventarios y control preventivo de mermas. Cada pantalla fue concebida aplicando rigurosamente principios de jerarquía visual, consistencia de componentes y proximidad funcional, integrando criterios de diseño inclusivo e interfaz responsiva como áreas de interacción legibles, contraste optimizado para entornos operativos en punto de venta y etiquetado claro en cada acción ejecutable. Esta propuesta traduce directamente la arquitectura de información y el flujo de navegación validados en la especificación del sistema. Para su elaboración se empleó la herramienta Figma.
+
+En esta etapa se presentan las pantallas principales que articulan los módulos clave de la plataforma, estructuradas de acuerdo con los roles operativos del sistema.
+
+| ![wireframe-pantalla 1](recursos/imagenes/Wireframes.png) |
+
+| ![wireframe-pantalla 2](recursos/imagenes/wireframes-1.png) |
+
+| ![wireframe-pantalla 3](recursos/imagenes/Wireframes-2.png) |
+
+Explicación de la propuesta:Los wireframes de BodeGo fueron diseñados bajo un enfoque modular y altamente consistente, manteniendo en todas las pantallas una estructura clara dividida en zonas funcionales principales: un menú de navegación lateral izquierdo persistente, que actúa como eje de la arquitectura de información, una barra superior de contexto con controles de perfil y sincronización, y un área principal de trabajo (Main Workspace) que adapta sus componentes según el módulo seleccionado. Esta consistencia estructural minimiza la carga cognitiva de los usuarios al alternar entre tareas operativas cotidianas y actividades de supervisión estratégicas.
+
+La jerarquía visual se consolida mediante el uso de tipografía escalonada (encabezados de sección, etiquetas de datos en negrita, subtítulos de tabla y texto informativo descriptivo), un espaciado equilibrado y una delimitación precisa por bloques funcionales. En las pantallas orientadas a las funciones de auditoría y gestión estratégica del Administrador (Dashboard Administrador, Reportes, Empleados), se implementa un patrón basado en tarjetas resumen de métricas clave, seguido de barras de filtros superiores y tablas detalladas, para soportar la revisión ágil de altos volúmenes de datos operativos, balance de mermas y rendimiento por turno. Por su parte, en las pantallas orientadas al rol operativo del Empleado (Registrar ingreso/salida de mercadería, Registrar dificultad, Detalle de Producto), la interfaz prioriza formularios limpios, selectores claros y campos estructurados con validaciones preventivas (como el cálculo predictivo de caducidad en lotes y la asignación manual de cantidades) para acelerar la atención en el punto de venta.
+
+En términos de diseño inclusivo y adaptabilidad operativa, los wireframes integran áreas de toque y clic bien dimensionadas en botones principales, controles incrementales y acciones de tabla , considerando que el personal en tienda opera el sistema en entornos dinámicos de alta rotación de clientes o durante la recepción acelerada de proveedores en almacén. Asimismo, se incorporan etiquetas textuales explícitas junto a la iconografía, estados de contraste optimizados en elementos interactivos y una disposición de elementos que respeta el flujo de lectura natural en patrón F, asegurando que tanto el Administrador como los Operarios identifiquen de inmediato las alertas críticas de caducidad y tomen acciones correctivas sin margen de error.
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+Para la plataforma **BodeGo**, se ha diseñado una serie de *Wireflows* que van más allá de simples cajas y flechas. Estos diagramas integran la estructura visual de cada pantalla (los wireframes) con la secuencia de pasos que los usuarios deben seguir para cumplir sus tareas. A diferencia de un diagrama de flujo de tareas tradicional, el *Wireflow* me permite visualizar en paralelo cómo está compuesta la interfaz y cuál es el camino exacto de la interacción, mostrando claramente los cambios de estado en la pantalla por cada acción relevante.
+
+Antes de armar estos esquemas de navegación, se ha definido los flujos de tareas principales del sistema, asegurándome de establecer las rutas más eficientes y rápidas para la operatividad diaria de un minimarket. Los *Wireflows* se han articulado pensando específicamente en los dos perfiles de usuario que identifiqué: el **Administrador General** (quien necesita supervisar el negocio, controlar las mermas y auditar al personal) y el **Empleado Operativo** (enfocado en el registro ágil, el ingreso de lotes y el descarte de productos). Cada objetivo de uso que he documentado responde directamente a las necesidades y retos reales que enfrenta cada rol en el punto de venta.
+
+A continuación se detalla la estructura, propósito funcional y los flujos de interacción de las pantallas principales que integran la plataforma BodeGo. El diseño prioriza la separación clara de responsabilidades entre el rol de administración y el de operación en tienda, garantizando que cada interfaz responda directamente a las historias de usuario definidas en la arquitectura del sistema.
+
+### 4.4.2.1. Wireflow 01 — Acceso, Autenticación y Control de Personal
+
+**Objetivo del Usuario:** Autenticarse de forma segura en la plataforma para ingresar al entorno de trabajo correspondiente a sus responsabilidades y permisos asignados.
+
+iamgen
+
+Explicación del flujo:
+Iniciamos el flujo en la pantalla de inicio de sesión (Inicia Sesión), donde el usuario visualiza el formulario centralizado en su estado inicial con los campos de credenciales vacíos. El usuario ingresa su correo electrónico, contraseña y selecciona el terminal de trabajo activo, generando un nuevo estado del wireframe con los datos cumplimentados. Al presionar el botón de **inciar sesion**, el sistema valida la autenticación en la base de datos y evalúa el rol asignado: si el perfil corresponde al Administrador, la interfaz transiciona directamente hacia el Dashboard Administrador; si corresponde al Empleado Operativo, el sistema redirige hacia el entorno de atención y registro diario (Registrar salida de mercadería). Diseñamos este flujo para resguardar la seguridad del inventario y resolver la problemática de la gerencia sobre la falta de un control de acceso centralizado y diferenciado por jerarquías.
+
+### 4.4.2.2. Wireflow 02 — Registro e ingreso de lote de mercadería
+
+**Objetivo del Usuario:** Registrar la entrada de nuevos productos enviados por proveedores, asegurando la captura precisa del lote y fecha de vencimiento.
+
+iamgen
+
+Explicación del flujo:
+El flujo arranca en el Dashboard o en el menú lateral, donde el Empleado Operativo selecciona la opción "Registrar ingreso de mercadería", disparando una transición hacia el wireframe del formulario de recepción en su estado inicial (campos vacíos). El operario utiliza el lector de código de barras para escanear el producto, lo que genera un nuevo estado del wireframe con los datos base autocompletados (nombre, categoría y marca). A continuación, el usuario ingresa la cantidad recibida, el costo unitario y asigna obligatoriamente el número de lote y la fecha de vencimiento, visualizando en pantalla la vista previa de la entrada. Al presionar el botón (Registrar Ingreso), el sistema procesa la transacción, valida los datos e inserta el nuevo lote en la cola de rotación FEFO, desplazando al usuario a una pantalla de confirmación modal con el stock actualizado. Estructuramos este flujo para agilizar la recepción en almacén y reducir los errores manuales en el control de caducidades.
+
+### 4.4.2.3. Wireflow 03 — Detección preventiva de caducidad y aplicación de oferta
+
+**Objetivo del Usuario:** Identificar productos en riesgo de vencimiento cercano y activar un descuento preventivo para minimizar la pérdida de capital.
+
+imagen
+
+Explicación del flujo:
+Planteamos este flujo iniciando en el Dashboard Administrador, donde el Administrador visualiza una notificación de alerta crítica de vencimiento, lo que dispara una transición hacia el wireframe del módulo de Alertas (BodeGo) en su estado filtrado por máxima urgencia. El usuario examina el listado de productos en riesgo de mermar y selecciona un lote específico con pocos días de vida útil, generando un nuevo estado del wireframe que despliega el panel de opciones preventivas. El Administrador activa la opción (Lanzar Oferta), desplegando una ventana interactiva con el porcentaje de descuento recomendado por el sistema. Al presionar (Confirmar Promoción), el sistema actualiza el precio en el punto de venta y conduce al Administrador de vuelta al panel de alertas con el estado del producto actualizado a "En Oferta". Este flujo atiende directamente la necesidad de minimizar las pérdidas de capital por productos vencidos y brinda visibilidad sobre el ciclo de vida del inventario.
+
+### 4.4.2.4. Wireflow 04 — Descarte por deterioro o daño de producto
+
+**Objetivo del Usuario:** Formalizar el retiro de productos no aptos para la venta, documentando la causa exacta para mantener la transparencia en el balance de inventarios.
+
+imagen
+
+Explicación del flujo:
+El flujo inicia en el menú lateral de navegación, donde se dirije a la opcion vencimientos, donde el Empleado Operativo presiona la opción "Registrar merma de mercadería", lo que activa una transición hacia el wireframe del formulario de descarte en su estado inicial. El operario utiliza el buscador rápido o escanea el código de barras para localizar el producto afectado, actualizando el wireframe a un estado donde se muestran los datos del ítem junto con sus lotes activos. A continuación, el usuario selecciona el lote específico del cual retirará unidades, ingresa la cantidad descartada y despliega el selector de motivos para definir la causa (como "rotura de envase", "deterioro" o "vencimiento"). Tras añadir observaciones adicionales sobre el incidente, presiona el botón (Registrar Merma). El sistema procesa la solicitud, descuenta las unidades del inventario activo y redirige al operario a una pantalla con un aviso de confirmación y el balance de stock actualizado. Pensamos este flujo para garantizar la precisión entre el inventario físico y el sistema, facilitando la justificación de pérdidas sin complicaciones operativas.
+
+### 4.4.2.5. Wireflow 05 — Registro y salida rápida de productos en caja
+
+**Objetivo del Usuario:** Procesar la venta o despacho de productos en el punto de venta de forma ágil, aplicando la reducción automática de stock sobre los lotes más próximos a vencer.
+
+imagen
+
+Explicación del flujo:
+Ubicamos el origen de este flujo en el módulo de atención y caja (Registrar salida de mercadería), presentando el wireframe de venta rápida con la lista de productos vacía. El cajero o empleado escanea consecutivamente los códigos de barras de la mercadería adquirida por el cliente, lo que genera transiciones dinámicas en el wireframe agregando cada ítem a la lista con su precio, cantidad y subtotal. Por detrás, el algoritmo FEFO vincula automáticamente cada unidad vendida al lote con la fecha de caducidad más cercana. El usuario revisa el resumen total de la transacción y hace clic en (Confirmar Salida/Venta). El sistema ejecuta la reducción automática del stock en base de datos, limpia el contenedor para la siguiente transacción y despliega un resumen modal del movimiento. Este flujo lo orientamos a acelerar la atención a los clientes en horas pico y eliminar la búsqueda manual de productos o lotes en caja.
+
+### 4.4.2.6. Wireflow 06 — Administración de personal y asignación de turnos
+
+**Objetivo del Usuario:** Registrar nuevos colaboradores, configurar sus funciones en el minimarket y auditar su actividad en el sistema.
+
+imagen
+
+Explicación del flujo:
+El flujo da comienzo en el panel lateral, cuando el Administrador selecciona la pestaña Empleados (BodeGo), desencadenando una transición hacia el wireframe de gestión de personal en su estado general. La pantalla despliega tarjetas métricas (Total Registrados, En Turno Activo, Operaciones Hoy) y una tabla estructurada con el listado de usuarios. Para incorporar un nuevo colaborador, el Administrador presiona el botón (+) Nuevo Empleado, abriendo una ventana modal con el formulario de registro. El usuario completa los datos personales, selecciona la función operativa (por ejemplo, "Cajero & Atención" o "Reposición") y asigna el turno de trabajo correspondiente. Al presionar (Guardar Empleado), el sistema valida la información, actualiza el directorio en tiempo real y conduce al Administrador de vuelta a la tabla principal con el nuevo usuario incorporado y sus credenciales activas. Diseñamos este flujo para mantener un control estricto sobre la seguridad del sistema y garantizar la trazabilidad de las operaciones realizadas por turno.
+
+### 4.4.2.7. Wireflow 07 — Generación y exportación de reportes ejecutivos
+
+**Objetivo del Usuario:** Obtener reportes consolidados del rendimiento del negocio y balance de mermas para auditorías y toma de decisiones.
+
+imagen
+
+Explicación del flujo:
+Iniciamos este flujo en la sección de analítica (Reportes), donde el Administrador accede a la pantalla de métricas financieras e inventario en su estado predeterminado. El usuario interactúa con la barra de controles e impositores de filtro para delimitar un rango de fechas específico, la categoría de productos y el tipo de movimiento (ingresos, ventas o mermas). Al presionar (descargar Reporte/ PDF), el sistema genera la documentación contable y muestra un aviso de descarga exitosa. Este flujo lo definimos para respaldar la revisión de la rentabilidad del negocio y facilitar las entregas de información contable.
+
+### 4.4.3. Web Applications Mock-ups
+### 4.4.4. Web Applications User Flow Diagrams
+
+## LEYENDA
+
+![Leyenda Flow Diagram](recursos/imagenes/EmphathyMapping-Administrador.jpg)
+
+## FLUJO DE USUARIO
+
+![Flujo de Usuario Flow Diagram](recursos/imagenes/FLUJO_DE_USUARIO.jpg)
+
+## FLUJO DE ADMINISTRADOR
+
+![Flujo de Administrador Flow Diagram](recursos/imagenes/FLUJO_DE_ADMINISTRADOR.jpg)
+
+## FLUJO DE EMPLEADO
+
+![Flujo de Empleado Flow Diagram](recursos/imagenes/FLUJO_DE_EMPLEADO.jpg)
+
 ---
 [Nuestro link del miro](https://miro.com/app/board/uXjVHm55KfI=/)
 ---
