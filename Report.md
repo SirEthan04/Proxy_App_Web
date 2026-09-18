@@ -2114,23 +2114,23 @@ Para el landing Page se realizo wireframes de cada una de las pantallas del siti
 
 Pantalla 1:
 
-<img src="./recursos/imagenes/Pantalla-1.png" alt="Pantalla 1">
+| ![Pantalla 1](recursos/imagenes/Pantalla-1.png) |
 
 Pantalla 2:
 
-<img src="./recursos/Pantalla-2.png" alt="Pantalla 2">
+| ![Pantalla 2](recursos/imagenes/Pantalla-2.png) |
 
 Pantalla 3:
 
-<img src="./recursos/Pantalla-3.png" alt="Pantalla 3">
+| ![Pantalla 3](recursos/imagenes/Pantalla-3.png) |
 
 Pantalla 4:
 
-<img src="./recursos/Pantalla-4.png" alt="Pantalla 4">
+| ![Pantalla 4](recursos/imagenes/Pantalla-4.png) |
 
 Pantalla 5:
 
-<img src="./recursos/Pantalla-5.png" alt="Pantalla 5">
+| ![Pantalla 5](recursos/imagenes/Pantalla-5.png) |
 
 ### 4.3.2. Landing Page Mock-up
 
@@ -2171,7 +2171,7 @@ Se plasma la identidad visual de la startup **Proxy** a través de su paleta cro
 
 - **Arquitectura de la Información:** El flujo de navegación guía lógicamente al usuario desde la introducción del problema de inventario hasta las soluciones tecnológicas y los canales concretos de conversión y contacto.
 
-| ![Pantalla 1](recursos/imagenes/Landing-1.png) |
+| ![Pantalla 1](recursos/imagenes/Landimg-1.png) |
 
 | ![Pantalla 2](recursos/imagenes/Landing-2.png) |
 
