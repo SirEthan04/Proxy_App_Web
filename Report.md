@@ -566,11 +566,11 @@ Respecto a una posible solución, el **66,7 % mencionó directamente que sería 
 
 ## Administrador
 
-![User Persona Administrador](https://github.com/SirEthan04/Repositorio_Aplicaciones_Web/blob/main/recursos/UserPersona-Administrador.jpg)
+![User Persona Administrador](recursos/imagenes/UserPersona-Administrador.jpg)
 
 ## Empleado
 
-![User Persona Empleado](https://github.com/SirEthan04/Repositorio_Aplicaciones_Web/blob/main/recursos/UserPersona-Empleado.jpg)
+![User Persona Empleado](recursos/imagenes/UserPersona-Empleado.jpg)
 
 ### 2.3.2. User Task Matrix
 
@@ -636,11 +636,11 @@ Respecto a una posible solución, el **66,7 % mencionó directamente que sería 
 
 ## Administrador
 
-![Empathy Map Administrador](https://github.com/SirEthan04/Repositorio_Aplicaciones_Web/blob/main/recursos/EmphathyMapping-Administrador.jpg)
+![Empathy Map Administrador](recursos/imagenes/EmphathyMapping-Administrador.jpg)
 
 ## Empleado
 
-![Empathy Map Empleado](https://github.com/SirEthan04/Repositorio_Aplicaciones_Web/blob/main/recursos/EmphathyMapping-Empleado.jpg)
+![Empathy Map Empleado](recursos/imagenes/EmphathyMapping-Empleado.jpg)
 
 ## 2.4. Big Picture EventStorming
 
@@ -2114,7 +2114,7 @@ Para el landing Page se realizo wireframes de cada una de las pantallas del siti
 
 Pantalla 1:
 
-<img src="./recursos/Pantalla-1.png" alt="Pantalla 1">
+<img src="./recursos/imagenes/Pantalla-1.png" alt="Pantalla 1">
 
 Pantalla 2:
 
@@ -2171,15 +2171,15 @@ Se plasma la identidad visual de la startup **Proxy** a través de su paleta cro
 
 - **Arquitectura de la Información:** El flujo de navegación guía lógicamente al usuario desde la introducción del problema de inventario hasta las soluciones tecnológicas y los canales concretos de conversión y contacto.
 
-<img src="./recursos/Landimg-1.png" alt="Landing 1">
+| ![Pantalla 1](recursos/imagenes/Landing-1.png) |
 
-<img src="./recursos/Landing-2.png" alt="Pantalla 2">
+| ![Pantalla 2](recursos/imagenes/Landing-2.png) |
 
-<img src="./recursos/Landing-3.png" alt="Pantalla 3">
+| ![Pantalla 3](recursos/imagenes/Landing-3.png) |
 
-<img src="./recursos/Landing-4.png" alt="Pantalla 4">
+| ![Pantalla 4](recursos/imagenes/Landing-4.png) |
 
-<img src="./recursos/Landing-5.png" alt="Pantalla 5">
+| ![Pantalla 5](recursos/imagenes/Landing-5.png) |
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -2193,11 +2193,13 @@ El desarrollo de la interfaz contempla las necesidades de dos perfiles clave: **
 
 Los wireframes desarrollados para BodeGo representan la arquitectura estructural de baja a media fidelidad de la plataforma web, orientada a la gestión eficiente de inventarios y control preventivo de mermas. Cada pantalla fue concebida aplicando rigurosamente principios de jerarquía visual, consistencia de componentes y proximidad funcional, integrando criterios de diseño inclusivo e interfaz responsiva como áreas de interacción legibles, contraste optimizado para entornos operativos en punto de venta y etiquetado claro en cada acción ejecutable. Esta propuesta traduce directamente la arquitectura de información y el flujo de navegación validados en la especificación del sistema. Para su elaboración se empleó la herramienta Figma.
 
-En esta etapa se presentan las pantallas principales que articulan los módulos clave de la plataforma, estructuradas de acuerdo con los roles operativos del sistema
+En esta etapa se presentan las pantallas principales que articulan los módulos clave de la plataforma, estructuradas de acuerdo con los roles operativos del sistema.
 
-<img src="./recursos/Wireframes.png" alt="wireframe-pantalla 1">
-<img src="./recursos/wireframes-1.png" alt="wireframe-pantalla 2">
-<img src="./recursos/Wireframes-2.png" alt="wireframe-pantalla 3">
+| ![wireframe-pantalla 1](recursos/imagenes/Wireframes.png) |
+
+| ![wireframe-pantalla 2](recursos/imagenes/wireframes-1.png) |
+
+| ![wireframe-pantalla 3](recursos/imagenes/Wireframes-2.png) |
 
 Explicación de la propuesta:Los wireframes de BodeGo fueron diseñados bajo un enfoque modular y altamente consistente, manteniendo en todas las pantallas una estructura clara dividida en zonas funcionales principales: un menú de navegación lateral izquierdo persistente, que actúa como eje de la arquitectura de información, una barra superior de contexto con controles de perfil y sincronización, y un área principal de trabajo (Main Workspace) que adapta sus componentes según el módulo seleccionado. Esta consistencia estructural minimiza la carga cognitiva de los usuarios al alternar entre tareas operativas cotidianas y actividades de supervisión estratégicas.
 
@@ -2281,19 +2283,19 @@ Iniciamos este flujo en la sección de analítica (Reportes), donde el Administr
 
 ## LEYENDA
 
-![Leyenda Flow Diagram](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/EmphathyMapping-Administrador.jpg)
+![Leyenda Flow Diagram](recursos/imagenes/EmphathyMapping-Administrador.jpg)
 
 ## FLUJO DE USUARIO
 
-![Flujo de Usuario Flow Diagram](https://github.com/SirEthan04/Repositorio_Aplicaciones_Web/blob/main/recursos/FLUJO%20DE%20USUARIO.jpg)
+![Flujo de Usuario Flow Diagram](recursos/imagenes/FLUJO_DE_USUARIO.jpg)
 
 ## FLUJO DE ADMINISTRADOR
 
-![Flujo de Administrador Flow Diagram](https://github.com/SirEthan04/Repositorio_Aplicaciones_Web/blob/main/recursos/FLUJO%20DE%20ADMINISTRADOR.jpg)
+![Flujo de Administrador Flow Diagram](recursos/imagenes/FLUJO_DE_ADMINISTRADOR.jpg)
 
 ## FLUJO DE EMPLEADO
 
-![Flujo de Empleado Flow Diagram](https://github.com/SirEthan04/Repositorio_Aplicaciones_Web/blob/main/recursos/FLUJO%20DE%20EMPLEADO.jpg)
+![Flujo de Empleado Flow Diagram](recursos/imagenes/FLUJO_DE_EMPLEADO.jpg)
 
 ---
 
