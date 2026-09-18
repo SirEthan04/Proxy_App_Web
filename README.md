@@ -2217,7 +2217,7 @@ A continuación se detalla la estructura, propósito funcional y los flujos de i
 
 **Objetivo del Usuario:** Autenticarse de forma segura en la plataforma para ingresar al entorno de trabajo correspondiente a sus responsabilidades y permisos asignados.
 
-<img src="./recursos/wireflow-1" alt="wireflow 1">
+<img src="./recursos/wireflow-1.png" alt="wireflow 1">
 
 Explicación del flujo:
 Iniciamos el flujo en la pantalla de inicio de sesión (Inicia Sesión), donde el usuario visualiza el formulario centralizado en su estado inicial con los campos de credenciales vacíos. El usuario ingresa su correo electrónico, contraseña y selecciona el terminal de trabajo activo, generando un nuevo estado del wireframe con los datos cumplimentados. Al presionar el botón (Iniciar Sesión), el sistema valida la autenticación en la base de datos y evalúa el rol asignado: si el perfil corresponde al Administrador, la interfaz transiciona directamente hacia el Dashboard Administrador; si corresponde al Empleado Operativo, el sistema redirige hacia el entorno de atención y registro diario (Registrar salida de mercadería). Diseñamos este flujo para resguardar la seguridad del inventario y resolver la problemática de la gerencia sobre la falta de un control de acceso centralizado y diferenciado por jerarquías.
@@ -2226,7 +2226,7 @@ Iniciamos el flujo en la pantalla de inicio de sesión (Inicia Sesión), donde e
 
 **Objetivo del Usuario:** Registrar la entrada de nuevos productos enviados por proveedores, asegurando la captura precisa del lote y fecha de vencimiento.
 
-<img src="./recursos/wireflow-2" alt="wireflow 2">
+<img src="./recursos/wireflow-2.png" alt="wireflow 2">
 
 Explicación del flujo: El flujo arranca en el Dashboard o en el menú lateral , donde el Empleado Operativo selecciona la opción "operaciones" Luego en "ingreso", disparando una transición hacia el wireframe del formulario de recepción en su estado inicial. El operario utiliza el lector de código de barras para escanear el producto, lo que genera un nuevo estado del wireframe con los datos base autocompletados (nombre, categoría y marca). A continuación, el usuario ingresa la cantidad recibida, el costo unitario y asigna obligatoriamente el número de lote y la fecha de vencimiento, visualizando en pantalla la vista previa de la entrada. Al presionar el botón (Registrar Ingreso), el sistema procesa la transacción, valida los datos e inserta el nuevo lote, desplazando al usuario a una pantalla de confirmación modal con el stock actualizado. Estructuramos este flujo para agilizar la recepción en almacén y reducir los errores manuales en el control de caducidades.
 
@@ -2234,7 +2234,7 @@ Explicación del flujo: El flujo arranca en el Dashboard o en el menú lateral ,
 
 **Objetivo del Usuario:** Identificar productos en riesgo de vencimiento cercano y activar un descuento preventivo para minimizar la pérdida de capital.
 
-<img src="./recursos/wireflow-3" alt="wireflow 3">
+<img src="./recursos/wireflow-3.png" alt="wireflow 3">
 
 Explicación del flujo: Planteamos este flujo iniciando en el Dashboard Administrador, donde el Administrador visualiza una notificación de "alerta", lo que dispara una transición hacia el wireframe del módulo de Alertas en su estado filtrado por máxima urgencia. El usuario examina el listado de productos en riesgo de mermar y selecciona un lote específico con pocos días de vida útil, generando un nuevo estado del wireframe que despliega el panel de opciones preventivas. El Administrador activa la opción (Lanzar Oferta), desplegando una ventana interactiva con el porcentaje de descuento recomendado por el sistema. Al presionar (Confirmar merma), el sistema actualiza el precio en el punto de venta y conduce al Administrador de vuelta al panel de alertas con el estado del producto actualizado a "En Oferta". Este flujo atiende directamente la necesidad de minimizar las pérdidas de capital por productos vencidos y brinda visibilidad sobre el ciclo de vida del inventario.
 
@@ -2242,7 +2242,7 @@ Explicación del flujo: Planteamos este flujo iniciando en el Dashboard Administ
 
 **Objetivo del Usuario:** Formalizar el retiro de productos no aptos para la venta, documentando la causa exacta para mantener la transparencia en el balance de inventarios.
 
-<img src="./recursos/wireflow-4" alt="wireflow 4">
+<img src="./recursos/wireflow-4.png" alt="wireflow 4">
 
 Explicación del flujo: El flujo inicia en el menú lateral de navegación, donde el Empleado Operativo va a la sección "Vencimientos" y presiona la opción "Registrar merma", lo que activa una transición hacia el wireframe del formulario de descarte en su estado inicial. El operario utiliza el buscador rápido o escanea el código de barras para localizar el producto afectado, actualizando el wireframe a un estado donde se muestran los datos del ítem junto con sus lotes activos. A continuación, el usuario selecciona el lote específico del cual retirará unidades, ingresa la cantidad descartada y despliega el selector de motivos para definir la causa (como "rotura de envase", "deterioro" o "vencimiento"). Tras añadir observaciones adicionales sobre el incidente, presiona el botón (Registrar Merma). El sistema procesa la solicitud, descuenta las unidades del inventario activo y redirige al operario a una pantalla con un aviso de confirmación y el balance de stock actualizado. Pensamos este flujo para garantizar la precisión entre el inventario físico y el sistema, facilitando la justificación de pérdidas sin complicaciones operativas.
 
@@ -2250,7 +2250,7 @@ Explicación del flujo: El flujo inicia en el menú lateral de navegación, dond
 
 **Objetivo del Usuario:** Procesar la venta o despacho de productos en el punto de venta de forma ágil, aplicando la reducción automática de stock sobre los lotes más próximos a vencer.
 
-<img src="./recursos/wireflow-5" alt="wireflow 5">
+<img src="./recursos/wireflow-5.png" alt="wireflow 5">
 
 Explicación del flujo: Ubicamos el origen de este flujo en el módulo de atención y caja  en "operaciones" luego en "salida", presentando el wireframe de venta rápida con la lista de productos vacía. El cajero o empleado escanea consecutivamente los códigos de barras de la mercadería adquirida por el cliente, lo que genera transiciones dinámicas en el wireframe agregando cada ítem a la lista con su precio, cantidad y subtotal. Por detrás, el algoritmo FEFO vincula automáticamente cada unidad vendida al lote con la fecha de caducidad más cercana. El usuario revisa el resumen total de la transacción y hace clic en (registrar Salida). El sistema ejecuta la reducción automática del stock en base de datos, limpia el contenedor para la siguiente transacción y despliega un resumen modal del movimiento. Este flujo lo orientamos a acelerar la atención a los clientes en horas pico y eliminar la búsqueda manual de productos o lotes en caja.
 
@@ -2258,7 +2258,7 @@ Explicación del flujo: Ubicamos el origen de este flujo en el módulo de atenci
 
 **Objetivo del Usuario:** Registrar nuevos colaboradores, configurar sus funciones en el minimarket y auditar su actividad en el sistema.
 
-<img src="./recursos/wireflow-6" alt="wireflow 6">
+<img src="./recursos/wireflow-6.png" alt="wireflow 6">
 
 Explicación del flujo: El flujo da comienzo en el panel lateral, cuando el Administrador selecciona la pestaña Empleados, desencadenando una transición hacia el wireframe de gestión de personal en su estado general. La pantalla despliega tarjetas métricas (Total Registrados, En Turno Activo, Operaciones Hoy) y una tabla estructurada con el listado de usuarios. Para incorporar un nuevo colaborador, el Administrador presiona el botón (+) Nuevo Empleado, abriendo una ventana modal con el formulario de registro. El usuario completa los datos personales, selecciona la función operativa (por ejemplo, "Cajero & Atención" o "Reposición") y asigna el turno de trabajo correspondiente. Al presionar (Guardar Empleado), el sistema valida la información, actualiza el directorio en tiempo real y conduce al Administrador de vuelta a la tabla principal con el nuevo usuario incorporado y sus credenciales activas. Diseñamos este flujo para mantener un control estricto sobre la seguridad del sistema y garantizar la trazabilidad de las operaciones realizadas por turno.
 
@@ -2266,7 +2266,7 @@ Explicación del flujo: El flujo da comienzo en el panel lateral, cuando el Admi
 
 **Objetivo del Usuario:** Obtener reportes consolidados del rendimiento del negocio, rotación FEFO y balance de mermas para auditorías y toma de decisiones.
 
-<img src="./recursos/wireflow-7" alt="wireflow 7">
+<img src="./recursos/wireflow-7.png" alt="wireflow 7">
 
 Explicación del flujo: Iniciamos este flujo en la sección de analítica (Reportes), donde el Administrador accede a la pantalla de métricas financieras e inventario en su estado predeterminado. El usuario interactúa con la barra de controles e impositores de filtro, para delimitar un rango de fechas específico, la categoría de productos y el tipo de movimiento (ingresos, ventas o mermas). Posteriormente, el Administrador hace clic en la acción primaria (Descargar Reporte/ PDF). Tras elegir la opción deseada, el sistema genera la documentación contable y muestra un aviso de descarga exitosa. Este flujo lo definimos para respaldar la revisión de la rentabilidad del negocio y facilitar las entregas de información contable.
 
