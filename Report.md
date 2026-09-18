@@ -2134,8 +2134,6 @@ Pantalla 5:
 
 ### 4.3.2. Landing Page Mock-up
 
-### 4.3.2 Maqueta de página de destino
-
 **Estructura general y lineamientos visuales.**
 
 La interfaz visual de la página de inicio de **BodeGo** se ha desarrollado con un estándar de alta fidelidad, integrando de forma exacta los contenidos textuales, recursos gráficos y componentes interactivos definidos para la plataforma. El diseño refleja una estética moderna, limpia y profesional, orientada específicamente a optimizar la gestión de inventarios y resolver las necesidades operativas de los minimarkets.
@@ -2146,9 +2144,9 @@ Se plasma la identidad visual de la startup **Proxy** a través de su paleta cro
 
 **Estructura visual:**
 
-- **Cabecera (Navbar):** Diseñada en una franja horizontal superior de tono gris acero con alineación flexible. Contiene el logotipo corporativo a la izquierda, los enlaces de redireccionamiento interno (*Solución*, *Tecnología*, *Cómo Funciona*, *Nosotros*) centrados, y un botón de llamada a la acción principal (*Regístrate*) con tipografía en negrita y diseño interactivo.
+- **Cabecera:** Diseñada en una franja horizontal superior de tono gris acero con alineación flexible. Contiene el logotipo corporativo a la izquierda, los enlaces de redireccionamiento interno (*Solución*, *Tecnología*, *Cómo Funciona*, *Nosotros*) centrados, y un botón de llamada a la acción principal (*Regístrate*) con tipografía en negrita y diseño interactivo.
 
-- **Sección Principal (Hero):** Se compone de un diseño a doble columna con amplio espaciado en blanco. Del lado izquierdo presenta el título principal de impacto (*"Controla tu inventario sin complicaciones"*), seguido del subtítulo con acento azul (*"Optimiza tu minimarket y reduce dificultades"*), el párrafo descriptivo sobre la centralización de stock y control de lotes, y el botón de llamada a la acción secundario (*"Solicitar Consulta"*). Del lado derecho, se ubica una imagen de alta calidad con bordes redondeados y sombra elegante que retrata a un operador gestionando el almacén con una tablet y un portapapeles.
+- **Sección Principal:** Se compone de un diseño a doble columna con amplio espaciado en blanco. Del lado izquierdo presenta el título principal de impacto (*"Controla tu inventario sin complicaciones"*), seguido del subtítulo con acento azul (*"Optimiza tu minimarket y reduce dificultades"*), el párrafo descriptivo sobre la centralización de stock y control de lotes, y el botón de llamada a la acción secundario (*"Solicitar Consulta"*). Del lado derecho, se ubica una imagen de alta calidad con bordes redondeados y sombra elegante que retrata a un operador gestionando el almacén con una tablet y un portapapeles.
 
 - **Sección Propuesta de Valor / Características:** Estructurada sobre un fondo de color sólido azul grisáceo que genera contraste visual. Muestra un título principal (*"Nuestra Propuesta"*) y un subtítulo descriptivo sobre las necesidades reales del sector, organizando debajo tres tarjetas blancas en grilla que detallan los pilares del sistema: **Control de lotes** (con gráficos alusivos al monitoreo de entradas, salidas y fechas de caducidad), **Alertas** (enfocada en priorizar productos próximos a vencer para evitar pérdidas) y **Doble Rol** (destacando las interfaces segmentadas y seguras para administradores y empleados).
 
@@ -2196,6 +2194,10 @@ El desarrollo de la interfaz contempla las necesidades de dos perfiles clave: **
 Los wireframes desarrollados para BodeGo representan la arquitectura estructural de baja a media fidelidad de la plataforma web, orientada a la gestión eficiente de inventarios y control preventivo de mermas. Cada pantalla fue concebida aplicando rigurosamente principios de jerarquía visual, consistencia de componentes y proximidad funcional, integrando criterios de diseño inclusivo e interfaz responsiva como áreas de interacción legibles, contraste optimizado para entornos operativos en punto de venta y etiquetado claro en cada acción ejecutable. Esta propuesta traduce directamente la arquitectura de información y el flujo de navegación validados en la especificación del sistema. Para su elaboración se empleó la herramienta Figma.
 
 En esta etapa se presentan las pantallas principales que articulan los módulos clave de la plataforma, estructuradas de acuerdo con los roles operativos del sistema
+
+<img src="./recursos/wireframes.png" alt="wireframe-pantalla 1">
+<img src="./recursos/wireframes-1.png" alt="wireframe-pantalla 2">
+<img src="./recursos/wireframes-2.png" alt="wireframe-pantalla 3">
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams
