@@ -1864,47 +1864,41 @@ Ejemplos:
 const MAX_LOGIN_ATTEMPTS = 5;
 const DEFAULT_STOCK_THRESHOLD = 10;
 ```
-Java
-
+C#
 PascalCase
 
 Las clases utilizarán PascalCase.
 
-```java
-public class ProductService {
+```C#
+public class ProductService
+{
+}
+public class InventoryService
+{
+}
+public class BatchService
+{
 }
 ```
-
-```java
-public class InventoryService {
-}
-```
-
-```java
-public class BatchService {
-}
-```
-
----
-
 camelCase
 
-Los métodos, variables locales, parámetros y atributos utilizarán camelCase.
+Las variables locales, parámetros y atributos utilizarán camelCase.
 
-```java
+```C#
 private int productId;
-private String productName;
-```
----
+private string productName;
 Clear Comments
+```
 
-Los comentarios se utilizarán cuando ayuden a entender partes del código que los demas integrantes del grupo no comprendan.
+Los comentarios se utilizarán cuando ayuden a entender partes del código que los demás integrantes del grupo no comprendan.
 
-```java
+```C#
 // Checks whether the batch is close to its expiration date.
-public boolean isNearExpiration(LocalDate expirationDate) {
-    return expirationDate.isBefore(LocalDate.now().plusDays(7));
+public bool IsNearExpiration(DateTime expirationDate)
+{
+    return expirationDate.Date < DateTime.Today.AddDays(7);
 }
+
 ```
 
 ---
