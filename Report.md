@@ -1531,7 +1531,7 @@ imagen para mostrar evidencia de uso:
 
 - **WebStorm** Un entorno de desarrollo integrado (IDE) que emplearemos para trabajar con JavaScript.
 ---
-![Imagen de la entrevista](recursos/imagenes/intell.jpg)
+![Imagen de la entrevista](recursos/imagenes/wsuwu.jpg)
 ---
 [link de descarga](https://www.jetbrains.com/es-es/idea/download/?section=windows)
 
@@ -1557,13 +1557,13 @@ imagen para mostrar evidencia de uso:
 ---
 [link de descarga](https://github.com/apps/desktop?locale=es-419)
 ---
-[Nuestro repositorio de documentación](https://github.com/SirEthan04/Proxy_Open_Source)
+[Nuestro repositorio de documentación](https://github.com/SirEthan04/Proxy_App_Web)
 ---
-[Nuestro repositorio de landingpage](https://github.com/SirEthan04/Proxy_Open_Source_LandingPage)
+[Nuestro repositorio de landingpage](https://github.com/SirEthan04/Proxy_App_Web_LandingPage)
 ---
-[Nuestro repositorio de frontend](https://github.com/SirEthan04/Proxy_Open_Source_Front-end)
+[Nuestro repositorio de frontend](https://github.com/SirEthan04/Proxy_Web_App_Front-end)
 ---
-[Nuestro repositorio de web aplication](https://github.com/SirEthan04/Proxy_Open_Source_Web-Application)
+[Nuestro repositorio de web aplication](https://github.com/SirEthan04/Proxy_Web_App_Back-end)
 ---
 ### 5.1.2. Source Code Management
 ---
@@ -2066,7 +2066,7 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 ---
 ---
 
-[Landing Page Desplegada](https://sirethan04.github.io/Proxy_Open_Source_LandingPage/)
+[Landing Page Desplegada](https://sirethan04.github.io/Proxy_App_Web_LandingPage/)
 
 ---
 
@@ -2125,11 +2125,11 @@ Estas funcionalidades están diseñadas para disminuir los errores en el registr
 ---
 [Nuestro link del miro](https://miro.com/app/board/uXjVHm55KfI=/)
 ---
-[Nuestro repositorio de documentación](https://github.com/SirEthan04/Proxy_Open_Source)
+[Nuestro repositorio de documentación](https://github.com/SirEthan04/Proxy_App_Web)
 ---
-[Nuestro repositorio de landingpage](https://github.com/SirEthan04/Proxy_Open_Source_LandingPage)
+[Nuestro repositorio de landingpage](https://sirethan04.github.io/Proxy_App_Web_LandingPage/)
 ---
-[Nuestro repositorio de frontend](https://github.com/SirEthan04/Proxy_Open_Source_Front-end)
+[Nuestro repositorio de frontend](https://github.com/SirEthan04/Proxy_Web_App_Front-end)
 ---
-[Nuestro repositorio de web aplication](https://github.com/SirEthan04/Proxy_Open_Source_Web-Application)
+[Nuestro repositorio de web aplication](https://github.com/SirEthan04/Proxy_Web_App_Back-end)
 ---
