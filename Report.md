@@ -1865,6 +1865,7 @@ const MAX_LOGIN_ATTEMPTS = 5;
 const DEFAULT_STOCK_THRESHOLD = 10;
 ```
 C#
+
 PascalCase
 
 Las clases utilizarán PascalCase.
