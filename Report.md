@@ -1531,7 +1531,7 @@ imagen para mostrar evidencia de uso:
 
 - **WebStorm** Un entorno de desarrollo integrado (IDE) que emplearemos para trabajar con JavaScript.
 ---
-![Imagen de la entrevista](recursos/imagenes/wsuwu.jpg)
+![Imagen de la entrevista](recursos/imagenes/wsuwu.png)
 ---
 [link de descarga](https://www.jetbrains.com/es-es/idea/download/?section=windows)
 
