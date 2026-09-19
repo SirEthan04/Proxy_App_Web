@@ -218,7 +218,7 @@
 | **Rojas Huaranga, Diego Rances (U20241E096)** |
 | :--- |
 | Soy un estudiante de 22 años actualmente en el sexto ciclo de la carrera de Ingeniería de Software. Me concidero una persona conciderada, responsable y que le gusta hacer las cosas bien, me gusta trabajar en equipo, se me facilita el poder resolver problemas y siento que voy a hacer un buen trabajo este ciclo. Además, procuro escuchar y comprender las ideas de mis compañeros para lograr un buen trabajo en conjunto. |
-<img src="perfil-Diego.png" alt="perfil">
+| ![Foto Diego](https://github.com/SirEthan04/Proxy_Open_Source/blob/main/Recursos/imagenes/perfil-Diego.jpg) |
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
