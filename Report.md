@@ -1529,7 +1529,7 @@ imagen para mostrar evidencia de uso:
 ---
 [informacion relacionada](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
-- **intellJ IDEA** Es un entorno de desarrollo integrado (IDE) diseñado para programar en Java.
+- **WebStorm** Un entorno de desarrollo integrado (IDE) que emplearemos para trabajar con JavaScript.
 ---
 ![Imagen de la entrevista](Recursos/images/intell.jpg)
 ---
