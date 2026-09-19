@@ -1543,7 +1543,7 @@ imagen para mostrar evidencia de uso:
 
 - **GitHub:** Es una plataforma utilizada para el alojamiento y control de versiones del código fuente de un proyecto. Facilita el trabajo colaborativo entre los integrantes del equipo y permite mantener un historial de los cambios realizados.
 ---
-![Imagen de la entrevista](recursos/imagenes/gh6.jpgg)
+![Imagen de la entrevista](recursos/imagenes/gh6.jpg)
 ---
 
 
