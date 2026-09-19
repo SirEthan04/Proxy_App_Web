@@ -198,27 +198,27 @@
 | **Mateo Caldas Bravo (U20241G404)** |
 | :--- |
 | Soy un estudiante de 19 años cursando el quinto ciclo de la carrera de Ingeniería de Software. Considero que mi capacidad de tener un enfoque analítico y la eficiencia de desarrollar una solución eficiente. Mis habilidades blandas me permiten empatizar con los usuarios y acompañado de mi resiliencia, compromiso y productividad me permiten realizar propuestas mas estructuradas y optimas. |
-| ![Foto Mateo](https://github.com/SirEthan04/Proxy_Open_Source/blob/main/recursos/imagenes/mateofoto.jpg) |
+| ![Foto Mateo](https://github.com/SirEthan04/Proxy_App_Web/blob/main/recursos/imagenes/mateofoto.jpg) |
 
 | **Johan Alvaro Saravia Hiso (U202421082)** |
 | :--- |
 | Soy un estudiante de 20 años actualmente en el quinto ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable y comprometida con los demás, especialmente al trabajar en equipo. Tengo facilidad para analizar problemas y buscar soluciones prácticas. Además, procuro escuchar y comprender las ideas de mis compañeros para lograr un buen trabajo en conjunto. |
-| ![Foto Johan](https://github.com/SirEthan04/Proxy_Open_Source/blob/main/recursos/imagenes/johanfoto.jpg) |
+| ![Foto Johan](https://github.com/SirEthan04/Proxy_App_Web/blob/main/recursos/imagenes/johanfoto.jpg) |
 
 | **Chavez Sandoval, Dany Yohel (U20241G610)** |
 | :--- |
 | Soy un estudiante de 20 años actualmente en el quinto ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable y comprometida con los demás, especialmente al trabajar en equipo. Tengo facilidad para analizar problemas y buscar soluciones prácticas. Además, procuro escuchar y comprender las ideas de mis compañeros para lograr un buen trabajo en conjunto. |
-| ![Flujo Dany](https://github.com/SirEthan04/Proxy_Open_Source/blob/main/recursos/imagenes/danyfoto.jpg) |
+| ![Flujo Dany](https://github.com/SirEthan04/Proxy_App_Web/blob/main/recursos/imagenes/danyfoto.jpg) |
 
 | **Blanco Medina, Jhorch Jhoseff (U20241F385)** |
 | :--- |
 | Soy un estudiante de 20 años actualmente en el quinto ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable y comprometida con los demás, especialmente al trabajar en equipo. Tengo facilidad para analizar problemas y buscar soluciones prácticas. Además, procuro escuchar y comprender las ideas de mis compañeros para lograr un buen trabajo en conjunto. |
-| ![Foto Jhorch](https://github.com/SirEthan04/Proxy_Open_Source/blob/main/recursos/imagenes/jhorch%20foto.jpg) |
+| ![Foto Jhorch](https://github.com/SirEthan04/Proxy_App_Web/blob/main/recursos/imagenes/jhorch%20foto.jpg) |
 
 | **Rojas Huaranga, Diego Rances (U20241E096)** |
 | :--- |
 | Soy un estudiante de 22 años actualmente en el sexto ciclo de la carrera de Ingeniería de Software. Me concidero una persona conciderada, responsable y que le gusta hacer las cosas bien, me gusta trabajar en equipo, se me facilita el poder resolver problemas y siento que voy a hacer un buen trabajo este ciclo. Además, procuro escuchar y comprender las ideas de mis compañeros para lograr un buen trabajo en conjunto. |
-| ![Foto Diego](https://github.com/SirEthan04/Proxy_Open_Source/blob/main/recursos/imagenes/perfil-Diego.jpg) |
+| ![Foto Diego](https://github.com/SirEthan04/Proxy_App_Web/blob/main/recursos/imagenes/perfil-Diego.jpg) |
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
@@ -601,12 +601,12 @@ Respecto a una posible solución, el **66,7 % mencionó directamente que sería 
 ---
 Administrador
 
-![User Persona Administrador](Recursos/images/UserPersona-Administrador.jpg)
+![User Persona Administrador](recursos/imagenes/UserPersona-Administrador.jpg)
 
 ---
 Empleado
 
-![User Persona Empleado](Recursos/images/UserPersona-Empleado.jpg)
+![User Persona Empleado](recursos/imagenes/UserPersona-Empleado.jpg)
 
 ### 2.3.2. User Task Matrix
 ---
@@ -672,18 +672,18 @@ Empleado
 
 ## Administrador
 
-![Empathy Map Administrador](Recursos/images/EmphathyMapping-Administrador.jpg)
+![Empathy Map Administrador](recursos/imagenes/EmphathyMapping-Administrador.jpg)
 
 ## Empleado
 
-![Empathy Map Empleado](Recursos/images/EmphathyMapping-Empleado.jpg)
+![Empathy Map Empleado](recursos/imagenes/EmphathyMapping-Empleado.jpg)
 
 ## 2.4. Big Picture EventStorming
 
 Nuestro equipo se enfocó en el dominio del negocio de los minimarkets, identificando los Domain Events más significativos a lo largo de la línea de tiempo operativo, desde que la mercadería ingresa al local hasta que es vendida o registrada como merma.
 A continuación se identificaron los siguientes flujos principales a través de Domain Events.
 
-![Big Picture EventStorming](Recursos/images/Bigpicture-eventstorming.png)
+![Big Picture EventStorming](recursos/imagenes/Bigpicture-eventstorming.png)
 
 ## 2.5. Ubiquitous Language
 
@@ -1195,87 +1195,87 @@ Desde el Dashboard también dispone de accesos rápidos para:
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 
-![WireframeL1](Recursos/images/Landing1.png)
+![WireframeL1](recursos/imagenes/Landing1.png)
 ---
-![WireframeL2](Recursos/images/Landing2.png)
+![WireframeL2](recursos/imagenes/Landing2.png)
 ---
-![WireframeL3](Recursos/images/Landing3.png)
+![WireframeL3](recursos/imagenes/Landing3.png)
 ---
-![WireframeL4](Recursos/images/Landing4.png)
+![WireframeL4](recursos/imagenes/Landing4.png)
 ---
-![WireframeL5](Recursos/images/Landing5.png)
+![WireframeL5](recursos/imagenes/Landing5.png)
 ---
 
 ### 4.3.2. Landing Page Mock-ups
 
-![LPMock-Up1](Recursos/images/LandingPage-mockup1.jpg)
+![LPMock-Up1](recursos/imagenes/LandingPage-mockup1.jpg)
 ---
 
-![LPMock-Up2](Recursos/images/LandingPage-mockup2.jpg)
+![LPMock-Up2](recursos/imagenes/LandingPage-mockup2.jpg)
 ---
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 
-![Wireframe 1](Recursos/images/WF1.png)
+![Wireframe 1](recursos/imagenes/WF1.png)
 
 ---
 
-![Wireframe 2](Recursos/images/WF2.png)
+![Wireframe 2](recursos/imagenes/WF2.png)
 
 ---
 
-![Wireframe 3](Recursos/images/WF3.png)
+![Wireframe 3](recursos/imagenes/WF3.png)
 
 ---
 
-![Wireframe 4](Recursos/images/WF4.png)
+![Wireframe 4](recursos/imagenes/WF4.png)
 
 ---
 
-![Wireframe 5](Recursos/images/WF5.png)
+![Wireframe 5](recursos/imagenes/WF5.png)
 
 ---
 
-![Wireframe 6](Recursos/images/WF6.png)
+![Wireframe 6](recursos/imagenes/WF6.png)
 
 ---
 
-![Wireframe 7](Recursos/images/WF7.png)
+![Wireframe 7](recursos/imagenes/WF7.png)
 
 ---
 
-![Wireframe 8](Recursos/images/WF8.png)
+![Wireframe 8](recursos/imagenes/WF8.png)
 
 ---
 
-![Wireframe 9](Recursos/images/WF9.png)
+![Wireframe 9](recursos/imagenes/WF9.png)
 
 ---
 
-![Wireframe 10](Recursos/images/WF10.png)
+![Wireframe 10](recursos/imagenes/WF10.png)
 
 ---
 
-![Wireframe 11](Recursos/images/WF11.png)
+![Wireframe 11](recursos/imagenes/WF11.png)
 
 ---
 
-![Wireframe 12](Recursos/images/WF12.png)
+![Wireframe 12](recursos/imagenes/WF12.png)
 
 ---
 
-![Wireframe 13](Recursos/images/WF13.png)
+![Wireframe 13](recursos/imagenes/WF13.png)
 
 ---
 
-![Wireframe 14](Recursos/images/WF14.png)
+![Wireframe 14](recursos/imagenes/WF14.png)
 
 ---
 enlace: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1
 
 ### 4.4.2. Web Applications Wireflow Diagrams
-![Wireflow 0](Recursos/images/Wireflow_App.png)
+![Wireflow 0](recursos/imagenes/Wireflow_App.png)
 
 ---
 
@@ -1284,59 +1284,59 @@ enlace: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=
 ---
 
 ### 4.4.3. Web Applications Mock-ups
-![Mockup App 1](Recursos/images/Mockup-App1.png)
+![Mockup App 1](recursos/imagenes/Mockup-App1.png)
 
 ---
 
-![Mockup App 2](Recursos/images/Mockup-App2.png)
+![Mockup App 2](recursos/imagenes/Mockup-App2.png)
 
 ---
 
-![Mockup App 3](Recursos/images/Mockup-App3.png)
+![Mockup App 3](recursos/imagenes/Mockup-App3.png)
 
 ---
 
-![Mockup App 4](Recursos/images/Mockup-App4.png)
+![Mockup App 4](recursos/imagenes/Mockup-App4.png)
 
 ---
 
-![Mockup App 5](Recursos/images/Mockup-App5.png)
+![Mockup App 5](recursos/imagenes/Mockup-App5.png)
 
 ---
 
-![Mockup App 6](Recursos/images/Mockup-App6.png)
+![Mockup App 6](recursos/imagenes/Mockup-App6.png)
 
 ---
 
-![Mockup App 7](Recursos/images/Mockup-App7.png)
+![Mockup App 7](recursos/imagenes/Mockup-App7.png)
 
 ---
 
-![Mockup App 8](Recursos/images/Mockup-App8.png)
+![Mockup App 8](recursos/imagenes/Mockup-App8.png)
 
 ---
 
-![Mockup App 9](Recursos/images/Mockup-App9.png)
+![Mockup App 9](recursos/imagenes/Mockup-App9.png)
 
 ---
 
-![Mockup App 10](Recursos/images/Mockup-App10.png)
+![Mockup App 10](recursos/imagenes/Mockup-App10.png)
 
 ---
 
-![Mockup App 11](Recursos/images/Mockup-App11.png)
+![Mockup App 11](recursos/imagenes/Mockup-App11.png)
 
 ---
 
-![Mockup App 12](Recursos/images/Mockup-App12.png)
+![Mockup App 12](recursos/imagenes/Mockup-App12.png)
 
 ---
 
-![Mockup App 13](Recursos/images/Mockup-App13.png)
+![Mockup App 13](recursos/imagenes/Mockup-App13.png)
 
 ---
 
-![Mockup App 14](Recursos/images/Mockup-App14.png)
+![Mockup App 14](recursos/imagenes/Mockup-App14.png)
 
 ---
 [Enlace de Figma](https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1)
@@ -1346,19 +1346,19 @@ enlace: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=
 
 ## LEYENDA
 
-![Leyenda Flow Diagram](Recursos/images/LEYENDA.jpg)
+![Leyenda Flow Diagram](recursos/imagenes/LEYENDA.jpg)
 
 ## FLUJO DE USUARIO
 
-![Flujo de Usuario Flow Diagram](Recursos/images/FLUJO%20DE%20USUARIO.jpg)
+![Flujo de Usuario Flow Diagram](recursos/imagenes/FLUJO%20DE%20USUARIO.jpg)
 
 ## FLUJO DE ADMINISTRADOR
 
-![Flujo de Administrador Flow Diagram](Recursos/images/FLUJO%20DE%20ADMINISTRADOR.jpg)
+![Flujo de Administrador Flow Diagram](recursos/imagenes/FLUJO%20DE%20ADMINISTRADOR.jpg)
 
 ## FLUJO DE EMPLEADO
 
-![Flujo de Empleado Flow Diagram](Recursos/images/FLUJO%20DE%20EMPLEADO.jpg)
+![Flujo de Empleado Flow Diagram](recursos/imagenes/FLUJO%20DE%20EMPLEADO.jpg)
 
 ---
 
@@ -1366,92 +1366,92 @@ enlace: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level EventStorming
-![Estructura / Captura 1](Recursos/images/es1.png)
+![Estructura / Captura 1](recursos/imagenes/es1.png)
 
 ---
 
-![Estructura / Captura 2](Recursos/images/es2.png)
+![Estructura / Captura 2](recursos/imagenes/es2.png)
 
 ---
 
-![Estructura / Captura 3](Recursos/images/es3.png)
+![Estructura / Captura 3](recursos/imagenes/es3.png)
 
 ---
 
-![Estructura / Captura 4](Recursos/images/es4.png)
+![Estructura / Captura 4](recursos/imagenes/es4.png)
 
 ---
 
-![Estructura / Captura 5](Recursos/images/es5.png)
+![Estructura / Captura 5](recursos/imagenes/es5.png)
 
 ---
 
-![Estructura / Captura 6](Recursos/images/es6.png)
+![Estructura / Captura 6](recursos/imagenes/es6.png)
 
 ---
 
-![Estructura / Captura 7](Recursos/images/es7.png)
+![Estructura / Captura 7](recursos/imagenes/es7.png)
 
 ---
 
-![Estructura / Captura 8](Recursos/images/es8.png)
+![Estructura / Captura 8](recursos/imagenes/es8.png)
 
 ---
 
-![Estructura / Captura 9](Recursos/images/es9.png)
+![Estructura / Captura 9](recursos/imagenes/es9.png)
 
 ---
 
-![Estructura / Captura 9](Recursos/images/es91.png)
+![Estructura / Captura 9](recursos/imagenes/es91.png)
 
 ---
 
-![Estructura / Captura 9](Recursos/images/es92.png)
+![Estructura / Captura 9](recursos/imagenes/es92.png)
 
 ---
 
-![Estructura / Captura 9](Recursos/images/es93.png)
+![Estructura / Captura 9](recursos/imagenes/es93.png)
 
 ---
 [Nuestro link del miro](https://miro.com/app/board/uXjVHm55KfI=/)
 ---
 
 ### 4.6.2. Software Architecture Context Diagram
-![Context](Recursos/images/SystemContext.png)
+![Context](recursos/imagenes/SystemContext.png)
 ### 4.6.3. Software Architecture Container Diagrams
-![Container](Recursos/images/Containers.png)
+![Container](recursos/imagenes/Containers.png)
 
 ### 4.6.4. Software Architecture Components Diagrams
-![Components-Worker](Recursos/images/Components-Worker.png)
+![Components-Worker](recursos/imagenes/Components-Worker.png)
 
 ---
 
-![Components-API](Recursos/images/Components-API.png)
+![Components-API](recursos/imagenes/Components-API.png)
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
-![Class-Diagram](Recursos/images/DiagramaClases.jpg)
+![Class-Diagram](recursos/imagenes/DiagramaClases.jpg)
 ## 4.8. Database Design
 Se presenta el diseño de la base de datos relacional que permitirá graficar la información para los objetos de cada Bounded Context identificados en la aplicación BodeGo.
 
 ### 4.8.1. Database Diagrams
 El siguiente diagrama de base de datos Entity-Relationship contiene las tablas, columnas y tipos de datos que establecen las relaciones entre las entidades del sistema.
-![Diagrama / Diseño 1](Recursos/images/d1.png)
+![Diagrama / Diseño 1](recursos/imagenes/d1.png)
 
 ---
 
-![Diagrama / Diseño 2](Recursos/images/d2.png)
+![Diagrama / Diseño 2](recursos/imagenes/d2.png)
 
 ---
 
-![Diagrama / Diseño 3](Recursos/images/d3.png)
+![Diagrama / Diseño 3](recursos/imagenes/d3.png)
 
 ---
 
-![Diagrama / Diseño 4](Recursos/images/d4.png)
+![Diagrama / Diseño 4](recursos/imagenes/d4.png)
 
 ---
 
-![Diagrama / Diseño 5](Recursos/images/d5.png)
+![Diagrama / Diseño 5](recursos/imagenes/d5.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -1463,7 +1463,7 @@ Para el desarrollo de BodeGo se establecerán un conjunto de herramientas que pe
 
 - **Discord:** Una herramienta de comunicación y coordinación del equipo. Permite organizar conversaciones por canales, realizar reuniones de voz, compartir avances, resolver dudas y coordinar las actividades relacionadas con el desarrollo de BodeGo.
 ---
-![Imagen de la entrevista](Recursos/images/dc1.jpg)
+![Imagen de la entrevista](recursos/imagenes/dc1.jpg)
 ---
 [link de inicio sesion](https://discord.com/)
 
@@ -1471,13 +1471,13 @@ Para el desarrollo de BodeGo se establecerán un conjunto de herramientas que pe
 
 imagen para mostrar evidencia de uso: 
 
-![imagen](Recursos/images/dc2.jpg)
+![imagen](recursos/imagenes/dc2.jpg)
 
 ## . Requirement Management
 
 - **Miro:** Se utilizará como herramienta colaborativa para la gestión y análisis de requisitos de BodeGo. Permitirá organizar visualmente información obtenida durante la investigación, como User Personas, Empathy Maps, User Journey Maps e Impact Mapping.
 ---
-![Imagen de la entrevista](Recursos/images/miro.png)
+![Imagen de la entrevista](recursos/imagenes/miro.png)
 
 ---
 
@@ -1485,27 +1485,27 @@ imagen para mostrar evidencia de uso:
 
 - **UXPressia:** Se utilizará para elaborar y documentar artefactos relacionados con la experiencia de usuario, como User Personas y User Journey Maps, permitiendo representar las características, necesidades, objetivos y experiencias de los segmentos de usuarios de BodeGo.
 ---
-![Imagen de la entrevista](Recursos/images/ux.png)
+![Imagen de la entrevista](recursos/imagenes/ux.png)
 ---
 
 [link de inicio de sesion](https://uxpressia.com/)
 
 - **Structurizr:** Se utilizará para modelar y documentar la arquitectura de software de BodeGo mediante diagramas basados en el modelo C4. Permitirá representar la estructura general del sistema, sus principales contenedores, componentes y relaciones.
 ---
-![Imagen de la entrevista](Recursos/images/struc.png)
+![Imagen de la entrevista](recursos/imagenes/struc.png)
 ---
 
 ## . Product UX/UI Design
 
 - **Figma:** Una herramienta de colaboración que facilita el desarrollo conjunto de wireframes y mockups.
 ---
-![Imagen de la entrevista](Recursos/images/figma.png)
+![Imagen de la entrevista](recursos/imagenes/figma.png)
 ---
 [link de inicio de sesion](https://www.figma.com/es-la/)
 
 - **LucidChart:** Una herramienta colaborativa que posibilita la creación conjunta de wireframes flow y mockups flow.
 ---
-![Imagen de la entrevista](Recursos/images/lucid.png)
+![Imagen de la entrevista](recursos/imagenes/lucid.png)
 ---
 [link de inicio de sesion](https://lucid.co/es/lucidchart)
 
@@ -1513,25 +1513,25 @@ imagen para mostrar evidencia de uso:
 
 - **HTML5:** Es un lenguaje de etiquetado utilizado para crear la estructura de una página web. Se empleará para incluir componentes como texto, imágenes, enlaces, botones y videos.
 ---
-![Imagen de la entrevista](Recursos/images/html.png)
+![Imagen de la entrevista](recursos/imagenes/html.png)
 ---
 [informacion relacionada](https://www.esic.edu/rethink/tecnologia/html5-que-es-caracteristicas-y-como-funciona-c#:~:text=El%20HTML5%20es%20un%20est%C3%A1ndar,%2C%20estilo%20de%20letra%2C%20etc.)
 
 - **CSS:** Es un lenguaje de diseño gráfico utilizado para dar formato y estilo a la presentación de los documentos HTML.
 ---
-![Imagen de la entrevista](Recursos/images/css.png)
+![Imagen de la entrevista](recursos/imagenes/css.png)
 ---
 [informacion relacionada](https://developer.mozilla.org/es/docs/Web/CSS)
 
 - **JavaScript:** Es un lenguaje de programación dinámico orientado a objetos que se utilizará para implementar funcionalidades e interactividad en la aplicación web.
 ---
-![Imagen de la entrevista](Recursos/images/js.png)
+![Imagen de la entrevista](recursos/imagenes/js.png)
 ---
 [informacion relacionada](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
 - **WebStorm** Un entorno de desarrollo integrado (IDE) que emplearemos para trabajar con JavaScript.
 ---
-![Imagen de la entrevista](Recursos/images/intell.jpg)
+![Imagen de la entrevista](recursos/imagenes/intell.jpg)
 ---
 [link de descarga](https://www.jetbrains.com/es-es/idea/download/?section=windows)
 
@@ -1543,7 +1543,7 @@ imagen para mostrar evidencia de uso:
 
 - **GitHub:** Es una plataforma utilizada para el alojamiento y control de versiones del código fuente de un proyecto. Facilita el trabajo colaborativo entre los integrantes del equipo y permite mantener un historial de los cambios realizados.
 ---
-![Imagen de la entrevista](Recursos/images/gh6.jpgg)
+![Imagen de la entrevista](recursos/imagenes/gh6.jpgg)
 ---
 
 
@@ -1551,7 +1551,7 @@ imagen para mostrar evidencia de uso:
 
 - **GitHub Pages:** Es una plataforma que permite realizar despliegues de aplicaciones web directamente desde un repositorio de GitHub.
 ---
-![Imagen de la entrevista](Recursos/images/gh7.png)
+![Imagen de la entrevista](recursos/imagenes/gh7.png)
 ---
 [link de inicio](https://github.com/?locale=es-419)
 ---
@@ -1568,7 +1568,7 @@ imagen para mostrar evidencia de uso:
 ### 5.1.2. Source Code Management
 ---
 
-![Estructura / Captura 9](Recursos/images/gh9.jpg)
+![Estructura / Captura 9](recursos/imagenes/gh9.jpg)
 
 ---
 ## GitFlow Implementation
@@ -2046,22 +2046,22 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 #### 5.2.1.5. Execution Evidence for Sprint Review
 ---
 
-![Estructura / Captura 9](Recursos/images/lpd1.jpg)
+![Estructura / Captura 9](recursos/imagenes/lpd1.jpg)
 
 ---
 ---
 
-![Estructura / Captura 9](Recursos/images/lpd2.jpg)
+![Estructura / Captura 9](recursos/imagenes/lpd2.jpg)
 
 ---
 ---
 
-![Estructura / Captura 9](Recursos/images/lpd3.jpg)
+![Estructura / Captura 9](recursos/imagenes/lpd3.jpg)
 
 ---
 ---
 
-![Estructura / Captura 9](Recursos/images/lpd4.jpg)
+![Estructura / Captura 9](recursos/imagenes/lpd4.jpg)
 
 ---
 ---
@@ -2081,7 +2081,7 @@ una etapa posterior del desarrollo.
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 ---
 
-![Estructura / Captura 9](Recursos/images/gh8.png)
+![Estructura / Captura 9](recursos/imagenes/gh8.png)
 
 ---
 ## 5.3. Validation Interviews
