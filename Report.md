@@ -187,9 +187,9 @@
 
 **Nombre del Producto:** BodeGo  
 
-**Enfoque de Negocios:** Aplicación web para la gestión integral de inventario, mermas y control operativo interno en minimarkets.  
+**Enfoque de Negocios:** Aplicación web para la gestión y control de inventario en minimarkets, incluyendo productos, stock, lotes, vencimientos, mermas y movimientos operativos.  
 
-**Propuesta de Valor:** BodeGo es una solución web de gestión interna que optimiza el control de stock y reduce las mermas por productos perecibles mediante un sistema de doble rol operativo. La plataforma permite al Administrador visualizar reportes, configurar el sistema y lanzar ofertas estratégicas, mientras que facilita al Empleado la actualización rápida de stock y el registro de las operaciones diarias en el punto de venta.  
+**Propuesta de Valor:** BodeGo es una plataforma web de gestión de inventario para minimarkets que centraliza el control de productos, stock, lotes y fechas de vencimiento. La solución permite registrar movimientos de inventario generados por compras, ventas, mermas y ajustes de inventario, además de generar alertas y reportes que ayuden a reducir pérdidas y mejorar el control operativo.
 
 **Mercado Objetivo:** El producto está dirigido al personal operativo y directivo de minimarkets, dividiendo a sus usuarios en dos segmentos clave: Administradores (dueños o gestores del negocio) y Empleados (personal de atención y almacén).
 
@@ -237,7 +237,7 @@ En el sector del comercio minorista, específicamente en los minimarkets, la ges
 
 **Why (¿Por qué?):** Debido a la ausencia de herramientas digitales accesibles para el control de stock, la falta de asignación de permisos según el rol operativo y la dependencia de métodos manuales para identificar fechas de vencimiento y registrar operaciones.  
 
-**How (¿Cómo?):** El Administrador gestiona el negocio sin visibilidad centralizada de reportes ni capacidad para lanzar ofertas estratégicas de liquidación. A su vez, el Empleado realiza el control de inventario mediante anotaciones físicas o de memoria, lo que dificulta detectar a tiempo los productos próximos a caducar e impide mantener el stock actualizado durante la jornada.  
+**How (¿Cómo?):** El Administrador gestiona el negocio sin visibilidad centralizada de reportes ni capacidad para lanzar ofertas estratégicas de liquidación. A su vez, el Empleado registra entradas, salidas, mermas o control de inventario mediante procesos manual ya sea anotaciones físicas o de memoria, lo que dificulta detectar a tiempo los productos próximos a caducar e impide mantener el stock actualizado durante la jornada.  
 
 **How Much (¿Cuánto?):** Pérdidas económicas constantes para el minimarket por mermas no detectadas a tiempo, descuadres de stock en el punto de venta y una reducción en el margen de ganancia al no poder liquidar estratégicamente la mercadería de baja rotación.
 
@@ -247,7 +247,7 @@ Actualmente, los minimarkets presentan dificultades para mantener un control ade
 
 Los Administradores necesitan contar con información centralizada que les permita supervisar el inventario, consultar reportes y tomar decisiones frente a posibles mermas. Por otro lado, los Empleados necesitan una forma rápida y sencilla de actualizar el stock y registrar las operaciones realizadas durante la jornada.
 
-BodeGo busca solucionar esta problemática mediante una plataforma web que centralice la gestión del inventario, permita controlar productos perecibles y diferencie las funcionalidades disponibles para Administradores y Empleados.
+BodeGo busca solucionar esta problemática mediante una plataforma web que centralice la gestión del inventario y permita controlar productos perecibles controlar productos, lotes, fechas de vencimiento y movimientos de stock derivados de las operaciones del minimarket. La solución diferencia las funcionalidades disponibles para Administradores y Empleados y proporciona alertas e información para apoyar el control del inventario.
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -277,13 +277,13 @@ BodeGo busca solucionar esta problemática mediante una plataforma web que centr
 
 1. Los Administradores podrán tener mayor control sobre el inventario y las mermas.
 2. Los Administradores podrán tomar decisiones utilizando información organizada y actualizada.
-3. Los Empleados podrán registrar cambios en el inventario con mayor facilidad.
+3. Los Empleados podrán registrar con mayor facilidad los movimientos que afectan al inventario, como ingresos, salidas, mermas y ajustes.
 4. Los Empleados podrán identificar rápidamente productos que requieren atención.
 5. Ambos usuarios reducirán su dependencia de registros manuales.
 
 ##### Feature Assumptions
 
-1. Un sistema de gestión de inventario permitirá mantener actualizado el stock de productos.
+1. Un sistema de gestión de inventario permitirá mantener actualizado el stock mediante el registro trazable de entradas, salidas, mermas, devoluciones y ajustes.
 2. Las alertas de vencimiento permitirán identificar productos perecibles antes de que se conviertan en mermas.
 3. Un dashboard con reportes permitirá al Administrador conocer rápidamente el estado del inventario.
 4. La gestión de ofertas permitirá al Administrador impulsar la salida de productos próximos a vencer.
@@ -329,9 +329,9 @@ Como consecuencia, los Administradores tienen dificultades para supervisar el ne
 
 ### Users
 
-- **Administradores:** dueños o gestores del minimarket encargados de supervisar el inventario, revisar reportes, configurar el sistema y tomar decisiones sobre productos y ofertas.
+- **Administradores:** dueños o responsables del minimarket encargados de supervisar el inventario, consultar reportes, revisar alertas, gestionar productos y controlar los movimientos que modifican las existencias del negocio.
 
-- **Empleados:** personal de atención y almacén encargado de actualizar el stock, registrar operaciones y controlar los productos durante la jornada.
+- **Empleados:** trabajadores encargados de realizar operaciones diarias relacionadas con el inventario, como registrar ingresos, salidas, mermas, conteos físicos y otras variaciones autorizadas de stock.
 
 </td>
 
@@ -913,7 +913,7 @@ El sistema de diseño de **BodeGo** se basa en una estética moderna, limpia y f
 
 ### 4.1.2. Web Style Guidelines
 
-BodeGo está diseñado principalmente como una **aplicación web de gestión interna**, por lo que la interfaz busca aprovechar el espacio disponible en computadoras utilizadas en caja, oficina o almacén.
+BodeGo está diseñado principalmente como una **aplicación web de gestión interna**, por lo que la interfaz busca aprovechar el espacio disponible en computadoras utilizadas en las áreas administrativas, de almacenamiento o de atención del minimarket.”
 
 Los diseños presentan una navegación lateral permanente y un área principal destinada a dashboards, tablas, gráficos y operaciones.
 
@@ -967,7 +967,7 @@ Los diseños presentan una navegación lateral permanente y un área principal d
 
 La arquitectura de información de BodeGo se organiza mediante sistemas **jerárquicos, secuenciales y matriciales**, permitiendo que cada usuario pueda acceder rápidamente a las funciones correspondientes a su rol.
 
-Los mockups muestran una clara separación entre el Dashboard del Administrador y el Dashboard del Empleado, además de módulos especializados para inventario, vencimientos, alertas, reportes, empleados y configuración.
+Los mockups muestran una clara separación entre el Dashboard del Administrador y el Dashboard del Empleado, además de módulos especializados para inventario, vencimientos, compras, ventas, alertas, reportes, empleados y configuración.
 
 - **Sistema Jerárquico:**
   - **Dashboard Administrador:** Primero se muestran indicadores generales como productos totales, stock crítico, productos por vencer y mermas. Después se muestran alertas, movimientos, productos vendidos y lotes próximos a vencer.
@@ -1047,7 +1047,7 @@ La Landing Page es la página pública principal de BodeGo y está orientada a p
 | Tag | Valor |
 |---|---|
 | **Title** | BodeGo \| Gestión de Inventario para Minimarkets |
-| **Description** | BodeGo es una plataforma web que ayuda a los minimarkets a controlar su stock, gestionar productos perecibles, reducir mermas y supervisar sus operaciones diarias. |
+| **Description** | BodeGo es una plataforma web que ayuda a la gestion de minimarkets que permite controlar su stock, gestionar productos perecibles, reducir mermas y supervisar sus operaciones diarias. |
 | **Keywords** | BodeGo, gestión de inventario, minimarket, control de stock, productos perecibles, control de vencimientos, mermas, inventario digital |
 | **Author** | Equipo BodeGo |
 | **Robots** | index, follow |
