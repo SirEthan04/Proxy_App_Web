@@ -2154,7 +2154,9 @@ Durante el Sprint 2, las actividades estuvieron orientadas al desarrollo de la p
 
 El objetivo principal fue implementar las principales vistas de la aplicación y permitir la navegación entre sus diferentes módulos.
 
-![Evidencia Sprint Backlog N2](ENLACE.jpg)
+![Evidencia Sprint Backlog N2](https://github.com/SirEthan04/Proxy_App_Web/blob/main/recursos/imagenes/Evidencia%20Sprint%20Backlog%20n2.jpg)
+
+Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego
 
 ---
 
