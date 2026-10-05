@@ -2124,7 +2124,7 @@ El Sprint Planning permitió organizar las actividades que serían desarrolladas
 | **Sprint #** | **Sprint 2** |
 |---|---|
 | **Sprint Planning Background** | El Sprint tiene como objetivo desarrollar la primera versión funcional del Frontend Web de BodeGo. |
-| **Date** | 4-10-2026 |
+| **Date** | 2026-10-4 |
 | **Time** | 2:00 pm |
 | **Location** | Discord |
 | **Prepared By** | Equipo de desarrollo BodeGo |
@@ -2147,6 +2147,29 @@ Durante el Sprint 2 se identificaron los principales aspectos de trabajo necesar
 | Yorch Blanco                            | Bleim-154           | C                                   | C                       | L                       | C                    | C                     |
 | Johan Saravia                            | yowuan              | C                                   | C                       | C                       | L                    | C                     |
 | Diego Rojas                             | Diego27-16          | C                                   | C                       | C                       | C                    | L                     |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+Durante el Sprint 2, las actividades estuvieron orientadas al desarrollo de la primera versión funcional del Frontend Web de BodeGo.
+
+El objetivo principal fue implementar las principales vistas de la aplicación y permitir la navegación entre sus diferentes módulos.
+
+![Evidencia Sprint Backlog N2](ENLACE.jpg)
+
+---
+
+| **User Story ID** | **Story Title** | **Task ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|---|---|---|---|---|---:|---|---|
+| US06 | Visualización del Dashboard Administrativo | TSK011 | Implement dashboard | Desarrollar el dashboard administrativo mostrando los principales indicadores y datos del negocio. | 5 | Mateo | Hecho |
+| US07 | Navegación entre Módulos del Sistema | TSK012 | Implement application navigation | Implementar la navegación entre los principales módulos de la aplicación web. | 4 | Dany | Hecho |
+| US08 | Visualización del Módulo de Inventario | TSK013 | Implement inventory view | Desarrollar la vista principal del inventario mostrando los productos y su información disponible. | 4 | Yorch | Hecho |
+| US09 | Consulta del Detalle de Producto | TSK014 | Implement product detail | Desarrollar la vista con la información detallada de cada producto seleccionado. | 3 | Johan | Hecho |
+| US10 | Visualización de Operaciones del Empleado | TSK015 | Implement employee operations | Desarrollar la vista para consultar las operaciones realizadas por el empleado. | 4 | Johan | Hecho |
+| US11 | Búsqueda y Filtrado de Productos | TSK016 | Implement search and filters | Implementar la búsqueda y los filtros necesarios para localizar productos dentro del inventario. | 4 | Yorch | Hecho |
+| US12 | Visualización de Alertas Operativas | TSK017 | Implement alerts view | Desarrollar la vista para mostrar las alertas relacionadas con el inventario y la operación del negocio. | 5 | Mateo | Hecho |
+| US13 | Visualización de Reportes del Negocio | TSK018 | Implement reports view | Desarrollar la vista para consultar los principales reportes disponibles en la aplicación. | 5 | Diego | Hecho |
+| US14 | Gestión Visual de Productos | TSK019 | Implement product management | Desarrollar la interfaz para gestionar visualmente los productos registrados en BodeGo. | 4 | Dany | Hecho |
+| US15 | Visualización de Información del Negocio | TSK020 | Implement business information | Desarrollar la vista para mostrar la información general del negocio. | 3 | Diego | Hecho |
 
 
 ## 5.3. Validation Interviews
