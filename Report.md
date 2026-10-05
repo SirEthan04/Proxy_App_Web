@@ -2009,7 +2009,7 @@ En esta reunión se definió como objetivo principal implementar la Landing Page
 | **Time** | 5:00 pm |
 | **Location** | Discord |
 | **Prepared By** | Equipo de desarrollo BodeGo |
-| **Attendees (to planning meeting)** | Day / Mateo / Yorch / Johan / Diego |
+| **Attendees (to planning meeting)** | Dany / Mateo / Jhorch / Johan / Diego |
 | **Sprint 0 Review Summary** | No existe sprint previo |
 | **Sprint 0 Retrospective Summary** | No existe sprint previo |
 | **Sprint Goal & User Stories** | |
@@ -2108,6 +2108,47 @@ una etapa posterior del desarrollo.
 ![Estructura / Captura 9](recursos/imagenes/gh8.png)
 
 ---
+
+### 5.2.2. Sprint 2
+
+## Sprint 2 - Desarrollo del Frontend Web de BodeGo
+
+Durante el Sprint 2, el equipo se enfocó en desarrollar la primera versión funcional del Frontend Web de BodeGo.
+
+El objetivo fue implementar las principales vistas de la aplicación, permitiendo la navegación entre módulos, consulta del inventario, visualización de productos, alertas, reportes y demás funcionalidades definidas para esta etapa.
+
+#### 5.2.2.1. Sprint Planning 2
+
+El Sprint Planning permitió organizar las actividades que serían desarrolladas durante el Sprint 2. En esta reunión se definió como objetivo principal implementar la primera versión funcional del Frontend Web de BodeGo.
+
+| **Sprint #** | **Sprint 2** |
+|---|---|
+| **Sprint Planning Background** | El Sprint tiene como objetivo desarrollar la primera versión funcional del Frontend Web de BodeGo. |
+| **Date** | 4-10-2026 |
+| **Time** | 2:00 pm |
+| **Location** | Discord |
+| **Prepared By** | Equipo de desarrollo BodeGo |
+| **Attendees (to planning meeting)** | Dany / Mateo / Jhorch / Johan / Diego |
+| **Sprint 1 Review Summary** | Se desarrolló la primera versión funcional de la Landing Page de BodeGo. |
+| **Sprint 1 Retrospective Summary** | Se identificó la necesidad de continuar con el desarrollo de la aplicación web manteniendo la estructura visual y responsive. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | Desarrollar la primera versión funcional del Frontend Web de BodeGo, implementando las principales vistas y funcionalidades de la aplicación. |
+| **Sprint 2 Velocity** | 34 Story Points |
+| **Sum of Story Points** | 34 Story Points |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 2 se identificaron los principales aspectos de trabajo necesarios para implementar el Frontend Web de BodeGo.
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Frontend Structure & Navigation** | **Dashboard & Modules** | **Inventory & Products** | **Alerts & Reports** | **Responsive Design** |
+| --------------------------------------- | ------------------- | ----------------------------------- | ----------------------- | ----------------------- | -------------------- | --------------------- |
+| Dany Chavez                             | Danysss-cmd         | L                                   | C                       | C                       | C                    | C                     |
+| Mateo Caldas                            | Ethan.Matt          | C                                   | L                       | C                       | C                    | C                     |
+| Yorch Blanco                            | Bleim-154           | C                                   | C                       | L                       | C                    | C                     |
+| Johan Saravia                            | yowuan              | C                                   | C                       | C                       | L                    | C                     |
+| Diego Rojas                             | Diego27-16          | C                                   | C                       | C                       | C                    | L                     |
+
+
 ## 5.3. Validation Interviews
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
