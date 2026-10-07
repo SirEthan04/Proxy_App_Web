@@ -474,6 +474,14 @@ Este segmento está compuesto por trabajadores encargados de realizar actividade
   - Prefieren interfaces intuitivas y fáciles de aprender.
   - Necesitan acceder rápidamente a información sobre stock y productos.
   - Valoran tener claridad sobre las tareas y responsabilidades asignadas.
+ 
+  ### Sustento Metodológico de los Segmentos Objetivo
+
+La delimitación de los perfiles de usuario para **BodeGo** no responde a supuestos teóricos, sino que se fundamenta directamente en los hallazgos obtenidos durante el proceso de investigación y entrevistas (*Needfinding*) 
+
+Por un lado, el segmento de Administradores (con un rango etario de 31 a 60 años) se sustenta en el perfil típico de los dueños y gestores de minimarkets entrevistados —tales como Víctor Alberca, Jimmy Ruiz y Silvia Bravo—, quienes manejan establecimientos comerciales enfrentando problemáticas directas de desorganización de inventario, mermas mensuales por caducidad de productos lácteos o perecibles, y una alta dependencia de herramientas informales (cuadernos y hojas de cálculo de Excel). Sus motivaciones reflejan la necesidad urgente de contar con alertas automatizadas y reportes de control financiero sin requerir una curva de aprendizaje tecnológica compleja.
+
+Por otro lado, el segmento de **Empleados Operativos** (jóvenes entre 18 y 28 años) se alinea con el personal de mostrador, caja y almacén entrevistado (como Joseph, Andrés y Pablo), quienes soportan la mayor carga operativa durante las horas punta de atención al cliente. La investigación demostró que los errores de inventario ocurren principalmente por la fricción de registrar entradas y salidas manualmente bajo presión temporal. Por ello, este segmento requiere interfaces sumamente ágiles, accesibles desde dispositivos móviles o terminales web sencillos, que les permitan agilizar las tareas de reposición y mantener sincronizado el stock real del minimarket de manera inmediata.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
