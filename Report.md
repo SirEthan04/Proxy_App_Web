@@ -2243,24 +2243,38 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 #### 5.2.2.5. Execution Evidence for Sprint Review
 ---
 
-![Estructura / login](Recursos/images/ExecusionReview_login.jpg)
+![Estructura / alertas](Recursos/images/loginbodego.jpg)
 
 ---
-![Estructura / panel](Recursos/images/ExecusionReview_panel.jpg)
+
+![Estructura / alertas](Recursos/images/dashboardbodego.jpg)
 
 ---
-![Estructura / productos](Recursos/images/ExecusionReview_productos.jpg)
+
+![Estructura / alertas](Recursos/images/productosbodego.jpg)
 
 ---
-![Estructura / lotes](Recursos/images/ExecusionReview_lotes.jpg)
+
+![Estructura / movimientos](Recursos/images/operacionesbodego.jpg)
 
 ---
-![Estructura / movimientos](Recursos/images/ExecusionReview_movimientos.jpg)
+
+![Estructura / lotes](Recursos/images/alertasbodego.jpg)
 
 ---
-![Estructura / alertas](Recursos/images/ExecusionReview_alertas.jpg)
+
+![Estructura / productos](Recursos/images/reportesbodego.jpg)
 
 ---
+
+![Estructura / panel](Recursos/images/mermasbodego.jpg)
+
+---
+
+![Estructura / login](Recursos/images/usuariosbodego.jpg)
+
+---
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 Durante el Sprint 2 no se desarrollaron ni documentaron servicios web, debido a que el objetivo principal del sprint fue la implementación del Frontend Web de BodeGo.
