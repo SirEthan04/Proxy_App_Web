@@ -2173,13 +2173,87 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 | US14 | Gestión Visual de Productos | TSK019 | Implement product management | Desarrollar la interfaz para gestionar visualmente los productos registrados en BodeGo. | 3 | Dany | Hecho |
 | US15 | Visualización de Información del Negocio | TSK020 | Implement business information | Desarrollar la vista para mostrar la información general del negocio. | 2 | Diego | Hecho |
 
+#### 5.2.2.4. Development Evidence for Sprint Review.
+---
 
-## 5.3. Validation Interviews
-### 5.3.1. Diseño de Entrevistas
-### 5.3.2. Registro de Entrevistas
-### 5.3.3. Evaluaciones según heurísticas
+| Repository              | Branch                    | Commit ID | Commit Message                          | Commit Message Body                                                            | Committed on |
+| ----------------------- | ------------------------- | --------- | --------------------------------------- | ------------------------------------------------------------------------------ | ------------ |
+| Danysss-cmd/Proxy_App_Web_Front-end | develop      | -------   | -------       | Implementación de la vista principal del dashboard de BodeGo. | 05/10/2026   |
+| SirEthan04/Proxy_App_Web_Front-end | develop | -------   | ------- | Implementación de la funcionalidad para gestionar lotes de productos.      | 05/10/2026   |
+| Bleim-154/Proxy_App_Web_Front-end | develop | -------   | ------- | Implementación de la gestión de accesos y permisos de los usuarios.      | 05/10/2026   |
+| Diego27-16/Proxy_App_Web_Front-end | develop    | -------   | -------  | Implementación de la funcionalidad para realizar y gestionar conteos físicos de inventario.         | 06/10/2026   |
+| yowuan/Proxy_App_Web_Front-end | develop     | -------   | -------              | Implementación de la funcionalidad para registrar y consultar movimientos de inventario.                      | 06/10/2026   |
 
-## 5.4. Video About-the-Product
+---
+#### 5.2.2.5. Execution Evidence for Sprint Review
+---
+
+![Estructura / login](Recursos/images/ExecusionReview_login.jpg)
+
+---
+![Estructura / panel](Recursos/images/ExecusionReview_panel.jpg)
+
+---
+![Estructura / productos](Recursos/images/ExecusionReview_productos.jpg)
+
+---
+![Estructura / lotes](Recursos/images/ExecusionReview_lotes.jpg)
+
+---
+![Estructura / movimientos](Recursos/images/ExecusionReview_movimientos.jpg)
+
+---
+![Estructura / alertas](Recursos/images/ExecusionReview_alertas.jpg)
+
+---
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2 no se desarrollaron ni documentaron servicios web, debido a que el objetivo principal del sprint fue la implementación del Frontend Web de BodeGo.
+
+La documentación de los servicios y endpoints correspondientes a la lógica del negocio será desarrollada durante el Sprint 3, cuando se inicie la implementación del Backend.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se realizó el despliegue de la primera versión del Frontend Web de BodeGo utilizando GitHub Pages.
+
+El despliegue permitió publicar la aplicación web y verificar el correcto funcionamiento de las principales vistas desarrolladas durante el sprint.
+
+Actividades realizadas:
+
+1. Integración de los cambios desarrollados en el repositorio del Frontend.
+2. Configuración del despliegue mediante GitHub Pages.
+3. Publicación de la primera versión del Frontend Web.
+4. Verificación de las principales vistas y rutas de la aplicación.
+5. Validación del acceso a la aplicación desde el entorno publicado.
+
+**Evidencias del despliegue:**
+
+1. Configuración dentro del Github:
+---
+![Imagen de la entrevista](Recursos/images/efe3.jpeg)
+---
+3. Despliegue exitoso del Frontend (Firebase):
+---
+![Imagen de la entrevista](Recursos/images/efe1.jpeg)
+---
+5. Verificación y autorizacion en el IntellIdea:
+ ---
+![Imagen de la entrevista](Recursos/images/efe2.jpeg)
+---
+7. Aplicación Web publicada.
+---
+![Imagen de la entrevista](Recursos/images/efe4.jpeg)
+---
+
+**Enlace de la aplicación:**  
+Enlace: https://proxy-open-source.web.app/dashboard
+
+Únicamente funciona por ahora el enlace para iniciar sesión y muestra los datos de los productos  pero no permite cambiar por el momento porque requiere datos de categoría que no se pueden implementar categorías en mockapi.
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+---
+
+![Estructura / TeamColaborations](Recursos/images/TeamColaborationsSprint2.jpg)
 
 ---
 
