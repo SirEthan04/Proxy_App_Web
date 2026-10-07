@@ -2299,23 +2299,23 @@ Actividades realizadas:
 
 1. Configuración dentro del Github:
 ---
-![Imagen de la entrevista](Recursos/images/efe3.jpeg)
+![Imagen de la entrevista](Recursos/images/ghn1.jpgh)
 ---
 3. Despliegue exitoso del Frontend (Firebase):
 ---
-![Imagen de la entrevista](Recursos/images/efe1.jpeg)
+![Imagen de la entrevista](Recursos/images/ghn2.jpgh)
 ---
 5. Verificación y autorizacion en el IntellIdea:
  ---
-![Imagen de la entrevista](Recursos/images/efe2.jpeg)
+![Imagen de la entrevista](Recursos/images/ghn3.jpgh)
 ---
 7. Aplicación Web publicada.
 ---
-![Imagen de la entrevista](Recursos/images/efe4.jpeg)
+![Imagen de la entrevista](Recursos/images/ghn4.jpgh)
 ---
 
 **Enlace de la aplicación:**  
-Enlace: https://proxy-open-source.web.app/dashboard
+Enlace: https://proxy-app-web-a4eca.firebaseapp.com/
 
 Únicamente funciona por ahora el enlace para iniciar sesión y muestra los datos de los productos  pero no permite cambiar por el momento porque requiere datos de categoría que no se pueden implementar categorías en mockapi.
 
