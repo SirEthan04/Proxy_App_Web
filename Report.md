@@ -2243,35 +2243,35 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 #### 5.2.2.5. Execution Evidence for Sprint Review
 ---
 
-![Estructura / alertas](Recursos/images/loginbodego.jpg)
+![Estructura / alertas](recursos/imagenes/loginbodego.jpg)
 
 ---
 
-![Estructura / alertas](Recursos/images/dashboardbodego.jpg)
+![Estructura / alertas](recursos/imagenes/dashboardbodego.jpg)
 
 ---
 
-![Estructura / alertas](Recursos/images/productosbodego.jpg)
+![Estructura / alertas](recursos/imagenes/productosbodego.jpg)
 
 ---
 
-![Estructura / movimientos](Recursos/images/operacionesbodego.jpg)
+![Estructura / movimientos](recursos/imagenes/operacionesbodego.jpg)
 
 ---
 
-![Estructura / lotes](Recursos/images/alertasbodego.jpg)
+![Estructura / lotes](recursos/imagenes/alertasbodego.jpg)
 
 ---
 
-![Estructura / productos](Recursos/images/reportesbodego.jpg)
+![Estructura / productos](recursos/imagenes/reportesbodego.jpg)
 
 ---
 
-![Estructura / panel](Recursos/images/mermasbodego.jpg)
+![Estructura / panel](recursos/imagenes/mermasbodego.jpg)
 
 ---
 
-![Estructura / login](Recursos/images/usuariosbodego.jpg)
+![Estructura / login](recursos/imagenes/usuariosbodego.jpg)
 
 ---
 
