@@ -1461,7 +1461,38 @@ enlace: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=
 ![Components-API](recursos/imagenes/Components-API.png)
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
-![Class-Diagram](recursos/imagenes/DiagramaClases.jpg)
+![Class-Diagram](recursos/imagenes/DiagramaAppWeb.png)
+
+- **Conteos Físicos BC:**
+
+![DiagramaDB / BC1](recursos/imagenes/conteosfisicos-appweb.jpg)
+
+---
+
+- **Movimientos de Inventario BC:**
+
+![DiagramaDB / BC2](recursos/imagenes/movimientos-de-inventario-BC.jpg)
+
+---
+
+- **Catálogo e Inventario BC:**
+
+![DiagramaDB / BC3](recursos/imagenes/Catalogo-e-inventario-BC.jpg)
+
+---
+
+- **Monitoreo y Alertas BC:**
+
+![DiagramaDB / BC4](recursos/imagenes/Monitoreo-y-Alertas-BC.jpg)
+
+---
+
+- **Reportes y Dashboard BC:**
+
+![DiagramaDB / BC5](recursos/imagenes/Reportes-y-Dashboard-BC.jpg)
+  
+---
+
 ## 4.8. Database Design
 Se presenta el diseño de la base de datos relacional que permitirá graficar la información para los objetos de cada Bounded Context identificados en la aplicación BodeGo.
 
