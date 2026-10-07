@@ -2233,11 +2233,11 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 
 | Repository              | Branch                    | Commit ID | Commit Message                          | Commit Message Body                                                            | Committed on |
 | ----------------------- | ------------------------- | --------- | --------------------------------------- | ------------------------------------------------------------------------------ | ------------ |
-| Danysss-cmd/Proxy_Web_App_Front-end | develop      | -------   | -------       | Implementación de la vista principal del dashboard de BodeGo. | 05/10/2026   |
-| SirEthan04/Proxy_Web_App_Front-end | develop | -------   | ------- | Implementación de la funcionalidad para gestionar lotes de productos.      | 05/10/2026   |
-| Bleim-154/Proxy_Web_App_Front-end | develop | -------   | ------- | Implementación de la gestión de accesos y permisos de los usuarios.      | 05/10/2026   |
-| Diego27-16/Proxy_Web_App_Front-end | develop    | -------   | -------  | Implementación de la funcionalidad para realizar y gestionar conteos físicos de inventario.         | 06/10/2026   |
-| yowuan/Proxy_Web_App_Front-end | develop     | -------   | -------              | Implementación de la funcionalidad para registrar y consultar movimientos de inventario.                      | 06/10/2026   |
+| Danysss-cmd/Proxy_Web_App_Front-end | develop      | a4069a8   | feat: add dashboard       | Implementación del dashboard principal de BodeGo para visualizar información resumida e indicadores generales del sistema. | 05/10/2026   |
+| SirEthan04/Proxy_Web_App_Front-end | develop | 9e1b553   | feat: add lots products | Implementación de la gestión de productos y lotes, permitiendo visualizar y administrar la información asociada al inventario.      | 05/10/2026   |
+| Bleim-154/Proxy_Web_App_Front-end | develop | 5c41ea5   | feat: add catalog and inventory | Implementación del módulo de catálogo e inventario, incluyendo la gestión de categorías, productos y su información relacionada.      | 05/10/2026   |
+| Diego27-16/Proxy_Web_App_Front-end | develop    | 808803e   | add physical count  | Implementación de la funcionalidad de conteos físicos para registrar y comparar las cantidades del inventario físico con las cantidades registradas en el sistema.         | 06/10/2026   |
+| yowuan/Proxy_Web_App_Front-end | develop     | 4b74f3d   | feature: add movementsV2    | Implementación del módulo de movimientos de inventario para registrar y consultar entradas, salidas y ajustes asociados a los lotes.                      | 06/10/2026   |
 
 ---
 #### 5.2.2.5. Execution Evidence for Sprint Review
@@ -2308,7 +2308,7 @@ Enlace: https://proxy-open-source.web.app/dashboard
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 ---
 
-![Estructura / TeamColaborations](Recursos/images/TeamColaborationsSprint2.jpg)
+![Estructura / TeamColaborations](recursos/imagenes/TeamColabSprint2.jpg)
 
 ---
 
