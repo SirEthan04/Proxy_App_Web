@@ -2299,19 +2299,19 @@ Actividades realizadas:
 
 1. Configuración dentro del Github:
 ---
-![Imagen de la entrevista](Recursos/images/ghn1.jpg)
+![Imagen de la entrevista](recursos/imagenes/ghn1.jpg)
 ---
 3. Despliegue exitoso del Frontend (Firebase):
 ---
-![Imagen de la entrevista](Recursos/images/ghn2.jpg)
+![Imagen de la entrevista](recursos/imagenes/ghn2.jpg)
 ---
 5. Verificación y autorizacion en el IntellIdea:
  ---
-![Imagen de la entrevista](Recursos/images/ghn3.jpg)
+![Imagen de la entrevista](recursos/imagenes/ghn3.jpg)
 ---
 7. Aplicación Web publicada.
 ---
-![Imagen de la entrevista](Recursos/images/ghn4.jpg)
+![Imagen de la entrevista](recursos/imagenes/ghn4.jpg)
 ---
 
 **Enlace de la aplicación:**  
