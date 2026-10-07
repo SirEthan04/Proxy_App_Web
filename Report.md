@@ -2217,11 +2217,11 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 
 | Repository              | Branch                    | Commit ID | Commit Message                          | Commit Message Body                                                            | Committed on |
 | ----------------------- | ------------------------- | --------- | --------------------------------------- | ------------------------------------------------------------------------------ | ------------ |
-| Danysss-cmd/Proxy_App_Web_Front-end | develop      | -------   | -------       | Implementación de la vista principal del dashboard de BodeGo. | 05/10/2026   |
-| SirEthan04/Proxy_App_Web_Front-end | develop | -------   | ------- | Implementación de la funcionalidad para gestionar lotes de productos.      | 05/10/2026   |
-| Bleim-154/Proxy_App_Web_Front-end | develop | -------   | ------- | Implementación de la gestión de accesos y permisos de los usuarios.      | 05/10/2026   |
-| Diego27-16/Proxy_App_Web_Front-end | develop    | -------   | -------  | Implementación de la funcionalidad para realizar y gestionar conteos físicos de inventario.         | 06/10/2026   |
-| yowuan/Proxy_App_Web_Front-end | develop     | -------   | -------              | Implementación de la funcionalidad para registrar y consultar movimientos de inventario.                      | 06/10/2026   |
+| Danysss-cmd/Proxy_Web_App_Front-end | develop      | -------   | -------       | Implementación de la vista principal del dashboard de BodeGo. | 05/10/2026   |
+| SirEthan04/Proxy_Web_App_Front-end | develop | -------   | ------- | Implementación de la funcionalidad para gestionar lotes de productos.      | 05/10/2026   |
+| Bleim-154/Proxy_Web_App_Front-end | develop | -------   | ------- | Implementación de la gestión de accesos y permisos de los usuarios.      | 05/10/2026   |
+| Diego27-16/Proxy_Web_App_Front-end | develop    | -------   | -------  | Implementación de la funcionalidad para realizar y gestionar conteos físicos de inventario.         | 06/10/2026   |
+| yowuan/Proxy_Web_App_Front-end | develop     | -------   | -------              | Implementación de la funcionalidad para registrar y consultar movimientos de inventario.                      | 06/10/2026   |
 
 ---
 #### 5.2.2.5. Execution Evidence for Sprint Review
