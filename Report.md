@@ -2107,29 +2107,45 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 
 ---
 #### 5.2.1.5. Execution Evidence for Sprint Review
----
-
-![Estructura / Captura 9](recursos/imagenes/lpd1.jpg)
 
 ---
----
 
-![Estructura / Captura 9](recursos/imagenes/lpd2.jpg)
-
----
----
-
-![Estructura / Captura 9](recursos/imagenes/lpd3.jpg)
+![Estructura / Captura 9](recursos/imagenes/nl1.jpg)
 
 ---
+
+![Estructura / Captura 9](recursos/imagenes/nl2.jpeg)
+
+---
+![Estructura / Captura 9](recursos/imagenes/nl3.jpeg)
+
+---
+![Estructura / Captura 9](recursos/imagenes/nl4.jpeg)
+
+---
+![Estructura / Captura 9](recursos/imagenes/nl5.jpeg)
+
+---
+![Estructura / Captura 9](recursos/imagenes/nl6.jpeg)
+
+---
+![Estructura / Captura 9](recursos/imagenes/nl7.jpeg)
+
+---
+![Estructura / Captura 9](recursos/imagenes/nl8.jpeg)
+
+---
+![Estructura / Captura 9](recursos/imagenes/nl9.jpeg)
+
+---
+![Estructura / Captura 9](recursos/imagenes/nl10.jpeg)
+
+---
+![Estructura / Captura 9](recursos/imagenes/nl11.jpeg)
+
 ---
 
-![Estructura / Captura 9](recursos/imagenes/lpd4.jpg)
-
----
----
-
-[Landing Page Desplegada](https://sirethan04.github.io/Proxy_App_Web_LandingPage/)
+Landing Page Desplegada: https://sirethan04.github.io/Proxy_App_Web_LandingPage/
 
 ---
 
