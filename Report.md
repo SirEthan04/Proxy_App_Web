@@ -1589,13 +1589,13 @@ imagen para mostrar evidencia de uso:
 ---
 [link de descarga](https://github.com/apps/desktop?locale=es-419)
 ---
-[Nuestro repositorio de documentación](https://github.com/SirEthan04/Proxy_App_Web)
+Nuestro repositorio de documentación: https://github.com/SirEthan04/Proxy_App_Web
 ---
-[Nuestro repositorio de landingpage](https://github.com/SirEthan04/Proxy_App_Web_LandingPage)
+Nuestro repositorio de landingpage: https://github.com/SirEthan04/Proxy_App_Web_LandingPage
 ---
-[Nuestro repositorio de frontend](https://github.com/SirEthan04/Proxy_Web_App_Front-end)
+Nuestro repositorio de frontend: https://github.com/SirEthan04/Proxy_Web_App_Front-end
 ---
-[Nuestro repositorio de web aplication](https://github.com/SirEthan04/Proxy_Web_App_Back-end)
+Nuestro repositorio de web aplication: https://github.com/SirEthan04/Proxy_Web_App_Back-end
 ---
 ### 5.1.2. Source Code Management
 ---
@@ -2293,15 +2293,15 @@ Estas funcionalidades están diseñadas para disminuir los errores en el registr
 
 # Anexos
 ---
-[Enlace de Figma](https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1)
+Enlace de Figma: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1
 ---
-[Nuestro link del miro](https://miro.com/app/board/uXjVHm55KfI=/)
+Nuestro link del miro: https://miro.com/app/board/uXjVHm55KfI=/
 ---
-[Nuestro repositorio de documentación](https://github.com/SirEthan04/Proxy_App_Web)
+Nuestro repositorio de documentación: https://github.com/SirEthan04/Proxy_App_Web
 ---
-[Nuestro repositorio de landingpage](https://sirethan04.github.io/Proxy_App_Web_LandingPage/)
+Nuestro repositorio de landingpage: https://sirethan04.github.io/Proxy_App_Web_LandingPage/
 ---
-[Nuestro repositorio de frontend](https://github.com/SirEthan04/Proxy_Web_App_Front-end)
+Nuestro repositorio de frontend: https://github.com/SirEthan04/Proxy_Web_App_Front-end
 ---
-[Nuestro repositorio de web aplication](https://github.com/SirEthan04/Proxy_Web_App_Back-end)
+Nuestro repositorio de web aplication: https://github.com/SirEthan04/Proxy_Web_App_Back-end
 ---
