@@ -2898,8 +2898,222 @@ También se avanzó en la integración de los servicios, la implementación de v
 ---
 
 
+## 5.3. Validation Interviews
 
-**Nota:** Los servicios de alertas, reportes y usuarios se relacionan con TS16 exclusivamente por su cobertura documental en OpenAPI y Scalar. Su implementación corresponde a sus propios contextos funcionales.
+### 5.3.1. Diseño de Entrevistas
+
+#### Preguntas para el Segmento 1: Administradores o Dueños de Minimarkets
+
+**Datos del entrevistado**
+
+1. ¿Cuál es tu nombre completo?
+2. ¿Qué edad tienes y en qué distrito resides?
+3. ¿Cuál es tu función dentro del minimarket o negocio?
+
+**Validación de la Landing Page**
+
+1. Después de revisar la Landing Page, ¿qué entiendes que ofrece BodeGo y cuál crees que es su propósito?
+2. ¿Qué beneficios o funcionalidades presentadas consideras más útiles para administrar tu negocio?
+
+**Validación del Frontend**
+
+3. **Dashboard:** Al observar los indicadores del panel principal, ¿qué tan fácil te resulta identificar el estado general del inventario?
+4. **Productos y categorías:** Al buscar y revisar un producto, ¿qué tan sencillo te resulta encontrar su información y comprender cómo está organizado el catálogo?
+5. **Lotes:** Al consultar los lotes de un producto, ¿qué tan clara te parece la información sobre cantidades y fechas de vencimiento?
+6. **Alertas:** Al revisar las alertas de inventario, ¿puedes identificar fácilmente qué productos necesitan atención y por qué?
+7. **Auditoría:** Al explorar los registros de auditoría, ¿consideras que la información presentada te permitiría realizar un seguimiento de las operaciones del negocio?
+8. **Recomendaciones y ofertas:** Después de explorar estas secciones, ¿qué tan claras te resultan las opciones para consultar recomendaciones y crear ofertas para determinados productos?
+9. **Gestión de negocios:** Al revisar las opciones para administrar la información del negocio, ¿qué tan fácil te resulta comprender las acciones disponibles?
+10. **Evaluación general:** Después de utilizar BodeGo, ¿qué funcionalidad consideras más útil para administrar tu minimarket y qué mejorarías de la aplicación?
+
+#### Preguntas para el Segmento 2: Empleados de Minimarkets
+
+**Datos del entrevistado**
+
+1. ¿Cuál es tu nombre completo?
+2. ¿Qué edad tienes y en qué distrito resides?
+3. ¿Cuál es tu función dentro del minimarket o negocio?
+
+**Validación de la Landing Page**
+
+1. Después de revisar la Landing Page, ¿qué entiendes que permite hacer BodeGo dentro de un minimarket?
+2. ¿Qué funcionalidad presentada en la página consideras que podría facilitar más tus actividades diarias?
+
+**Validación del Frontend**
+
+3. **Navegación:** Al ingresar a la aplicación, ¿qué tan sencillo te resulta encontrar las diferentes secciones y comprender para qué sirven?
+4. **Consulta de productos:** Al buscar un producto específico, ¿qué tan fácil te resulta encontrarlo y revisar su información?
+5. **Lotes:** Al consultar los lotes de un producto, ¿puedes identificar claramente las cantidades disponibles y las fechas de vencimiento?
+6. **Movimientos de inventario:** Al explorar el registro de entradas y salidas, ¿qué tan sencillo te resulta comprender el proceso para registrar un movimiento?
+7. **Conteos físicos:** Al realizar un conteo físico de ejemplo, ¿qué tan claras te resultan las cantidades que debes ingresar y la información que muestra el sistema?
+8. **Ajustes y solicitudes de corrección:** Al explorar estas opciones, ¿comprendes cuándo utilizarías una solicitud de corrección y qué información deberías proporcionar?
+9. **Mermas:** Al intentar registrar una merma, ¿qué tan sencillo te resulta identificar el producto, indicar la cantidad y seleccionar el motivo de la pérdida?
+10. **Evaluación general:** Después de utilizar BodeGo, ¿qué actividad te pareció más sencilla, cuál te generó dificultades y qué mejorarías para facilitar tu trabajo diario?
+
+### 5.3.2. Registro de Entrevistas
+
+#### Segmento Administradores
+
+| |
+|---|
+| ![Entrevista de validación a Ian Figueroa](recursos/imagenes/ianvalidation.png) |
+| **Nombres y apellidos:** Ian figueroa <br> **Edad:** 21 años <br> **Distrito:** Pueblo libre <br><br> **Resumen de la entrevista:** <br><br> El entrevistado, administrador de un minimarket, participó en la validación de la Landing Page y el Frontend de BodeGo. Consideró que ambas interfaces presentan un diseño agradable, organizado y fácil de comprender. Destacó especialmente la gestión de productos, el control de lotes y las alertas de vencimiento, ya que estas funcionalidades permitirían mantener el inventario ordenado y prevenir pérdidas. <br><br> Durante la exploración del Frontend, señaló que la navegación es sencilla y que la información de productos y lotes resulta clara. Sin embargo, presentó algunas dificultades iniciales para comprender los movimientos de inventario y los conteos físicos. Como mejoras, sugirió incorporar explicaciones breves en ciertas opciones, hacer más visible el botón de acceso a la aplicación y mostrar las alertas importantes directamente en el Dashboard. En general, expresó una opinión favorable de BodeGo y consideró que sería útil para administrar un minimarket. <br><br> **URL:** https://drive.google.com/file/d/1QDDfA513IN4V9-ISeddfb7UXCcF5LJZo/view?usp=sharing |
+
+| |
+|---|
+| ![Entrevista de validación a Silvia Bravo](recursos/imagenes/silviavalidation.png) |
+| **Nombres y apellidos:** Silvia Bravo <br> **Edad:** 49 años <br> **Distrito:** Independencia <br><br> **Resumen de la entrevista:** <br><br> Silvia Bravo, administradora de un minimarket, participó en la validación de la Landing Page y el Frontend de BodeGo. Comprendió que la plataforma permite administrar productos y analizar información del negocio. Destacó especialmente las alertas de vencimiento, ya que considera importante identificar los productos próximos a vencer para evitar pérdidas económicas. <br><br> Durante la exploración del Frontend, señaló que el Dashboard, los productos, categorías y lotes presentan información clara y ordenada, facilitando la identificación de cantidades y fechas de vencimiento. También consideró útiles las alertas de inventario para reconocer problemas de stock y encontró comprensible el proceso de creación de ofertas. Finalmente, expresó satisfacción con la aplicación y no propuso mejoras adicionales durante la entrevista. <br><br> **URL:** https://drive.google.com/file/d/1PbotiWeN0J_HhGiSwgg5suCbzT8MPkfL/view?usp=sharing |
+
+#### Segmento Empleados
+
+| |
+|---|
+| ![Entrevista de validación a Andres Marzano](recursos/imagenes/andrevalidation.png) |
+| **Nombres y apellidos:** Andres Marzano <br> **Edad:** 20 años <br> **Distrito:** San Juan de Lurigancho <br><br> **Resumen de la entrevista:** <br><br> Andrés Marzano, empleado de un minimarket, participó en la validación de la Landing Page y el Frontend de BodeGo. Consideró que la plataforma permite organizar y controlar el inventario de manera sencilla, destacando especialmente la consulta de productos, el control de lotes y las fechas de vencimiento, ya que estas funcionalidades facilitarían las actividades diarias y ayudarían a prevenir pérdidas. <br><br> Durante la exploración del Frontend, señaló que la navegación es intuitiva y que los módulos de productos, movimientos de inventario, conteos físicos y mermas presentan procesos claros y ordenados. Sin embargo, mencionó que inicialmente necesitó explorar con mayor detenimiento la sección de ajustes y solicitudes de corrección. Como mejora, sugirió incorporar pequeñas indicaciones para orientar a los usuarios nuevos. En general, consideró que BodeGo es una aplicación organizada, fácil de utilizar y útil para mejorar el control del inventario. <br><br> **URL:** https://drive.google.com/file/d/1kbf-Qn4dSuX-iFd8flkezSBHotO6Bovf/view?usp=sharing |
+
+| |
+|---|
+| ![Entrevista de validación a Joseph](recursos/imagenes/josephvalidation.png) |
+| **Nombres y apellidos:** Joseph <br> **Edad:** 23 años <br> **Distrito:** Puente Piedra <br><br> **Resumen de la entrevista:** <br><br> Joseph, empleado de un minimarket, participó en la validación de la Landing Page y el Frontend de BodeGo. Consideró que la plataforma es fácil de utilizar y destacó la organización del menú, la consulta de productos y lotes, el registro de movimientos y las mermas. Valoró especialmente la posibilidad de controlar las cantidades disponibles y las fechas de vencimiento. <br><br> Sin embargo, mencionó algunas dificultades iniciales para comprender los conteos físicos, ajustes y solicitudes de corrección. Como mejoras, sugirió incorporar un buscador de productos, resaltar con colores los lotes próximos a vencer y agregar explicaciones breves en algunas funcionalidades. En general, consideró que BodeGo ayudaría a ahorrar tiempo, organizar el inventario y mejorar el control de la mercadería. <br><br> **URL:** https://drive.google.com/file/d/15XCPZ9IbjHR71gtagHLYNYeGB1Hx49IP/view?usp=sharing |
+
+| |
+|---|
+| ![Entrevista de validación a Pablo Moreno](recursos/imagenes/pablovalidation.jpg) |
+| **Nombres y apellidos:** Pablo Moreno <br> **Edad:** 20 años <br> **Distrito:** Callao <br><br> **Resumen de la entrevista:** <br><br> Pablo Moreno, trabajador de un minimarket, participó en la evaluación de la Landing Page y el Frontend de BodeGo. Durante la validación, señaló que la plataforma presenta una interfaz clara y organizada, lo que facilita el acceso a sus diferentes funcionalidades. Destacó principalmente el registro de entradas y salidas de mercadería, la consulta del stock y el control de lotes, ya que estas herramientas permitirían agilizar tareas que actualmente realiza de forma manual o mediante Excel. Asimismo, consideró útil el registro de mermas para mantener un mejor control de los productos dañados o vencidos. <br><br> Por otro lado, indicó que al principio tuvo algunas dudas al utilizar los conteos físicos y las solicitudes de corrección, aunque logró comprender su funcionamiento después de explorarlos. Entre sus sugerencias, mencionó la incorporación de un buscador de productos, avisos más visibles sobre fechas de vencimiento y pequeñas instrucciones para orientar a los nuevos usuarios. Finalmente, expresó una opinión favorable sobre BodeGo, considerando que su implementación podría simplificar las actividades diarias, disminuir las diferencias de inventario y mejorar la organización de los productos dentro del minimarket. <br><br> **URL:** https://drive.google.com/file/d/1kbf-Qn4dSuX-iFd8flkezSBHotO6Bovf/view?usp=sharing |
+
+### 5.3.3. Evaluaciones según heurísticas
+
+**BodeGo - Landing Page y Aplicación Web**
+
+La evaluación se realizó tomando como referencia las entrevistas de validación de los segmentos Administradores y Empleados de minimarkets, considerando las opiniones de Ian Figueroa, Silvia Bravo, Andrés Marzano y Joseph.
+
+#### TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Explorar la Landing Page y comprender la propuesta de valor de BodeGo.
+2. Navegar por el Dashboard y consultar los indicadores del inventario.
+3. Buscar productos y revisar sus categorías.
+4. Consultar lotes y fechas de vencimiento.
+5. Revisar alertas y movimientos de inventario.
+6. Realizar conteos físicos y gestionar solicitudes de corrección.
+7. Registrar mermas.
+8. Explorar recomendaciones y ofertas.
+
+#### ESCALA DE SEVERIDAD
+
+Los problemas identificados se clasifican utilizando la siguiente escala:
+
+| Nivel | Descripción                                                                                                         |
+| ----- | ------------------------------------------------------------------------------------------------------------------- |
+| **1** | **Problema superficial:** No impide utilizar la aplicación y puede resolverse fácilmente.                           |
+| **2** | **Problema menor:** Puede generar pequeñas dificultades de uso, pero permite continuar con las actividades.         |
+| **3** | **Problema mayor:** Dificulta considerablemente completar una tarea y requiere una corrección prioritaria.          |
+| **4** | **Problema muy grave:** Impide continuar utilizando una funcionalidad importante y requiere una corrección urgente. |
+
+#### TABLA RESUMEN
+
+| # | Problema                                                                                                      | Escala de severidad | Heurística / Principio violado     |
+| - | ------------------------------------------------------------------------------------------------------------- | :-----------------: | ---------------------------------- |
+| 1 | Algunas opciones de conteos físicos, ajustes y solicitudes de corrección requieren mayor orientación inicial. |          2          | Ayuda y documentación              |
+| 2 | Las alertas importantes podrían destacarse mejor en el Dashboard.                                             |          2          | Visibilidad del estado del sistema |
+| 3 | Los lotes próximos a vencer podrían identificarse más rápidamente mediante indicadores visuales.              |          1          | Reconocimiento antes que recuerdo  |
+| 4 | El botón para ingresar a la aplicación desde la Landing Page podría ser más visible.                          |          1          | Reconocimiento antes que recuerdo  |
+
+#### DESCRIPCIÓN DE PROBLEMAS
+
+**PROBLEMA #1: Orientación inicial en conteos físicos y solicitudes de corrección**
+
+**Severidad:** 2
+**Heurística relacionada:** Ayuda y documentación.
+
+**Problema:**
+
+Durante las entrevistas, algunos participantes señalaron que inicialmente necesitaron explorar las opciones de conteos físicos, ajustes y solicitudes de corrección para comprender sus diferencias. Sin embargo, después de revisar las funcionalidades, lograron entender su propósito y continuar utilizando la plataforma.
+
+**Recomendación:**
+
+Incorporar pequeñas descripciones o mensajes de ayuda que expliquen cuándo utilizar cada funcionalidad, facilitando el aprendizaje de los usuarios nuevos.
+
+**Captura de pantalla:**
+<p align="center">
+  <img src="recursos/images/heuristica1.jpg" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
+</p>
+
+---
+
+**PROBLEMA #2: Visibilidad de alertas importantes en el Dashboard**
+
+**Severidad:** 2
+**Heurística relacionada:** Visibilidad del estado del sistema.
+
+**Problema:**
+
+Ian Figueroa sugirió que las alertas más importantes, como los productos con stock bajo o próximos a vencer, tengan mayor presencia en el Dashboard. Esto permitiría identificar rápidamente las situaciones que requieren atención.
+
+**Recomendación:**
+
+Destacar las alertas prioritarias mediante indicadores visuales o tarjetas informativas dentro del panel principal, facilitando su identificación.
+
+**Captura de pantalla:**
+<p align="center">
+  <img src="recursos/imagenes/heuristica2.jpg" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
+</p>
+
+---
+
+**PROBLEMA #3: Identificación visual de lotes próximos a vencer**
+
+**Severidad:** 1
+**Heurística relacionada:** Reconocimiento antes que recuerdo.
+
+**Problema:**
+
+Joseph consideró que la información de los lotes es clara y fácil de comprender. No obstante, recomendó resaltar los lotes próximos a vencer para identificarlos más rápidamente, sin tener que revisar individualmente todas las fechas.
+
+**Recomendación:**
+
+Incorporar etiquetas o indicadores de color acompañados de texto que permitan diferenciar los lotes vigentes, próximos a vencer y vencidos.
+
+**Captura de pantalla:**
+<p align="center">
+  <img src="recursos/imagenes/heuristica3.jpg" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
+</p>
+
+---
+
+**PROBLEMA #4: Visibilidad del acceso a la aplicación desde la Landing Page**
+
+**Severidad:** 1
+**Heurística relacionada:** Reconocimiento antes que recuerdo.
+
+**Problema:**
+
+Ian Figueroa destacó que la Landing Page presenta información organizada y un diseño agradable. Como oportunidad de mejora, comentó que el botón para ingresar a BodeGo podría ser más visible para los usuarios que visitan la página por primera vez.
+
+**Recomendación:**
+
+Destacar el botón **«Ingresar a BodeGo»** en una ubicación visible de la Landing Page, facilitando el acceso directo a la aplicación.
+
+**Captura de pantalla:**
+<p align="center">
+  <img src="recursos/imagenes/heuristica4.jpg" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
+</p>
+
+#### CONCLUSIONES DE LA EVALUACIÓN HEURÍSTICA
+
+Las entrevistas de validación reflejaron una percepción positiva sobre la usabilidad de BodeGo. Los participantes destacaron la organización de la información, la facilidad de navegación y la utilidad de las funcionalidades relacionadas con productos, lotes, inventario y alertas de vencimiento.
+
+Se identificaron únicamente **cuatro oportunidades de mejora**, clasificadas con severidades 1 y 2, relacionadas principalmente con la orientación inicial y la visibilidad de información importante.
+
+En general, los entrevistados consideraron que BodeGo es una plataforma comprensible y útil para mejorar la gestión de inventarios en minimarkets. Las recomendaciones recopiladas permitirán perfeccionar la experiencia de usuario sin requerir cambios significativos en la estructura general de la aplicación.
+
+
+## 5.4. Video About-the-Product
+
+En esta sección se presenta el video de BodeGo, en el cual se comunica la problemática que aborda la plataforma, su propuesta de valor y las principales funcionalidades destinadas a mejorar la gestión de inventarios y las operaciones de los minimarkets.
+
+**Video About-the-Product:** https://youtu.be/VCTRhL0PRmo
 
 # Conclusiones
 
@@ -2916,6 +3130,44 @@ La aplicación busca ofrecer una experiencia sencilla e intuitiva, enfocándose 
 - Gestión de usuarios según sus responsabilidades.
 
 Estas funcionalidades están diseñadas para disminuir los errores en el registro de productos, evitar pérdidas innecesarias y brindar mayor visibilidad sobre el estado real del inventario. De esta manera, BodeGo permite que los Administradores puedan tomar decisiones más oportunas y que los Empleados puedan realizar sus tareas de forma rápida y organizada.
+
+---
+
+# Video About-the-Team
+
+---
+
+# Bibliografía
+
+Angular. (s. f.). *What is Angular?* Angular Documentation. https://angular.dev/overview
+
+Brown, S. (s. f.). *The C4 model for visualising software architecture*. https://c4model.com/
+
+ESIC Business & Marketing School. (2023, mayo). *HTML5: qué es, características y cómo funciona*. ESIC. https://www.esic.edu/rethink/tecnologia/html5-que-es-caracteristicas-y-como-funciona-c
+
+Evans, E. (2003). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley Professional. https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/
+
+GitHub. (s. f.). *About pull requests*. GitHub Docs. https://docs.github.com/en/pull-requests/get-started/about-pull-requests
+
+Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3.ª ed.). O'Reilly Media. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
+
+JetBrains. (s. f.). *IntelliJ IDEA*. https://www.jetbrains.com/es-es/idea/download/
+
+MDN Web Docs. (s. f.-a). *CSS*. Mozilla. https://developer.mozilla.org/es/docs/Web/CSS
+
+MDN Web Docs. (s. f.-b). *JavaScript*. Mozilla. https://developer.mozilla.org/es/docs/Web/JavaScript
+
+Microsoft. (s. f.). *TypeScript documentation*. https://www.typescriptlang.org/docs/
+
+OpenAPI Initiative. (2025, 19 de septiembre). *OpenAPI Specification* (versión 3.1.2). https://spec.openapis.org/oas/v3.1
+
+PostgreSQL Global Development Group. (s. f.). *PostgreSQL documentation*. https://www.postgresql.org/docs/
+
+Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide: The definitive guide to Scrum: The rules of the game*. https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
+
+Spring. (s. f.). *Spring Boot reference documentation*. https://docs.spring.io/spring-boot/reference/
+
+Universidad Peruana de Ciencias Aplicadas. (2026). *Enunciado del trabajo final: Desarrollo de Aplicaciones Open Source (1ASI0729), ciclo académico 2026-20* (versión 1.0) [Documento académico del curso].
 
 ---
 
