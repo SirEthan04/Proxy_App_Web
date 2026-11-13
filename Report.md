@@ -2102,20 +2102,21 @@ El objetivo fue transformar los wireframes y diseños realizados previamente en 
 
 El print Planning permitió organizar las actividades que serían desarrolladas durante el Sprint 1.
 En esta reunión se definió como objetivo principal implementar la Landing Page de BodeGo.
+
 | Sprint # | Sprint 1 |
 |---|---|
-| **Sprint Planning Background** | El Sprint tiene como objetivo desarrollar la primera versión funcional de la Landing Page de BodeGo. |
+| **Sprint Planning Background** | El Sprint tiene como objetivo implementar la primera versión funcional de la Landing Page de BodeGo a partir de los wireframes y diseños elaborados, priorizando la presentación del producto y el contacto con potenciales usuarios. |
 | **Date** | 2026-09-17 |
 | **Time** | 5:00 pm |
 | **Location** | Discord |
 | **Prepared By** | Equipo de desarrollo BodeGo |
 | **Attendees (to planning meeting)** | Dany / Mateo / Jhorch / Johan / Diego |
-| **Sprint 0 Review Summary** | No existe sprint previo |
-| **Sprint 0 Retrospective Summary** | No existe sprint previo |
-| **Sprint Goal & User Stories** | |
-| **Sprint 1 Goal** | Crear una Landing Page funcional para BodeGo que permita mostrar la información principal del producto, sus beneficios, funcionalidades y facilitar el contacto con potenciales usuarios mediante una interfaz clara y responsive. |
-| **Sprint 1 Velocity** | 29 Story Points |
-| **Sum of Story Points** | 29 Story Points |
+| **Sprint 0 Review Summary** | No existe un sprint previo, ya que Sprint 1 constituye el inicio del desarrollo incremental del producto. |
+| **Sprint 0 Retrospective Summary** | No existe un sprint previo ni una retrospectiva anterior. |
+| **Sprint Goal & User Stories** | US01 – Visualización de la propuesta de valor (2 SP); US02 – Consulta de beneficios del producto (2 SP); US03 – Presentación informativa de funcionalidades (3 SP); US04 – Explicación de los pasos de uso de BodeGo (2 SP); US05 – Formulario de contacto comercial (4 SP). |
+| **Sprint 1 Goal** | Desarrollar una Landing Page funcional y responsive que presente la propuesta de valor de BodeGo, sus beneficios, funcionalidades y pasos de uso, e incluya un formulario de contacto para potenciales usuarios. |
+| **Sprint 1 Velocity** | No disponible como velocidad histórica, al tratarse del primer sprint. Capacidad planificada: **13 Story Points**. |
+| **Sum of Story Points** | **13 Story Points** |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
