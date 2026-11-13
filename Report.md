@@ -575,7 +575,7 @@ Como parte de la estrategia, se realizarían pruebas con minimarkets para mostra
 
 | |
 |---|
-| ![Imagen de la entrevista](recursos/imagenes/Empleado2-Entrevista.png) |
+| ![Imagen de la entrevista](recursos/imagenes/Empelado2-Entrevista.png) |
 | **Nombres y apellidos:** Andres Marzano <br>**Edad:** 20  <br>**Distrito:** San Juan de Lurigancho <br><br>**Resumen:**  <br>Andrés Marzano, de 20 años, tiene experiencia trabajando en atención al cliente y almacén. Explica que las entradas de productos se registraban después de verificar que la mercadería recibida coincidiera con la información del documento de entrega, para luego ingresarla en el sistema. Las salidas, por su parte, se registraban mediante boletas electrónicas. <br><br>Uno de los principales problemas era conocer con precisión la cantidad disponible de productos, especialmente cuando se trataba de artículos pequeños, ya que podían cometerse errores al contarlos. Esta tarea se volvía más complicada cuando, al mismo tiempo, tenían que atender a los clientes. <br><br>Para controlar los productos próximos a vencer, colocaban adelante los que tenían menor tiempo de vida útil y dejaban al fondo los productos recién llegados. Además, revisaban las fechas de vencimiento en los turnos de día y noche. Cuando un producto estaba cerca de vencer, trataban de darle prioridad a su venta; si ya quedaban pocos días y no se lograba vender, se registraba como merma para calcular las pérdidas. <br><br>Finalmente, Andrés señala que los mayores errores en el control del inventario se presentaban principalmente durante las mañanas, cuando había mayor cantidad de clientes y debían dividir su atención entre las ventas y las tareas de inventario. <br><br>**URL:** https://drive.google.com/file/d/1BCO2lHzXeeZyN7DED3hQVZv_ULh0Zdx2/view?usp=drive_link |
 
 | |
@@ -1448,6 +1448,14 @@ enlace: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=
 ---
 
 ## 4.5. Web Applications Prototyping
+
+![WireflowApp](recursos/imagenes/wireflowapp45.jpg)
+
+Enlance de Figma: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1
+
+![PrototypingVideo](recursos/imagenes/prototypingvideo.jpg)
+
+Enlace del video: https://drive.google.com/drive/folders/1l4HlhDxX7ZoHEbH96fOAfosutOivB_S6?usp=sharing
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level EventStorming
