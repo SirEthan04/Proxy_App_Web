@@ -2150,15 +2150,15 @@ En esta reunión se definió como objetivo principal implementar la Landing Page
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-Durante el Sprint 1 se identificaron los principales aspectos de trabajo necesarios para implementar la Landing Page de BodeGo.
+Durante el Sprint 1, el equipo de BodeGo distribuyó las responsabilidades necesarias para desarrollar la primera versión funcional de la Landing Page. Se definieron responsables principales y colaboradores para la estructura y navegación, la presentación de beneficios y funcionalidades, la sección de contacto y la adaptación de la interfaz a distintos tamaños de pantalla.
 
 | Team Member (Last Name, First Name) | GitHub Username | Landing Page Structure & Navigation | Product Benefits & Impact | Product Features & Explanation | Contact & Footer Section | Responsive Design |
-|---|---|---|---|---|---|---|
-| Dany Chavez | Danysss-cmd | L | C | C | - | C |
-| Mateo Caldas | Ethan.Matt | C | L | C | - | C |
-| Yorch Blanco | Bleim-154 | C | C | L | - | C |
-| Johan Saravia | yowuan | - | C | C | L | C |
-| Diego Rojas | Diego27-16 | C | C | C | C | L |
+|---|---|:---:|:---:|:---:|:---:|:---:|
+| Chavez Sandoval, Dany Yohel | Danysss-cmd | L | C | C | - | C |
+| Caldas Bravo, Mateo | Ethan.Matt | C | L | C | - | C |
+| Blanco Medina, Jhorch Jhoseff | Bleim-154 | C | C | L | - | C |
+| Saravia Hiso, Johan Álvaro | yowuan | - | C | C | L | C |
+| Rojas Huaranga, Diego Rances | Diego27-16 | C | C | C | C | L |
 
 #### 5.2.1.3. Sprint Backlog 1
 
@@ -2172,19 +2172,23 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 ---
 
 | **User Story ID** | **Story Title** | **Task ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| --- | --- | --- | --- | --- | ---: | --- | --- |
-| US01 | Visualización del Hero Principal | TSK001 | Create Landing Page structure | Crear la estructura inicial de la Landing Page basada en los wireframes definidos, configurando componentes, archivos y estilos generales. | 2 | Dany | Hecho |
-| US01 | Visualización del Hero Principal | TSK002 | Implement navigation bar | Implementar la barra de navegación superior incluyendo logo de BodeGo, enlaces principales y botón de acción. | 2 | Dany | Hecho |
-| US01 | Visualización del Hero Principal | TSK003 | Implement hero section | Desarrollar la sección principal con título, descripción de valor, imagen representativa y CTA orientado a captar usuarios interesados. | 3 | Dany | Hecho |
-| US02 | Visualización de Beneficios del Producto | TSK004 | Implement benefits section | Implementar la sección de beneficios destacando el control de inventario, reducción de mermas y mejora de procesos operativos. | 4 | Mateo | Hecho |
-| US03 | Presentación de Funcionalidades Principales | TSK005 | Implement solutions section | Implementar la sección de soluciones mostrando las principales capacidades de BodeGo como inventario, alertas, reportes y control operativo. | 3 | Yorch | Hecho |
-| US04 | Explicación del Funcionamiento de BodeGo | TSK006 | Implement how it works section | Desarrollar la sección donde se explica el flujo general de funcionamiento de BodeGo y la interacción entre Administrador y Empleado. | 3 | Yorch | Hecho |
-| US02 | Visualización de Beneficios del Producto | TSK007 | Implement impact section | Implementar la sección de impacto mostrando los beneficios esperados de utilizar BodeGo dentro del negocio. | 2 | Mateo | Hecho |
-| US05 | Formulario de Contacto Comercial | TSK008 | Implement contact section | Implementar el formulario de contacto para que potenciales clientes puedan solicitar información sobre BodeGo. | 3 | Johan | Hecho |
-| US03 | Presentación de Funcionalidades Principales | TSK009 | Implement footer section | Implementar el footer con información general del producto, enlaces y datos de contacto. | 2 | Diego | Hecho |
-| US01 - US05 | Landing Page | TSK010 | Implement responsive design | Adaptar la Landing Page para dispositivos móviles, tablets y escritorio manteniendo la correcta visualización del diseño. | 5 | Diego | Hecho |
+|---|---|---|---|---|---:|---|---|
+| US01 | Visualización de la propuesta de valor | TSK001 | Create Landing Page structure | Preparar la estructura HTML inicial y los estilos generales de la Landing Page a partir de los wireframes del producto. | 2 | Dany | Hecho |
+| US01 | Visualización de la propuesta de valor | TSK002 | Implement navigation bar | Desarrollar la barra de navegación con el logotipo, los enlaces a las secciones informativas y el botón principal de acción. | 2 | Dany | Hecho |
+| US01 | Visualización de la propuesta de valor | TSK003 | Implement hero section | Implementar el título, la propuesta de valor, la imagen principal y los botones de acción del encabezado de BodeGo. | 3 | Dany | Hecho |
+| US02 | Consulta de beneficios del producto | TSK004 | Implement benefits section | Implementar la sección de beneficios destacando la organización del inventario, la reducción de pérdidas y la mejora de las actividades operativas. | 4 | Mateo | Hecho |
+| US02 | Consulta de beneficios del producto | TSK005 | Implement impact section | Incorporar los mensajes y recursos visuales que explican el impacto esperado de BodeGo en la gestión de un minimarket. | 2 | Mateo | Hecho |
+| US03 | Presentación informativa de funcionalidades | TSK006 | Implement features section | Desarrollar las tarjetas informativas que presentan las funcionalidades de inventario, operaciones, monitoreo y reportes. | 3 | Yorch | Hecho |
+| US03 | Presentación informativa de funcionalidades | TSK007 | Adapt features section to responsive layouts | Ajustar la disposición y legibilidad de las tarjetas de funcionalidades para pantallas de escritorio, tablet y móvil. | 2 | Diego | Hecho |
+| US04 | Explicación de los pasos de uso de BodeGo | TSK008 | Implement how it works section | Desarrollar la sección «Cómo funciona» con los pasos generales para registrar productos, controlar inventario y consultar información operativa. | 3 | Yorch | Hecho |
+| US04 | Explicación de los pasos de uso de BodeGo | TSK009 | Adapt how it works section to responsive layouts | Ajustar la presentación de pasos, textos y elementos visuales de «Cómo funciona» para dispositivos de distintos tamaños. | 2 | Diego | Hecho |
+| US05 | Formulario de contacto comercial | TSK010 | Implement contact form and validation | Crear el formulario de contacto comercial e incorporar las validaciones de campos obligatorios para solicitar información sobre BodeGo. | 4 | Johan | Hecho |
+| US05 | Formulario de contacto comercial | TSK011 | Implement contact details and footer | Desarrollar el pie de página con enlaces informativos, referencias del producto y datos de contacto para los visitantes. | 2 | Johan | Hecho |
+
+---
 
 #### 5.2.1.4. Development Evidence for Sprint Review
+
 ---
 
 | Repository              | Branch                    | Commit ID | Commit Message                          | Commit Message Body                                                            | Committed on |
@@ -2196,8 +2200,8 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 | yowuan/Landing Page Repository | feature/contact-form      | e281064   | feat: improve contact form              | Implementación del formulario de contacto comercial.                           | 17/09/2026   |
 | Dany27-16/Landing Page Repository | feature/footer            | dfb92c0   | feat: improve footer section            | Implementación del footer con información general y enlaces.                   | 17/09/2026   |
 
-
 ---
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 ---
