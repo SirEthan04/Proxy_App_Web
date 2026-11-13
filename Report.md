@@ -2136,7 +2136,7 @@ En esta reunión se definió como objetivo principal implementar la Landing Page
 | Sprint # | Sprint 1 |
 |---|---|
 | **Sprint Planning Background** | El Sprint tiene como objetivo implementar la primera versión funcional de la Landing Page de BodeGo a partir de los wireframes y diseños elaborados, priorizando la presentación del producto y el contacto con potenciales usuarios. |
-| **Date** | 2026-09-17 |
+| **Date** | 17-09-2026 |
 | **Time** | 5:00 pm |
 | **Location** | Discord |
 | **Prepared By** | Equipo de desarrollo BodeGo |
@@ -2270,34 +2270,36 @@ El objetivo fue implementar las principales vistas de la aplicación, permitiend
 
 #### 5.2.2.1. Sprint Planning 2
 
-El Sprint Planning permitió organizar las actividades que serían desarrolladas durante el Sprint 2. En esta reunión se definió como objetivo principal implementar la primera versión funcional del Frontend Web de BodeGo.
+El Sprint Planning permitió organizar las actividades correspondientes al desarrollo inicial del Frontend Web de BodeGo. Durante la reunión se seleccionaron las historias US06–US15, orientadas a implementar las vistas y funcionalidades principales de la aplicación, con una estimación total de **36 Story Points** de acuerdo con el Product Backlog actualizado.
 
 | **Sprint #** | **Sprint 2** |
 |---|---|
-| **Sprint Planning Background** | El Sprint tiene como objetivo desarrollar la primera versión funcional del Frontend Web de BodeGo. |
-| **Date** | 2026-10-4 |
+| **Sprint Planning Background** | El Sprint tiene como objetivo desarrollar la primera versión funcional del Frontend Web de BodeGo utilizando Vue 3, implementando las interfaces y la navegación necesarias para consultar y gestionar visualmente la información del negocio. |
+| **Date** | 04-10-2026 |
 | **Time** | 2:00 pm |
 | **Location** | Discord |
 | **Prepared By** | Equipo de desarrollo BodeGo |
 | **Attendees (to planning meeting)** | Dany / Mateo / Jhorch / Johan / Diego |
-| **Sprint 1 Review Summary** | Se desarrolló la primera versión funcional de la Landing Page de BodeGo. |
-| **Sprint 1 Retrospective Summary** | Se identificó la necesidad de continuar con el desarrollo de la aplicación web manteniendo la estructura visual y responsive. |
-| **Sprint Goal & User Stories** | |
-| **Sprint 2 Goal** | Desarrollar la primera versión funcional del Frontend Web de BodeGo, implementando las principales vistas y funcionalidades de la aplicación. |
-| **Sprint 2 Velocity** | 34 Story Points |
-| **Sum of Story Points** | 34 Story Points |
+| **Sprint 1 Review Summary** | Se desarrolló la primera versión funcional de la Landing Page de BodeGo, incorporando la propuesta de valor, los beneficios, las funcionalidades principales, la explicación de uso y el formulario de contacto comercial. |
+| **Sprint 1 Retrospective Summary** | Se identificó la necesidad de mantener la identidad visual de BodeGo, mejorar la organización de los componentes y continuar con el desarrollo de interfaces adaptables a diferentes dispositivos. |
+| **Sprint Goal & User Stories** | US06 – Visualización del Dashboard operativo (5 SP); US07 – Navegación entre módulos autorizados (4 SP); US08 – Consulta visual del inventario (3 SP); US09 – Consulta visual del detalle de producto (3 SP); US10 – Consulta visual de operaciones de inventario (3 SP); US11 – Búsqueda y filtrado de productos (4 SP); US12 – Visualización de alertas de inventario (3 SP); US13 – Visualización de reportes operativos (4 SP); US14 – Registro visual de productos con validaciones (4 SP); US15 – Consulta visual de documentos comerciales (3 SP). |
+| **Sprint 2 Goal** | Desarrollar la primera versión funcional del Frontend Web de BodeGo, implementando interfaces organizadas y responsive para el Dashboard, inventario, productos, operaciones, alertas, reportes y documentos comerciales, permitiendo la navegación entre módulos y preparando la aplicación para su posterior integración con el Backend. |
+| **Sprint 2 Velocity** | **13 Story Points** como referencia del Sprint 1. La velocidad real del Sprint 2 se determinará al verificar las historias completadas. |
+| **Sum of Story Points** | **36 Story Points** |
+
+---
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
 Durante el Sprint 2 se identificaron los principales aspectos de trabajo necesarios para implementar el Frontend Web de BodeGo.
 
 | **Team Member (Last Name, First Name)** | **GitHub Username** | **Frontend Structure & Navigation** | **Dashboard & Modules** | **Inventory & Products** | **Alerts & Reports** | **Responsive Design** |
-| --------------------------------------- | ------------------- | ----------------------------------- | ----------------------- | ----------------------- | -------------------- | --------------------- |
-| Dany Chavez                             | Danysss-cmd         | L                                   | C                       | C                       | C                    | C                     |
-| Mateo Caldas                            | Ethan.Matt          | C                                   | L                       | C                       | C                    | C                     |
-| Yorch Blanco                            | Bleim-154           | C                                   | C                       | L                       | C                    | C                     |
-| Johan Saravia                            | yowuan              | C                                   | C                       | C                       | L                    | C                     |
-| Diego Rojas                             | Diego27-16          | C                                   | C                       | C                       | C                    | L                     |
+|---|---|:---:|:---:|:---:|:---:|:---:|
+| Chavez Sandoval, Dany Yohel | Danysss-cmd | L | C | C | C | C |
+| Caldas Bravo, Mateo | Ethan.Matt | C | L | C | C | C |
+| Blanco Medina, Jhorch Jhoseff | Bleim-154 | C | C | L | C | C |
+| Saravia Hiso, Johan Álvaro | yowuan | C | C | C | L | C |
+| Rojas Huaranga, Diego Rances | Diego27-16 | C | C | C | C | L |
 
 #### 5.2.2.3. Sprint Backlog 2
 
@@ -2313,18 +2315,31 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 
 | **User Story ID** | **Story Title** | **Task ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
 |---|---|---|---|---|---:|---|---|
-| US06 | Visualización del Dashboard Administrativo | TSK011 | Implement dashboard | Desarrollar el dashboard administrativo mostrando los principales indicadores y datos del negocio. | 4 | Mateo | Hecho |
-| US07 | Navegación entre Módulos del Sistema | TSK012 | Implement application navigation | Implementar la navegación entre los principales módulos de la aplicación web. | 3 | Dany | Hecho |
-| US08 | Visualización del Módulo de Inventario | TSK013 | Implement inventory view | Desarrollar la vista principal del inventario mostrando los productos y su información disponible. | 4 | Yorch | Hecho |
-| US09 | Consulta del Detalle de Producto | TSK014 | Implement product detail | Desarrollar la vista con la información detallada de cada producto seleccionado. | 3 | Johan | Hecho |
-| US10 | Visualización de Operaciones del Empleado | TSK015 | Implement employee operations | Desarrollar la vista para consultar las operaciones realizadas por el empleado. | 3 | Johan | Hecho |
-| US11 | Búsqueda y Filtrado de Productos | TSK016 | Implement search and filters | Implementar la búsqueda y los filtros necesarios para localizar productos dentro del inventario. | 3 | Yorch | Hecho |
-| US12 | Visualización de Alertas Operativas | TSK017 | Implement alerts view | Desarrollar la vista para mostrar las alertas relacionadas con el inventario y la operación del negocio. | 4 | Mateo | Hecho |
-| US13 | Visualización de Reportes del Negocio | TSK018 | Implement reports view | Desarrollar la vista para consultar los principales reportes disponibles en la aplicación. | 3 | Diego | Hecho |
-| US14 | Gestión Visual de Productos | TSK019 | Implement product management | Desarrollar la interfaz para gestionar visualmente los productos registrados en BodeGo. | 3 | Dany | Hecho |
-| US15 | Visualización de Información del Negocio | TSK020 | Implement business information | Desarrollar la vista para mostrar la información general del negocio. | 2 | Diego | Hecho |
+| US06 | Visualización del Dashboard operativo | TSK012 | Implement dashboard layout | Desarrollar la estructura visual del Dashboard operativo en Vue, con secciones para el resumen del negocio y los indicadores principales. | 4 | Mateo | Hecho |
+| US06 | Visualización del Dashboard operativo | TSK013 | Display dashboard indicators | Implementar las tarjetas de indicadores y su presentación cuando no existan datos disponibles en el contexto consultado. | 3 | Mateo | Hecho |
+| US07 | Navegación entre módulos autorizados | TSK014 | Configure application routes | Definir las rutas principales de Vue Router para Dashboard, inventario, operaciones, alertas, reportes y documentos comerciales. | 4 | Dany | Hecho |
+| US07 | Navegación entre módulos autorizados | TSK015 | Implement sidebar navigation | Implementar el menú de navegación y el estado visual del módulo activo, mostrando las opciones correspondientes al perfil utilizado en la interfaz. | 2 | Dany | Hecho |
+| US08 | Consulta visual del inventario | TSK016 | Implement inventory listing | Crear la vista de inventario y la tabla de consulta de productos registrados. | 4 | Yorch | Hecho |
+| US08 | Consulta visual del inventario | TSK017 | Display inventory information | Presentar en la tabla los datos relevantes del producto y las existencias disponibles, incluyendo el estado vacío cuando corresponda. | 3 | Yorch | Hecho |
+| US09 | Consulta visual del detalle de producto | TSK018 | Implement product detail view | Desarrollar la vista o panel de detalle al seleccionar un producto desde el listado. | 3 | Johan | Hecho |
+| US09 | Consulta visual del detalle de producto | TSK019 | Display product detail fields | Mostrar la categoría, el precio y la información de existencias del producto consultado, con mensajes para datos no disponibles. | 2 | Johan | Hecho |
+| US10 | Consulta visual de operaciones de inventario | TSK020 | Implement inventory operations view | Desarrollar la interfaz para revisar operaciones y movimientos asociados al inventario. | 3 | Johan | Hecho |
+| US10 | Consulta visual de operaciones de inventario | TSK021 | Display operations history | Implementar la tabla de historial con tipo de operación, producto, cantidad y fecha cuando dichos datos estén disponibles. | 3 | Johan | Hecho |
+| US11 | Búsqueda y filtrado de productos | TSK022 | Implement product search | Implementar la búsqueda de productos mediante el nombre u otro criterio disponible en la vista de inventario. | 3 | Yorch | Hecho |
+| US11 | Búsqueda y filtrado de productos | TSK023 | Implement inventory filters | Incorporar filtros de productos y un mensaje de resultados vacíos cuando no haya coincidencias. | 3 | Yorch | Hecho |
+| US12 | Visualización de alertas de inventario | TSK024 | Implement alerts module view | Desarrollar la vista para consultar las alertas operativas relacionadas con el inventario. | 4 | Mateo | Hecho |
+| US12 | Visualización de alertas de inventario | TSK025 | Display alert details and states | Mostrar el tipo, mensaje y estado de cada alerta, contemplando una presentación adecuada cuando no existan alertas. | 2 | Mateo | Hecho |
+| US13 | Visualización de reportes operativos | TSK026 | Implement reports module view | Construir la interfaz de reportes operativos con secciones y controles para consultar los reportes disponibles. | 4 | Diego | Hecho |
+| US13 | Visualización de reportes operativos | TSK027 | Display report results | Implementar la presentación de los resultados e indicadores de cada reporte, incluyendo un estado sin información. | 3 | Diego | Hecho |
+| US14 | Registro visual de productos con validaciones | TSK028 | Implement product registration form | Crear el formulario de registro de productos y sus campos de información obligatoria. | 4 | Dany | Hecho |
+| US14 | Registro visual de productos con validaciones | TSK029 | Validate product form inputs | Incorporar validaciones de campos y mensajes visuales de confirmación o error en el envío del formulario. | 3 | Dany | Hecho |
+| US15 | Consulta visual de documentos comerciales | TSK030 | Implement commercial documents view | Desarrollar la interfaz de consulta visual de documentos de compras y ventas de la aplicación. | 4 | Diego | Hecho |
+| US15 | Consulta visual de documentos comerciales | TSK031 | Display commercial document details | Mostrar el tipo de documento, su estado, los importes y los datos de detalle disponibles en la interfaz. | 3 | Diego | Hecho |
+
+---
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
+
 ---
 
 | Repository              | Branch                    | Commit ID | Commit Message                          | Commit Message Body                                                            | Committed on |
@@ -2336,7 +2351,9 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 | yowuan/Proxy_Web_App_Front-end | develop     | 4b74f3d   | feature: add movementsV2    | Implementación del módulo de movimientos de inventario para registrar y consultar entradas, salidas y ajustes asociados a los lotes.                      | 06/10/2026   |
 
 ---
+
 #### 5.2.2.5. Execution Evidence for Sprint Review
+
 ---
 
 ![Estructura / alertas](recursos/imagenes/loginbodego.jpg)
@@ -2416,6 +2433,7 @@ Enlace: https://proxy-app-web-a4eca.firebaseapp.com/
 Únicamente funciona por ahora el enlace para iniciar sesión y muestra los datos de los productos  pero no permite cambiar por el momento porque requiere datos de categoría que no se pueden implementar categorías en mockapi.
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+
 ---
 
 ![Estructura / TeamColaborations](recursos/imagenes/TeamColabSprint2.jpg)
