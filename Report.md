@@ -711,41 +711,53 @@ Para asegurar que entre los miembros del equipo y los stakeholders se comuniquen
 
 ## 3.1. User Stories
 
-Épicas
+## Épicas
 
-| **EPIC-01** | **Gestión de Presencia Digital y Landing Page** |
-|-------------|--------------------------------------------------|
-| **Descripción:** | **Como** negocio interesado en optimizar su operación, **quiero** conocer la propuesta de valor, funcionalidades y beneficios de BodeGo mediante una landing page clara y profesional **para** comprender cómo la plataforma ayuda a gestionar inventarios, reducir mermas y mejorar los procesos internos del minimarket. |
+| **EPIC-01** | **Presencia Digital y Landing Page** |
+|-------------|---------------------------------------|
+| **Descripción:** | **Como** visitante interesado en mejorar la gestión de un minimarket, **quiero** conocer la propuesta de valor, beneficios, funcionalidades y formas de acceder a BodeGo mediante una Landing Page informativa, **para** evaluar la solución y decidir si deseo utilizarla o solicitar más información. |
 
-<br>
+---
 
-| **EPIC-02** | **Aplicación Web y Gestión Operativa** |
-|-------------|-----------------------------------------|
-| **Descripción:** | **Como** administrador o empleado, **quiero** contar con una aplicación web intuitiva con módulos organizados según mis necesidades operativas **para** gestionar inventario, productos y actividades diarias de manera rápida, sencilla y eficiente. |
+| **EPIC-02** | **Experiencia Frontend Web** |
+|-------------|-------------------------------|
+| **Descripción:** | **Como** administrador o empleado, **quiero** utilizar una aplicación web clara, accesible y adaptable a diferentes dispositivos, con navegación organizada, formularios comprensibles y opciones de idioma, **para** interactuar con las funcionalidades de BodeGo de forma sencilla y eficiente. |
 
-<br>
+---
 
-| **EPIC-03** | **Control de Inventario y Productos** |
-|-------------|----------------------------------------|
-| **Descripción:** | **Como** administrador o empleado, **quiero** registrar, consultar y actualizar productos, cantidades, lotes y movimientos de inventario **para** mantener un control preciso del stock disponible y reducir diferencias entre el inventario físico y digital. |
+| **EPIC-03** | **Gestión de Catálogo e Inventario (Inventory)** |
+|-------------|------------------------------------------------|
+| **Descripción:** | **Como** administrador o empleado autorizado, **quiero** consultar y gestionar productos, categorías, lotes y cantidades disponibles, **para** mantener actualizado el inventario y conocer las existencias del minimarket. |
 
-<br>
+---
 
-| **EPIC-04** | **Gestión de Mermas, Alertas y Reportes Inteligentes** |
-|-------------|---------------------------------------------------------|
-| **Descripción:** | **Como** administrador, **quiero** visualizar alertas, indicadores y reportes sobre productos próximos a vencer, mermas y rotación de inventario **para** tomar decisiones oportunas que permitan reducir pérdidas y mejorar la rentabilidad del negocio. |
+| **EPIC-04** | **Gestión de Operaciones de Inventario (Operations)** |
+|-------------|-------------------------------------------------------|
+| **Descripción:** | **Como** administrador o empleado autorizado, **quiero** registrar y consultar movimientos, mermas y conteos físicos del inventario, **para** mantener la trazabilidad de las operaciones y detectar diferencias entre las existencias registradas y las verificadas. |
 
-<br>
+---
 
-| **EPIC-05** | **Automatización de Procesos Operativos** |
-|-------------|--------------------------------------------|
-| **Descripción:** | **Como** administrador o empleado, **quiero** disponer de funcionalidades automatizadas para registrar operaciones, controlar vencimientos y gestionar acciones sobre productos críticos **para** agilizar las tareas diarias y mejorar la eficiencia del establecimiento. |
+| **EPIC-05** | **Gestión de Compras y Ventas (Commercial)** |
+|-------------|----------------------------------------------|
+| **Descripción:** | **Como** administrador o empleado autorizado, **quiero** preparar, registrar, consultar y confirmar compras y ventas con sus respectivos productos y cantidades, **para** controlar las operaciones comerciales y reflejar correctamente sus efectos en el inventario. |
 
-<br>
+---
 
-| **EPIC-06** | **Gestión de Usuarios y Seguridad del Sistema** |
-|-------------|-------------------------------------------------|
-| **Descripción:** | **Como** administrador o empleado, **quiero** contar con un sistema seguro de acceso, roles y permisos **para** proteger la información del negocio y garantizar que cada usuario pueda utilizar únicamente las funcionalidades correspondientes a su responsabilidad. |
+| **EPIC-06** | **Monitoreo y Alertas (Monitoring)** |
+|-------------|---------------------------------------|
+| **Descripción:** | **Como** administrador o empleado autorizado, **quiero** consultar alertas sobre situaciones relevantes del inventario y dar seguimiento a su atención, **para** identificar oportunamente condiciones que requieren intervención. |
+
+---
+
+| **EPIC-07** | **Reportes e Indicadores del Negocio (Reporting)** |
+|-------------|-----------------------------------------------------|
+| **Descripción:** | **Como** administrador, **quiero** consultar reportes e indicadores sobre productos, existencias y operaciones del negocio, **para** analizar su desempeño y respaldar la toma de decisiones. |
+
+---
+
+| **EPIC-08** | **Gestión de Identidad, Autenticación y Seguridad (IAM)** |
+|-------------|----------------------------------------------------------|
+| **Descripción:** | **Como** administrador o usuario registrado, **quiero** acceder al sistema de manera segura y contar con una gestión de usuarios, roles y permisos, **para** proteger la información del negocio y utilizar únicamente las funciones autorizadas. |
 
 ---
 
