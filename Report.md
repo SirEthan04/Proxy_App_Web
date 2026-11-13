@@ -2092,6 +2092,36 @@ Scenario: Register expired product as wastage
 
 ### 5.1.4. Software Deployment Configuration
 
+En esta sección se describe la configuración técnica prevista para la publicación de los componentes de **BodeGo desarrollados en el curso Aplicaciones Web**, considerando los repositorios de código fuente, los procesos de compilación, los entornos de ejecución y la comunicación entre el Frontend y el Backend.
+
+El ecosistema de BodeGo se compone de tres productos de software diferenciados:
+
+1. **Landing Page y Documentación del Proyecto:** la Landing Page está desarrollada con **HTML, CSS y JavaScript**, por lo que puede publicarse mediante un servicio de alojamiento estático. La documentación del proyecto se administra en **GitHub**, mediante el repositorio `Proxy_App_Web`, que incluye una dirección de GitHub Pages para su consulta.
+
+2. **Frontend Web Application (Web App):** desarrollada con **Vue 3, Vite, Pinia y PrimeVue**. El proyecto dispone de configuración para **Firebase Hosting**, permitiendo publicar los archivos generados durante la compilación y utilizar reglas de redirección para mantener la navegación de la Single Page Application (SPA).
+
+3. **Backend REST API:** desarrollado con **ASP.NET Core (.NET 10), C# y Entity Framework Core**, utilizando **MySQL** como sistema de persistencia. El Backend organiza sus funcionalidades en los bounded contexts Inventory, Operations, Commercial, Monitoring, Reporting e IAM, y utiliza **OpenAPI con Scalar** para documentar sus servicios durante el desarrollo.
+
+**Configuración técnica del despliegue**
+
+| Componente | Plataforma / Tecnología | Configuración |
+|---|---|---|
+| Landing Page | HTML, CSS, JavaScript y alojamiento estático | Publicación de `index.html` y sus recursos CSS, JavaScript e imágenes. |
+| Documentación | GitHub y GitHub Pages | Publicación del informe y sus recursos desde el repositorio del curso. |
+| Frontend Web | Vue 3, Vite y Firebase Hosting | `npm run build` genera el directorio `dist`, utilizado como carpeta pública por Firebase Hosting. |
+| Backend REST | ASP.NET Core, C# y .NET 10 | Compilación de producción mediante `dotnet publish -c Release` y ejecución en un entorno compatible con .NET. |
+| Base de datos | MySQL y Entity Framework Core | Configuración de la cadena de conexión mediante variables de entorno o mecanismos seguros. |
+
+Para el desarrollo local, el Frontend utiliza **Vite en `http://localhost:5174`**, mientras que el Backend ASP.NET Core dispone de un perfil HTTP en **`http://localhost:5281`**. La comunicación entre ambos se configura mediante `VITE_API_BASE_URL` y la política CORS del servidor.
+
+Para el despliegue de producción, se debe establecer la URL pública del Backend, configurar el acceso seguro a MySQL y autorizar el dominio del Frontend. Asimismo, se deben comprobar las rutas internas de Vue, las solicitudes HTTPS y el funcionamiento de los servicios REST.
+
+**Repositorios del proyecto:**
+
+- Documentación: https://github.com/SirEthan04/Proxy_App_Web
+- Frontend: https://github.com/SirEthan04/Proxy_Web_App_Front-end
+- Backend: https://github.com/SirEthan04/Proxy_Web_App_Back-end
+
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 ## Sprint 1 - Desarrollo de la Landing Page de BodeGo
