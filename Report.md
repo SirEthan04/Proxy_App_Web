@@ -2505,7 +2505,7 @@ Enlace:
 
 | **User Story ID** | **Story Title** | **Task ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
 |---|---|---|---|---|---:|---|---|
-| US16 | Registro de productos en catálogo | TSK032 | Implement product registration | Implementar el alta de productos mediante `POST /api/v1/products`, con datos de venta y categoría del catálogo. | 4 | Jhorch | To Review |
+| US16 | Registro de productos en catálogo | TSK032 | Implement product registration | Implementar el alta de productos mediante `POST /api/v1/products`, con datos de venta y categoría del catálogo. | 4 | Jhorch | Done |
 | US16 | Registro de productos en catálogo | TSK033 | Validate category and product input | Verificar campos obligatorios y la existencia de la categoría seleccionada antes de persistir el producto. | 3 | Jhorch | To Review |
 | US16 | Registro de productos en catálogo | TSK034 | Check product persistence and response | Revisar la respuesta de creación y comprobar que el producto figure en la consulta del catálogo. | 3 | Jhorch | To Review |
 | US16 | Registro de productos en catálogo | TSK035 | Test product registration failures | Probar solicitudes incompletas, categoría inexistente y respuestas de error sin crear registros parciales. | 3 | Jhorch | To Do |
@@ -2513,105 +2513,105 @@ Enlace:
 | US17 | Actualización de información del producto | TSK037 | Implement product update operation | Implementar actualización del producto existente en las capas de aplicación y persistencia de Inventory. | 5 | Jhorch | To Do |
 | US17 | Actualización de información del producto | TSK038 | Validate update business constraints | Validar identificador existente, categoría válida y reglas de datos editables sin alterar otros recursos. | 3 | Jhorch | To Do |
 | US17 | Actualización de información del producto | TSK039 | Test product update scenarios | Probar actualización válida, recurso inexistente e información incorrecta; documentar respuestas reales. | 3 | Jhorch | To Do |
-| US18 | Clasificación de productos por categorías | TSK040 | Implement category selection for products | Permitir seleccionar una categoría existente al crear un producto del catálogo. | 3 | Jhorch | To Review |
+| US18 | Clasificación de productos por categorías | TSK040 | Implement category selection for products | Permitir seleccionar una categoría existente al crear un producto del catálogo. | 3 | Jhorch | Done |
 | US18 | Clasificación de productos por categorías | TSK041 | Validate product category relation | Validar que el identificador de categoría corresponda a un registro disponible antes de asociarlo. | 3 | Jhorch | To Review |
-| US18 | Clasificación de productos por categorías | TSK042 | Expose category in product response | Comprobar que el producto consultado conserve su relación con la categoría asignada. | 2 | Jhorch | To Review |
+| US18 | Clasificación de productos por categorías | TSK042 | Expose category in product response | Comprobar que el producto consultado conserve su relación con la categoría asignada. | 2 | Jhorch | Done |
 | US18 | Clasificación de productos por categorías | TSK043 | Test category assignment edge cases | Probar categoría válida, inexistente y ausencia de clasificación obligatoria según contrato. | 2 | Jhorch | To Do |
-| US19 | Consulta de productos con stock bajo | TSK044 | Implement low stock products query | Exponer la consulta `GET /api/v1/products/low-stock` para productos bajo el umbral establecido. | 4 | Jhorch | To Review |
+| US19 | Consulta de productos con stock bajo | TSK044 | Implement low stock products query | Exponer la consulta `GET /api/v1/products/low-stock` para productos bajo el umbral establecido. | 4 | Jhorch | Done |
 | US19 | Consulta de productos con stock bajo | TSK045 | Validate low stock thresholds | Revisar comparación de existencias y mínimo configurado para identificar productos críticos. | 3 | Jhorch | To Review |
 | US19 | Consulta de productos con stock bajo | TSK046 | Display low stock results for business use | Comprobar que la respuesta contenga los datos de producto y disponibilidad necesarios para revisión. | 2 | Jhorch | To Review |
 | US19 | Consulta de productos con stock bajo | TSK047 | Test low stock and empty results | Probar productos por debajo y encima del umbral y respuesta sin coincidencias. | 3 | Jhorch | To Do |
-| US20 | Consulta de lotes asociados a productos | TSK048 | Implement product lots query | Implementar consulta `GET /api/v1/products/{id}/lots` para recuperar los lotes asociados a un producto. | 4 | Jhorch | To Review |
-| US20 | Consulta de lotes asociados a productos | TSK049 | Map lot quantity and expiration | Comprobar que cada lote consultado incluya datos de identificación, cantidad y vencimiento. | 3 | Jhorch | To Review |
-| US20 | Consulta de lotes asociados a productos | TSK050 | Handle products with no lots | Presentar una colección vacía válida cuando el producto no tenga lotes vinculados. | 2 | Jhorch | To Review |
+| US20 | Consulta de lotes asociados a productos | TSK048 | Implement product lots query | Implementar consulta `GET /api/v1/products/{id}/lots` para recuperar los lotes asociados a un producto. | 4 | Jhorch | Done |
+| US20 | Consulta de lotes asociados a productos | TSK049 | Map lot quantity and expiration | Comprobar que cada lote consultado incluya datos de identificación, cantidad y vencimiento. | 3 | Jhorch | Done |
+| US20 | Consulta de lotes asociados a productos | TSK050 | Handle products with no lots | Presentar una colección vacía válida cuando el producto no tenga lotes vinculados. | 2 | Jhorch | Done |
 | US20 | Consulta de lotes asociados a productos | TSK051 | Test lots query scenarios | Probar producto con varios lotes, sin lotes e identificador inexistente. | 3 | Jhorch | To Do |
-| US21 | Consulta de stock actual de productos | TSK052 | Expose current product stock | Comprobar que las consultas de producto y sus lotes permitan recuperar existencias vigentes. | 3 | Jhorch | To Review |
+| US21 | Consulta de stock actual de productos | TSK052 | Expose current product stock | Comprobar que las consultas de producto y sus lotes permitan recuperar existencias vigentes. | 3 | Jhorch | Done |
 | US21 | Consulta de stock actual de productos | TSK053 | Verify stock aggregation consistency | Contrastar las cantidades de lotes con el stock presentado al consultar un producto. | 4 | Jhorch | To Review |
-| US21 | Consulta de stock actual de productos | TSK054 | Handle zero stock products | Comprobar el tratamiento de productos con cantidad cero, sin inventar un endpoint agregado independiente. | 2 | Jhorch | To Review |
+| US21 | Consulta de stock actual de productos | TSK054 | Handle zero stock products | Comprobar el tratamiento de productos con cantidad cero, sin inventar un endpoint agregado independiente. | 2 | Jhorch | Done |
 | US21 | Consulta de stock actual de productos | TSK055 | Test current stock queries | Validar resultados con varios lotes, stock cero y registros inexistentes. | 3 | Jhorch | To Do |
 | US22 | Consistencia del inventario ante confirmaciones comerciales | TSK056 | Review confirmation stock transaction | Revisar la operación transaccional de confirmación comercial que modifica existencias y movimientos. | 4 | Mateo | To Review |
 | US22 | Consistencia del inventario ante confirmaciones comerciales | TSK057 | Protect against partial stock changes | Verificar que una falla al confirmar compra o venta no persista cambios parciales en las cantidades. | 4 | Mateo | To Review |
 | US22 | Consistencia del inventario ante confirmaciones comerciales | TSK058 | Confirm stock change on success | Comprobar que una confirmación válida actualice las existencias asociadas una sola vez. | 3 | Mateo | To Review |
 | US22 | Consistencia del inventario ante confirmaciones comerciales | TSK059 | Test failure and rollback scenarios | Probar errores durante confirmación y comparar existencias antes y después del rechazo. | 4 | Mateo | To Do |
-| US23 | Trazabilidad de salidas originadas en ventas | TSK060 | Link confirmed sales to stock exits | Revisar la relación entre una venta confirmada y los movimientos de salida generados. | 4 | Mateo | To Review |
+| US23 | Trazabilidad de salidas originadas en ventas | TSK060 | Link confirmed sales to stock exits | Revisar la relación entre una venta confirmada y los movimientos de salida generados. | 4 | Mateo | Done |
 | US23 | Trazabilidad de salidas originadas en ventas | TSK061 | Verify sale origin traceability | Comprobar referencias de producto, lote y operación comercial en el historial disponible. | 3 | Mateo | To Review |
-| US23 | Trazabilidad de salidas originadas en ventas | TSK062 | Ensure drafts produce no movement | Comprobar que una venta en borrador no origine movimientos de salida de inventario. | 3 | Mateo | To Review |
+| US23 | Trazabilidad de salidas originadas en ventas | TSK062 | Ensure drafts produce no movement | Comprobar que una venta en borrador no origine movimientos de salida de inventario. | 3 | Mateo | Done |
 | US23 | Trazabilidad de salidas originadas en ventas | TSK063 | Test sales movement trace | Validar trazabilidad con ventas confirmadas, borradores y consulta posterior de movimientos. | 3 | Mateo | To Do |
-| US24 | Validación del stock disponible para ventas | TSK064 | Validate available quantity before sale | Verificar la disponibilidad de los productos solicitados al confirmar una venta. | 4 | Mateo | To Review |
-| US24 | Validación del stock disponible para ventas | TSK065 | Reject sale with insufficient stock | Comprobar el rechazo de una confirmación que exceda existencias disponibles sin descontar stock. | 4 | Mateo | To Review |
-| US24 | Validación del stock disponible para ventas | TSK066 | Enforce positive quantities on sales | Revisar validaciones de cantidades positivas y referencias válidas de las líneas de venta. | 3 | Mateo | To Review |
+| US24 | Validación del stock disponible para ventas | TSK064 | Validate available quantity before sale | Verificar la disponibilidad de los productos solicitados al confirmar una venta. | 4 | Mateo | Done |
+| US24 | Validación del stock disponible para ventas | TSK065 | Reject sale with insufficient stock | Comprobar el rechazo de una confirmación que exceda existencias disponibles sin descontar stock. | 4 | Mateo | Done |
+| US24 | Validación del stock disponible para ventas | TSK066 | Enforce positive quantities on sales | Revisar validaciones de cantidades positivas y referencias válidas de las líneas de venta. | 3 | Mateo | Done |
 | US24 | Validación del stock disponible para ventas | TSK067 | Test overselling prevention | Probar venta válida, exceso de unidades y reintento tras el rechazo. | 3 | Mateo | To Do |
-| US25 | Consulta de conteos físicos por identificador | TSK068 | Implement inventory count detail query | Exponer `GET /api/v1/inventory-counts/{id}` para consultar un conteo físico registrado. | 3 | Johan | To Review |
-| US25 | Consulta de conteos físicos por identificador | TSK069 | Map physical and recorded quantities | Comprobar que el detalle incluya cantidad contada, referencias del inventario y datos disponibles. | 3 | Johan | To Review |
-| US25 | Consulta de conteos físicos por identificador | TSK070 | Handle count not found | Gestionar correctamente la consulta de un identificador de conteo inexistente. | 2 | Johan | To Review |
+| US25 | Consulta de conteos físicos por identificador | TSK068 | Implement inventory count detail query | Exponer `GET /api/v1/inventory-counts/{id}` para consultar un conteo físico registrado. | 3 | Johan | Done |
+| US25 | Consulta de conteos físicos por identificador | TSK069 | Map physical and recorded quantities | Comprobar que el detalle incluya cantidad contada, referencias del inventario y datos disponibles. | 3 | Johan | Done |
+| US25 | Consulta de conteos físicos por identificador | TSK070 | Handle count not found | Gestionar correctamente la consulta de un identificador de conteo inexistente. | 2 | Johan | Done |
 | US25 | Consulta de conteos físicos por identificador | TSK071 | Test count detail responses | Probar consulta válida, identificador inexistente y consistencia de datos del conteo. | 3 | Johan | To Do |
-| US26 | Consulta del historial de movimientos de inventario | TSK072 | Implement inventory movement listing | Exponer la consulta `GET /api/v1/inventory-movements` del contexto Operations. | 4 | Johan | To Review |
-| US26 | Consulta del historial de movimientos de inventario | TSK073 | Map movement history information | Comprobar identificación, tipo, cantidad y referencias de origen cuando estén disponibles. | 3 | Johan | To Review |
-| US26 | Consulta del historial de movimientos de inventario | TSK074 | Handle history without records | Mostrar resultados vacíos válidos sin interpretarlos como error de servicio. | 2 | Johan | To Review |
+| US26 | Consulta del historial de movimientos de inventario | TSK072 | Implement inventory movement listing | Exponer la consulta `GET /api/v1/inventory-movements` del contexto Operations. | 4 | Johan | Done |
+| US26 | Consulta del historial de movimientos de inventario | TSK073 | Map movement history information | Comprobar identificación, tipo, cantidad y referencias de origen cuando estén disponibles. | 3 | Johan | Done |
+| US26 | Consulta del historial de movimientos de inventario | TSK074 | Handle history without records | Mostrar resultados vacíos válidos sin interpretarlos como error de servicio. | 2 | Johan | Done |
 | US26 | Consulta del historial de movimientos de inventario | TSK075 | Test movement history queries | Probar movimientos comerciales, historial vacío y forma de la respuesta. | 3 | Johan | To Do |
-| US27 | Consulta de productos próximos a vencer | TSK076 | Retrieve lot expiration information | Consultar las fechas de vencimiento de los lotes desde `GET /api/v1/products/{id}/lots`. | 3 | Johan | To Review |
+| US27 | Consulta de productos próximos a vencer | TSK076 | Retrieve lot expiration information | Consultar las fechas de vencimiento de los lotes desde `GET /api/v1/products/{id}/lots`. | 3 | Johan | Done |
 | US27 | Consulta de productos próximos a vencer | TSK077 | Define upcoming expiration threshold | Establecer el criterio temporal para identificar lotes próximos a vencer sin crear una ruta no implementada. | 3 | Johan | In Process |
 | US27 | Consulta de productos próximos a vencer | TSK078 | Present upcoming expiration results | Preparar la identificación visual de lotes que cumplen el umbral en el consumo de datos existente. | 3 | Johan | In Process |
 | US27 | Consulta de productos próximos a vencer | TSK079 | Test expiration boundary cases | Verificar lotes vencidos, próximos a vencer, vigentes y producto sin lotes. | 3 | Johan | To Do |
 | US28 | Asignación FIFO de existencias en ventas sin lote explícito | TSK080 | Review FIFO allocation on sale confirmation | Verificar la regla de asignación FIFO para ventas sin un lote explícito en la confirmación comercial. | 4 | Mateo | To Review |
-| US28 | Asignación FIFO de existencias en ventas sin lote explícito | TSK081 | Order available lots by receipt | Comprobar la selección de lotes según antigüedad de ingreso cuando la venta requiere asignación automática. | 4 | Mateo | To Review |
-| US28 | Asignación FIFO de existencias en ventas sin lote explícito | TSK082 | Respect explicitly selected lot | Revisar que un lote elegido expresamente no sea reemplazado por la asignación FIFO automática. | 3 | Mateo | To Review |
+| US28 | Asignación FIFO de existencias en ventas sin lote explícito | TSK081 | Order available lots by receipt | Comprobar la selección de lotes según antigüedad de ingreso cuando la venta requiere asignación automática. | 4 | Mateo | Done |
+| US28 | Asignación FIFO de existencias en ventas sin lote explícito | TSK082 | Respect explicitly selected lot | Revisar que un lote elegido expresamente no sea reemplazado por la asignación FIFO automática. | 3 | Mateo | Done |
 | US28 | Asignación FIFO de existencias en ventas sin lote explícito | TSK083 | Test multi lot FIFO scenarios | Probar consumo con uno o varios lotes, stock insuficiente y selección de lote explícito. | 4 | Mateo | To Do |
-| US29 | Registro de conteo físico de inventario | TSK084 | Implement physical inventory count registration | Registrar conteos mediante `POST /api/v1/inventory-counts` con la cantidad física observada. | 4 | Johan | To Review |
-| US29 | Registro de conteo físico de inventario | TSK085 | Validate count product and quantity | Comprobar referencias del inventario y restricciones de cantidad para registrar un conteo. | 3 | Johan | To Review |
-| US29 | Registro de conteo físico de inventario | TSK086 | Preserve count evidence without stock update | Verificar que guardar el conteo documente la observación sin realizar un ajuste manual automático. | 3 | Johan | To Review |
+| US29 | Registro de conteo físico de inventario | TSK084 | Implement physical inventory count registration | Registrar conteos mediante `POST /api/v1/inventory-counts` con la cantidad física observada. | 4 | Johan | Done |
+| US29 | Registro de conteo físico de inventario | TSK085 | Validate count product and quantity | Comprobar referencias del inventario y restricciones de cantidad para registrar un conteo. | 3 | Johan | Done |
+| US29 | Registro de conteo físico de inventario | TSK086 | Preserve count evidence without stock update | Verificar que guardar el conteo documente la observación sin realizar un ajuste manual automático. | 3 | Johan | Done |
 | US29 | Registro de conteo físico de inventario | TSK087 | Test physical count registration | Probar registro válido, cantidad inválida y consulta posterior del conteo. | 3 | Johan | To Do |
 | US30 | Trazabilidad por producto, lote y operación | TSK088 | Review movement product and lot references | Comprobar que las operaciones almacenadas conserven referencias al producto y lote afectados. | 4 | Johan | To Review |
-| US30 | Trazabilidad por producto, lote y operación | TSK089 | Link inventory movement to source operation | Revisar la identificación de la compra, venta o merma que originó un cambio de stock. | 3 | Johan | To Review |
-| US30 | Trazabilidad por producto, lote y operación | TSK090 | Trace stock change through history | Comprobar que el historial permita diferenciar operaciones de entrada y salida por su origen. | 3 | Johan | To Review |
+| US30 | Trazabilidad por producto, lote y operación | TSK089 | Link inventory movement to source operation | Revisar la identificación de la compra, venta o merma que originó un cambio de stock. | 3 | Johan | Done |
+| US30 | Trazabilidad por producto, lote y operación | TSK090 | Trace stock change through history | Comprobar que el historial permita diferenciar operaciones de entrada y salida por su origen. | 3 | Johan | Done |
 | US30 | Trazabilidad por producto, lote y operación | TSK091 | Test stock traceability cases | Probar movimientos originados por compras, ventas y mermas verificando referencias disponibles. | 3 | Johan | To Do |
-| US31 | Registro de mermas de inventario | TSK092 | Implement waste registration REST resource | Registrar mermas mediante `POST /api/v1/wastes` sobre existencias disponibles. | 4 | Johan | To Review |
-| US31 | Registro de mermas de inventario | TSK093 | Validate waste quantity and product | Comprobar cantidad positiva, referencia válida y disponibilidad para descontar unidades. | 3 | Johan | To Review |
-| US31 | Registro de mermas de inventario | TSK094 | Apply waste stock effect consistently | Verificar que la merma registrada reduzca existencias y se refleje en operaciones de inventario. | 4 | Johan | To Review |
+| US31 | Registro de mermas de inventario | TSK092 | Implement waste registration REST resource | Registrar mermas mediante `POST /api/v1/wastes` sobre existencias disponibles. | 4 | Johan | Done |
+| US31 | Registro de mermas de inventario | TSK093 | Validate waste quantity and product | Comprobar cantidad positiva, referencia válida y disponibilidad para descontar unidades. | 3 | Johan | Done |
+| US31 | Registro de mermas de inventario | TSK094 | Apply waste stock effect consistently | Verificar que la merma registrada reduzca existencias y se refleje en operaciones de inventario. | 4 | Johan | Done |
 | US31 | Registro de mermas de inventario | TSK095 | Test waste and insufficient stock | Probar merma válida, cantidad excesiva y rechazo sin pérdida parcial de datos. | 3 | Johan | To Do |
 | US32 | Clasificación de causas de merma | TSK096 | Identify accepted waste reasons | Revisar los motivos admitidos en el modelo y contrato de registro de mermas. | 2 | Johan | To Review |
-| US32 | Clasificación de causas de merma | TSK097 | Validate waste reason in request | Comprobar que una solicitud de merma incluya una causa permitida. | 3 | Johan | To Review |
-| US32 | Clasificación de causas de merma | TSK098 | Return reason in waste history | Verificar que el registro y consulta de mermas conserve el motivo asociado. | 2 | Johan | To Review |
+| US32 | Clasificación de causas de merma | TSK097 | Validate waste reason in request | Comprobar que una solicitud de merma incluya una causa permitida. | 3 | Johan | Done |
+| US32 | Clasificación de causas de merma | TSK098 | Return reason in waste history | Verificar que el registro y consulta de mermas conserve el motivo asociado. | 2 | Johan | Done |
 | US32 | Clasificación de causas de merma | TSK099 | Test invalid waste reason values | Probar cada causa admitida y el rechazo de un motivo desconocido. | 2 | Johan | To Do |
-| US41 | Registro de compras en borrador | TSK100 | Implement purchase draft registration | Crear compras en borrador mediante `POST /api/v1/purchases` con sus productos, cantidades y costos. | 5 | Mateo | To Review |
-| US41 | Registro de compras en borrador | TSK101 | Validate purchase document lines | Comprobar referencias de productos y cantidades válidas en las líneas de compra. | 3 | Mateo | To Review |
-| US41 | Registro de compras en borrador | TSK102 | Ensure drafts do not alter inventory | Verificar que crear un borrador no incremente existencias ni registre entradas de stock. | 3 | Mateo | To Review |
+| US41 | Registro de compras en borrador | TSK100 | Implement purchase draft registration | Crear compras en borrador mediante `POST /api/v1/purchases` con sus productos, cantidades y costos. | 5 | Mateo | Done |
+| US41 | Registro de compras en borrador | TSK101 | Validate purchase document lines | Comprobar referencias de productos y cantidades válidas en las líneas de compra. | 3 | Mateo | Done |
+| US41 | Registro de compras en borrador | TSK102 | Ensure drafts do not alter inventory | Verificar que crear un borrador no incremente existencias ni registre entradas de stock. | 3 | Mateo | Done |
 | US41 | Registro de compras en borrador | TSK103 | Test purchase draft scenarios | Probar creación válida, líneas incorrectas y consulta posterior del borrador. | 4 | Mateo | To Do |
-| US42 | Registro de ventas en borrador | TSK104 | Implement sales draft registration | Crear ventas en borrador mediante `POST /api/v1/sales` con artículos, cantidades y precios. | 5 | Mateo | To Review |
-| US42 | Registro de ventas en borrador | TSK105 | Validate sale document lines | Revisar validaciones de producto, precio y cantidad de cada línea de venta. | 3 | Mateo | To Review |
-| US42 | Registro de ventas en borrador | TSK106 | Ensure sales drafts do not reduce stock | Comprobar que registrar una venta en borrador no descuente unidades disponibles. | 3 | Mateo | To Review |
+| US42 | Registro de ventas en borrador | TSK104 | Implement sales draft registration | Crear ventas en borrador mediante `POST /api/v1/sales` con artículos, cantidades y precios. | 5 | Mateo | Done |
+| US42 | Registro de ventas en borrador | TSK105 | Validate sale document lines | Revisar validaciones de producto, precio y cantidad de cada línea de venta. | 3 | Mateo | Done |
+| US42 | Registro de ventas en borrador | TSK106 | Ensure sales drafts do not reduce stock | Comprobar que registrar una venta en borrador no descuente unidades disponibles. | 3 | Mateo | Done |
 | US42 | Registro de ventas en borrador | TSK107 | Test sales draft scenarios | Probar creación de borrador, líneas inválidas y consulta del documento recién registrado. | 4 | Mateo | To Do |
-| US43 | Confirmación de compras de mercadería | TSK108 | Implement purchase confirmation | Confirmar compras mediante `POST /api/v1/purchases/{id}/confirm`. | 5 | Mateo | To Review |
-| US43 | Confirmación de compras de mercadería | TSK109 | Increase stock from confirmed purchases | Verificar que confirmar una compra registre entradas y aumente las existencias correspondientes. | 4 | Mateo | To Review |
-| US43 | Confirmación de compras de mercadería | TSK110 | Prevent duplicate purchase confirmation | Comprobar que un documento confirmado no vuelva a incrementar el stock ante otro intento. | 3 | Mateo | To Review |
+| US43 | Confirmación de compras de mercadería | TSK108 | Implement purchase confirmation | Confirmar compras mediante `POST /api/v1/purchases/{id}/confirm`. | 5 | Mateo | Done |
+| US43 | Confirmación de compras de mercadería | TSK109 | Increase stock from confirmed purchases | Verificar que confirmar una compra registre entradas y aumente las existencias correspondientes. | 4 | Mateo | Done |
+| US43 | Confirmación de compras de mercadería | TSK110 | Prevent duplicate purchase confirmation | Comprobar que un documento confirmado no vuelva a incrementar el stock ante otro intento. | 3 | Mateo | Done |
 | US43 | Confirmación de compras de mercadería | TSK111 | Test purchase confirmation transactions | Probar confirmación válida, repetida y fallida, comprobando atomicidad. | 4 | Mateo | To Do |
-| US44 | Confirmación de ventas con salida de inventario | TSK112 | Implement sale confirmation | Confirmar ventas mediante `POST /api/v1/sales/{id}/confirm`. | 5 | Mateo | To Review |
-| US44 | Confirmación de ventas con salida de inventario | TSK113 | Deduct stock and record sales exit | Verificar disminución de stock y creación de movimientos correspondientes a la venta confirmada. | 4 | Mateo | To Review |
-| US44 | Confirmación de ventas con salida de inventario | TSK114 | Reject overstock and repeated confirmation | Comprobar rechazo por inventario insuficiente o venta ya confirmada, sin duplicar movimientos. | 3 | Mateo | To Review |
+| US44 | Confirmación de ventas con salida de inventario | TSK112 | Implement sale confirmation | Confirmar ventas mediante `POST /api/v1/sales/{id}/confirm`. | 5 | Mateo | Done |
+| US44 | Confirmación de ventas con salida de inventario | TSK113 | Deduct stock and record sales exit | Verificar disminución de stock y creación de movimientos correspondientes a la venta confirmada. | 4 | Mateo | Done |
+| US44 | Confirmación de ventas con salida de inventario | TSK114 | Reject overstock and repeated confirmation | Comprobar rechazo por inventario insuficiente o venta ya confirmada, sin duplicar movimientos. | 3 | Mateo | Done |
 | US44 | Confirmación de ventas con salida de inventario | TSK115 | Test sales confirmation outcomes | Probar venta válida, sin stock, confirmación duplicada y reversión ante errores. | 4 | Mateo | To Do |
-| US45 | Consulta del historial y detalle comercial | TSK116 | Implement commercial history queries | Habilitar `GET /api/v1/purchases` y `GET /api/v1/sales` para listar documentos. | 4 | Mateo | To Review |
-| US45 | Consulta del historial y detalle comercial | TSK117 | Expose purchase and sale details | Verificar `GET /api/v1/purchases/{id}` y `GET /api/v1/sales/{id}` con sus líneas y estados. | 4 | Mateo | To Review |
-| US45 | Consulta del historial y detalle comercial | TSK118 | Present document state and totals | Comprobar que los registros devuelvan los importes y estados necesarios para el seguimiento. | 3 | Mateo | To Review |
+| US45 | Consulta del historial y detalle comercial | TSK116 | Implement commercial history queries | Habilitar `GET /api/v1/purchases` y `GET /api/v1/sales` para listar documentos. | 4 | Mateo | Done |
+| US45 | Consulta del historial y detalle comercial | TSK117 | Expose purchase and sale details | Verificar `GET /api/v1/purchases/{id}` y `GET /api/v1/sales/{id}` con sus líneas y estados. | 4 | Mateo | Done |
+| US45 | Consulta del historial y detalle comercial | TSK118 | Present document state and totals | Comprobar que los registros devuelvan los importes y estados necesarios para el seguimiento. | 3 | Mateo | Done |
 | US45 | Consulta del historial y detalle comercial | TSK119 | Test commercial history and detail | Probar documentos existentes, listados vacíos e identificadores inexistentes. | 3 | Mateo | To Do |
-| US51 | Galería visual de pantallas de BodeGo | TSK120 | Implement landing application gallery | Presentar capturas representativas de Dashboard, inventario y operaciones con explicaciones breves de cada pantalla. | 4 | Dany | To Review |
+| US51 | Galería visual de pantallas de BodeGo | TSK120 | Implement landing application gallery | Presentar capturas representativas de Dashboard, inventario y operaciones con explicaciones breves de cada pantalla. | 4 | Dany | Done |
 | US51 | Galería visual de pantallas de BodeGo | TSK121 | Validate gallery readability and layout | Revisar disposición responsive, legibilidad de imágenes y correspondencia de textos con la aplicación. | 3 | Dany | To Do |
-| US52 | Presentación de roles Administrador y Empleado | TSK122 | Implement administrator and employee presentation | Incorporar una sección que distinga las responsabilidades del Administrador y del Empleado en BodeGo. | 3 | Dany | To Review |
+| US52 | Presentación de roles Administrador y Empleado | TSK122 | Implement administrator and employee presentation | Incorporar una sección que distinga las responsabilidades del Administrador y del Empleado en BodeGo. | 3 | Dany | Done |
 | US52 | Presentación de roles Administrador y Empleado | TSK123 | Review roles copy and mobile presentation | Validar textos, jerarquía visual y adaptación móvil de la descripción de ambos perfiles. | 3 | Dany | To Do |
-| US53 | Consulta de plan y precio comercial | TSK124 | Implement landing pricing information | Presentar el precio, plan y características comerciales publicadas de BodeGo, utilizando información aprobada. | 4 | Dany | To Review |
-| US53 | Consulta de plan y precio comercial | TSK125 | Connect pricing inquiry with contact section | Vincular la consulta comercial con el formulario o canal de contacto y revisar su diseño responsive. | 3 | Dany | To Do |
-| US54 | Cambio de idioma español/inglés en el Frontend | TSK126 | Implement Vue English Spanish language switching | Integrar selector y recursos i18n inglés/español para navegación y módulos prioritarios de la aplicación. | 4 | Diego | To Review |
+| US53 | Consulta de plan y precio comercial | TSK124 | Implement landing pricing information | Presentar el precio, plan y características comerciales publicadas de BodeGo, utilizando información aprobada. | 4 | Dany | Done |
+| US53 | Consulta de plan y precio comercial | TSK125 | Connect pricing inquiry with contact section | Vincular la consulta comercial con el formulario o canal de contacto y revisar su diseño responsive. | 3 | Dany | Done |
+| US54 | Cambio de idioma español/inglés en el Frontend | TSK126 | Implement Vue English Spanish language switching | Integrar selector y recursos i18n inglés/español para navegación y módulos prioritarios de la aplicación. | 4 | Diego | Done |
 | US54 | Cambio de idioma español/inglés en el Frontend | TSK127 | Verify translations and language persistence | Comprobar traducciones, preferencia al navegar o recargar y requisito de idioma inicial. | 4 | Diego | To Do |
-| US55 | Preparación de compras con carrito de productos | TSK128 | Implement purchase cart interactions | Permitir añadir, editar y retirar líneas de productos en la preparación de una compra. | 4 | Diego | To Review |
+| US55 | Preparación de compras con carrito de productos | TSK128 | Implement purchase cart interactions | Permitir añadir, editar y retirar líneas de productos en la preparación de una compra. | 4 | Diego | Done |
 | US55 | Preparación de compras con carrito de productos | TSK129 | Validate cart totals and purchase payload | Revisar cantidades, precios, cálculos y transformación del carrito al borrador de compra. | 4 | Diego | To Do |
-| US56 | Preparación de ventas con disponibilidad visible | TSK130 | Implement sales cart with stock visibility | Mostrar productos y existencias consultadas durante la preparación de la venta en Vue. | 4 | Diego | To Review |
+| US56 | Preparación de ventas con disponibilidad visible | TSK130 | Implement sales cart with stock visibility | Mostrar productos y existencias consultadas durante la preparación de la venta en Vue. | 4 | Diego | Done |
 | US56 | Preparación de ventas con disponibilidad visible | TSK131 | Validate cart quantities against availability | Advertir cantidades superiores al stock mostrado y revisar la información antes de enviar el borrador. | 4 | Diego | To Do |
-| US57 | Estados de confirmación y resultado de compras y ventas | TSK132 | Implement commercial confirmation statuses | Visualizar estados de borrador, confirmación y resultado en compras y ventas. | 4 | Diego | To Review |
+| US57 | Estados de confirmación y resultado de compras y ventas | TSK132 | Implement commercial confirmation statuses | Visualizar estados de borrador, confirmación y resultado en compras y ventas. | 4 | Diego | Done |
 | US57 | Estados de confirmación y resultado de compras y ventas | TSK133 | Prevent repeated confirmation interaction | Bloquear interacciones duplicadas durante el envío y verificar las respuestas reales de la API. | 3 | Diego | To Do |
-| US58 | Presentación de estados vacíos, carga y error de servicios | TSK134 | Implement loading empty and error states | Usar componentes de estado para consultas pendientes, listados vacíos y fallas de servicios REST. | 4 | Diego | To Review |
+| US58 | Presentación de estados vacíos, carga y error de servicios | TSK134 | Implement loading empty and error states | Usar componentes de estado para consultas pendientes, listados vacíos y fallas de servicios REST. | 4 | Diego | Done |
 | US58 | Presentación de estados vacíos, carga y error de servicios | TSK135 | Validate feedback across priority modules | Comprobar mensajes de interfaz en inventario, compras y ventas frente a datos vacíos y fallos HTTP. | 3 | Diego | To Do |
-| US59 | Previsualización de stock antes de operaciones | TSK136 | Implement stock preview before operation | Presentar stock consultado y variación estimada al preparar una compra o venta. | 3 | Diego | To Review |
+| US59 | Previsualización de stock antes de operaciones | TSK136 | Implement stock preview before operation | Presentar stock consultado y variación estimada al preparar una compra o venta. | 3 | Diego | Done |
 | US59 | Previsualización de stock antes de operaciones | TSK137 | Refresh stock preview on product change | Verificar recalculo de cantidades al cambiar producto, lote o unidades antes del envío. | 3 | Diego | To Do |
-| US60 | Protección frente a resultados inciertos de operaciones | TSK138 | Implement pending evidence for uncertain requests | Mostrar un estado de resultado incierto cuando se pierde la respuesta de una operación comercial enviada. | 4 | Diego | To Review |
+| US60 | Protección frente a resultados inciertos de operaciones | TSK138 | Implement pending evidence for uncertain requests | Mostrar un estado de resultado incierto cuando se pierde la respuesta de una operación comercial enviada. | 4 | Diego | Done |
 | US60 | Protección frente a resultados inciertos de operaciones | TSK139 | Validate retry and context change safeguards | Evitar asumir éxito o duplicar solicitudes al reintentar y comprobar el cambio de contexto tras una respuesta incierta. | 4 | Diego | To Do |
 | TS01 | Gestión REST de productos | TSK140 | Review products API contract and schemas | Revisar métodos `POST`, `GET` y consulta por ID de productos, recursos, validaciones y respuestas documentadas. | 4 | Jhorch | To Review |
 | TS01 | Gestión REST de productos | TSK141 | Execute products endpoint contract checks | Validar códigos HTTP y estructuras JSON de creación, listado y producto inexistente. | 4 | Jhorch | To Do |
@@ -2631,10 +2631,275 @@ Enlace:
 | TS08 | Gestión REST de ventas comerciales | TSK155 | Test sales REST request contract | Probar documentos válidos, consulta de ventas y error por identificador inexistente. | 4 | Mateo | To Do |
 | TS09 | Confirmación transaccional de compras y ventas | TSK156 | Review purchase and sale confirmation transaction | Revisar contratos `POST /api/v1/purchases/{id}/confirm` y `POST /api/v1/sales/{id}/confirm`, stock y prevención de duplicados. | 5 | Mateo | To Review |
 | TS09 | Confirmación transaccional de compras y ventas | TSK157 | Execute transactional confirmation integration tests | Comprobar integridad y movimientos en confirmaciones válidas, repetidas y rechazadas por stock. | 5 | Mateo | To Do |
-| TS16 | Documentación OpenAPI con Scalar e integración REST del Frontend | TSK158 | Configure and review Scalar OpenAPI documentation | Revisar exposición del documento OpenAPI y de Scalar con métodos y esquemas de los contextos incluidos en Sprint 3. | 4 | Dany | To Review |
+| TS16 | Documentación OpenAPI con Scalar e integración REST del Frontend | TSK158 | Configure and review Scalar OpenAPI documentation | Revisar exposición del documento OpenAPI y de Scalar con métodos y esquemas de los contextos incluidos en Sprint 3. | 4 | Dany | Done |
 | TS16 | Documentación OpenAPI con Scalar e integración REST del Frontend | TSK159 | Validate Vue API integration and error handling | Comprobar URL base, CORS y tratamiento de respuestas exitosas y fallidas al consumir API desde Vue. | 5 | Dany | To Do |
 
 ---
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3 se registraron avances en el desarrollo de los servicios REST del Backend de BodeGo. Las evidencias se presentan mediante el historial de commits del repositorio, principalmente en los bounded contexts **Inventory, Operations y Commercial**.
+
+**Backend — Inventory, Operations y Commercial**
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| Danysss-cmd/Proxy_Web_App_Back-end | develop | `e2edfa5` | Merge pull request #11 from SirEthan04/feature/deploy-render-backend | Integración de la rama de preparación del Backend para Render. | 13/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Back-end | develop | `8bda67b` | Preparar backend para despliegue Docker en Render | Preparación de la configuración Docker para un posible despliegue del servicio ASP.NET Core en Render. | 13/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Back-end | develop | `5efc680` | Merge pull request #9 from SirEthan04/feature/cors-frontend | Integración de los cambios de configuración CORS destinados a la comunicación con el Frontend. | 10/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Back-end | develop | `bebed47` | Configurar CORS para conectar el frontend Vue | Configuración de CORS para habilitar solicitudes desde el cliente Vue según los orígenes permitidos. | 10/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Back-end | develop | `bc1cdfd` | Merge pull request #8 from SirEthan04/feature/confirmaciones-commercial | Integración de cambios del flujo de confirmaciones del bounded context Commercial. | 10/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Back-end | develop | `d5c18c8` | Documentar flujo completo de compras y ventas | Documentación del flujo de las operaciones comerciales de compras y ventas. | 10/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Back-end | develop | `38ca7af` | Agregar pruebas de confirmaciones | Incorporación de pruebas para la lógica de confirmación de operaciones comerciales. | 10/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Back-end | develop | `1306a6a` | Agregar endpoints de confirmacion comercial | Incorporación de rutas REST para confirmar documentos de compras y ventas. | 10/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Back-end | develop | `1eb903c` | Integrar persistencia transaccional de confirmaciones | Cambios en la persistencia transaccional del proceso de confirmación de operaciones comerciales. | 10/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Back-end | develop | `6a49776` | Implementar descuento de ventas confirmadas | Implementación del descuento de existencias asociado a ventas confirmadas. | 10/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Back-end | develop | `d59e055` | Implementar recepcion de compras y lotes | Cambios vinculados a la recepción de compras y su relación con los lotes del inventario. | 10/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Back-end | develop | `adfcb3d` | Preparar comandos de confirmacion comercial | Definición de comandos necesarios para ejecutar la confirmación comercial. | 10/11/2026 |
+| Bleim-154/Proxy_Web_App_Back-end | develop | `c9e6694` | Merge pull request #6 from SirEthan04/feature/operations | Integración de la rama de desarrollo del bounded context Operations. | 09/11/2026 |
+| Bleim-154/Proxy_Web_App_Back-end | develop | `6f782dc` | Agregar pruebas y documentacion de Operations | Incorporación de pruebas y documentación de servicios del contexto Operations. | 09/11/2026 |
+| Bleim-154/Proxy_Web_App_Back-end | develop | `b157c39` | Implementar registro y consulta de conteos fisicos | Desarrollo de las operaciones de registro y consulta de conteos físicos. | 09/11/2026 |
+| Bleim-154/Proxy_Web_App_Back-end | develop | `aa9cf47` | Agregar consulta de mermas | Incorporación de la consulta de mermas registradas. | 09/11/2026 |
+| Bleim-154/Proxy_Web_App_Back-end | develop | `d0404bb` | Implementar registro seguro de mermas | Desarrollo del registro de mermas y sus validaciones operativas; el mensaje no acredita IAM. | 09/11/2026 |
+| Bleim-154/Proxy_Web_App_Back-end | develop | `07735db` | Agregar consulta de movimientos de inventario | Incorporación de consultas para el historial de movimientos de inventario. | 09/11/2026 |
+| Bleim-154/Proxy_Web_App_Back-end | develop | `520735f` | Implementar repositorios de Operations | Implementación de repositorios de persistencia para Operations. | 09/11/2026 |
+| Bleim-154/Proxy_Web_App_Back-end | develop | `63b6c4f` | Preparar contratos y reglas de Operations | Definición de contratos y reglas de negocio del contexto Operations. | 09/11/2026 |
+| yowuan/Proxy_Web_App_Back-end | develop | `791337e` | Merge pull request #5 from SirEthan04/feature/commercial | Integración del desarrollo inicial del bounded context Commercial. | 09/11/2026 |
+| yowuan/Proxy_Web_App_Back-end | develop | `76454da` | Implementar endpoints basicos de compras y ventas | Implementación de endpoints REST básicos para compras y ventas. | 09/11/2026 |
+| yowuan/Proxy_Web_App_Back-end | develop | `caccfbf` | Agregar repositorios de Commercial | Incorporación de repositorios de persistencia para las operaciones comerciales. | 09/11/2026 |
+| SirEthan04/Proxy_Web_App_Back-end | develop | `f84d25e` | Merge pull request #4 from SirEthan04/feature/inventory | Integración de los cambios desarrollados para el bounded context Inventory. | 09/11/2026 |
+
+**EVIDENCIA:**
+![Estructura / Backendcommits](recursos/imagenes/backcommitsAW.jpg)
+
+---
+
+**Frontend Web — Integración y mejoras**
+
+Durante el Sprint 3 se realizaron mejoras en el Frontend Web de BodeGo, principalmente en los módulos de inventario, compras y ventas, así como en su integración con los servicios REST del Backend desarrollado en ASP.NET Core.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| Danysss-cmd/Proxy_Web_App_Front-end | develop | `6c5b207` | Merge pull request #8 from SirEthan04/feature/deploy-render-frontend | Integración de la rama de preparación del Frontend Vue para Render. | 13/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Front-end | develop | `c5f7ebc` | Preparar frontend Vue para despliegue en Render | Ajustes de configuración destinados al despliegue del Frontend Vue en Render. | 13/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Front-end | develop | `c7a5abb` | Merge pull request #6 from SirEthan04/feature/integracion-operations | Integración de cambios relacionados con las interfaces y servicios de Operations. | 11/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Front-end | develop | `b733cb2` | Integrar operaciones de inventario con backend ASP.NET Core | Conexión de funcionalidades de Operations del Frontend con el Backend ASP.NET Core. | 11/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Front-end | develop | `c3f4c5e` | Merge pull request #4 from SirEthan04/feature/integracion-backend | Integración de cambios orientados al consumo de servicios del Backend. | 10/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Front-end | develop | `6c8e7ab` | Merge pull request #3 from SirEthan04/feature/commercial-purchases-sales | Integración de mejoras del flujo de compras y ventas en el Frontend. | 10/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Front-end | develop | `e260ef5` | Integrar productos y categorias con backend ASP.NET Core | Conexión de las pantallas de productos y categorías con servicios ASP.NET Core. | 10/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Front-end | develop | `dcc7782` | chore: clean up project structure for BodeGo presentation | Organización de la estructura del proyecto para su presentación y mantenimiento. | 07/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Front-end | develop | `87388f6` | feat(commercial): complete purchases sales and intuitive inventory workflows | Avances en flujos visuales de compras y ventas y su interacción con el inventario. | 06/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Front-end | develop | `6f3c7ff` | feat(inventory): add interactive stock workflows and verifiable reports | Mejoras en los flujos interactivos del inventario; el commit también menciona reportes, reservados para Sprint 4. | 04/11/2026 |
+| Danysss-cmd/Proxy_Web_App_Front-end | develop | `066940d` | refactor(shared): centralize Axios configuration | Centralización de la configuración HTTP de Axios para el consumo de servicios desde Vue. | 04/11/2026 |
+
+**EVIDENCIA:**
+![Estructura / Frontendcommits](recursos/imagenes/frontcommitsAW.jpg)
+
+----
+
+**Landing Page — Mejoras de presentación de BodeGo**
+
+Durante el Sprint 3 se actualizaron las secciones y el contenido visual de la Landing Page de **Aplicaciones Web**, con el propósito de mostrar mejor la propuesta de BodeGo y las pantallas de su Frontend Vue. Las contribuciones se registraron en la rama `main` del repositorio de Landing Page.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| yowuan/Proxy_App_Web_LandingPage | main | `45c61fd` | Merge pull request #2 from SirEthan04/feature/nuevos-cambios | Integración a `main` de la rama `feature/nuevos-cambios`, correspondiente a modificaciones adicionales de la Landing Page. | 13/11/2026 |
+| yowuan/Proxy_App_Web_LandingPage | main | `c113c83` | Agrega nuevas modificaciones a la landing page | Incorporación de nuevas modificaciones a la Landing Page; el mensaje no especifica los archivos ni las secciones afectadas. | 13/11/2026 |
+| yowuan/Proxy_App_Web_LandingPage | main | `44689ed` | Merge pull request #1 from SirEthan04/feature/landing-update | Integración a `main` de la rama `feature/landing-update` con la actualización de la Landing Page. | 13/11/2026 |
+| yowuan/Proxy_App_Web_LandingPage | main | `ca1087e` | Agrega la nueva version de la landing page | Incorporación de una nueva versión de la Landing Page, según el mensaje del commit. | 13/11/2026 |
+
+**EVIDENCIA:**
+![Estructura / Landingcommits](recursos/imagenes/landingcommitsAW.jpg)
+
+---
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+---
+
+Durante el Sprint 3 se realizaron mejoras en el Frontend Web de BodeGo, desarrollado con Vue 3, fortaleciendo las interfaces de inventario y las operaciones comerciales de compras y ventas. Asimismo, se avanzó en la integración de estos módulos con los servicios REST del Backend ASP.NET Core.
+
+**Evidencias de la Landing Page**
+
+Durante este sprint se incorporaron mejoras en la presentación visual de BodeGo, permitiendo mostrar de manera más clara las características de la plataforma y sus principales módulos.
+
+![Estructura / landingmejora ](recursos/imagenes/landingUp1.jpg)
+
+![Estructura / landingmejora ](recursos/imagenes/landingUp2.jpg)
+
+![Estructura / landingmejora ](recursos/imagenes/landingUp3.jpg)
+
+![Estructura / landingmejora ](recursos/imagenes/landingUp4.jpg)
+
+---
+
+**Evidencias del Frontend Web**
+
+En el Frontend Web se continuó con la implementación y mejora de las interfaces del sistema, optimizando la interacción de los usuarios con las funcionalidades disponibles.
+
+![Estructura / selecuser](recursos/imagenes/selecuser.jpg)
+
+![Estructura / categorias](recursos/imagenes/categorias_bodego_av3.jpg)
+
+![Estructura / movimientos](recursos/imagenes/movimientos_bodego_av3.jpg)
+
+---
+
+**Evidencias del Backend**
+
+En el Backend se desarrollaron servicios REST utilizando Java y Spring Boot para gestionar la información y las operaciones principales de BodeGo.
+
+![Estructura / movimientos](recursos/imagenes/swagger1.jpg)
+
+![Estructura / movimientos](recursos/imagenes/swagger2.jpg)
+
+![Estructura / movimientos](recursos/imagenes/swagger3.jpg)
+
+![Estructura / movimientos](recursos/imagenes/swagger4.jpg)
+
+![Estructura / movimientos](recursos/imagenes/swagger5.jpg)
+
+---
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3 se avanzó en el desarrollo y la documentación de los servicios REST del Backend de BodeGo, implementado con **ASP.NET Core y C#**. La API incorpora operaciones relacionadas con productos, categorías, lotes, movimientos de inventario, mermas, conteos físicos, compras, ventas, alertas, reportes y usuarios. La documentación técnica se presenta mediante **OpenAPI y Scalar**.
+
+A continuación, se detallan los métodos HTTP y endpoints identificados en el código, utilizando las Technical Stories definidas para este Sprint (**TS01–TS09 y TS16**). Las TS01–TS09 identifican los contratos REST correspondientes a sus respectivos módulos. TS16 se utiliza para la documentación transversal en OpenAPI/Scalar de otros endpoints existentes, sin atribuirle su implementación funcional.
+
+---
+
+**Servicios REST documentados en OpenAPI y Scalar**
+
+| **Technical Story** | **Módulo** | **Método HTTP** | **Endpoint** | **Descripción** |
+|---|---|---|---|---|
+| TS01 | Productos | GET | `/api/v1/products` | Consultar el listado de productos registrados. |
+| TS01 | Productos | POST | `/api/v1/products` | Registrar un nuevo producto en el catálogo. |
+| TS01 | Productos | GET | `/api/v1/products/{id}` | Consultar la información de un producto mediante su identificador. |
+| TS02 | Categorías | GET | `/api/v1/categories` | Consultar el listado de categorías registradas. |
+| TS02 | Categorías | POST | `/api/v1/categories` | Registrar una nueva categoría de productos. |
+| TS02 | Categorías | GET | `/api/v1/categories/{id}` | Consultar una categoría mediante su identificador. |
+| TS03 | Lotes | GET | `/api/v1/products/{id}/lots` | Consultar los lotes asociados a un producto y sus existencias. |
+| TS03 | Stock bajo | GET | `/api/v1/products/low-stock` | Consultar los productos con existencias bajas. |
+| TS04 | Movimientos de inventario | GET | `/api/v1/inventory-movements` | Consultar el historial de entradas y salidas del inventario. |
+| TS05 | Mermas | GET | `/api/v1/wastes` | Consultar las mermas registradas en el inventario. |
+| TS05 | Mermas | POST | `/api/v1/wastes` | Registrar una merma indicando el producto, la cantidad perdida y el motivo. |
+| TS06 | Conteos físicos | POST | `/api/v1/inventory-counts` | Registrar un conteo físico de productos. |
+| TS06 | Conteos físicos | GET | `/api/v1/inventory-counts/{id}` | Consultar los detalles de un conteo físico mediante su identificador. |
+| TS07 | Compras | POST | `/api/v1/purchases` | Registrar una compra en estado borrador. |
+| TS07 | Compras | GET | `/api/v1/purchases` | Consultar el listado de compras registradas. |
+| TS07 | Compras | GET | `/api/v1/purchases/{id}` | Consultar el detalle de una compra mediante su identificador. |
+| TS08 | Ventas | POST | `/api/v1/sales` | Registrar una venta en estado borrador. |
+| TS08 | Ventas | GET | `/api/v1/sales` | Consultar el listado de ventas registradas. |
+| TS08 | Ventas | GET | `/api/v1/sales/{id}` | Consultar el detalle de una venta mediante su identificador. |
+| TS09 | Confirmación de compras | POST | `/api/v1/purchases/{id}/confirm` | Confirmar una compra, incrementar las existencias y registrar movimientos de entrada. |
+| TS09 | Confirmación de ventas | POST | `/api/v1/sales/{id}/confirm` | Confirmar una venta, descontar existencias y registrar movimientos de salida. |
+| TS16 | Alertas | GET | `/api/v1/alerts` | Consultar las alertas disponibles mediante la API. |
+| TS16 | Alertas | GET | `/api/v1/alerts/{id}` | Consultar una alerta mediante su identificador. |
+| TS16 | Reportes de ventas | GET | `/api/v1/reports/sales-summary` | Obtener un resumen de ventas confirmadas con filtros opcionales de fecha. |
+| TS16 | Productos más vendidos | GET | `/api/v1/reports/top-products` | Consultar los productos más vendidos mediante un ranking. |
+| TS16 | Autenticación | POST | `/api/v1/auth/login` | Autenticar las credenciales de un usuario. |
+| TS16 | Autenticación | GET | `/api/v1/auth/me` | Consultar la información del usuario autenticado. |
+| TS16 | Usuarios | POST | `/api/v1/users` | Registrar un nuevo usuario en el sistema. |
+| TS16 | Usuarios | GET | `/api/v1/users` | Consultar el listado de usuarios registrados. |
+| TS16 | Usuarios | GET | `/api/v1/users/{id}` | Consultar la información de un usuario mediante su identificador. |
+| TS16 | Roles | GET | `/api/v1/roles` | Consultar el listado de roles disponibles. |
+| TS16 | Roles | GET | `/api/v1/roles/{id}` | Consultar la información de un rol mediante su identificador. |
+| TS16 | Documentación OpenAPI | GET | `/openapi/v1.json` | Consultar la especificación OpenAPI de los servicios publicados. |
+| TS16 | Documentación Scalar | GET | `/scalar` | Acceder a la documentación interactiva de la API. |
+| TS16 | Documentación Scalar | GET | `/scalar/v1` | Acceder a la documentación Scalar de la versión `v1`. |
+
+---
+
+**EVIDENCIA: Documentación de servicios con Scalar**
+
+![Documentación de servicios REST - Evidencia 1](recursos/imagenes/endpointsEv1.jpg)
+
+![Documentación de servicios REST - Evidencia 2](recursos/imagenes/endpointsEv2.jpg)
+
+![Documentación de servicios REST - Evidencia 3](recursos/imagenes/endpointsEv3.jpg)
+
+![Documentación de servicios REST - Evidencia 4](recursos/imagenes/endpointsEv4.jpg)
+
+---
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+---
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, los integrantes del equipo de BodeGo colaboraron en el desarrollo de los servicios REST del Backend y en la incorporación de mejoras en el Frontend Web y la Landing Page. Las actividades se organizaron de acuerdo con las responsabilidades establecidas en el Sprint Planning, priorizando la implementación de funcionalidades relacionadas con la gestión de productos, inventario, operaciones comerciales y la integración de los distintos componentes del sistema.
+
+La colaboración se gestionó mediante GitHub, utilizando ramas de desarrollo, commits y Pull Requests para organizar e integrar los cambios realizados. Estas prácticas permitieron mantener un seguimiento de las contribuciones y facilitar el trabajo conjunto entre los integrantes del equipo.
+
+Para evidenciar la participación durante el sprint, se presentan las estadísticas de GitHub Insights, los registros de Contributors y los historiales de commits correspondientes a los tres repositorios del proyecto.
+
+**Colaboración en la Landing Page**
+
+Durante el Sprint 3 se realizaron mejoras en la Landing Page de BodeGo, orientadas a actualizar la presentación visual de la plataforma y mostrar las principales funcionalidades del Frontend desarrollado para Aplicaciones Web. Estas modificaciones incluyeron ajustes en el contenido y la incorporación de imágenes representativas de los módulos del sistema.
+
+Las contribuciones realizadas se organizaron mediante ramas de desarrollo y Pull Requests, permitiendo integrar progresivamente los cambios en la rama principal del repositorio.
+
+**Insights**
+
+![Estructura / Landing Insight](recursos/imagenes/insightsLanAW.jpg)
+
+**Contributors**
+
+![Estructura / Landing Contributors](recursos/imagenes/contributorsLanAW.jpg)
+
+**Commits**
+
+![Estructura / Landing Commits](recursos/imagenes/commitsLanAW.jpg)
+
+---
+
+**Colaboración en el Frontend Web**
+
+En el Frontend Web, desarrollado con Vue 3, el equipo continuó con la mejora de las interfaces y su integración con los servicios REST del Backend. Las actividades estuvieron relacionadas principalmente con la gestión de productos, las operaciones de inventario y los procesos comerciales de compras y ventas.
+
+Asimismo, se realizaron ajustes en la experiencia de usuario, la navegación y la comunicación con la API, buscando facilitar la interacción con las funcionalidades disponibles. El uso de ramas de desarrollo y Pull Requests permitió organizar las modificaciones e integrar los avances de manera progresiva.
+
+**Insights**
+
+![Estructura / Front Insight](recursos/imagenes/insightsFronAW.jpg)
+
+**Contributors**
+
+![Estructura / Front Contributors](recursos/imagenes/contributorsFronAW.jpg)
+
+**Commits**
+
+![Estructura / Front Commits](recursos/imagenes/commitsFronAW.jpg)
+
+---
+
+**Colaboración en el Backend**
+
+Durante el Sprint 3, el equipo trabajó en la implementación de los servicios REST del Backend de BodeGo, utilizando ASP.NET Core y C#, con Entity Framework Core y MySQL para la persistencia de datos.
+
+Las actividades se concentraron principalmente en los bounded contexts Inventory, Operations y Commercial, mediante el desarrollo de endpoints para la gestión de productos y categorías, consulta de lotes, movimientos de inventario, registro de mermas, conteos físicos y operaciones de compras y ventas.
+
+También se avanzó en la integración de los servicios, la implementación de validaciones y la documentación de la API mediante OpenAPI y Scalar. El trabajo colaborativo se organizó a través de ramas y Pull Requests, facilitando la incorporación de los cambios desarrollados por los integrantes del equipo.
+
+**Insights**
+
+![Estructura / Back Insight](recursos/imagenes/insightsBackAW.jpg)
+
+**Contributors**
+
+![Estructura / Back Contributors](recursos/imagenes/contributorsBackAW.jpg)
+
+**Commits**
+
+![Estructura / Back Commits](recursos/imagenes/commitsBackAW.jpg)
+
+---
+
+
+
+**Nota:** Los servicios de alertas, reportes y usuarios se relacionan con TS16 exclusivamente por su cobertura documental en OpenAPI y Scalar. Su implementación corresponde a sus propios contextos funcionales.
 
 # Conclusiones
 
