@@ -1,171 +1,162 @@
-# Carátula
+<div align="center">
 
 ![UPC](recursos/imagenes/upc.png)
 
-**Universidad Peruana de Ciencias Aplicadas S.A.C.**
+<br>
 
-**Ingeniería de Software**
+# Universidad Peruana de Ciencias Aplicadas S.A.C.
 
-**Ciclo: 5**
+# Carrera de Ingeniería de Software
 
-**1ASI0730-2620**
+# 1ASI0730-2620
 
-**Aplicaciones Web**
+# Aplicaciones Web
 
-**NRC: 8074**
+## NRC
 
-**Docente: Alex Humberto Sánchez Ponce**
----
+# 8074
 
-### **Informe de Trabajo Final**
+# Informe del Trabajo Final
 
-* **Nombre del Startup:** Proxy
-* **Nombre del Producto:** BodeGo
+## Docente
 
----
+# Alex Humberto Sánchez Ponce
 
-### **Relación de Integrantes**
+## Equipo
 
-| Código | Apellidos y Nombres |
-| :--- | :--- |
+# Proxy
+
+## Proyecto
+
+# BodeGo
+
+# Integrantes
+
+| Código | Apellidos y nombres |
+| :---: | :--- |
 | U20241F385 | Blanco Medina, Jhorch Jhoseff |
 | U20241G404 | Caldas Bravo, Mateo |
 | U20241F610 | Chavez Sandoval, Dany Yohel |
 | U202421082 | Saravia Hiso, Johan Álvaro |
 | U20241E096 | Rojas Huaranga, Diego Rances |
 
----
+<br>
 
-* **Fecha:** 12/09/2026
+# Ciclo 5
 
----
+# 12 de septiembre de 2026
 
-# Registro de Versiones del Informe
-
-* **Project Report Collaboration Insights**
+</div>
 
 ---
 
 # Contenido
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-ups](#432-landing-page-mock-ups)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
+- [Conclusiones](#conclusiones)
+  - [Conclusiones de los Sprints](#conclusiones-de-los-sprints)
+- [Video About-the-Team](#video-about-the-team)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
-## Tabla de Contenidos
-
-* [Capítulo I: Introducción](#capítulo-i-introducción)
-
-  * [1.1. Startup Profile](#11-startup-profile)
-
-    * [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    * [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  * [1.2. Solution Profile](#12-solution-profile)
-
-    * [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    * [1.2.2. Lean UX Process](#122-lean-ux-process)
-
-      * [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      * [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      * [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      * [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  * [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-
-* [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-
-  * [2.1. Competidores](#21-competidores)
-
-    * [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    * [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  * [2.2. Entrevistas](#22-entrevistas)
-
-    * [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    * [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    * [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  * [2.3. Needfinding](#23-needfinding)
-
-    * [2.3.1. User Personas](#231-user-personas)
-    * [2.3.2. User Task Matrix](#232-user-task-matrix)
-    * [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    * [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  * [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
-  * [2.5. Ubiquitous Language](#25-ubiquitous-language)
-
-* [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-
-  * [3.1. User Stories](#31-user-stories)
-  * [3.2. Impact Mapping](#32-impact-mapping)
-  * [3.3. Product Backlog](#33-product-backlog)
-
-* [Capítulo IV: Product Design](#capítulo-iv-product-design)
-
-  * [4.1. Style Guidelines](#41-style-guidelines)
-
-    * [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    * [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-  * [4.2. Information Architecture](#42-information-architecture)
-
-    * [4.2.1. Organization Systems](#421-organization-systems)
-    * [4.2.2. Labeling Systems](#422-labeling-systems)
-    * [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    * [4.2.4. Searching Systems](#424-searching-systems)
-    * [4.2.5. Navigation Systems](#425-navigation-systems)
-  * [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-
-    * [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-    * [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-  * [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-
-    * [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-    * [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    * [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-    * [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-  * [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-  * [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-
-    * [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
-    * [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-    * [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-    * [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
-  * [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-
-    * [4.7.1. Class Diagrams](#471-class-diagrams)
-  * [4.8. Database Design](#48-database-design)
-
-    * [4.8.1. Database Diagrams](#481-database-diagrams)
-
-* [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-
-  * [5.1. Software Configuration Management](#51-software-configuration-management)
-
-    * [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-    * [5.1.2. Source Code Management](#512-source-code-management)
-    * [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-    * [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  * [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-
-    * [5.2.1. Sprint n](#521-sprint-n)
-
-      * [5.2.1.1. Sprint Planning n](#5211-sprint-planning-n)
-      * [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      * [5.2.1.3. Sprint Backlog n](#5213-sprint-backlog-n)
-      * [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      * [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      * [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      * [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      * [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-  * [5.3. Validation Interviews](#53-validation-interviews)
-
-    * [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-    * [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    * [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-  * [5.4. Video About-the-Product](#54-video-about-the-product)
-
-* [Conclusiones](#conclusiones)
-
-  * [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-
-* [Video About-the-Team](#video-about-the-team)
-
-* [Bibliografía](#bibliografía)
-
-* [Anexos](#anexos)
+---
 
 ---
 
@@ -173,8 +164,8 @@
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 | --- | --- | --- |
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Mateo Caldas Bravo** <br><br> AV1: Lideré la organización inicial del equipo mediante la coordinación de reuniones y distribución de actividades. Realicé aportes en la definición de la propuesta de valor de BodeGo, identificación del problema y revisión de los avances realizados durante esta primera etapa. <br><br> TB1: Asumí un rol activo en la coordinación del desarrollo de las funcionalidades relacionadas con productos y lotes, manteniendo comunicación con mis compañeros para identificar dependencias y resolver dificultades durante la implementación. También apoyé la integración de mi trabajo con los demás módulos del Frontend. <br><br> **Johan Alvaro Saravia Hiso** <br><br> AV1: Realicé el análisis inicial del usuario objetivo y colaboré en la recopilación de información sobre las necesidades de los minimarkets. Aporté ideas que permitieron orientar la solución hacia una problemática real identificada. <br><br> TB1: Participé en las decisiones relacionadas con la implementación de los movimientos de inventario, compartiendo avances y observaciones con el equipo. Mantuve una comunicación constante con mis compañeros para facilitar la integración de esta funcionalidad con el resto de la aplicación. <br><br> **Dany Yohel Chavez Sandoval** <br><br> AV1: Aporté conocimientos relacionados con la propuesta tecnológica del proyecto, analizando la estructura inicial de la plataforma y brindando ideas sobre los componentes necesarios para el desarrollo futuro de BodeGo. <br><br> TB1: Contribuí activamente al trabajo en equipo mediante el desarrollo del dashboard de BodeGo y el apoyo en la documentación del proyecto. Además, mantuve una comunicación constante con mis compañeros para coordinar avances y aportar al cumplimiento conjunto de los objetivos. <br><br> **Jhorch Jhoseff Blanco Medina** <br><br> AV1: Colaboré en la revisión de la propuesta inicial del proyecto, brindando observaciones y sugerencias para mejorar la definición de funcionalidades y características principales de la solución. <br><br> TB1: Participé en la coordinación del equipo durante la implementación de las funcionalidades de identidad y acceso, compartiendo avances y apoyando a mis compañeros cuando fue necesario. Mi trabajo permitió avanzar de manera conjunta en la construcción de los módulos del Frontend. <br><br> **Diego Rances Rojas Huaranga** <br><br> AV1: Realicé la organización y revisión de la documentación inicial del proyecto, ayudando a mantener la información ordenada y alineada con los objetivos definidos por el equipo. <br><br> TB1: Participé en el trabajo colaborativo mediante el desarrollo de las funcionalidades relacionadas con los conteos físicos. Compartí los avances realizados con el equipo y atendí las observaciones recibidas para facilitar la integración de esta funcionalidad con los demás componentes. | **AV1:** Durante la primera entrega, logramos establecer una dinámica de trabajo colaborativa en la que cada integrante asumió responsabilidades de acuerdo con sus habilidades. La comunicación y participación conjunta permitieron definir las bases del proyecto y avanzar hacia una propuesta común. <br><br> **TB1:** Durante el Sprint 2, fortalecimos el liderazgo compartido mediante la coordinación de avances, comunicación constante y apoyo entre los integrantes. La colaboración permitió integrar funcionalidades como productos y lotes, identidad y acceso, movimientos y conteos físicos dentro del Frontend de BodeGo. |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Mateo Caldas Bravo** <br><br> AV1: Organicé reuniones de coordinación y participé en la planificación de actividades necesarias para cumplir con los objetivos de la primera entrega. Ayudé a establecer prioridades relacionadas con la definición del problema, propuesta de valor y estructura inicial del proyecto. <br><br> TB1: Organicé las actividades necesarias para completar las funcionalidades de productos y lotes, priorizando las tareas de acuerdo con los objetivos establecidos para el Sprint 2. Realicé seguimiento de mis actividades para cumplir con los avances previstos. <br><br> **Johan Alvaro Saravia Hiso** <br><br> AV1: Colaboré durante las reuniones del equipo aportando ideas obtenidas del análisis del usuario objetivo. Ayudé a organizar la información recopilada y definir los aspectos importantes que debían considerarse en la solución. <br><br> TB1: Planifiqué las actividades relacionadas con los movimientos de inventario y distribuí el trabajo de acuerdo con las tareas definidas para el Sprint 2. Gestioné mis avances de manera ordenada para completar la funcionalidad asignada dentro del periodo establecido. <br><br> **Dany Yohel Chavez Sandoval** <br><br> AV1: Participé en la planificación de las actividades relacionadas con la propuesta tecnológica, aportando ideas sobre la estructura de la plataforma y los elementos necesarios para el desarrollo posterior del producto. <br><br> TB1: Participé en un entorno de trabajo colaborativo apoyando tanto en la implementación del dashboard como en la mejora de la documentación. Organicé mis actividades de acuerdo con las metas del equipo y cumplí con las tareas asignadas dentro del tiempo establecido. <br><br> **Jhorch Jhoseff Blanco Medina** <br><br> AV1: Apoyé en la coordinación del trabajo grupal mediante la revisión de avances y planteamiento de mejoras. Colaboré con mis compañeros para mantener una organización adecuada de las tareas asignadas. <br><br> TB1: Organicé las tareas relacionadas con la implementación de identidad y acceso considerando las prioridades definidas para el Sprint 2. Realicé las actividades asignadas y participé en la revisión de los avances para contribuir al cumplimiento de las metas establecidas. <br><br> **Diego Rances Rojas Huaranga** <br><br> AV1: Realicé seguimiento de los avances del equipo y colaboré en la revisión de documentos para asegurar que los entregables mantuvieran coherencia con los objetivos establecidos para esta etapa. <br><br> TB1: Planifiqué las actividades necesarias para implementar los conteos físicos de inventario y realicé seguimiento de su avance durante el Sprint 2. Cumplí con las tareas asignadas y coordiné los ajustes necesarios para completar la funcionalidad. | **AV1:** Durante la primera entrega, establecimos una organización de trabajo que permitió distribuir responsabilidades y mantener una comunicación constante. Esto facilitó la planificación de las actividades y el cumplimiento de los objetivos establecidos para la etapa inicial de BodeGo. <br><br> **TB1:** Durante el Sprint 2, logramos organizar las tareas de acuerdo con las funcionalidades asignadas y realizar seguimiento de los avances. La planificación y coordinación del equipo permitieron cumplir con las actividades previstas para la implementación del Frontend Web de BodeGo. |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Mateo Caldas Bravo** <br><br> AV1: Lideré la organización inicial del equipo mediante la coordinación de reuniones y distribución de actividades. Realicé aportes en la definición de la propuesta de valor de BodeGo, identificación del problema y revisión de los avances realizados durante esta primera etapa. <br><br> TB1: Asumí un rol activo en la coordinación del desarrollo de las funcionalidades relacionadas con productos y lotes, manteniendo comunicación con mis compañeros para identificar dependencias y resolver dificultades durante la implementación. También apoyé la integración de mi trabajo con los demás módulos del Frontend. <br><br> AV2: Lideré el flujo de compras y ventas en el Backend. Implementé el registro de borradores y la confirmación de operaciones, y coordiné con el equipo de Frontend cómo distinguir ambas acciones en la interfaz. Mi aporte al reporte se centró en explicar cuándo una compra aumenta las existencias y cuándo una venta las reduce. <br><br> **Johan Alvaro Saravia Hiso** <br><br> AV1: Realicé el análisis inicial del usuario objetivo y colaboré en la recopilación de información sobre las necesidades de los minimarkets. Aporté ideas que permitieron orientar la solución hacia una problemática real identificada. <br><br> TB1: Participé en las decisiones relacionadas con la implementación de los movimientos de inventario, compartiendo avances y observaciones con el equipo. Mantuve una comunicación constante con mis compañeros para facilitar la integración de esta funcionalidad con el resto de la aplicación. <br><br> AV2: Lideré el trabajo de operaciones de inventario. En el Backend implementé el registro de mermas y conteos físicos, además de la consulta del historial de movimientos. Apoyé al equipo de Frontend en la interpretación de esos datos. En el reporte expliqué por qué registrar un conteo conserva la cantidad observada, mientras que registrar una merma descuenta unidades del stock. <br><br> **Dany Yohel Chavez Sandoval** <br><br> AV1: Aporté conocimientos relacionados con la propuesta tecnológica del proyecto, analizando la estructura inicial de la plataforma y brindando ideas sobre los componentes necesarios para el desarrollo futuro de BodeGo. <br><br> TB1: Contribuí activamente al trabajo en equipo mediante el desarrollo del dashboard de BodeGo y el apoyo en la documentación del proyecto. Además, mantuve una comunicación constante con mis compañeros para coordinar avances y aportar al cumplimiento conjunto de los objetivos. <br><br> AV2: Lideré la integración y documentación de la API. Configuré y revisé la documentación OpenAPI del Backend en Scalar y apoyé la conexión de las pantallas de Vue con los servicios de catálogo y operaciones. En el reporte contribuí con la descripción de los servicios y las evidencias que muestran cómo los consume el Frontend. <br><br> **Jhorch Jhoseff Blanco Medina** <br><br> AV1: Colaboré en la revisión de la propuesta inicial del proyecto, brindando observaciones y sugerencias para mejorar la definición de funcionalidades y características principales de la solución. <br><br> TB1: Participé en la coordinación del equipo durante la implementación de las funcionalidades de identidad y acceso, compartiendo avances y apoyando a mis compañeros cuando fue necesario. Mi trabajo permitió avanzar de manera conjunta en la construcción de los módulos del Frontend. <br><br> AV2: Lideré el desarrollo del catálogo en el Backend. Implementé el registro de productos con categoría y las consultas de lotes y existencias por producto. Colaboré en la integración de estos servicios con las pantallas del Frontend y aporté al reporte la descripción de los datos disponibles para cada consulta, incluidos los casos de productos sin lotes o con stock cero. <br><br> **Diego Rances Rojas Huaranga** <br><br> AV1: Realicé la organización y revisión de la documentación inicial del proyecto, ayudando a mantener la información ordenada y alineada con los objetivos definidos por el equipo. <br><br> TB1: Participé en el trabajo colaborativo mediante el desarrollo de las funcionalidades relacionadas con los conteos físicos. Compartí los avances realizados con el equipo y atendí las observaciones recibidas para facilitar la integración de esta funcionalidad con los demás componentes. <br><br> AV2: Lideré las mejoras de experiencia de usuario en el Frontend. Implementé los carritos de compra y venta, la vista previa del stock y el cambio entre español e inglés. Colaboré con el equipo de Backend para mostrar en Vue el resultado de cada confirmación. En el reporte aporté la descripción del recorrido del usuario desde la selección de productos hasta la respuesta de la operación. | **AV1:** Durante la primera entrega, logramos establecer una dinámica de trabajo colaborativa en la que cada integrante asumió responsabilidades de acuerdo con sus habilidades. La comunicación y participación conjunta permitieron definir las bases del proyecto y avanzar hacia una propuesta común. <br><br> **TB1:** Durante el Sprint 2, fortalecimos el liderazgo compartido mediante la coordinación de avances, comunicación constante y apoyo entre los integrantes. La colaboración permitió integrar funcionalidades como productos y lotes, identidad y acceso, movimientos y conteos físicos dentro del Frontend de BodeGo. <br><br> **AV2:** Durante el Sprint 3, distribuimos el liderazgo entre catálogo, operaciones de inventario, compras y ventas, experiencia de usuario e integración de la API. El flujo de venta reunió esos aportes: el Frontend muestra las existencias, el Backend valida la cantidad al confirmar y el historial permite consultar la salida registrada. En el reporte explicamos ese recorrido con evidencias de la interfaz y de los servicios. |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Mateo Caldas Bravo** <br><br> AV1: Organicé reuniones de coordinación y participé en la planificación de actividades necesarias para cumplir con los objetivos de la primera entrega. Ayudé a establecer prioridades relacionadas con la definición del problema, propuesta de valor y estructura inicial del proyecto. <br><br> TB1: Organicé las actividades necesarias para completar las funcionalidades de productos y lotes, priorizando las tareas de acuerdo con los objetivos establecidos para el Sprint 2. Realicé seguimiento de mis actividades para cumplir con los avances previstos. <br><br> AV2: Organicé las tareas comerciales en dos etapas: preparar el documento y confirmar la operación. Acordé con mis compañeros qué debía enviar el Frontend en cada etapa y qué validaciones correspondían al Backend. Para la revisión del sprint, aporté al reporte dos casos concretos: una venta con stock insuficiente y una compra que ya había sido confirmada. <br><br> **Johan Alvaro Saravia Hiso** <br><br> AV1: Colaboré durante las reuniones del equipo aportando ideas obtenidas del análisis del usuario objetivo. Ayudé a organizar la información recopilada y definir los aspectos importantes que debían considerarse en la solución. <br><br> TB1: Planifiqué las actividades relacionadas con los movimientos de inventario y distribuí el trabajo de acuerdo con las tareas definidas para el Sprint 2. Gestioné mis avances de manera ordenada para completar la funcionalidad asignada dentro del periodo establecido. <br><br> AV2: Organicé las tareas de inventario según la información que necesitaba el usuario. Para los conteos, identifiqué la cantidad física y la registrada en el sistema. Para las mermas, consideré el producto, la cantidad y el motivo. Compartí estos criterios con el equipo para que los formularios del Frontend, las validaciones del Backend y los ejemplos del reporte describieran la misma operación. <br><br> **Dany Yohel Chavez Sandoval** <br><br> AV1: Participé en la planificación de las actividades relacionadas con la propuesta tecnológica, aportando ideas sobre la estructura de la plataforma y los elementos necesarios para el desarrollo posterior del producto. <br><br> TB1: Participé en un entorno de trabajo colaborativo apoyando tanto en la implementación del dashboard como en la mejora de la documentación. Organicé mis actividades de acuerdo con las metas del equipo y cumplí con las tareas asignadas dentro del tiempo establecido. <br><br> AV2: Organicé la revisión de los servicios en Scalar para que mis compañeros pudieran consultar las rutas, los parámetros y las respuestas del Backend. Utilicé esa referencia común al apoyar la integración con el Frontend y al reunir las evidencias de servicios para el reporte del sprint. <br><br> **Jhorch Jhoseff Blanco Medina** <br><br> AV1: Apoyé en la coordinación del trabajo grupal mediante la revisión de avances y planteamiento de mejoras. Colaboré con mis compañeros para mantener una organización adecuada de las tareas asignadas. <br><br> TB1: Organicé las tareas relacionadas con la implementación de identidad y acceso considerando las prioridades definidas para el Sprint 2. Realicé las actividades asignadas y participé en la revisión de los avances para contribuir al cumplimiento de las metas establecidas. <br><br> AV2: Dividí el trabajo del catálogo en registro de productos, asignación de categorías y consulta de disponibilidad. Compartí con el equipo de Frontend las respuestas del Backend para productos con lotes, sin lotes y sin existencias. En el reporte relacioné esos casos con las tareas del Sprint Backlog para facilitar su revisión. <br><br> **Diego Rances Rojas Huaranga** <br><br> AV1: Realicé seguimiento de los avances del equipo y colaboré en la revisión de documentos para asegurar que los entregables mantuvieran coherencia con los objetivos establecidos para esta etapa. <br><br> TB1: Planifiqué las actividades necesarias para implementar los conteos físicos de inventario y realicé seguimiento de su avance durante el Sprint 2. Cumplí con las tareas asignadas y coordiné los ajustes necesarios para completar la funcionalidad. <br><br> AV2: Planifiqué las tareas del Frontend siguiendo el orden de una compra o venta: seleccionar productos, revisar cantidades, consultar disponibilidad y confirmar. Coordiné con el equipo de Backend qué debía mostrar Vue mientras esperaba la respuesta y qué mensaje correspondía ante un error. Ese mismo orden sirvió para presentar las pantallas y sus resultados en el reporte. | **AV1:** Durante la primera entrega, establecimos una organización de trabajo que permitió distribuir responsabilidades y mantener una comunicación constante. Esto facilitó la planificación de las actividades y el cumplimiento de los objetivos establecidos para la etapa inicial de BodeGo. <br><br> **TB1:** Durante el Sprint 2, logramos organizar las tareas de acuerdo con las funcionalidades asignadas y realizar seguimiento de los avances. La planificación y coordinación del equipo permitieron cumplir con las actividades previstas para la implementación del Frontend Web de BodeGo. <br><br> **AV2:** El Sprint Backlog nos permitió asignar responsables y distinguir las tareas terminadas de las que seguían en revisión. Para revisar los avances en equipo, relacionamos cada flujo con la acción del usuario en Vue, la respuesta del servicio REST y su evidencia en el reporte. Así pudimos identificar qué parte de una funcionalidad estaba lista y qué ajuste requería la participación de otro integrante. |
 
 ---
 
@@ -3753,49 +3744,100 @@ En esta sección se presenta el video **About-the-Team de BodeGo**, en el cual l
 
 # Bibliografía
 
-Angular. (s. f.). *What is Angular?* Angular Documentation. https://angular.dev/overview
-
-Brown, S. (s. f.). *The C4 model for visualising software architecture*. https://c4model.com/
-
-ESIC Business & Marketing School. (2023, mayo). *HTML5: qué es, características y cómo funciona*. ESIC. https://www.esic.edu/rethink/tecnologia/html5-que-es-caracteristicas-y-como-funciona-c
-
-Evans, E. (2003). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley Professional. https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/
-
-GitHub. (s. f.). *About pull requests*. GitHub Docs. https://docs.github.com/en/pull-requests/get-started/about-pull-requests
-
-Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3.ª ed.). O'Reilly Media. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
-
-JetBrains. (s. f.). *IntelliJ IDEA*. https://www.jetbrains.com/es-es/idea/download/
-
-MDN Web Docs. (s. f.-a). *CSS*. Mozilla. https://developer.mozilla.org/es/docs/Web/CSS
-
-MDN Web Docs. (s. f.-b). *JavaScript*. Mozilla. https://developer.mozilla.org/es/docs/Web/JavaScript
-
-Microsoft. (s. f.). *TypeScript documentation*. https://www.typescriptlang.org/docs/
-
-OpenAPI Initiative. (2025, 19 de septiembre). *OpenAPI Specification* (versión 3.1.2). https://spec.openapis.org/oas/v3.1
-
-PostgreSQL Global Development Group. (s. f.). *PostgreSQL documentation*. https://www.postgresql.org/docs/
-
-Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide: The definitive guide to Scrum: The rules of the game*. https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
-
-Spring. (s. f.). *Spring Boot reference documentation*. https://docs.spring.io/spring-boot/reference/
-
-Universidad Peruana de Ciencias Aplicadas. (2026). *Enunciado del trabajo final: Desarrollo de Aplicaciones Open Source (1ASI0729), ciclo académico 2026-20* (versión 1.0) [Documento académico del curso].
+- Brown, S. (s. f.). *The C4 model for visualising software architecture*. https://c4model.com/
+- Evans, E. (2003). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley. https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/
+- GitHub. (s. f.). *About pull requests*. https://docs.github.com/en/pull-requests/get-started/about-pull-requests
+- Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3.ª ed.). O’Reilly Media. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
+- Microsoft. (s. f.-a). *ASP.NET documentation*. https://learn.microsoft.com/en-us/aspnet/core/
+- Microsoft. (s. f.-b). *Entity Framework Core*. https://learn.microsoft.com/en-us/ef/core/
+- Nielsen, J. (1994). *10 usability heuristics for user interface design*. Nielsen Norman Group. https://www.nngroup.com/articles/ten-usability-heuristics/
+- OpenAPI Initiative. (2025). *OpenAPI Specification* (versión 3.1.2). https://spec.openapis.org/oas/v3.1.2.html
+- Oracle. (s. f.). *MySQL documentation*. https://dev.mysql.com/doc/
+- Pinia. (s. f.). *Introduction*. https://pinia.vuejs.org/introduction.html
+- Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. https://scrumguides.org/scrum-guide.html
+- Vite. (s. f.). *Getting started*. https://vite.dev/guide/
+- Vue.js. (s. f.). *Introduction*. https://vuejs.org/guide/introduction.html
 
 ---
 
 # Anexos
----
-Enlace de Figma: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1
----
-Nuestro link del miro: https://miro.com/app/board/uXjVHm55KfI=/
----
-Nuestro repositorio de documentación: https://github.com/SirEthan04/Proxy_App_Web
----
-Nuestro repositorio de landingpage: https://sirethan04.github.io/Proxy_App_Web_LandingPage/
----
-Nuestro repositorio de frontend: https://github.com/SirEthan04/Proxy_Web_App_Front-end
----
-Nuestro repositorio de web aplication: https://github.com/SirEthan04/Proxy_Web_App_Back-end
----
+
+## Anexo A. Videos de exposiciones
+
+- **Video About-the-Product**: El enlace de la sección 5.4 abre https://youtu.be/dVz4Y8_cEV0
+
+## Anexo B. Videos de entrevistas
+
+
+### Entrevistas al segmento de Administradores
+
+- **Entrevista 1 · Víctor Alberca**: https://drive.google.com/file/d/1eK8N08rAOmo-4m1A1KHYJvtxkJl-KD6T/view?usp=drive_link
+- **Entrevista 2 · Jimmy Ruiz**: https://drive.google.com/file/d/1eAsgHwrdiH4P3uMjAwPBXgNagRQ5b_eY/view?usp=drive_link
+- **Entrevista 3 · Silvia Bravo**: https://drive.google.com/file/d/1pg_DvKHgaqZ3YP34jLtGyl6jV7oni1yI/view?usp=drive_link
+
+### Entrevistas al segmento de Empleados
+
+- **Entrevista 4 · Joseph**: https://drive.google.com/file/d/1TD5vcQrjeOiQnoPlT7bziEpWkTBYGCBs/view?usp=drive_link
+- **Entrevista 5 · Andrés Marzano**: https://drive.google.com/file/d/1BCO2lHzXeeZyN7DED3hQVZv_ULh0Zdx2/view?usp=drive_link
+- **Entrevista 6 · Pablo Moreno**: https://drive.google.com/file/d/1_V2W7VMWYRneIBc2ZAb0kEKlw-TLDnwO/view?usp=drive_link
+
+## Anexo D. Materiales de ideación y diseño
+
+- **Big Picture EventStorming y Design-Level EventStorming**: https://miro.com/app/board/uXjVHm55KfI=/
+- **Proyecto de diseño UX/UI de BodeGo en Figma**: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1
+- **Wireframes de la aplicación web**: https://github.com/SirEthan04/Proxy_App_Web/blob/main/Report.md#441-web-applications-wireframes
+- **Mock-ups de la aplicación web**: https://github.com/SirEthan04/Proxy_App_Web/blob/main/Report.md#443-web-applications-mock-ups
+- **Diseños de la Landing Page**: https://github.com/SirEthan04/Proxy_App_Web/blob/main/Report.md#43-landing-page-ui-design
+- **Prototipado de la aplicación**: https://github.com/SirEthan04/Proxy_App_Web/blob/main/Report.md#45-web-applications-prototyping
+- **Wireflow Diagrams de la aplicación web**: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=9-8766&t=ZKhGhyVBP4tT2C8g-1
+- **Sprint Backlog distribuido desde Trello**: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego
+
+## Anexo E. Repositorios y despliegues
+
+
+### Repositorios de GitHub
+
+- **Repositorio del informe**: https://github.com/SirEthan04/Proxy_App_Web
+- **Archivo principal Report.md**: https://github.com/SirEthan04/Proxy_App_Web/blob/main/Report.md
+- **Repositorio de la Landing Page**: https://github.com/SirEthan04/Proxy_App_Web_LandingPage
+- **Repositorio del Frontend**: https://github.com/SirEthan04/Proxy_Web_App_Front-end
+- **Repositorio del Backend**: https://github.com/SirEthan04/Proxy_Web_App_Back-end
+- **Historial de commits del Backend**: https://github.com/SirEthan04/Proxy_Web_App_Back-end/commits
+
+### Despliegues de la aplicación
+
+- **Landing Page**: https://sirethan04.github.io/Proxy_App_Web_LandingPage/
+- **Frontend web**: https://proxy-app-web-a4eca.firebaseapp.com/
+- **URL base del Backend REST**: 
+- **Documentación OpenAPI y Scalar en el informe**: 
+
+### Gestión del proyecto
+
+- **Tablero de Sprint Backlogs de BodeGo**: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego
+- **Evidencia del Sprint Backlog 1**: https://github.com/SirEthan04/Proxy_App_Web/blob/main/Report.md#5213-sprint-backlog-1
+
+## Anexo F. Herramientas utilizadas
+
+- **Discord · coordinación del equipo**: https://discord.com/
+- **Trello · planificación de sprints**: https://trello.com/
+- **Miro · EventStorming**: https://miro.com/es/
+- **Figma · diseño de interfaces**: https://www.figma.com/es-la/
+- **UXPressia · perfiles y recorridos de usuario**: https://uxpressia.com/
+- **Lucidchart · diagramas**: https://lucid.co/es/lucidchart
+- **GitHub · control de versiones**: https://github.com/
+- **GitHub Desktop · gestión local de repositorios**: https://github.com/apps/desktop?locale=es-419
+- **GitHub Pages · publicación de la Landing Page**: https://pages.github.com/
+
+## Anexo G. Referencias bibliográficas con enlace
+
+
+### Recursos técnicos referenciados en el informe
+
+- **HTML5 · ESIC**: https://www.esic.edu/rethink/tecnologia/html5-que-es-caracteristicas-y-como-funciona-c
+- **CSS · MDN Web Docs**: https://developer.mozilla.org/es/docs/Web/CSS
+- **JavaScript · MDN Web Docs**: https://developer.mozilla.org/es/docs/Web/JavaScript
+- **Vue 3**: https://vuejs.org/guide/introduction.html
+- **ASP.NET Core**: https://learn.microsoft.com/en-us/aspnet/core/
+- **Entity Framework Core**: https://learn.microsoft.com/en-us/ef/core/
+- **MySQL**: https://dev.mysql.com/doc/
+
