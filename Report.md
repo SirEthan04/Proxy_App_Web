@@ -2717,19 +2717,31 @@ Durante el Sprint 3 se actualizaron las secciones y el contenido visual de la La
 
 ---
 
-Durante el Sprint 3 se realizaron mejoras en el Frontend Web de BodeGo, desarrollado con Vue 3, fortaleciendo las interfaces de inventario y las operaciones comerciales de compras y ventas. Asimismo, se avanzó en la integración de estos módulos con los servicios REST del Backend ASP.NET Core.
+Durante el Sprint 3 se avanzó en el desarrollo de los servicios REST del Backend de BodeGo, implementado con ASP.NET Core y C#, y en la integración de sus operaciones con el Frontend Web desarrollado en Vue 3. Asimismo, se realizaron mejoras en la Landing Page para presentar de manera más clara las pantallas de la aplicación y facilitar el acceso a información sobre el producto y el equipo de desarrollo.
+
+A continuación, se presentan las evidencias visuales de las mejoras en la Landing Page y el Frontend, seguidas de capturas de la ejecución de endpoints desde Scalar.
 
 **Evidencias de la Landing Page**
 
-Durante este sprint se incorporaron mejoras en la presentación visual de BodeGo, permitiendo mostrar de manera más clara las características de la plataforma y sus principales módulos.
+Se actualizó la sección **Nuestra Plataforma** para presentar capturas del Frontend de Aplicaciones Web y sus módulos de compras, ventas, movimientos de inventario y reportes, acompañadas de descripciones de sus funcionalidades.
 
-![Estructura / landingmejora ](recursos/imagenes/landingUp1.jpg)
+![Actualización de Nuestra Plataforma para Aplicaciones Web](recursos/imagenes/landingAWUP1.jpg)
 
-![Estructura / landingmejora ](recursos/imagenes/landingUp2.jpg)
+*Vista de la sección Nuestra Plataforma con capturas del Frontend Vue de BodeGo.*
 
-![Estructura / landingmejora ](recursos/imagenes/landingUp3.jpg)
+Asimismo, se incorporaron secciones audiovisuales que permiten presentar el producto y dar a conocer al equipo de desarrollo.
 
-![Estructura / landingmejora ](recursos/imagenes/landingUp4.jpg)
+**About the Product**
+
+![Sección About the Product de la Landing Page](recursos/imagenes/landingAWUP2.jpg)
+
+*Sección de la Landing Page que presenta el video de demostración del producto BodeGo.*
+
+**About the Team**
+
+![Sección About the Team de la Landing Page](recursos/imagenes/landingAWUP3.jpg)
+
+*Sección de la Landing Page destinada a presentar al equipo responsable del desarrollo de BodeGo.*
 
 ---
 
@@ -2741,7 +2753,7 @@ Durante el Sprint 3 se realizaron mejoras en el Frontend Web de BodeGo, desarrol
 
 ![Movimientos y conteos de inventario](recursos/imagenes/inventarioFrontAW.jpg)
 
-*Figura X. Interfaz de consulta de movimientos de inventario, con entradas, salidas y conteos físicos.*
+*Interfaz de consulta de movimientos de inventario, con entradas, salidas y conteos físicos.*
 
 ---
 
@@ -2749,7 +2761,7 @@ Durante el Sprint 3 se realizaron mejoras en el Frontend Web de BodeGo, desarrol
 
 ![Gestión de compras](recursos/imagenes/comprasFrontAW.jpg)
 
-*Figura X. Interfaz de consulta de compras registradas, mostrando importes y estados de confirmación.*
+*Interfaz de consulta de compras registradas, mostrando importes y estados de confirmación.*
 
 ---
 
@@ -2757,23 +2769,69 @@ Durante el Sprint 3 se realizaron mejoras en el Frontend Web de BodeGo, desarrol
 
 ![Gestión de ventas](recursos/imagenes/ventasFrontAW.jpg)
 
-*Figura X. Interfaz de consulta de ventas registradas, mostrando operaciones confirmadas y sus respectivos importes.*
+*Interfaz de consulta de ventas registradas, mostrando operaciones confirmadas y sus respectivos importes.*
 
 ---
 
 **Evidencias del Backend**
 
-En el Backend se desarrollaron servicios REST utilizando Java y Spring Boot para gestionar la información y las operaciones principales de BodeGo.
+En el Backend se desarrollaron servicios REST utilizando ASP.NET Core y C#, con Entity Framework Core y MySQL para la persistencia de datos. Las funcionalidades implementadas se organizaron principalmente en los bounded contexts Inventory, Operations y Commercial.
 
-![Estructura / movimientos](recursos/imagenes/swagger1.jpg)
+Para evidenciar la ejecución de estos servicios, se presentan capturas de Scalar, donde se visualizan los métodos HTTP, las rutas y las respuestas de las operaciones realizadas.
 
-![Estructura / movimientos](recursos/imagenes/swagger2.jpg)
+**Inventory — Registro de categorías**
 
-![Estructura / movimientos](recursos/imagenes/swagger3.jpg)
+![Registro de categorías en Scalar](recursos/imagenes/endpointAW17.jpg)
 
-![Estructura / movimientos](recursos/imagenes/swagger4.jpg)
+*Evidencia del endpoint POST /api/v1/categories, utilizado para registrar categorías de productos.*
 
-![Estructura / movimientos](recursos/imagenes/swagger5.jpg)
+**Inventory — Registro de productos**
+
+![Registro de productos en Scalar](recursos/imagenes/endpointAW23.jpg)
+
+*Evidencia del endpoint POST /api/v1/products, que permite registrar nuevos productos en el catálogo.*
+
+**Inventory — Consulta de lotes**
+
+![Consulta de lotes en Scalar](recursos/imagenes/endpointAW29.jpg)
+
+*Evidencia del endpoint GET /api/v1/products/{id}/lots, utilizado para consultar los lotes asociados a un producto.*
+
+**Inventory — Consulta de productos con stock bajo**
+
+![Consulta de stock bajo en Scalar](recursos/imagenes/endpointAW31.jpg)
+
+*Evidencia del endpoint GET /api/v1/products/low-stock, que permite consultar productos con existencias bajas.*
+
+**Operations — Historial de movimientos de inventario**
+
+![Consulta de movimientos de inventario en Scalar](recursos/imagenes/endpointAW7.jpg)
+
+*Evidencia del endpoint GET /api/v1/inventory-movements, utilizado para consultar los movimientos registrados en el inventario.*
+
+**Operations — Registro de mermas**
+
+![Registro de mermas en Scalar](recursos/imagenes/endpointAW11.jpg)
+
+*Evidencia del endpoint POST /api/v1/wastes, empleado para registrar pérdidas de mercadería indicando la cantidad y el motivo.*
+
+**Operations — Consulta de conteos físicos**
+
+![Consulta de conteo físico en Scalar](recursos/imagenes/endpointAW5.jpg)
+
+*Evidencia del endpoint GET /api/v1/inventory-counts/{id}, utilizado para consultar los detalles de un conteo físico registrado.*
+
+**Commercial — Confirmación de compras**
+
+![Confirmación de compras en Scalar](recursos/imagenes/endpointAW45.jpg)
+
+*Evidencia del endpoint POST /api/v1/purchases/{id}/confirm, utilizado para confirmar compras y aplicar los cambios correspondientes en el inventario.*
+
+**Commercial — Confirmación de ventas**
+
+![Confirmación de ventas en Scalar](recursos/imagenes/endpointAW53.jpg)
+
+*Evidencia del endpoint POST /api/v1/sales/{id}/confirm, utilizado para confirmar ventas y registrar la reducción de existencias.*
 
 ---
 
