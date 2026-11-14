@@ -2837,7 +2837,7 @@ A continuación, se describen los pasos realizados para el despliegue de ambos c
 
 Se inició la creación de un nuevo servicio web en Render y se seleccionó como origen el repositorio de GitHub `SirEthan04/Proxy_Web_App_Back-end`. Esta vinculación permite utilizar el código fuente del Backend para realizar el proceso de construcción y despliegue de la API REST.
 
-![Selección del repositorio del Backend en Render](Recursos/images/backdeployAW1.jpg)
+![Selección del repositorio del Backend en Render](recursos/imagenes/backdeployAW1.jpg)
 
 *Vinculación del repositorio de GitHub del Backend con Render.*
 
@@ -2847,11 +2847,11 @@ Se configuró un servicio web destinado a ejecutar el Backend de BodeGo mediante
 
 La configuración utilizada para el despliegue corresponde al servicio `bodego-api`, vinculado con la rama `develop` del repositorio y ubicado en la región Virginia (US East).
 
-![Configuración inicial del servicio Backend](Recursos/images/backdeployAW2.jpg)
+![Configuración inicial del servicio Backend](recursos/imagenes/backdeployAW2.jpg)
 
 *Configuración inicial del servicio web y selección de Docker como entorno de ejecución.*
 
-![Configuración del Backend con Docker](Recursos/images/backdeployAW3.jpg)
+![Configuración del Backend con Docker](recursos/imagenes/backdeployAW3.jpg)
 
 *Configuración del servicio `bodego-api` y selección de la rama `develop`.*
 
@@ -2859,7 +2859,7 @@ La configuración utilizada para el despliegue corresponde al servicio `bodego-a
 
 Se seleccionó el plan Free de Render para alojar el servicio Backend. Asimismo, se configuraron las variables `ASPNETCORE_ENVIRONMENT` y `DOTNET_ENVIRONMENT` con el valor `Production`, estableciendo el entorno de ejecución de la aplicación ASP.NET Core.
 
-![Selección del plan de despliegue](Recursos/images/backdeployAW4.jpg)
+![Selección del plan de despliegue](recursos/imagenes/backdeployAW4.jpg)
 
 *Selección del plan de ejecución y configuración del entorno Production.*
 
@@ -2869,7 +2869,7 @@ Se registraron las variables de entorno necesarias para la configuración de aut
 
 Esta configuración permite establecer los parámetros de emisión, destinatario, duración y firma de los tokens de autenticación sin colocar los valores sensibles directamente en el código fuente.
 
-![Configuración de variables JWT](Recursos/images/backdeployAW5.jpg)
+![Configuración de variables JWT](recursos/imagenes/backdeployAW5.jpg)
 
 *Configuración de las variables de autenticación JWT en Render, con el valor secreto oculto.*
 
@@ -2879,7 +2879,7 @@ Se configuró la variable `ConnectionStrings__DefaultConnection` para establecer
 
 Esta variable reúne la información necesaria para identificar el servidor, la base de datos y las credenciales utilizadas por la aplicación para acceder al sistema de persistencia.
 
-![Configuración de conexión a MySQL](Recursos/images/backdeployAW6.jpg)
+![Configuración de conexión a MySQL](recursos/imagenes/backdeployAW6.jpg)
 
 *Configuración de la cadena de conexión MySQL mediante variables de entorno, con los datos de acceso ocultos.*
 
@@ -2889,7 +2889,7 @@ Se incorporó la variable `Cors__AllowedOrigins__0` para definir los orígenes a
 
 La configuración mostrada incluye un origen correspondiente al entorno local de desarrollo. Para completar la integración con el Frontend publicado en Render, debe verificarse también que su dominio público esté autorizado.
 
-![Configuración de CORS](Recursos/images/backdeployAW7.jpg)
+![Configuración de CORS](recursos/imagenes/backdeployAW7.jpg)
 
 *Configuración de variables de entorno y CORS para el Backend de BodeGo.*
 
@@ -2899,7 +2899,7 @@ Una vez completada la configuración, Render ejecutó el proceso de despliegue d
 
 Finalmente, Render mostró el estado **Deploy succeeded / Live**, confirmando que el servicio había sido publicado.
 
-![Despliegue exitoso del Backend](Recursos/images/backdeployAW8.jpg)
+![Despliegue exitoso del Backend](recursos/imagenes/backdeployAW8.jpg)
 
 *Confirmación del despliegue exitoso del Backend y visualización de sus registros de ejecución en Render.*
 
@@ -2915,7 +2915,7 @@ Se configuró el sitio con el nombre `bodego-frontend` y se seleccionó la rama 
 
 Además, se estableció el comando de construcción `npm ci && npm run build` y se definió `dist` como directorio de publicación, correspondiente a los archivos estáticos generados por Vite.
 
-![Configuración del Frontend en Render](Recursos/images/frontdeployAW1.jpg)
+![Configuración del Frontend en Render](recursos/imagenes/frontdeployAW1.jpg)
 
 *Configuración del repositorio, rama, comando de construcción y directorio de publicación del Frontend Web.*
 
@@ -2925,7 +2925,7 @@ Se registró la variable de entorno `VITE_API_BASE_URL`, que permite definir la 
 
 Esta configuración permite que la aplicación Vue utilice la dirección del servicio Backend durante su construcción para el entorno de publicación.
 
-![Configuración de variable de entorno del Frontend](Recursos/images/frontdeployAW2.jpg)
+![Configuración de variable de entorno del Frontend](recursos/imagenes/frontdeployAW2.jpg)
 
 *Configuración de la variable `VITE_API_BASE_URL` con la dirección del Backend de BodeGo.*
 
@@ -2937,7 +2937,7 @@ En los registros se observa la transformación de los módulos y la generación 
 
 Este resultado confirma que el Frontend Web de BodeGo fue construido y publicado correctamente como un sitio estático.
 
-![Despliegue exitoso del Frontend](Recursos/images/frontdeployAW3.jpg)
+![Despliegue exitoso del Frontend](recursos/imagenes/frontdeployAW3.jpg)
 
 *Confirmación del despliegue exitoso del Frontend Web y registros de construcción de Vite en Render.*
 
