@@ -2497,7 +2497,7 @@ Durante el Sprint 3, el equipo planificó la implementación de los servicios RE
 
 El Sprint Backlog comprende 32 User Stories (US16–US32, US41–US45 y US51–US60) y 10 Technical Stories (TS01–TS09 y TS16), con 176 Story Points planificados (129 SP de US y 47 SP de TS). Las historias de usuario se presentan primero y las historias técnicas al final. Las User Stories (US51-US60) corresponden a las mejoras implementadas en este Sprint con respecto al Landing Page y Frontend.
 
-![Evidencia Sprint Backlog N3](Recursos/images/sprintbacklogN3OP.jpg)
+![Evidencia Sprint Backlog N3](recursos/imagenes/sprintbacklogN3OP.jpg)
 
 Enlace: 
 
@@ -3494,7 +3494,7 @@ También se avanzó en la integración de los servicios, la implementación de v
 
 **Contributors**
 
-![Estructura / Back Contributors](recursos/imagenes/contributorsBackAW.jpg)
+![Estructura / Back Contributors](recursos/imagenes/contributorsBackAW2.jpg)
 
 **Commits**
 
