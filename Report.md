@@ -3101,129 +3101,134 @@ También se avanzó en la integración de los servicios, la implementación de v
 
 **BodeGo - Landing Page y Aplicación Web**
 
-La evaluación se realizó tomando como referencia las entrevistas de validación de los segmentos Administradores y Empleados de minimarkets, considerando las opiniones de Ian Figueroa, Silvia Bravo, Andrés Marzano y Joseph.
+La evaluación heurística de BodeGo se realizó mediante la revisión visual de las interfaces del Frontend Web desarrollado con Vue 3, tomando como referencia los principios de usabilidad de Jakob Nielsen.
+
+Se analizaron las pantallas principales de la aplicación, identificando oportunidades de mejora relacionadas con la presentación de información, la claridad de los mensajes, la orientación durante las operaciones y la consistencia de los elementos de navegación.
 
 #### TAREAS A EVALUAR
 
-El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+El alcance de esta evaluación incluye la revisión de las siguientes tareas:
 
-1. Explorar la Landing Page y comprender la propuesta de valor de BodeGo.
-2. Navegar por el Dashboard y consultar los indicadores del inventario.
-3. Buscar productos y revisar sus categorías.
-4. Consultar lotes y fechas de vencimiento.
-5. Revisar alertas y movimientos de inventario.
-6. Realizar conteos físicos y gestionar solicitudes de corrección.
-7. Registrar mermas.
-8. Explorar recomendaciones y ofertas.
+1. Consultar el Dashboard y reconocer el estado general del negocio.
+2. Revisar el historial de ventas y comprender los resultados mostrados.
+3. Registrar mermas e identificar las opciones de selección de productos y lotes.
+4. Consultar los productos y utilizar el selector de idioma de la aplicación.
 
 #### ESCALA DE SEVERIDAD
 
 Los problemas identificados se clasifican utilizando la siguiente escala:
 
-| Nivel | Descripción                                                                                                         |
-| ----- | ------------------------------------------------------------------------------------------------------------------- |
-| **1** | **Problema superficial:** No impide utilizar la aplicación y puede resolverse fácilmente.                           |
-| **2** | **Problema menor:** Puede generar pequeñas dificultades de uso, pero permite continuar con las actividades.         |
-| **3** | **Problema mayor:** Dificulta considerablemente completar una tarea y requiere una corrección prioritaria.          |
+| Nivel | Descripción |
+|---|---|
+| **1** | **Problema superficial:** No impide utilizar la aplicación y puede resolverse fácilmente. |
+| **2** | **Problema menor:** Puede generar pequeñas dificultades de uso, pero permite continuar con las actividades. |
+| **3** | **Problema mayor:** Dificulta considerablemente completar una tarea y requiere una corrección prioritaria. |
 | **4** | **Problema muy grave:** Impide continuar utilizando una funcionalidad importante y requiere una corrección urgente. |
 
 #### TABLA RESUMEN
 
-| # | Problema                                                                                                      | Escala de severidad | Heurística / Principio violado     |
-| - | ------------------------------------------------------------------------------------------------------------- | :-----------------: | ---------------------------------- |
-| 1 | Algunas opciones de conteos físicos, ajustes y solicitudes de corrección requieren mayor orientación inicial. |          2          | Ayuda y documentación              |
-| 2 | Las alertas importantes podrían destacarse mejor en el Dashboard.                                             |          2          | Visibilidad del estado del sistema |
-| 3 | Los lotes próximos a vencer podrían identificarse más rápidamente mediante indicadores visuales.              |          1          | Reconocimiento antes que recuerdo  |
-| 4 | El botón para ingresar a la aplicación desde la Landing Page podría ser más visible.                          |          1          | Reconocimiento antes que recuerdo  |
+| # | Problema | Escala de severidad | Heurística / Principio violado |
+|---|---|:---:|---|
+| 1 | El Dashboard no destaca directamente los productos con stock bajo, dificultando la identificación rápida de existencias que requieren atención. | 2 | Visibilidad del estado del sistema |
+| 2 | El historial de ventas utiliza el texto «productos encontrados» para indicar la cantidad de registros de ventas. | 1 | Correspondencia entre el sistema y el mundo real |
+| 3 | La selección automática de lotes durante el registro de mermas no explica claramente cómo se asignarán las cantidades perdidas. | 2 | Ayuda y documentación |
+| 4 | El selector «Idioma: English» aparece mientras la interfaz está en español, sin indicar claramente si representa el idioma actual o el idioma al que se cambiará. | 1 | Consistencia y estándares |
 
 #### DESCRIPCIÓN DE PROBLEMAS
 
-**PROBLEMA #1: Orientación inicial en conteos físicos y solicitudes de corrección**
+**PROBLEMA #1: Visibilidad de productos con stock bajo en el Dashboard**
 
-**Severidad:** 2
-**Heurística relacionada:** Ayuda y documentación.
-
-**Problema:**
-
-Durante las entrevistas, algunos participantes señalaron que inicialmente necesitaron explorar las opciones de conteos físicos, ajustes y solicitudes de corrección para comprender sus diferencias. Sin embargo, después de revisar las funcionalidades, lograron entender su propósito y continuar utilizando la plataforma.
-
-**Recomendación:**
-
-Incorporar pequeñas descripciones o mensajes de ayuda que expliquen cuándo utilizar cada funcionalidad, facilitando el aprendizaje de los usuarios nuevos.
-
-**Captura de pantalla:**
-<p align="center">
-  <img src="recursos/images/heuristica1.jpg" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
-</p>
-
----
-
-**PROBLEMA #2: Visibilidad de alertas importantes en el Dashboard**
-
-**Severidad:** 2
+**Severidad:** 2  
 **Heurística relacionada:** Visibilidad del estado del sistema.
 
 **Problema:**
 
-Ian Figueroa sugirió que las alertas más importantes, como los productos con stock bajo o próximos a vencer, tengan mayor presencia en el Dashboard. Esto permitiría identificar rápidamente las situaciones que requieren atención.
+En la pantalla principal de BodeGo se presentan indicadores relacionados con las ventas confirmadas, el importe total y las alertas registradas. Sin embargo, no se muestra directamente un indicador específico de productos con stock bajo. Esto puede dificultar que el administrador identifique rápidamente las existencias que requieren reposición, especialmente cuando existen productos que ya aparecen identificados con el estado «Stock bajo» dentro del catálogo.
 
 **Recomendación:**
 
-Destacar las alertas prioritarias mediante indicadores visuales o tarjetas informativas dentro del panel principal, facilitando su identificación.
+Incorporar una tarjeta informativa que indique la cantidad de productos con stock bajo y permita acceder directamente a su listado. De esta manera, el usuario podría reconocer las necesidades de abastecimiento desde el Dashboard sin tener que ingresar individualmente al módulo de productos.
 
 **Captura de pantalla:**
-<p align="center">
-  <img src="recursos/imagenes/heuristica2.jpg" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
-</p>
+
+![Dashboard de BodeGo - Visibilidad del stock bajo](recursos/imagenes/inicioFrontAW.jpg)
 
 ---
 
-**PROBLEMA #3: Identificación visual de lotes próximos a vencer**
+**PROBLEMA #2: Mensaje poco preciso en el historial de ventas**
 
-**Severidad:** 1
-**Heurística relacionada:** Reconocimiento antes que recuerdo.
+**Severidad:** 1  
+**Heurística relacionada:** Correspondencia entre el sistema y el mundo real.
 
 **Problema:**
 
-Joseph consideró que la información de los lotes es clara y fácil de comprender. No obstante, recomendó resaltar los lotes próximos a vencer para identificarlos más rápidamente, sin tener que revisar individualmente todas las fechas.
+En la interfaz de ventas, el mensaje que indica la cantidad de resultados utiliza la expresión «2 productos encontrados», a pesar de que la tabla presenta registros de ventas identificados mediante referencias, fechas, responsables, importes y estados. Esta diferencia de terminología puede generar confusión al interpretar si el número mostrado corresponde a productos o a operaciones comerciales.
 
 **Recomendación:**
 
-Incorporar etiquetas o indicadores de color acompañados de texto que permitan diferenciar los lotes vigentes, próximos a vencer y vencidos.
+Modificar el mensaje por una expresión acorde con la información presentada, como «2 ventas encontradas» o «2 registros de ventas encontrados». Asimismo, mantener una terminología consistente en el módulo de compras y en las demás pantallas que presentan historiales de operaciones.
 
 **Captura de pantalla:**
-<p align="center">
-  <img src="recursos/imagenes/heuristica3.jpg" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
-</p>
+
+![Historial de ventas de BodeGo - Terminología de resultados](recursos/imagenes/ventasFrontAW.jpg)
 
 ---
 
-**PROBLEMA #4: Visibilidad del acceso a la aplicación desde la Landing Page**
+**PROBLEMA #3: Falta de orientación sobre la selección automática de lotes en mermas**
 
-**Severidad:** 1
-**Heurística relacionada:** Reconocimiento antes que recuerdo.
+**Severidad:** 2  
+**Heurística relacionada:** Ayuda y documentación.
 
 **Problema:**
 
-Ian Figueroa destacó que la Landing Page presenta información organizada y un diseño agradable. Como oportunidad de mejora, comentó que el botón para ingresar a BodeGo podría ser más visible para los usuarios que visitan la página por primera vez.
+En el formulario de registro de mermas, el usuario debe seleccionar un producto, indicar la cantidad perdida y especificar el motivo. Asimismo, el campo correspondiente al lote presenta la opción «Selección automática de lotes», pero no muestra una explicación inmediata sobre el criterio que seguirá el sistema para determinar de qué lotes se descontarán las existencias.
+
+Esta situación puede generar dudas en usuarios nuevos que necesiten registrar pérdidas de mercadería y comprender cómo afectará la operación al inventario.
 
 **Recomendación:**
 
-Destacar el botón **«Ingresar a BodeGo»** en una ubicación visible de la Landing Page, facilitando el acceso directo a la aplicación.
+Agregar un texto de ayuda junto al selector de lotes que explique el criterio de asignación automática utilizado por el sistema. También se recomienda que la opción «Revisar datos» permita visualizar claramente los lotes y las cantidades involucradas antes de confirmar el registro de una merma.
 
 **Captura de pantalla:**
-<p align="center">
-  <img src="recursos/imagenes/heuristica4.jpg" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
-</p>
+
+![Registro de mermas de BodeGo - Selección de lotes](recursos/imagenes/mermasFrontAW.jpg)
+
+---
+
+**PROBLEMA #4: Ambigüedad en la identificación del idioma de la interfaz**
+
+**Severidad:** 1  
+**Heurística relacionada:** Consistencia y estándares.
+
+**Problema:**
+
+En la parte superior del Frontend Web se presenta un control identificado como «Idioma: English», mientras que los títulos, formularios, botones y mensajes visibles se encuentran en español.
+
+Aunque este control puede estar diseñado para cambiar el idioma de la aplicación, su etiqueta no permite determinar inmediatamente si «English» representa el idioma seleccionado actualmente o la opción disponible para cambiarlo. Esta ambigüedad puede dificultar la comprensión inicial de su funcionamiento.
+
+**Recomendación:**
+
+Modificar la presentación del control para identificar claramente su propósito. Si muestra el idioma actual, debería indicar «Idioma actual: Español»; si funciona como botón para cambiar de idioma, podría mostrar «Cambiar a English». También se recomienda mantener una representación consistente del idioma seleccionado en todas las pantallas.
+
+**Captura de pantalla:**
+
+![Productos de BodeGo - Selector de idioma](recursos/imagenes/productosFrontAW.jpg)
+
+---
 
 #### CONCLUSIONES DE LA EVALUACIÓN HEURÍSTICA
 
-Las entrevistas de validación reflejaron una percepción positiva sobre la usabilidad de BodeGo. Los participantes destacaron la organización de la información, la facilidad de navegación y la utilidad de las funcionalidades relacionadas con productos, lotes, inventario y alertas de vencimiento.
+La evaluación heurística del Frontend Web de BodeGo permitió identificar cuatro oportunidades de mejora relacionadas con la visibilidad de información importante, la precisión de los mensajes, la orientación durante las operaciones de inventario y la consistencia de la interfaz.
 
-Se identificaron únicamente **cuatro oportunidades de mejora**, clasificadas con severidades 1 y 2, relacionadas principalmente con la orientación inicial y la visibilidad de información importante.
+Los problemas identificados presentan niveles de severidad **1 y 2**, por lo que constituyen oportunidades de mejora que no evidencian, por sí mismas, impedimentos graves para utilizar las funcionalidades principales de la aplicación.
 
-En general, los entrevistados consideraron que BodeGo es una plataforma comprensible y útil para mejorar la gestión de inventarios en minimarkets. Las recomendaciones recopiladas permitirán perfeccionar la experiencia de usuario sin requerir cambios significativos en la estructura general de la aplicación.
+Entre las recomendaciones más relevantes se encuentran destacar los productos con stock bajo en el Dashboard, mejorar los mensajes de los historiales comerciales, incorporar explicaciones sobre la asignación de lotes durante el registro de mermas y aclarar el funcionamiento del selector de idioma.
 
+En general, las interfaces examinadas muestran una organización visual consistente y una distribución clara de los módulos de BodeGo. La aplicación de estas recomendaciones contribuiría a facilitar la comprensión de las funcionalidades y mejorar la experiencia de administradores y empleados de minimarkets.
+
+Esta evaluación corresponde a una inspección heurística visual; sus hallazgos pueden complementarse posteriormente con pruebas de usabilidad realizadas con usuarios reales.
+
+---
 
 ## 5.4. Video About-the-Product
 
