@@ -1513,40 +1513,16 @@ Enlace del video: https://drive.google.com/drive/folders/1l4HlhDxX7ZoHEbH96fOAfo
 ![Components-API](recursos/imagenes/Components-API.png)
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
-![Class-Diagram](recursos/imagenes/DiagramaAppWeb.png)
+![Class-Diagram](recursos/imagenes/recursos/imagenes/pp1.jpeg.png)
 
-- **Conteos Físicos BC:**
-
-![DiagramaDB / BC1](recursos/imagenes/conteosfisicos-appweb.jpg)
-
----
-
-- **Movimientos de Inventario BC:**
-
-![DiagramaDB / BC2](recursos/imagenes/movimientos-de-inventario-BC.jpg)
-
----
-
-- **Catálogo e Inventario BC:**
-
-![DiagramaDB / BC3](recursos/imagenes/Catalogo-e-inventario-BC.jpg)
-
----
-
-- **Monitoreo y Alertas BC:**
-
-![DiagramaDB / BC4](recursos/imagenes/Monitoreo-y-Alertas-BC.jpg)
-
----
-
-- **Reportes y Dashboard BC:**
-
-![DiagramaDB / BC5](recursos/imagenes/Reportes-y-Dashboard-BC.jpg)
+![Class-Diagram](recursos/imagenes/recursos/imagenes/pp2.jpeg.png)
   
 ---
 
 ## 4.8. Database Design
 Se presenta el diseño de la base de datos relacional que permitirá graficar la información para los objetos de cada Bounded Context identificados en la aplicación BodeGo.
+
+![Class-Diagram](recursos/imagenes/recursos/imagenes/pp3.jpeg.png)
 
 ### 4.8.1. Database Diagrams
 El siguiente diagrama de base de datos Entity-Relationship contiene las tablas, columnas y tipos de datos que establecen las relaciones entre las entidades del sistema.
