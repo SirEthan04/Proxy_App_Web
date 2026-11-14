@@ -2735,13 +2735,29 @@ Durante este sprint se incorporaron mejoras en la presentación visual de BodeGo
 
 **Evidencias del Frontend Web**
 
-En el Frontend Web se continuó con la implementación y mejora de las interfaces del sistema, optimizando la interacción de los usuarios con las funcionalidades disponibles.
+Durante el Sprint 3 se realizaron mejoras en el Frontend Web de BodeGo, desarrollado con Vue 3, fortaleciendo las interfaces de inventario y las operaciones comerciales de compras y ventas. Asimismo, se avanzó en la integración de estos módulos con los servicios REST del Backend ASP.NET Core.
 
-![Estructura / selecuser](recursos/imagenes/selecuser.jpg)
+**Movimientos y conteos de inventario**
 
-![Estructura / categorias](recursos/imagenes/categorias_bodego_av3.jpg)
+![Movimientos y conteos de inventario](recursos/imagenes/inventarioFrontAW.jpg)
 
-![Estructura / movimientos](recursos/imagenes/movimientos_bodego_av3.jpg)
+*Figura X. Interfaz de consulta de movimientos de inventario, con entradas, salidas y conteos físicos.*
+
+---
+
+**Gestión de compras**
+
+![Gestión de compras](recursos/imagenes/comprasFrontAW.jpg)
+
+*Figura X. Interfaz de consulta de compras registradas, mostrando importes y estados de confirmación.*
+
+---
+
+**Gestión de ventas**
+
+![Gestión de ventas](recursos/imagenes/ventasFrontAW.jpg)
+
+*Figura X. Interfaz de consulta de ventas registradas, mostrando operaciones confirmadas y sus respectivos importes.*
 
 ---
 
