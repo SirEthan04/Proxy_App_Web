@@ -1516,34 +1516,17 @@ Enlace del video: https://drive.google.com/drive/folders/1l4HlhDxX7ZoHEbH96fOAfo
 
 ![Class-Diagram](recursos/imagenes/pp1.jpeg)
 
-![Class-Diagram](recursos/imagenes/pp1.jpeg)
+![Class-Diagram](recursos/imagenes/pp2.jpeg)
   
 ---
 
 ## 4.8. Database Design
 Se presenta el diseño de la base de datos relacional que permitirá graficar la información para los objetos de cada Bounded Context identificados en la aplicación BodeGo.
 
-![Class-Diagram](recursos/imagenes/pp1.jpeg)
-
 ### 4.8.1. Database Diagrams
 El siguiente diagrama de base de datos Entity-Relationship contiene las tablas, columnas y tipos de datos que establecen las relaciones entre las entidades del sistema.
-![Diagrama / Diseño 1](recursos/imagenes/d1.png)
 
----
-
-![Diagrama / Diseño 2](recursos/imagenes/d2.png)
-
----
-
-![Diagrama / Diseño 3](recursos/imagenes/d3.png)
-
----
-
-![Diagrama / Diseño 4](recursos/imagenes/d4.png)
-
----
-
-![Diagrama / Diseño 5](recursos/imagenes/d5.png)
+![Class-Diagram](recursos/imagenes/pp1.jpeg)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
