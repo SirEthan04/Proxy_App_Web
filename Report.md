@@ -2885,15 +2885,27 @@ A continuación, se detallan los métodos HTTP y endpoints identificados en el c
 
 ---
 
-**EVIDENCIA: Documentación de servicios con Scalar**
+**EVIDENCIA: Documentación de servicios REST mediante Scalar**
 
-![Documentación de servicios REST - Evidencia 1](recursos/imagenes/endpointsEv1.jpg)
+Los servicios REST de BodeGo se encuentran documentados mediante OpenAPI y Scalar, permitiendo visualizar los endpoints disponibles, sus métodos HTTP y su organización por bounded contexts.
 
-![Documentación de servicios REST - Evidencia 2](recursos/imagenes/endpointsEv2.jpg)
+**Inventory**
 
-![Documentación de servicios REST - Evidencia 3](recursos/imagenes/endpointsEv3.jpg)
+![Documentación de endpoints del contexto Inventory](recursos/imagenes/scalarInventoryAW.jpg)
 
-![Documentación de servicios REST - Evidencia 4](recursos/imagenes/endpointsEv4.jpg)
+*Endpoints correspondientes a la gestión de productos, categorías, lotes y existencias.*
+
+**Operations**
+
+![Documentación de endpoints del contexto Operations](recursos/imagenes/scalarOperationsAW.jpg)
+
+*Endpoints correspondientes a movimientos de inventario, registro de mermas y conteos físicos.*
+
+**Commercial**
+
+![Documentación de endpoints del contexto Commercial](recursos/imagenes/scalarCommercialAW.jpg)
+
+*Endpoints correspondientes a compras, ventas y confirmación de operaciones comerciales.*
 
 ---
 
