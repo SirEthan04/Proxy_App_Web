@@ -3494,7 +3494,7 @@ También se avanzó en la integración de los servicios, la implementación de v
 
 **Contributors**
 
-![Estructura / Back Contributors](recursos/imagenes/contributorsBackAW2.jpg)
+![Estructura / Back Contributors](recursos/imagenes/contributorsBackAWYANO.jpg)
 
 **Commits**
 
