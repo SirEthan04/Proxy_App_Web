@@ -3554,11 +3554,6 @@ También se avanzó en la integración de los servicios, la implementación de v
 
 #### Segmento Administradores
 
-| |
-|---|
-| ![Entrevista de validación a Ian Figueroa](recursos/imagenes/ianvalidation.png) |
-| **Nombres y apellidos:** Ian figueroa <br> **Edad:** 21 años <br> **Distrito:** Pueblo libre <br><br> **Resumen de la entrevista:** <br><br> El entrevistado, administrador de un minimarket, participó en la validación de la Landing Page y el Frontend de BodeGo. Consideró que ambas interfaces presentan un diseño agradable, organizado y fácil de comprender. Destacó especialmente la gestión de productos, el control de lotes y las alertas de vencimiento, ya que estas funcionalidades permitirían mantener el inventario ordenado y prevenir pérdidas. <br><br> Durante la exploración del Frontend, señaló que la navegación es sencilla y que la información de productos y lotes resulta clara. Sin embargo, presentó algunas dificultades iniciales para comprender los movimientos de inventario y los conteos físicos. Como mejoras, sugirió incorporar explicaciones breves en ciertas opciones, hacer más visible el botón de acceso a la aplicación y mostrar las alertas importantes directamente en el Dashboard. En general, expresó una opinión favorable de BodeGo y consideró que sería útil para administrar un minimarket. <br><br> **URL:** https://drive.google.com/file/d/1QDDfA513IN4V9-ISeddfb7UXCcF5LJZo/view?usp=sharing |
-
 
 | |
 |---|
@@ -3566,7 +3561,6 @@ También se avanzó en la integración de los servicios, la implementación de v
 | **Nombres y apellidos:** Matías Romero Véliz <br> **Edad:** 25 años <br> **Distrito:** Cercado de Lima <br> **Ocupación:** Administrador de minimarket <br><br> **Resumen de la entrevista:** <br><br> Matías Romero Véliz, administrador de un minimarket, evaluó la propuesta de BodeGo a través de su Landing Page y las funcionalidades presentadas en el Frontend Web. Identificó que la plataforma busca centralizar la gestión del inventario, facilitar el control de existencias y reducir las pérdidas económicas relacionadas con los productos vencidos. Destacó especialmente el seguimiento de lotes y fechas de vencimiento, así como la utilidad de las alertas para anticipar posibles pérdidas. Asimismo, consideró positiva la presentación transparente del precio del Plan Estándar de S/ 80 mensuales, ya que facilita la evaluación del costo de la solución. <br><br> Durante la validación del Frontend, señaló que el Dashboard permite visualizar información relevante del negocio mediante indicadores claros. También destacó la facilidad para localizar productos utilizando búsquedas y categorías, así como la presentación de cantidades disponibles y fechas de vencimiento. Consideró importante contar con información de trazabilidad para identificar las operaciones realizadas por el personal y manifestó interés en las recomendaciones de descuentos para productos de baja rotación. Finalmente, identificó el control de lotes y las alertas como las funcionalidades de mayor valor para su trabajo. Como oportunidad de mejora, sugirió incorporar un acceso más directo para exportar reportes financieros en formatos PDF o Excel. <br><br> **URL:** https://drive.google.com/file/d/1_NY2833jNxqiHl3idV7HQazoqDyyxKGf/view?usp=sharing |
 
 ---
-
 
 | |
 |---|
