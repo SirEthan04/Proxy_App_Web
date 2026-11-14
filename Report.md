@@ -1574,112 +1574,81 @@ El siguiente diagrama de base de datos Entity-Relationship contiene las tablas, 
 Para el desarrollo de BodeGo se establecerán un conjunto de herramientas que permitan mantener la consistencia del proyecto durante su ciclo de vida. Estas configuraciones permitirán que los integrantes del equipo trabajen bajo una misma estructura para el control de versiones, configuración del entorno de desarrollo y posterior despliegue de la aplicación.
 
 ### 5.1.1. Software Development Environment Configuration
-## . Project Management
 
-- **Discord:** Una herramienta de comunicación y coordinación del equipo. Permite organizar conversaciones por canales, realizar reuniones de voz, compartir avances, resolver dudas y coordinar las actividades relacionadas con el desarrollo de BodeGo.
----
-![Imagen de la entrevista](recursos/imagenes/dc1.jpg)
----
-[link de inicio sesion](https://discord.com/)
+El equipo de BodeGo organiza su entorno de trabajo en tres componentes: la Landing Page, el Frontend web en Vue 3 y la API REST en ASP.NET Core. Las siguientes herramientas cubren la planificación, el diseño, la implementación, las pruebas, la documentación y el despliegue del proyecto de Aplicaciones Web.
 
----
+#### Project Management
 
-imagen para mostrar evidencia de uso: 
+| Herramienta | Propósito en BodeGo | Imagen |
+| :--- | :--- | :---: |
+| **Discord** | Coordinar reuniones de voz, compartir avances y resolver dudas entre los integrantes. https://discord.com/ | <img src="recursos/imagenes/dc1.jpg" alt="Discord" width="85"> |
+| **Trello** | Organizar el Sprint Backlog, asignar responsables y seguir el estado de las tareas. https://trello.com/ | |
 
-![imagen](recursos/imagenes/dc2.jpg)
+**Evidencia de coordinación del equipo:**
 
-## . Requirement Management
+<p align="center">
+  <img src="recursos/imagenes/dc2.jpg" alt="Reunión del equipo de BodeGo en Discord" width="75%">
+</p>
 
-- **Miro:** Se utilizará como herramienta colaborativa para la gestión y análisis de requisitos de BodeGo. Permitirá organizar visualmente información obtenida durante la investigación, como User Personas, Empathy Maps, User Journey Maps e Impact Mapping.
----
-![Imagen de la entrevista](recursos/imagenes/miro.png)
+#### Requirements Management
 
----
+| Herramienta | Propósito en BodeGo | Imagen |
+| :--- | :--- | :---: |
+| **Miro** | Modelar los eventos del negocio y analizar con el equipo los procesos del minimarket. https://miro.com/es/ | <img src="recursos/imagenes/miro.png" alt="Miro" width="85"> |
+| **UXPressia** | Elaborar las User Personas y los User Journey Maps de administradores y empleados. https://uxpressia.com/ | <img src="recursos/imagenes/ux.png" alt="UXPressia" width="85"> |
+| **Structurizr** | Representar el contexto, los contenedores y los componentes de BodeGo mediante el modelo C4. https://structurizr.com/ | <img src="recursos/imagenes/struc.png" alt="Structurizr" width="85"> |
 
-[link de inicio de sesion](https://miro.com/es/)
+#### Product UX/UI Design
 
-- **UXPressia:** Se utilizará para elaborar y documentar artefactos relacionados con la experiencia de usuario, como User Personas y User Journey Maps, permitiendo representar las características, necesidades, objetivos y experiencias de los segmentos de usuarios de BodeGo.
----
-![Imagen de la entrevista](recursos/imagenes/ux.png)
----
+| Herramienta | Propósito en BodeGo | Imagen |
+| :--- | :--- | :---: |
+| **Figma** | Diseñar los wireframes, mock-ups y prototipos de la Landing Page y de la aplicación web. https://www.figma.com/es-la/ | <img src="recursos/imagenes/figma.png" alt="Figma" width="85"> |
+| **Lucidchart** | Diagramar los flujos de navegación y las relaciones entre pantallas. https://lucid.co/es/lucidchart | <img src="recursos/imagenes/lucid.png" alt="Lucidchart" width="85"> |
 
-[link de inicio de sesion](https://uxpressia.com/)
+#### Software Development
 
-- **Structurizr:** Se utilizará para modelar y documentar la arquitectura de software de BodeGo mediante diagramas basados en el modelo C4. Permitirá representar la estructura general del sistema, sus principales contenedores, componentes y relaciones.
----
-![Imagen de la entrevista](recursos/imagenes/struc.png)
----
+| Herramienta o tecnología | Propósito en BodeGo | Imagen |
+| :--- | :--- | :---: |
+| **HTML5** | Estructurar el contenido de la Landing Page. https://developer.mozilla.org/es/docs/Web/HTML | <img src="recursos/imagenes/html.png" alt="HTML5" width="65"> |
+| **CSS** | Definir la distribución, los colores y la adaptación de la Landing Page a distintos tamaños de pantalla. https://developer.mozilla.org/es/docs/Web/CSS | <img src="recursos/imagenes/css.png" alt="CSS" width="65"> |
+| **JavaScript** | Implementar el comportamiento interactivo de la Landing Page. https://developer.mozilla.org/es/docs/Web/JavaScript | <img src="recursos/imagenes/js.png" alt="JavaScript" width="65"> |
+| **WebStorm** | Editar y organizar el código JavaScript del proyecto. https://www.jetbrains.com/webstorm/ | <img src="recursos/imagenes/wsuwu.png" alt="WebStorm" width="85"> |
 
-## . Product UX/UI Design
+- **Frontend:** Vue 3 organiza las pantallas en componentes, Vite ejecuta y compila la aplicación, Pinia administra el estado compartido y PrimeVue proporciona componentes de interfaz. https://vuejs.org/ · https://vite.dev/ · https://pinia.vuejs.org/ · https://primevue.org/
+- **Backend:** ASP.NET Core y C# implementan los servicios REST de catálogo, inventario y operaciones comerciales. https://learn.microsoft.com/es-es/aspnet/core/
+- **Persistencia:** Entity Framework Core permite consultar y guardar en MySQL los datos que utiliza la API. https://learn.microsoft.com/es-es/ef/core/ · https://dev.mysql.com/doc/
 
-- **Figma:** Una herramienta de colaboración que facilita el desarrollo conjunto de wireframes y mockups.
----
-![Imagen de la entrevista](recursos/imagenes/figma.png)
----
-[link de inicio de sesion](https://www.figma.com/es-la/)
+#### Software Testing
 
-- **LucidChart:** Una herramienta colaborativa que posibilita la creación conjunta de wireframes flow y mockups flow.
----
-![Imagen de la entrevista](recursos/imagenes/lucid.png)
----
-[link de inicio de sesion](https://lucid.co/es/lucidchart)
+- **Gherkin:** El equipo expresa los criterios de aceptación como escenarios con una condición inicial (**Given**), una acción (**When**) y un resultado esperado (**Then**). Para una venta, por ejemplo, si el stock es insuficiente y el usuario intenta confirmarla, el servicio debe rechazar la operación y conservar las existencias. https://cucumber.io/docs/gherkin/reference/
+- **Evidencias de ejecución:** La sección 5.2.3.5 reúne las evidencias del Sprint 3. https://github.com/SirEthan04/Proxy_App_Web/blob/main/Report.md#5235-execution-evidence-for-sprint-review
 
-## . Software Development
+#### Software Documentation
 
-- **HTML5:** Es un lenguaje de etiquetado utilizado para crear la estructura de una página web. Se empleará para incluir componentes como texto, imágenes, enlaces, botones y videos.
----
-![Imagen de la entrevista](recursos/imagenes/html.png)
----
-[informacion relacionada](https://www.esic.edu/rethink/tecnologia/html5-que-es-caracteristicas-y-como-funciona-c#:~:text=El%20HTML5%20es%20un%20est%C3%A1ndar,%2C%20estilo%20de%20letra%2C%20etc.)
+| Herramienta | Propósito en BodeGo | Imagen |
+| :--- | :--- | :---: |
+| **GitHub y Markdown** | Mantener el informe, sus imágenes y el historial de contribuciones del equipo. https://github.com/SirEthan04/Proxy_App_Web | <img src="recursos/imagenes/gh6.jpg" alt="GitHub" width="85"> |
+| **OpenAPI y Scalar** | Describir las rutas, los parámetros y las respuestas de la API, y consultarlos en el entorno de desarrollo. https://github.com/SirEthan04/Proxy_App_Web/blob/main/Report.md#5236-services-documentation-evidence-for-sprint-review | <img src="recursos/imagenes/scalarInventoryAW.jpg" alt="Operaciones de inventario documentadas en Scalar" width="150"> |
 
-- **CSS:** Es un lenguaje de diseño gráfico utilizado para dar formato y estilo a la presentación de los documentos HTML.
----
-![Imagen de la entrevista](recursos/imagenes/css.png)
----
-[informacion relacionada](https://developer.mozilla.org/es/docs/Web/CSS)
+#### Software Deployment
 
-- **JavaScript:** Es un lenguaje de programación dinámico orientado a objetos que se utilizará para implementar funcionalidades e interactividad en la aplicación web.
----
-![Imagen de la entrevista](recursos/imagenes/js.png)
----
-[informacion relacionada](https://developer.mozilla.org/es/docs/Web/JavaScript)
+| Servicio | Componente y dirección registrada en el informe |
+| :--- | :--- |
+| **GitHub Pages** | Landing Page pública de BodeGo: https://sirethan04.github.io/Proxy_App_Web_LandingPage/ |
+| **Firebase Hosting** | Frontend web desarrollado en Vue: https://bodego-frontend-9tgh.onrender.com/ |
+| **Render** | URL base del Backend REST en ASP.NET Core: user: admin@bodego.com contraseña: 123456789das |
 
-- **WebStorm** Un entorno de desarrollo integrado (IDE) que emplearemos para trabajar con JavaScript.
----
-![Imagen de la entrevista](recursos/imagenes/wsuwu.png)
----
-[link de descarga](https://www.jetbrains.com/es-es/idea/download/?section=windows)
+#### Repositorios del proyecto
 
-## . Software Testing
+| Repositorio | Enlace |
+| :--- | :--- |
+| Informe y documentación | https://github.com/SirEthan04/Proxy_App_Web |
+| Landing Page | https://github.com/SirEthan04/Proxy_App_Web_LandingPage |
+| Frontend | https://github.com/SirEthan04/Proxy_Web_App_Front-end |
+| Backend | https://github.com/SirEthan04/Proxy_Web_App_Back-end |
 
-- **Lenguaje Gherkin:** Es un Lenguaje Específico de Dominio (DSL) diseñado para describir el comportamiento esperado del sistema mediante escenarios comprensibles tanto para desarrolladores como para otros integrantes del equipo.
-
-## . Software Documentation
-
-- **GitHub:** Es una plataforma utilizada para el alojamiento y control de versiones del código fuente de un proyecto. Facilita el trabajo colaborativo entre los integrantes del equipo y permite mantener un historial de los cambios realizados.
----
-![Imagen de la entrevista](recursos/imagenes/gh6.jpg)
 ---
 
-
-## . Software Deployment
-
-- **GitHub Pages:** Es una plataforma que permite realizar despliegues de aplicaciones web directamente desde un repositorio de GitHub.
----
-![Imagen de la entrevista](recursos/imagenes/gh7.png)
----
-[link de inicio](https://github.com/?locale=es-419)
----
-[link de descarga](https://github.com/apps/desktop?locale=es-419)
----
-Nuestro repositorio de documentación: https://github.com/SirEthan04/Proxy_App_Web
----
-Nuestro repositorio de landingpage: https://github.com/SirEthan04/Proxy_App_Web_LandingPage
----
-Nuestro repositorio de frontend: https://github.com/SirEthan04/Proxy_Web_App_Front-end
----
-Nuestro repositorio de web aplication: https://github.com/SirEthan04/Proxy_Web_App_Back-end
----
 ### 5.1.2. Source Code Management
 ---
 
@@ -3809,8 +3778,8 @@ En esta sección se presenta el video **About-the-Team de BodeGo**, en el cual l
 ### Despliegues de la aplicación
 
 - **Landing Page**: https://sirethan04.github.io/Proxy_App_Web_LandingPage/
-- **Frontend web**: https://proxy-app-web-a4eca.firebaseapp.com/
-- **URL base del Backend REST**: 
+- **Frontend web**: https://bodego-frontend-9tgh.onrender.com/
+- **URL base del Backend REST**: user: admin@bodego.com contraseña: 123456789das
 - **Documentación OpenAPI y Scalar en el informe**: 
 
 ### Gestión del proyecto
