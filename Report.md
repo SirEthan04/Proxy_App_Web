@@ -3281,7 +3281,6 @@ La interfaz Scalar permite revisar las operaciones agrupadas por **Inventory**, 
 
 *Listado de operaciones REST de compras, ventas y confirmaciones comerciales.*
 
-*Identificación de BodeGo API y los grupos de servicios registrados en OpenAPI.*
 
 **Detalle de parámetros y respuestas en Scalar**
 
@@ -3724,27 +3723,31 @@ Esta evaluación corresponde a una inspección heurística visual; sus hallazgos
 
 En esta sección se presenta el video de BodeGo, en el cual se comunica la problemática que aborda la plataforma, su propuesta de valor y las principales funcionalidades destinadas a mejorar la gestión de inventarios y las operaciones de los minimarkets.
 
-**Video About-the-Product:** https://youtu.be/VCTRhL0PRmo
+**Video About-the-Product:** [https://youtu.be/VCTRhL0PRmo](https://youtu.be/dVz4Y8_cEV0)
 
 # Conclusiones
 
-## Conclusiones y recomendaciones
-El proyecto BodeGo busca solucionar el problema de la falta de control y organización del inventario en los minimarkets, especialmente en la gestión de productos perecibles, diferencias de stock y pérdidas ocasionadas por vencimientos. A través de una plataforma web de gestión, se permite que los Administradores y Empleados puedan realizar sus actividades de manera más ordenada, rápida y eficiente.
+### Conclusiones de los Sprints
 
-Las validaciones realizadas permitieron confirmar que los usuarios presentan dificultades al utilizar métodos manuales como cuadernos, archivos de Excel o revisiones físicas constantes. Por ello, funcionalidades como el control de inventario, alertas de vencimiento, reportes y gestión de roles representan una solución alineada con las necesidades identificadas durante el proceso de investigación.
+**Sprint 1:**
 
-La aplicación busca ofrecer una experiencia sencilla e intuitiva, enfocándose en reducir el tiempo empleado en tareas operativas y mejorar la toma de decisiones dentro del minimarket. Entre sus principales características destacan:
+Durante el Sprint 1 se desarrolló la primera versión funcional de la Landing Page de BodeGo utilizando HTML, CSS y JavaScript, con el propósito de comunicar la propuesta de valor de la plataforma y sus beneficios para la gestión de minimarkets. Se implementaron secciones informativas sobre las funcionalidades, el funcionamiento del producto y los medios de contacto. Este avance permitió consolidar la presentación inicial de BodeGo y establecer una base visual para los siguientes componentes del proyecto.
 
-- Control actualizado del inventario.
-- Alertas sobre productos próximos a vencer.
-- Reportes para conocer el estado del negocio.
-- Gestión de usuarios según sus responsabilidades.
+**Sprint 2:**
 
-Estas funcionalidades están diseñadas para disminuir los errores en el registro de productos, evitar pérdidas innecesarias y brindar mayor visibilidad sobre el estado real del inventario. De esta manera, BodeGo permite que los Administradores puedan tomar decisiones más oportunas y que los Empleados puedan realizar sus tareas de forma rápida y organizada.
+Durante el Sprint 2 se avanzó en la implementación del Frontend Web de BodeGo utilizando Vue 3, Vite, Pinia y PrimeVue. Se desarrollaron las interfaces principales del sistema, incluyendo la navegación, la gestión de productos y las secciones relacionadas con las operaciones del negocio. Asimismo, se trabajó en la organización de componentes y en la experiencia de usuario, preparando la aplicación para su integración con los servicios REST que serían desarrollados posteriormente.
+
+**Sprint 3:**
+
+Durante el Sprint 3 se avanzó en el desarrollo del Backend de BodeGo utilizando ASP.NET Core, C#, Entity Framework Core y MySQL, incorporando servicios REST para los bounded contexts Inventory, Operations y Commercial. Asimismo, se fortaleció la integración con el Frontend Vue, se implementaron mejoras en las operaciones de compras, ventas y control de inventario, y se actualizó la Landing Page para presentar las funcionalidades de la aplicación. La documentación técnica mediante OpenAPI y Scalar, junto con los despliegues exitosos del Backend y Frontend en Render, representó un avance importante hacia una solución integrada y accesible en línea, quedando pendiente completar las verificaciones funcionales de producción.
 
 ---
 
 # Video About-the-Team
+
+En esta sección se presenta el video **About-the-Team de BodeGo**, en el cual los integrantes del equipo comparten sus experiencias durante el desarrollo del proyecto, describiendo las actividades realizadas, las responsabilidades asumidas y los principales desafíos enfrentados a lo largo de los sprints. Asimismo, se destacan los logros alcanzados, el trabajo colaborativo y las competencias desarrolladas durante la implementación de la plataforma.
+
+**Video About-the-Team:** [Agregar enlace de YouTube]
 
 ---
 
