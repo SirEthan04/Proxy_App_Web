@@ -3744,7 +3744,7 @@ Durante el Sprint 3 se avanzó en el desarrollo del Backend de BodeGo utilizando
 
 En esta sección se presenta el video **About-the-Team de BodeGo**, en el cual los integrantes del equipo comparten sus experiencias durante el desarrollo del proyecto, describiendo las actividades realizadas, las responsabilidades asumidas y los principales desafíos enfrentados a lo largo de los sprints. Asimismo, se destacan los logros alcanzados, el trabajo colaborativo y las competencias desarrolladas durante la implementación de la plataforma.
 
-**Video About-the-Team:** [Agregar enlace de YouTube](https://youtu.be/pTuJ9HVri9Q)
+**Video About-the-Team:** [(https://youtu.be/dVz4Y8_cEV0)](https://youtu.be/pTuJ9HVri9Q)
 
 ---
 
