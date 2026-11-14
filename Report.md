@@ -1526,7 +1526,7 @@ Se presenta el diseño de la base de datos relacional que permitirá graficar la
 ### 4.8.1. Database Diagrams
 El siguiente diagrama de base de datos Entity-Relationship contiene las tablas, columnas y tipos de datos que establecen las relaciones entre las entidades del sistema.
 
-![Class-Diagram](recursos/imagenes/pp1.jpeg)
+![Class-Diagram](recursos/imagenes/pp3.jpeg)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
