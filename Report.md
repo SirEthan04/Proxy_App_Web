@@ -2825,6 +2825,122 @@ A continuación, se detallan los métodos HTTP y endpoints identificados en el c
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 3 se realizaron actividades de configuración y despliegue de los componentes de BodeGo utilizando la plataforma Render. El Backend, desarrollado con ASP.NET Core y C#, se preparó para ejecutarse mediante Docker y conectarse a una base de datos MySQL externa. Asimismo, se configuró y publicó el Frontend Web, desarrollado con Vue 3 y Vite, como un sitio estático conectado a la dirección pública de la API.
+
+A continuación, se describen los pasos realizados para el despliegue de ambos componentes, incluyendo la vinculación con los repositorios de GitHub, la configuración de las variables de entorno, los parámetros de construcción y la verificación del estado de publicación en Render.
+
+---
+
+**Despliegue del Backend**
+
+**Paso 1. Vinculación del repositorio del Backend en Render**
+
+Se inició la creación de un nuevo servicio web en Render y se seleccionó como origen el repositorio de GitHub `SirEthan04/Proxy_Web_App_Back-end`. Esta vinculación permite utilizar el código fuente del Backend para realizar el proceso de construcción y despliegue de la API REST.
+
+![Selección del repositorio del Backend en Render](Recursos/images/backdeployAW1.jpg)
+
+*Vinculación del repositorio de GitHub del Backend con Render.*
+
+**Paso 2. Configuración general del servicio y de Docker**
+
+Se configuró un servicio web destinado a ejecutar el Backend de BodeGo mediante Docker. Durante esta etapa se definieron los parámetros generales del servicio, incluyendo su nombre, repositorio de origen y rama de desarrollo.
+
+La configuración utilizada para el despliegue corresponde al servicio `bodego-api`, vinculado con la rama `develop` del repositorio y ubicado en la región Virginia (US East).
+
+![Configuración inicial del servicio Backend](Recursos/images/backdeployAW2.jpg)
+
+*Configuración inicial del servicio web y selección de Docker como entorno de ejecución.*
+
+![Configuración del Backend con Docker](Recursos/images/backdeployAW3.jpg)
+
+*Configuración del servicio `bodego-api` y selección de la rama `develop`.*
+
+**Paso 3. Selección del plan de ejecución y configuración del entorno**
+
+Se seleccionó el plan Free de Render para alojar el servicio Backend. Asimismo, se configuraron las variables `ASPNETCORE_ENVIRONMENT` y `DOTNET_ENVIRONMENT` con el valor `Production`, estableciendo el entorno de ejecución de la aplicación ASP.NET Core.
+
+![Selección del plan de despliegue](Recursos/images/backdeployAW4.jpg)
+
+*Selección del plan de ejecución y configuración del entorno Production.*
+
+**Paso 4. Configuración de variables de autenticación**
+
+Se registraron las variables de entorno necesarias para la configuración de autenticación JWT, incluyendo `Jwt__Issuer`, `Jwt__Audience`, `Jwt__LifetimeMinutes` y `Jwt__SigningKeyBase64`.
+
+Esta configuración permite establecer los parámetros de emisión, destinatario, duración y firma de los tokens de autenticación sin colocar los valores sensibles directamente en el código fuente.
+
+![Configuración de variables JWT](Recursos/images/backdeployAW5.jpg)
+
+*Configuración de las variables de autenticación JWT en Render, con el valor secreto oculto.*
+
+**Paso 5. Configuración de la conexión a MySQL**
+
+Se configuró la variable `ConnectionStrings__DefaultConnection` para establecer los parámetros de conexión entre el Backend y una base de datos MySQL externa.
+
+Esta variable reúne la información necesaria para identificar el servidor, la base de datos y las credenciales utilizadas por la aplicación para acceder al sistema de persistencia.
+
+![Configuración de conexión a MySQL](Recursos/images/backdeployAW6.jpg)
+
+*Configuración de la cadena de conexión MySQL mediante variables de entorno, con los datos de acceso ocultos.*
+
+**Paso 6. Configuración de CORS para la comunicación con el Frontend**
+
+Se incorporó la variable `Cors__AllowedOrigins__0` para definir los orígenes autorizados a realizar solicitudes HTTP desde el navegador hacia el Backend.
+
+La configuración mostrada incluye un origen correspondiente al entorno local de desarrollo. Para completar la integración con el Frontend publicado en Render, debe verificarse también que su dominio público esté autorizado.
+
+![Configuración de CORS](Recursos/images/backdeployAW7.jpg)
+
+*Configuración de variables de entorno y CORS para el Backend de BodeGo.*
+
+**Paso 7. Ejecución y verificación del despliegue del Backend**
+
+Una vez completada la configuración, Render ejecutó el proceso de despliegue del Backend. En los registros se observa el inicio de la aplicación ASP.NET Core, la ejecución en el entorno Production y la habilitación del servidor HTTP.
+
+Finalmente, Render mostró el estado **Deploy succeeded / Live**, confirmando que el servicio había sido publicado.
+
+![Despliegue exitoso del Backend](Recursos/images/backdeployAW8.jpg)
+
+*Confirmación del despliegue exitoso del Backend y visualización de sus registros de ejecución en Render.*
+
+---
+
+**Despliegue del Frontend Web**
+
+**Paso 8. Creación del sitio estático y vinculación con GitHub**
+
+Para realizar el despliegue del Frontend Web de BodeGo, se creó un nuevo Static Site en Render, vinculado con el repositorio `SirEthan04/Proxy_Web_App_Front-end`.
+
+Se configuró el sitio con el nombre `bodego-frontend` y se seleccionó la rama `develop` como origen del despliegue.
+
+Además, se estableció el comando de construcción `npm ci && npm run build` y se definió `dist` como directorio de publicación, correspondiente a los archivos estáticos generados por Vite.
+
+![Configuración del Frontend en Render](Recursos/images/frontdeployAW1.jpg)
+
+*Configuración del repositorio, rama, comando de construcción y directorio de publicación del Frontend Web.*
+
+**Paso 9. Configuración de la conexión del Frontend con el Backend**
+
+Se registró la variable de entorno `VITE_API_BASE_URL`, que permite definir la dirección base utilizada por el Frontend para comunicarse con la API REST de BodeGo.
+
+Esta configuración permite que la aplicación Vue utilice la dirección del servicio Backend durante su construcción para el entorno de publicación.
+
+![Configuración de variable de entorno del Frontend](Recursos/images/frontdeployAW2.jpg)
+
+*Configuración de la variable `VITE_API_BASE_URL` con la dirección del Backend de BodeGo.*
+
+**Paso 10. Ejecución y verificación del despliegue del Frontend**
+
+Después de completar la configuración, Render ejecutó el proceso de construcción de la aplicación Vue mediante Vite.
+
+En los registros se observa la transformación de los módulos y la generación de los archivos estáticos de producción. Posteriormente, Render completó la publicación del sitio y mostró el estado **Deploy succeeded / Live**.
+
+Este resultado confirma que el Frontend Web de BodeGo fue construido y publicado correctamente como un sitio estático.
+
+![Despliegue exitoso del Frontend](Recursos/images/frontdeployAW3.jpg)
+
+*Confirmación del despliegue exitoso del Frontend Web y registros de construcción de Vite en Render.*
+
 ---
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
