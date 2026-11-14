@@ -2837,75 +2837,479 @@ Para evidenciar la ejecución de estos servicios, se presentan capturas de Scala
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 3 se avanzó en el desarrollo y la documentación de los servicios REST del Backend de BodeGo, implementado con **ASP.NET Core y C#**. La API incorpora operaciones relacionadas con productos, categorías, lotes, movimientos de inventario, mermas, conteos físicos, compras, ventas, alertas, reportes y usuarios. La documentación técnica se presenta mediante **OpenAPI y Scalar**.
+Durante el Sprint 3 se avanzó en la documentación técnica de los servicios REST de BodeGo, desarrollados mediante **ASP.NET Core y C#**, con **Entity Framework Core** y **MySQL** para la persistencia. La especificación de la API se genera con **OpenAPI** y se visualiza mediante **Scalar**, lo que permite identificar los métodos HTTP, parámetros, esquemas de entrada, respuestas y códigos de estado de los recursos disponibles.
 
-A continuación, se detallan los métodos HTTP y endpoints identificados en el código, utilizando las Technical Stories definidas para este Sprint (**TS01–TS09 y TS16**). Las TS01–TS09 identifican los contratos REST correspondientes a sus respectivos módulos. TS16 se utiliza para la documentación transversal en OpenAPI/Scalar de otros endpoints existentes, sin atribuirle su implementación funcional.
+La documentación se organiza según las **Technical Stories TS01–TS09 y TS16** del Sprint 3. Las TS01–TS09 describen los contratos de **Inventory, Operations y Commercial**; la **TS16** identifica el trabajo transversal de documentación OpenAPI/Scalar de la API. Por ese motivo, los recursos de Monitoring, Reporting e IAM que se muestran bajo TS16 se enumeran **por su presencia en la especificación**, sin atribuir a esa historia su implementación funcional.
+
+Los ejemplos JSON siguientes son **ejemplos ilustrativos elaborados a partir de los DTO y controladores del repositorio**, no resultados de solicitudes ejecutadas en esta revisión. Sus identificadores, importes y fechas son ficticios, y cada caso debe interpretarse como un ejemplo independiente (no como una cronología única). Las capturas de Scalar y las evidencias reales de ejecución del apartado 5.2.3.5 complementan estas especificaciones.
+
+---
+
+**Información general y acceso a la documentación**
+
+| Elemento | Especificación |
+|---|---|
+| Repositorio del Backend | [SirEthan04/Proxy_Web_App_Back-end](https://github.com/SirEthan04/Proxy_Web_App_Back-end) |
+| Rama revisada | `develop` |
+| API desplegada | `https://bodego-api-2puc.onrender.com` |
+| Base de las rutas de negocio | `/api/v1` |
+| Documento OpenAPI | `GET /openapi/v1.json` |
+| Interfaz Scalar | `/scalar/v1` ruta habitual para el documento `v1` |
+| Formato principal | `application/json` |
+| Identificadores | `GUID` para productos, compras, ventas, usuarios y demás recursos; `int` para roles |
+| Autenticación | `Authorization: Bearer <token>` |
+
+**Disponibilidad de la documentación:** en el `Program.cs` de la versión analizada, `MapOpenApi()` y `MapScalarApiReference()` se ejecutan **solo si el entorno es `Development`**. Por tanto, las rutas de OpenAPI y Scalar no deben presentarse como accesibles en producción hasta habilitarlas o verificar su disponibilidad pública. El despliegue exitoso de la API no demuestra por sí solo que Scalar esté publicado.
+
+**Parámetros de uso común:** `id` es el identificador del recurso indicado en la URL; los métodos `GET` no requieren cuerpo JSON. En las operaciones `POST` se emplea `Content-Type: application/json`. Los métodos protegidos usan un JWT; sus permisos dependen de la política autorizada para administradores o empleados.
 
 ---
 
 **Servicios REST documentados en OpenAPI y Scalar**
 
-| **Technical Story** | **Módulo** | **Método HTTP** | **Endpoint** | **Descripción** |
-|---|---|---|---|---|
-| TS01 | Productos | GET | `/api/v1/products` | Consultar el listado de productos registrados. |
-| TS01 | Productos | POST | `/api/v1/products` | Registrar un nuevo producto en el catálogo. |
-| TS01 | Productos | GET | `/api/v1/products/{id}` | Consultar la información de un producto mediante su identificador. |
-| TS02 | Categorías | GET | `/api/v1/categories` | Consultar el listado de categorías registradas. |
-| TS02 | Categorías | POST | `/api/v1/categories` | Registrar una nueva categoría de productos. |
-| TS02 | Categorías | GET | `/api/v1/categories/{id}` | Consultar una categoría mediante su identificador. |
-| TS03 | Lotes | GET | `/api/v1/products/{id}/lots` | Consultar los lotes asociados a un producto y sus existencias. |
-| TS03 | Stock bajo | GET | `/api/v1/products/low-stock` | Consultar los productos con existencias bajas. |
-| TS04 | Movimientos de inventario | GET | `/api/v1/inventory-movements` | Consultar el historial de entradas y salidas del inventario. |
-| TS05 | Mermas | GET | `/api/v1/wastes` | Consultar las mermas registradas en el inventario. |
-| TS05 | Mermas | POST | `/api/v1/wastes` | Registrar una merma indicando el producto, la cantidad perdida y el motivo. |
-| TS06 | Conteos físicos | POST | `/api/v1/inventory-counts` | Registrar un conteo físico de productos. |
-| TS06 | Conteos físicos | GET | `/api/v1/inventory-counts/{id}` | Consultar los detalles de un conteo físico mediante su identificador. |
-| TS07 | Compras | POST | `/api/v1/purchases` | Registrar una compra en estado borrador. |
-| TS07 | Compras | GET | `/api/v1/purchases` | Consultar el listado de compras registradas. |
-| TS07 | Compras | GET | `/api/v1/purchases/{id}` | Consultar el detalle de una compra mediante su identificador. |
-| TS08 | Ventas | POST | `/api/v1/sales` | Registrar una venta en estado borrador. |
-| TS08 | Ventas | GET | `/api/v1/sales` | Consultar el listado de ventas registradas. |
-| TS08 | Ventas | GET | `/api/v1/sales/{id}` | Consultar el detalle de una venta mediante su identificador. |
-| TS09 | Confirmación de compras | POST | `/api/v1/purchases/{id}/confirm` | Confirmar una compra, incrementar las existencias y registrar movimientos de entrada. |
-| TS09 | Confirmación de ventas | POST | `/api/v1/sales/{id}/confirm` | Confirmar una venta, descontar existencias y registrar movimientos de salida. |
-| TS16 | Alertas | GET | `/api/v1/alerts` | Consultar las alertas disponibles mediante la API. |
-| TS16 | Alertas | GET | `/api/v1/alerts/{id}` | Consultar una alerta mediante su identificador. |
-| TS16 | Reportes de ventas | GET | `/api/v1/reports/sales-summary` | Obtener un resumen de ventas confirmadas con filtros opcionales de fecha. |
-| TS16 | Productos más vendidos | GET | `/api/v1/reports/top-products` | Consultar los productos más vendidos mediante un ranking. |
-| TS16 | Autenticación | POST | `/api/v1/auth/login` | Autenticar las credenciales de un usuario. |
-| TS16 | Autenticación | GET | `/api/v1/auth/me` | Consultar la información del usuario autenticado. |
-| TS16 | Usuarios | POST | `/api/v1/users` | Registrar un nuevo usuario en el sistema. |
-| TS16 | Usuarios | GET | `/api/v1/users` | Consultar el listado de usuarios registrados. |
-| TS16 | Usuarios | GET | `/api/v1/users/{id}` | Consultar la información de un usuario mediante su identificador. |
-| TS16 | Roles | GET | `/api/v1/roles` | Consultar el listado de roles disponibles. |
-| TS16 | Roles | GET | `/api/v1/roles/{id}` | Consultar la información de un rol mediante su identificador. |
-| TS16 | Documentación OpenAPI | GET | `/openapi/v1.json` | Consultar la especificación OpenAPI de los servicios publicados. |
-| TS16 | Documentación Scalar | GET | `/scalar` | Acceder a la documentación interactiva de la API. |
-| TS16 | Documentación Scalar | GET | `/scalar/v1` | Acceder a la documentación Scalar de la versión `v1`. |
+| **Technical Story** | **Módulo** | **Método HTTP** | **Endpoint** | **Parámetros / solicitud** | **Respuesta esperada** |
+|---|---|---|---|---|---|
+| TS01 | Productos | GET | `/api/v1/products` | Sin parámetros ni body. | `200 OK`: lista de productos con `id`, `categoryId`, `name`, `salePrice`, `stock`, `minimumStock`, `active`, `version`. |
+| TS01 | Productos | POST | `/api/v1/products` | JSON: `categoryId`, `name`, `salePrice`, `minimumStock`. | `201 Created`: producto creado; `400` si los datos o la categoría no son válidos. |
+| TS01 | Productos | GET | `/api/v1/products/{id}` | `id` (GUID, path). | `200 OK`: producto; `400` ID inválido; `404` no encontrado. |
+| TS02 | Categorías | GET | `/api/v1/categories` | Sin parámetros ni body. | `200 OK`: lista de categorías (`id`, `name`, `description`, `active`). |
+| TS02 | Categorías | POST | `/api/v1/categories` | JSON: `name`, `description` (opcional). | `201 Created`: categoría; `400` datos inválidos; `409` nombre duplicado. |
+| TS02 | Categorías | GET | `/api/v1/categories/{id}` | `id` (GUID, path). | `200 OK`: categoría; `400` o `404`. |
+| TS03 | Lotes de productos | GET | `/api/v1/products/{id}/lots` | `id` (GUID del producto). | `200 OK`: lista de lotes con `lotCode`, `expirationDate`, `quantityAvailable`, `receivedAt`; `400` o `404`. |
+| TS03 | Stock bajo | GET | `/api/v1/products/low-stock` | Sin parámetros ni body. | `200 OK`: lista de productos con existencias bajas; `[]` si no existen coincidencias. |
+| TS04 | Movimientos | GET | `/api/v1/inventory-movements` | Sin parámetros ni body. | `200 OK`: lista con `movementType`, `quantityDelta`, `sourceType`, `sourceId`, `createdAt`, etc. |
+| TS05 | Mermas | GET | `/api/v1/wastes` | Sin parámetros ni body. | `200 OK`: lista de mermas con producto, lote, cantidad, motivo y fecha. |
+| TS05 | Mermas | POST | `/api/v1/wastes` | JSON: `productId`, `lotId` (opcional), `quantity`, `reason`. JWT con permiso Operations. | `201 Created`: merma; `400` datos inválidos; `401`/`403` acceso; `409` conflicto. |
+| TS06 | Conteos físicos | POST | `/api/v1/inventory-counts` | JSON: `notes` (opcional), `items[]` con `productId`, `lotId` (opcional), `countedQuantity`. JWT Operations. | `201 Created`: conteo y diferencias registradas; `400`, `401`, `403` o `409` según el caso. |
+| TS06 | Conteos físicos | GET | `/api/v1/inventory-counts/{id}` | `id` (GUID, path). | `200 OK`: conteo con `items[]`, `expectedQuantity`, `countedQuantity`, `difference`; `400` o `404`. |
+| TS07 | Compras | POST | `/api/v1/purchases` | JSON: `items[]` con `productId`, `lotId` (opcional), `quantity`, `unitAmount`. JWT Commercial. | `201 Created`: compra `Draft`; `400` por validación; `401`/`403` por autorización. |
+| TS07 | Compras | GET | `/api/v1/purchases` | Sin parámetros ni body. | `200 OK`: lista de compras, estados, importes y detalles. |
+| TS07 | Compras | GET | `/api/v1/purchases/{id}` | `id` (GUID, path). | `200 OK`: compra detallada; `400` o `404`. |
+| TS08 | Ventas | POST | `/api/v1/sales` | JSON: `items[]` con `productId`, `lotId` (opcional), `quantity`, `unitAmount`. JWT Commercial. | `201 Created`: venta `Draft` sin descontar inventario; `400`, `401` o `403`. |
+| TS08 | Ventas | GET | `/api/v1/sales` | Sin parámetros ni body. | `200 OK`: lista de ventas y sus estados. |
+| TS08 | Ventas | GET | `/api/v1/sales/{id}` | `id` (GUID, path). | `200 OK`: detalle de venta; `400` o `404`. |
+| TS09 | Confirmación de compras | POST | `/api/v1/purchases/{id}/confirm` | `id` (GUID de compra); sin body. JWT Commercial. | `200 OK`: compra `Confirmed`, incremento de existencias; `400`, `401`, `403`, `404`, `409`, `503` posibles. |
+| TS09 | Confirmación de ventas | POST | `/api/v1/sales/{id}/confirm` | `id` (GUID de venta); sin body. JWT Commercial. | `200 OK`: venta `Confirmed`, descuento de existencias; `400`, `401`, `403`, `404`, `409`, `503` posibles. |
+| TS16 | Alertas — Monitoring | GET | `/api/v1/alerts` | Sin parámetros ni body. | `200 OK`: lista con `alertType`, `status`, `message`, fechas y referencias. |
+| TS16 | Alertas — Monitoring | GET | `/api/v1/alerts/{id}` | `id` (GUID, path). | `200 OK`: alerta; `400` GUID inválido; `404` no encontrada. |
+| TS16 | Resumen — Reporting | GET | `/api/v1/reports/sales-summary` | Query opcional: `from`, `to` (`yyyy-MM-dd`). | `200 OK`: `salesCount`, `totalAmount`; `400` fechas incorrectas. |
+| TS16 | Productos más vendidos — Reporting | GET | `/api/v1/reports/top-products` | Query opcional: `from`, `to` (`yyyy-MM-dd`), `limit` (1–100; por defecto 10). | `200 OK`: lista con `productId`, `productName`, `quantitySold`; `400` filtros incorrectos. |
+| TS16 | Login — IAM | POST | `/api/v1/auth/login` | JSON: `email`, `password`. Sin JWT previo. | `200 OK`: `accessToken`, `tokenType`, `expiresAt`, `user`; `400`, `401` o `429`. |
+| TS16 | Sesión — IAM | GET | `/api/v1/auth/me` | JWT Bearer obligatorio. | `200 OK`: usuario actual; `401` autenticación inválida. |
+| TS16 | Usuarios — IAM | POST | `/api/v1/users` | JSON: `name`, `email`, `password`, `roleId`. JWT administrador. | `201 Created`: usuario sin contraseña en respuesta; `400`, `401`, `403` o `409`. |
+| TS16 | Usuarios — IAM | GET | `/api/v1/users` | JWT administrador. | `200 OK`: lista de usuarios. |
+| TS16 | Usuarios — IAM | GET | `/api/v1/users/{id}` | `id` (GUID); JWT administrador. | `200 OK`: usuario; `400` o `404`. |
+| TS16 | Roles — IAM | GET | `/api/v1/roles` | JWT administrador. | `200 OK`: lista de roles (`id`, `name`). |
+| TS16 | Roles — IAM | GET | `/api/v1/roles/{id}` | `id` (entero positivo); JWT administrador. | `200 OK`: rol; `400` o `404`. |
+
+**Total:** 32 operaciones HTTP de negocio identificadas en los controladores. Además, se configuraron accesos para el documento OpenAPI (`/openapi/v1.json`) y su visualización mediante Scalar (habitualmente `/scalar/v1`). Estas rutas de documentación no son operaciones de negocio.
+
+---
+
+**Ejemplos de solicitudes y respuestas basados en los contratos REST**
+
+Los siguientes ejemplos utilizan claves JSON en `camelCase`, siguiendo la serialización habitual de ASP.NET Core. Se muestran escenarios de éxito y error que pueden reproducirse desde Scalar con **datos de prueba propios** y autenticación válida cuando corresponda.
+
+**Ejemplo 1. Inventory — Registrar una categoría (TS02)**
+
+**Solicitud:** `POST /api/v1/categories`
+
+```json
+{
+  "name": "Abarrotes",
+  "description": "Productos de consumo diario"
+}
+```
+
+**Respuesta de referencia — `201 Created`:**
+
+```json
+{
+  "id": "11111111-1111-4111-8111-111111111111",
+  "name": "Abarrotes",
+  "description": "Productos de consumo diario",
+  "active": true
+}
+```
+
+`name` es obligatorio (máximo 100 caracteres); `description` es opcional (máximo 255). Si ya existe una categoría con el mismo nombre, el controlador puede devolver `409 Conflict`.
+
+**Ejemplo 2. Inventory — Registrar un producto y consultar sus lotes (TS01 y TS03)**
+
+**Solicitud:** `POST /api/v1/products`
+
+```json
+{
+  "categoryId": "11111111-1111-4111-8111-111111111111",
+  "name": "Arroz",
+  "salePrice": 3.80,
+  "minimumStock": 5
+}
+```
+
+**Respuesta de referencia — `201 Created`:**
+
+```json
+{
+  "id": "22222222-2222-4222-8222-222222222222",
+  "categoryId": "11111111-1111-4111-8111-111111111111",
+  "name": "Arroz",
+  "salePrice": 3.80,
+  "stock": 0,
+  "minimumStock": 5,
+  "active": true,
+  "version": 0
+}
+```
+
+**Consulta:** `GET /api/v1/products/22222222-2222-4222-8222-222222222222/lots`
+
+**Respuesta ilustrativa — `200 OK` (después de registrar existencias mediante una compra confirmada):**
+
+```json
+[
+  {
+    "id": "33333333-3333-4333-8333-333333333333",
+    "productId": "22222222-2222-4222-8222-222222222222",
+    "lotCode": "PUR-77777777777747778777777777777777-bbbbbbbbbbbb4bbb8bbbbbbbbbbbbbbb",
+    "expirationDate": "2027-05-30",
+    "quantityAvailable": 10,
+    "receivedAt": "2026-11-13T14:00:00Z"
+  }
+]
+```
+
+En `POST /products`, `categoryId`, `name`, `salePrice` y `minimumStock` son obligatorios. La consulta de lotes recibe el GUID del producto; si este no existe, puede devolver `404 Not Found`. `GET /api/v1/products/low-stock` devuelve un arreglo de los mismos objetos `ProductResource`.
+
+**Ejemplo 3. Operations — Historial de movimientos (TS04)**
+
+**Solicitud:** `GET /api/v1/inventory-movements`
+
+**Respuesta de referencia — `200 OK`:**
+
+```json
+[
+  {
+    "id": "44444444-4444-4444-8444-444444444444",
+    "productId": "22222222-2222-4222-8222-222222222222",
+    "lotId": "33333333-3333-4333-8333-333333333333",
+    "userId": "99999999-9999-4999-8999-999999999999",
+    "movementType": "Purchase",
+    "quantityDelta": 10,
+    "sourceType": "Purchase",
+    "sourceId": "77777777-7777-4777-8777-777777777777",
+    "createdAt": "2026-11-13T14:05:00Z"
+  }
+]
+```
+
+La respuesta permite identificar el producto, el lote y la operación de origen. Este servicio es de **solo consulta**; en el Backend revisado los movimientos se registran como consecuencia de las operaciones correspondientes, no mediante un `POST /inventory-movements` público.
+
+**Ejemplo 4. Operations — Registrar una merma (TS05)**
+
+**Solicitud:** `POST /api/v1/wastes` con JWT válido para Operations.
+
+```json
+{
+  "productId": "22222222-2222-4222-8222-222222222222",
+  "lotId": "33333333-3333-4333-8333-333333333333",
+  "quantity": 2,
+  "reason": "Producto dañado"
+}
+```
+
+**Respuesta de referencia — `201 Created`:**
+
+```json
+{
+  "id": "55555555-5555-4555-8555-555555555555",
+  "productId": "22222222-2222-4222-8222-222222222222",
+  "lotId": "33333333-3333-4333-8333-333333333333",
+  "userId": "99999999-9999-4999-8999-999999999999",
+  "quantity": 2,
+  "reason": "Producto dañado",
+  "registeredAt": "2026-11-13T14:10:00Z"
+}
+```
+
+`lotId` puede ser `null` cuando no se selecciona explícitamente un lote. El sistema valida la cantidad y el motivo; también comprueba las reglas de existencias antes de registrar la merma.
+
+**Ejemplo 5. Operations — Registrar un conteo físico (TS06)**
+
+**Solicitud:** `POST /api/v1/inventory-counts` con JWT válido para Operations.
+
+```json
+{
+  "notes": "Conteo de cierre",
+  "items": [
+    {
+      "productId": "22222222-2222-4222-8222-222222222222",
+      "lotId": null,
+      "countedQuantity": 8
+    }
+  ]
+}
+```
+
+**Respuesta de referencia — `201 Created`:**
+
+```json
+{
+  "id": "66666666-6666-4666-8666-666666666666",
+  "userId": "99999999-9999-4999-8999-999999999999",
+  "countedAt": "2026-11-13T14:15:00Z",
+  "status": "Confirmed",
+  "notes": "Conteo de cierre",
+  "items": [
+    {
+      "id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+      "productId": "22222222-2222-4222-8222-222222222222",
+      "lotId": null,
+      "expectedQuantity": 10,
+      "countedQuantity": 8,
+      "difference": -2
+    }
+  ]
+}
+```
+
+Las diferencias se guardan como evidencia del conteo; esta operación **no modifica automáticamente el stock**. El valor de `expectedQuantity` corresponde al inventario observado por el sistema al realizar el conteo.
+
+**Ejemplo 6. Commercial — Registrar una compra y confirmarla (TS07 y TS09)**
+
+**Solicitud de borrador:** `POST /api/v1/purchases` con JWT válido para Commercial.
+
+```json
+{
+  "items": [
+    {
+      "productId": "22222222-2222-4222-8222-222222222222",
+      "lotId": null,
+      "quantity": 10,
+      "unitAmount": 3.80
+    }
+  ]
+}
+```
+
+**Respuesta de referencia — `201 Created`:**
+
+```json
+{
+  "id": "77777777-7777-4777-8777-777777777777",
+  "userId": "99999999-9999-4999-8999-999999999999",
+  "registeredAt": "2026-11-13T14:20:00Z",
+  "status": "Draft",
+  "total": 38.00,
+  "items": [
+    {
+      "id": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+      "productId": "22222222-2222-4222-8222-222222222222",
+      "lotId": null,
+      "quantity": 10,
+      "unitAmount": 3.80,
+      "subtotal": 38.00
+    }
+  ]
+}
+```
+
+**Solicitud de confirmación:** `POST /api/v1/purchases/77777777-7777-4777-8777-777777777777/confirm` (sin body).
+
+**Respuesta ilustrativa — `200 OK`:** se mantiene la estructura de `CommercialResponse`, con `status: "Confirmed"` y las líneas de compra actualizadas, si procede. La confirmación incrementa el stock y crea los movimientos de entrada. Si el documento ya fue confirmado, el controlador puede devolver `409 Conflict`.
+
+**Ejemplo 7. Commercial — Registrar una venta y confirmarla (TS08 y TS09)**
+
+**Solicitud de borrador:** `POST /api/v1/sales` con JWT válido para Commercial.
+
+```json
+{
+  "items": [
+    {
+      "productId": "22222222-2222-4222-8222-222222222222",
+      "lotId": null,
+      "quantity": 3,
+      "unitAmount": 3.80
+    }
+  ]
+}
+```
+
+**Respuesta ilustrativa — `201 Created`:** objeto `CommercialResponse` con `status: "Draft"`, `total: 11.40` e `items[0].subtotal: 11.40`, además de los identificadores y marcas temporales generados.
+
+**Solicitud de confirmación:** `POST /api/v1/sales/{id}/confirm` (sin body y con JWT válido).
+
+**Respuesta de referencia — `200 OK`:**
+
+```json
+{
+  "id": "88888888-8888-4888-8888-888888888888",
+  "userId": "99999999-9999-4999-8999-999999999999",
+  "registeredAt": "2026-11-13T14:25:00Z",
+  "status": "Confirmed",
+  "total": 11.40,
+  "items": [
+    {
+      "id": "cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+      "productId": "22222222-2222-4222-8222-222222222222",
+      "lotId": null,
+      "quantity": 3,
+      "unitAmount": 3.80,
+      "subtotal": 11.40
+    }
+  ]
+}
+```
+
+La confirmación verifica el stock disponible y descuenta las existencias; puede producir `409 Conflict` ante una operación no confirmable. El valor `lotId` puede variar según la selección y asignación de lotes; este JSON solo representa el esquema de la respuesta.
+
+**Ejemplo 8. Consultas de Monitoring y Reporting documentadas mediante TS16**
+
+**Solicitud:** `GET /api/v1/alerts`
+
+**Respuesta ilustrativa — `200 OK`:**
+
+```json
+[
+  {
+    "id": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "productId": "22222222-2222-4222-8222-222222222222",
+    "lotId": null,
+    "attendedByUserId": null,
+    "alertType": "LowStock",
+    "status": "Pending",
+    "message": "Producto con stock bajo",
+    "createdAt": "2026-11-13T15:00:00Z",
+    "attendedAt": null
+  }
+]
+```
+
+**Solicitud:** `GET /api/v1/reports/sales-summary?from=2026-11-01&to=2026-11-30`
+
+**Respuesta de referencia — `200 OK`:**
+
+```json
+{
+  "salesCount": 2,
+  "totalAmount": 26.60
+}
+```
+
+**Solicitud:** `GET /api/v1/reports/top-products?limit=10`
+
+**Respuesta de referencia — `200 OK`:**
+
+```json
+[
+  {
+    "productId": "22222222-2222-4222-8222-222222222222",
+    "productName": "Arroz",
+    "quantitySold": 7
+  }
+]
+```
+
+Los valores de ejemplo ilustran los DTO de Reporting; no representan métricas verificadas en una sesión de prueba. El parámetro `limit` admite valores entre 1 y 100.
+
+**Ejemplo 9. Autenticación y administración de usuarios documentadas mediante TS16**
+
+**Solicitud:** `POST /api/v1/auth/login`
+
+```json
+{
+  "email": "usuario.ejemplo@bodego.test",
+  "password": "ContrasenaDePrueba123!"
+}
+```
+
+**Respuesta de referencia — `200 OK`:**
+
+```json
+{
+  "accessToken": "<jwt_de_ejemplo>",
+  "tokenType": "Bearer",
+  "expiresAt": "2026-11-13T15:15:00Z",
+  "user": {
+    "id": "99999999-9999-4999-8999-999999999999",
+    "name": "Usuario de prueba",
+    "email": "usuario.ejemplo@bodego.test",
+    "roleId": 1,
+    "role": "Administrador",
+    "isAdministrator": true
+  }
+}
+```
+
+El token es un marcador de posición, no una credencial utilizable. Para `GET /api/v1/auth/me` se envía `Authorization: Bearer <token>` y se recibe el objeto de usuario autenticado. Para crear usuarios (`POST /api/v1/users`) el administrador envía `name`, `email`, `password` y `roleId`; la respuesta `201 Created` contiene `id`, `name`, `email`, `roleId`, `active` y `createdAt`, **sin incluir la contraseña**.
+
+**Ejemplo 10. Respuestas de error**
+
+Los controladores pueden devolver respuestas de problema (`application/problem+json`) cuando una categoría no existe, hay datos inválidos o se intenta confirmar dos veces una operación. Un ejemplo **esquemático**, cuyo texto exacto puede variar según el error, es:
+
+```json
+{
+  "type": "about:blank",
+  "title": "No se encontró el producto solicitado.",
+  "status": 404
+}
+```
+
+Un `400 Bad Request` indica parámetros o campos inválidos; `401 Unauthorized` indica falta de autenticación; `403 Forbidden`, permisos insuficientes; `404 Not Found`, recurso inexistente; `409 Conflict`, una operación incompatible con el estado actual; y `503 Service Unavailable`, una condición de indisponibilidad gestionada en determinadas confirmaciones comerciales. No todos estos códigos son aplicables a todos los endpoints.
 
 ---
 
 **EVIDENCIA: Documentación de servicios REST mediante Scalar**
 
-Los servicios REST de BodeGo se encuentran documentados mediante OpenAPI y Scalar, permitiendo visualizar los endpoints disponibles, sus métodos HTTP y su organización por bounded contexts.
+La interfaz Scalar permite revisar las operaciones agrupadas por **Inventory**, **Operations**, **Commercial**, **Monitoring**, **Reporting** e **IAM**, según las etiquetas definidas en los controladores. Para esta sección conviene incorporar capturas de los grupos documentados y, adicionalmente, vistas donde se aprecien los parámetros, el request body y los ejemplos de respuesta. Los archivos indicados se deben incorporar a `recursos/imagenes/`.
 
-**Inventory**
+**Inventory — Listado de endpoints**
 
-![Documentación de endpoints del contexto Inventory](recursos/imagenes/scalarInventoryAW.jpg)
+![Documentación de endpoints de Inventory](recursos/imagenes/scalarInventoryAW.jpg)
 
-*Endpoints correspondientes a la gestión de productos, categorías, lotes y existencias.*
+*Listado de operaciones REST de productos, categorías, lotes y consulta de stock bajo.*
 
-**Operations**
+**Operations — Listado de endpoints**
 
-![Documentación de endpoints del contexto Operations](recursos/imagenes/scalarOperationsAW.jpg)
+![Documentación de endpoints de Operations](recursos/imagenes/scalarOperationsAW.jpg)
 
-*Endpoints correspondientes a movimientos de inventario, registro de mermas y conteos físicos.*
+*Listado de operaciones REST para movimientos de inventario, mermas y conteos físicos.*
 
-**Commercial**
+**Commercial — Listado de endpoints**
 
-![Documentación de endpoints del contexto Commercial](recursos/imagenes/scalarCommercialAW.jpg)
+![Documentación de endpoints de Commercial](recursos/imagenes/scalarCommercialAW.jpg)
 
-*Endpoints correspondientes a compras, ventas y confirmación de operaciones comerciales.*
+*Listado de operaciones REST de compras, ventas y confirmaciones comerciales.*
+
+*Identificación de BodeGo API y los grupos de servicios registrados en OpenAPI.*
+
+**Detalle de parámetros y respuestas en Scalar**
+
+![Detalle del servicio de productos](recursos/imagenes/endpointAW25.jpg)
+
+*Detalle de la operación GET /api/v1/products y el esquema de respuesta de productos.*
+
+![Detalle del servicio de mermas](recursos/imagenes/endpointAW9.jpg)
+
+*Detalle de la operación GET /api/v1/wastes y el esquema de respuesta de mermas.*
+
+![Detalle del servicio de compras](recursos/imagenes/endpointAW47.jpg)
+
+*Detalle de la operación POST /api/v1/purchases, incluyendo el contrato de entrada de una compra.*
+
+![Detalle del servicio de ventas](recursos/imagenes/endpointAW54.jpg)
+
+*Detalle de la operación POST /api/v1/sales, incluyendo el contrato de entrada de una venta.*
+
+---
+
+- **Repositorio:** [SirEthan04/Proxy_Web_App_Back-end](https://github.com/SirEthan04/Proxy_Web_App_Back-end).
+
+---
+
+**Conclusión**
+
+La revisión de los controladores permitió documentar **32 operaciones REST**, junto con los esquemas de entrada y salida representativos de Inventory, Operations, Commercial y los restantes grupos visibles en la especificación. Los ejemplos de referencia facilitan interpretar los contratos HTTP, mientras que las capturas de Scalar permiten mostrar visualmente su organización y los parámetros que puede consultar un desarrollador.
 
 ---
 
