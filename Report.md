@@ -2824,6 +2824,10 @@ Para evidenciar la ejecución de estos servicios, se presentan capturas de Scala
 
 *Evidencia del endpoint POST /api/v1/sales/{id}/confirm, utilizado para confirmar ventas y registrar la reducción de existencias.*
 
+Las evidencias presentadas permiten visualizar los avances alcanzados durante el Sprint 3 en los tres productos de BodeGo, así como identificar las funcionalidades implementadas y los aspectos que continuarán desarrollándose en los siguientes sprints.
+
+Video de demostración y ejecución del Sprint 3: [https://www.youtube.com/watch?v=gbl2YDa-Ydg](https://youtu.be/ilrk-bsslrc)
+
 ---
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
@@ -3740,7 +3744,7 @@ Durante el Sprint 3 se avanzó en el desarrollo del Backend de BodeGo utilizando
 
 En esta sección se presenta el video **About-the-Team de BodeGo**, en el cual los integrantes del equipo comparten sus experiencias durante el desarrollo del proyecto, describiendo las actividades realizadas, las responsabilidades asumidas y los principales desafíos enfrentados a lo largo de los sprints. Asimismo, se destacan los logros alcanzados, el trabajo colaborativo y las competencias desarrolladas durante la implementación de la plataforma.
 
-**Video About-the-Team:** [Agregar enlace de YouTube]
+**Video About-the-Team:** [Agregar enlace de YouTube](https://youtu.be/pTuJ9HVri9Q)
 
 ---
 
@@ -3766,7 +3770,8 @@ En esta sección se presenta el video **About-the-Team de BodeGo**, en el cual l
 
 ## Anexo A. Videos de exposiciones
 
-- **Video About-the-Product**: El enlace de la sección 5.4 abre https://youtu.be/dVz4Y8_cEV0
+- **Video About-the-Product**: [https://youtu.be/dVz4Y8_cEV0](https://youtu.be/dVz4Y8_cEV0)
+- **Video About-the-Team**: [https://youtu.be/pTuJ9HVri9Q](https://youtu.be/pTuJ9HVri9Q)
 
 ## Anexo B. Videos de entrevistas
 
